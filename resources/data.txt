@@ -1,0 +1,61 @@
+A
+1	10 June 2016 21:00 	France	Romania	Saint-Denis
+2	11 June 2016 15:00	Albania	Switzerland	Lens
+14	15 June 2016 18:00	Romania	Switzerland	Paris
+15	15 June 2016 21:00	France	Albania	Marseille
+26	19 June 2016 21:00	Switzerland	France	Lille
+25	19 June 2016 21:00 	Romania	Albania	Lyon
+B
+3	11 June 2016 18:00	Wales	Slovakia	Bordeaux
+4	11 June 2016 21:00	England	Russia	Marseille
+13	15 June 2016 15:00	Russia	Slovakia	Lille
+16	16 June 2016 15:00	England	Wales	Lens
+28	20 June 2016 21:00	Slovakia	England	Saint-Étienne
+27	20 June 2016 21:00	Russia	Wales	Toulouse
+C
+6	12 June 2016 18:00	Poland	Northern Ireland	Nice 
+7	12 June 2016 21:00	Germany	Ukraine	Lille
+17	16 June 2016 18:00	Ukraine	Northern Ireland	Lyon
+18	16 June 2016 21:00	Germany	Poland	Saint-Denis
+30	21 June 2016 18:00	Northern Ireland	Germany	Paris
+29	21 June 2016 18:00	Ukraine	Poland	Marseille
+D
+5	12 June 2016 15:00	Turkey	Croatia	Paris
+8	13 June 2016 15:00	Spain	Czech Republic	Toulouse
+20	17 June 2016 18:00	Czech Republic	Croatia	Saint-Étienne
+21	17 June 2016 21:00	Spain	Turkey	Nice
+32	21 June 2016 21:00	Croatia	Spain	Bordeaux
+31	21 June 2016 21:00	Czech Republic	Turkey	Lens
+E
+9	13 June 2016 18:00	Republic of Ireland	Sweden	Saint-Denis
+10	13 June 2016 21:00	Belgium	Italy	Lyon
+19	17 June 2016 15:00	Italy	Sweden	Toulouse
+22	18 June 2016 15:00	Belgium	Republic of Ireland	Bordeaux
+36	22 June 2016 21:00	Sweden	Belgium	Nice
+35	22 June 2016 21:00	Italy	Republic of Ireland	Lille
+F
+11	14 June 2016 18:00	Austria	Hungary	Bordeaux
+12	14 June 2016 21:00	Portugal	Iceland	Saint-Étienne
+23	18 June 2016 18:00	Iceland	Hungary	Marseille
+24	18 June 2016 21:00	Portugal	Austria	Paris
+33	22 June 2016 18:00	Iceland	Austria	Saint-Denis
+34	22 June 2016 18:00	Hungary	Portugal	Lyon
+Round of 16
+37	25 June 2016 15:00	2A	2C	Saint-Étienne
+38	25 June 2016 18:00	1B	3ACD	Paris
+39	25 June 2016 21:00	1D	3BEF	Lens
+40	26 June 2016 15:00	1A	3CDE	Lyon
+41	26 June 2016 18:00	1C	3ABF	Lille
+42	26 June 2016 21:00	1F	2E	Toulouse
+43	27 June 2016 18:00	1E	2D	Saint-Denis
+44	27 June 2016 21:00	2B	2F	Nice
+Quarter-finals
+45	30 June 2016 21:00	37	39	Marseille
+46	1 July 2016 21:00	38	42	Lille
+47	2 July 2016 21:00	41	43	Bordeaux
+48	3 July 2016 21:00	40	44	Saint-Denis
+Semi-finals
+49	6 July 2016 21:00	45	46	Lyon
+50	7 July 2016 21:00	47	48	  Marseille
+Final
+51	10 July 2016 21:00	49	50	Saint-Denis
