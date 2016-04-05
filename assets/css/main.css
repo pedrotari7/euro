@@ -1795,11 +1795,11 @@ table {
     border-left: 0;
     border-right: 0; }
   table td {
-    padding: 0.75em 0.75em; }
+    padding: 0em 0em; }
   table th {
     font-size: 0.9em;
     font-weight: 700;
-    padding: 0 0.75em 0.75em 0.75em;
+    padding: 0 0em 0em 0em;
     text-align: left; }
   table thead {
     border-bottom-style: solid;

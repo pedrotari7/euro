@@ -1,5 +1,5 @@
 from game import Game
-
+from datetime import datetime, date
 
 class euro(object):
 	"""docstring for euro"""
@@ -44,7 +44,8 @@ class euro(object):
 
 		info = info.split('\t')
 		new_game.number = info[0]
-		new_game.date = info[1]
+		new_game.date = info[1].strip()
+		
 		new_game.t1 = info[2]
 		new_game.t2 = info[3]
 		new_game.location = info[4]
@@ -52,7 +53,6 @@ class euro(object):
 			new_game.t1_flag = self.teams[info[2]]['flag_url']
 		if info[3] in self.teams:
 			new_game.t2_flag = self.teams[info[3]]['flag_url']
-
 
 		# print new_game.number,new_game.stage,new_game.group,new_game.date, new_game.t1, new_game.t2,new_game.location
 		return new_game
@@ -83,8 +83,17 @@ class euro(object):
 
 		game_template = a.read_template('templates/game_template.html')
 
-		return game_template.format(date=g.date,location=g.location,t1=g.t1,t2=g.t2,t1_flag=g.t1_flag,t2_flag=g.t2_flag,number=g.number)
+		date_object = datetime.strptime(g.date,'%d %B %Y %H:%M')
 
+		print date_object
+		print datetime.now()
+
+		remain = date_object - datetime.now()
+
+		if remain.days > 0:
+			remain = 'in ' + str(remain.days) + ' days'
+
+		return game_template.format(date=g.date,location=g.location,t1=g.t1,t2=g.t2,t1_flag=g.t1_flag,t2_flag=g.t2_flag,number=g.number,remain=remain)
 
 	def create_scheduele_with_groups(self):
 
