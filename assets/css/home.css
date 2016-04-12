@@ -16,15 +16,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 
-#euro_logo_wrapper{
-  height: 5%;
-  width: 100%;
+#euro_logo{
+  display:block;
+  height: 100%;
+  /*width: 100%;*/
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-#euro_logo{
-  position: relative;
-  height: 10%;
-}
 
 
 /* Icon */
@@ -143,7 +142,12 @@ ul {
 #footer {
   background-color: #1E2832;
   color: rgba(255, 255, 255, 0.75);
-  text-align: center; }
+  text-align: center; 
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  }
   #footer input, #footer select, #footer textarea {
     color: #fff; }
   #footer a {
