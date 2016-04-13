@@ -139,6 +139,7 @@ class euro(object):
 	def create_scheduele_with_groups(self):
 
 		main = self.read_template('templates/scheduele_template.html')
+		nav = self.read_template('templates/nav_template.html')
 
 		games_html = ''
 
@@ -150,7 +151,6 @@ class euro(object):
 			for i,team in enumerate(self.groups[group]):
 				group_postion_html = self.read_template('templates/group_position_template.html')
 				positions_htmls.append(group_postion_html.format(pos=i,team=team,team_flag = self.teams[team]['flag_url'],color = self.group_colors[i]))
-
 
 			games_html = games_html.format(group = group, t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
 
@@ -164,13 +164,29 @@ class euro(object):
 				for game in [g for g in self.games if g.stage == phase]:
 					games_html += self.fill_game_template(game)
 
-		main = main.format(data = games_html, footer = self.footer)
+		main = main.format(nav = nav ,data = games_html, footer = self.footer)
 
-		file_location = '../test.html'
+		file_location = 'html/agenda.html'
 
 		with open(file_location,'w') as f:
 			f.write(main)
 
+		file_location = '../' + file_location
+		return file_location
+
+	def create_rules(self):
+
+		main = self.read_template('templates/rules_template.html')
+		nav = self.read_template('templates/nav_template.html')		
+
+		main = main.format(nav = nav, footer = self.footer)
+
+		file_location = 'html/rules.html'
+
+		with open(file_location,'w') as f:
+			f.write(main)
+
+		file_location = '../' + file_location
 		return file_location
 
 	def handle_request(self,conn,addr,data):
@@ -196,6 +212,12 @@ class euro(object):
 			new_link = self.create_scheduele_with_groups()
 
 			conn.send(new_link)
+
+		elif data == 'rules':
+
+			new_link = self.create_rules()
+
+			conn.send(new_link)	
 
 	def start_server(self):
 
