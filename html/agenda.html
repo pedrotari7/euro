@@ -31,7 +31,7 @@
 		<!-- Main -->
 			<form action="../scripts/predict.py">
 				<div class="container">
-					<h3>Group A</h3>
+					<h3 id="A">Group A</h3>
 <table style="text-align:center;float: left;">
 <thead>
 	<tr>
@@ -53,24 +53,24 @@
 </tr>
 <tr>
 <td style="text-align: center; white-space:nowrap;font-weight: normal;background-color:#BBF3BB;"><img alt="" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png"></td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
-<td style="font-weight: bold;background-color:#BBF3BB;">3</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
+<td style="font-weight: bold;background-color:#BBF3BB;">24</td>
 </tr>
 <tr>
 <td style="text-align: center; white-space:nowrap;font-weight: normal;background-color:#BBF3BB;"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png"></td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">-1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">-8</td>
 <td style="font-weight: bold;background-color:#BBF3BB;">0</td>
 </tr>
 <tr>
@@ -119,24 +119,24 @@
 </tr>
 <tr>
 <td style="text-align: center; white-space:nowrap;font-weight: normal;background-color:#BBF3BB;"><img alt="" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png"></td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
-<td style="font-weight: bold;background-color:#BBF3BB;">3</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
+<td style="font-weight: bold;background-color:#BBF3BB;">24</td>
 </tr>
 <tr>
 <td style="text-align: center; white-space:nowrap;font-weight: normal;background-color:#BBF3BB;"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png"></td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
 <td style="font-weight: normal;background-color:#BBF3BB;">0</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">1</td>
-<td style="font-weight: normal;background-color:#BBF3BB;">-1</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">8</td>
+<td style="font-weight: normal;background-color:#BBF3BB;">-8</td>
 <td style="font-weight: bold;background-color:#BBF3BB;">0</td>
 </tr>
 <tr>
@@ -162,6 +162,7 @@
 <td style="font-weight: bold;background-color:transparent;">0</td>
 </tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">1</div>
 	</td>
@@ -176,11 +177,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		1-0
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -192,7 +193,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Denis</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">2</div>
 	</td>
@@ -207,11 +210,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 57 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -223,7 +226,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lens</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">14</div>
 	</td>
@@ -237,12 +242,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 62 days
-<!-- 		<div>
+		in 61 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -254,7 +259,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Paris</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">15</div>
 	</td>
@@ -268,12 +275,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 62 days
-<!-- 		<div>
+		in 61 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -285,7 +292,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Marseille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">25</div>
 	</td>
@@ -299,12 +308,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 66 days
-<!-- 		<div>
+		in 65 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -316,7 +325,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lyon</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">26</div>
 	</td>
@@ -330,12 +341,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 66 days
-<!-- 		<div>
+		in 65 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -347,7 +358,8 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lille</div>
 	</td>
-</table><h3>Group B</h3>
+	</tr>
+</table><h3 id="B">Group B</h3>
 <table style="text-align:center;float: left;">
 <thead>
 	<tr>
@@ -478,6 +490,7 @@
 <td style="font-weight: bold;background-color:transparent;">0</td>
 </tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">3</div>
 	</td>
@@ -491,12 +504,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 58 days
-<!-- 		<div>
+		in 57 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -508,7 +521,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Bordeaux</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">4</div>
 	</td>
@@ -522,12 +537,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 58 days
-<!-- 		<div>
+		in 57 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -539,7 +554,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Marseille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">13</div>
 	</td>
@@ -554,11 +571,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 61 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -570,7 +587,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">16</div>
 	</td>
@@ -585,11 +604,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 62 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -601,7 +620,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lens</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">27</div>
 	</td>
@@ -615,12 +636,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 67 days
-<!-- 		<div>
+		in 66 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -632,7 +653,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Toulouse</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">28</div>
 	</td>
@@ -646,12 +669,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 67 days
-<!-- 		<div>
+		in 66 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -663,7 +686,8 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Étienne</div>
 	</td>
-</table><h3>Group C</h3>
+	</tr>
+</table><h3 id="C">Group C</h3>
 <table style="text-align:center;float: left;">
 <thead>
 	<tr>
@@ -794,6 +818,7 @@
 <td style="font-weight: bold;background-color:transparent;">0</td>
 </tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">6</div>
 	</td>
@@ -807,12 +832,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 59 days
-<!-- 		<div>
+		in 58 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -824,7 +849,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Nice </div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">7</div>
 	</td>
@@ -838,12 +865,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 59 days
-<!-- 		<div>
+		in 58 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -855,7 +882,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">17</div>
 	</td>
@@ -869,12 +898,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 63 days
-<!-- 		<div>
+		in 62 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -886,7 +915,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lyon</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">18</div>
 	</td>
@@ -900,12 +931,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 63 days
-<!-- 		<div>
+		in 62 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -917,7 +948,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Denis</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">29</div>
 	</td>
@@ -931,12 +964,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 68 days
-<!-- 		<div>
+		in 67 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -948,7 +981,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Marseille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">30</div>
 	</td>
@@ -962,12 +997,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 68 days
-<!-- 		<div>
+		in 67 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -979,7 +1014,8 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Paris</div>
 	</td>
-</table><h3>Group D</h3>
+	</tr>
+</table><h3 id="D">Group D</h3>
 <table style="text-align:center;float: left;">
 <thead>
 	<tr>
@@ -1110,6 +1146,7 @@
 <td style="font-weight: bold;background-color:transparent;">0</td>
 </tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">5</div>
 	</td>
@@ -1124,11 +1161,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 58 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1140,7 +1177,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Paris</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">8</div>
 	</td>
@@ -1155,11 +1194,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 59 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1171,7 +1210,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Toulouse</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">20</div>
 	</td>
@@ -1185,12 +1226,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 64 days
-<!-- 		<div>
+		in 63 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1202,7 +1243,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Étienne</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">21</div>
 	</td>
@@ -1216,12 +1259,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 64 days
-<!-- 		<div>
+		in 63 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1233,7 +1276,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Nice</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">31</div>
 	</td>
@@ -1247,12 +1292,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 68 days
-<!-- 		<div>
+		in 67 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1264,7 +1309,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lens</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">32</div>
 	</td>
@@ -1278,12 +1325,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 68 days
-<!-- 		<div>
+		in 67 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1295,7 +1342,8 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Bordeaux</div>
 	</td>
-</table><h3>Group E</h3>
+	</tr>
+</table><h3 id="E">Group E</h3>
 <table style="text-align:center;float: left;">
 <thead>
 	<tr>
@@ -1426,6 +1474,7 @@
 <td style="font-weight: bold;background-color:transparent;">0</td>
 </tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">9</div>
 	</td>
@@ -1439,12 +1488,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 60 days
-<!-- 		<div>
+		in 59 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1456,7 +1505,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Denis</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">10</div>
 	</td>
@@ -1470,12 +1521,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 60 days
-<!-- 		<div>
+		in 59 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1487,7 +1538,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lyon</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">19</div>
 	</td>
@@ -1502,11 +1555,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 63 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1518,7 +1571,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Toulouse</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">22</div>
 	</td>
@@ -1533,11 +1588,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 64 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1549,7 +1604,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Bordeaux</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">35</div>
 	</td>
@@ -1563,12 +1620,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 69 days
-<!-- 		<div>
+		in 68 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1580,7 +1637,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">36</div>
 	</td>
@@ -1594,12 +1653,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 69 days
-<!-- 		<div>
+		in 68 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1611,7 +1670,8 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Nice</div>
 	</td>
-</table><h3>Group F</h3>
+	</tr>
+</table><h3 id="F">Group F</h3>
 <table style="text-align:center;float: left;">
 <thead>
 	<tr>
@@ -1742,6 +1802,7 @@
 <td style="font-weight: bold;background-color:transparent;">0</td>
 </tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">11</div>
 	</td>
@@ -1755,12 +1816,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 61 days
-<!-- 		<div>
+		in 60 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1772,7 +1833,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Bordeaux</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">12</div>
 	</td>
@@ -1786,12 +1849,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 61 days
-<!-- 		<div>
+		in 60 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1803,7 +1866,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Étienne</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">23</div>
 	</td>
@@ -1817,12 +1882,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 65 days
-<!-- 		<div>
+		in 64 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1834,7 +1899,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Marseille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">24</div>
 	</td>
@@ -1848,12 +1915,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 65 days
-<!-- 		<div>
+		in 64 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1865,7 +1932,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Paris</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">33</div>
 	</td>
@@ -1879,12 +1948,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 69 days
-<!-- 		<div>
+		in 68 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1896,7 +1965,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Denis</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">34</div>
 	</td>
@@ -1910,12 +1981,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 69 days
-<!-- 		<div>
+		in 68 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1927,7 +1998,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lyon</div>
 	</td>
-</table><h3>Round of 16</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	</tr>
+</table><h2 id="Knockout">Knockout Stage</h2><h3 id="Round of 16">Round of 16</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">42</div>
 	</td>
@@ -1941,12 +2014,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 73 days
-<!-- 		<div>
+		in 72 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1958,7 +2031,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Toulouse</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">43</div>
 	</td>
@@ -1972,12 +2047,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 74 days
-<!-- 		<div>
+		in 73 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -1989,7 +2064,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Denis</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">44</div>
 	</td>
@@ -2003,12 +2080,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 74 days
-<!-- 		<div>
+		in 73 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2020,7 +2097,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Nice</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">40</div>
 	</td>
@@ -2035,11 +2114,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 72 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2051,7 +2130,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lyon</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">41</div>
 	</td>
@@ -2065,12 +2146,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 73 days
-<!-- 		<div>
+		in 72 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2082,7 +2163,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">39</div>
 	</td>
@@ -2096,12 +2179,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 72 days
-<!-- 		<div>
+		in 71 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2113,7 +2196,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lens</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">38</div>
 	</td>
@@ -2127,12 +2212,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 72 days
-<!-- 		<div>
+		in 71 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2144,7 +2229,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Paris</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">37</div>
 	</td>
@@ -2159,11 +2246,11 @@
 	<td style="float:left; width:20%;">
 	<div>
 		in 71 days
-<!-- 		<div>
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2175,7 +2262,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Étienne</div>
 	</td>
-</table><h3>Quarter-finals</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	</tr>
+</table><h3 id="Quarter-finals">Quarter-finals</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">48</div>
 	</td>
@@ -2189,12 +2278,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 80 days
-<!-- 		<div>
+		in 79 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2206,7 +2295,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Denis</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">46</div>
 	</td>
@@ -2220,12 +2311,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 78 days
-<!-- 		<div>
+		in 77 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2237,7 +2328,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lille</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">47</div>
 	</td>
@@ -2251,12 +2344,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 79 days
-<!-- 		<div>
+		in 78 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2268,7 +2361,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Bordeaux</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">45</div>
 	</td>
@@ -2282,12 +2377,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 77 days
-<!-- 		<div>
+		in 76 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2299,7 +2394,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Marseille</div>
 	</td>
-</table><h3>Semi-finals</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	</tr>
+</table><h3 id="Semi-finals">Semi-finals</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">49</div>
 	</td>
@@ -2313,12 +2410,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 83 days
-<!-- 		<div>
+		in 82 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2330,7 +2427,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Lyon</div>
 	</td>
+	</tr>
 </table><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">50</div>
 	</td>
@@ -2344,12 +2443,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 84 days
-<!-- 		<div>
+		in 83 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2361,7 +2460,9 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>  Marseille</div>
 	</td>
-</table><h3>Final</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	</tr>
+</table><h3 id="Final">Final</h3><table style="width: 100%; background-color:transparent; clear:both; text-align:center;">
+	<tr class="game_line">
 	<td style="float:left; width:5%;">
 		<div style="text-align:center">51</div>
 	</td>
@@ -2375,12 +2476,12 @@
 	</td>
 	<td style="float:left; width:20%;">
 	<div>
-		in 87 days
-<!-- 		<div>
+		in 86 days
+		<div class="form_wrapper">
 			<input type="text" name="t1" value="" class="input_game">
 			-
 			<input type="text" name="t2" value="" class="input_game">
-		<div> -->
+		<div>
 	</div>
 	</div>
 	</td>
@@ -2392,7 +2493,31 @@
 	<td style="float:left; width:15%;  text-align:left">
 		<div>Saint-Denis</div>
 	</td>
+	</tr>
 </table>
+					<div class="groups_wrapper">
+						<a href="#A" class="group_anchor">
+							A
+						</a>
+						<a href="#B" class="group_anchor">
+							B
+						</a>
+						<a href="#C" class="group_anchor">
+							C
+						</a>
+						<a href="#D" class="group_anchor">
+							D
+						</a>
+						<a href="#E" class="group_anchor">
+							E
+						</a>
+						<a href="#F" class="group_anchor">
+							F
+						</a>
+						<a href="#Knockout" class="group_anchor">
+							Knockout
+						</a>
+					</div>
 					<input type="submit" value="Submit Predictions Here" id="submit_button">
 				</div>
 			</form>

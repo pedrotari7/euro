@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import threading, json
+
+import threading, json, urllib
 from operator import itemgetter
 from datetime import datetime, date
 from socket import *
@@ -201,9 +202,10 @@ class euro(object):
 				self.games[str(G['number'])] = self.parse_score(self.games[str(G['number'])])
 				games_html += self.fill_game_template(self.games[str(G['number'])])
 
-		for phase in self.final_stages:
+		games_html += '<h2 id="Knockout">Knockout Stage</h2>'
 
-				games_html += '<h3>'+phase+'</h3>'
+		for phase in self.final_stages:
+				games_html += '<h3 id="'+ phase +'">'+phase+'</h3>'
 				for game in [self.games[g] for g in self.games if self.games[g]['stage'] == phase]:
 					games_html += self.fill_game_template(game)
 
@@ -273,8 +275,17 @@ class euro(object):
 		new_link = '../html/missing.html'
 
 		if data == 'login':
+			print 'login'
 
-			self.handle_new_login(conn,addr)
+			conn.send('ok')
+
+			data = conn.recv(self.buffersize).split('\n')
+
+			if len(data) == 1:
+				token = data[0]
+				print token
+
+				
 
 		elif data == 'agenda':
 
@@ -344,7 +355,7 @@ class euro(object):
 
 if __name__ == '__main__':
 
-	PORT = 10000
+	PORT = 50000
 	new_server = euro(PORT)
 
 

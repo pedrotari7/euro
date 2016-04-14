@@ -9,7 +9,7 @@ form = cgi.FieldStorage()
 
 try:
 	HOST = 'localhost'
-	PORT = 10000
+	PORT = 50000
 
 	ADDR = (HOST,PORT)
 

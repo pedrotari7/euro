@@ -1,14 +1,14 @@
 #!/usr/bin/python
 
 import cgi ,cgitb, os
+import urllib,json
 from socket import *
 
 
 cgitb.enable()
 form = cgi.FieldStorage()
 
-user_name = str(form.getvalue('user'))
-s = str(form.getvalue('s')) 
+token = str(form.getvalue('token'))
 
 # print "Content-type: text/html\n\n"
 
@@ -24,10 +24,14 @@ try:
 	data = cli.recv(1024)
 
 	if data.lower().strip('\n').strip('\r') == 'ok':
-		cli.send('agenda')
+		cli.send('login')
 		data = cli.recv(1024)
 		if data.lower().strip('\n').strip('\r') == 'ok':
-			cli.send(user_name + '\n'+ s)
+			url = "http://www.googleapis.com/oauth2/v3/tokeninfo?id_token="+token
+			response = urllib.urlopen(url)
+			#data = json.loads(response.read())
+
+			cli.send(response.read() + '\n')
 			data = cli.recv(1024)
 
 except:

@@ -1434,10 +1434,13 @@ textarea {
   border-width: 1px;
   display: block;
   outline: 0;
-  padding: 0 1em;
+  padding: 0em 0em;
   margin: 0;
   text-decoration: none;
-  width: 20%; }
+  position: relative;
+  width: 40%;
+  height: 20%;
+  }
   input[type="text"]:invalid,
   input[type="password"]:invalid,
   input[type="email"]:invalid,
@@ -1795,7 +1798,8 @@ table {
     border-style: solid;
     border-width: 1px;
     border-left: 0;
-    border-right: 0; }
+    border-right: 0;
+     }
   table td {
     padding: 0em 0em; }
   table th {
@@ -2930,7 +2934,7 @@ body {
     #footer a:active, #footer a:focus, #footer a:hover {
       color: #fff; }
   #footer .inner {
-    padding: 6em 0 4em 0;
+    padding: 6em 6em 6em 6em;
     border-top: solid 1px rgba(255, 255, 255, 0.1);
     margin: 0 auto;
     width: 75%; }
@@ -2989,8 +2993,35 @@ a:active {
 
 
 .input_game{
-  position: relative;
-  width: 5%;
   text-align: center;
-  background-color: red;
+}
+
+.form_wrapper,.game_line,.groups_wrapper,.group_anchor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.groups_wrapper{
+  position: fixed;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  height: 5%;
+}
+
+.group_anchor{
+  position: relative;
+  width: 14.27%;
+  height: 100%;
+  text-align: center;
+  background-color: white;
+  color : white;
+}
+
+.group_anchor:hover{
+  background-color: pink;
+
 }
