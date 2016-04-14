@@ -19,9 +19,12 @@
 		{nav}
 
 		<!-- Main -->
-			<div class="container">
-				{data}
-			</div>
+			<form action="../scripts/predict.py">
+				<div class="container">
+					{data}
+					<input type="submit" value="Submit Predictions Here" id="submit_button">
+				</div>
+			</form>
 
 		{footer}
 

@@ -1435,8 +1435,9 @@ textarea {
   display: block;
   outline: 0;
   padding: 0 1em;
+  margin: 0;
   text-decoration: none;
-  width: 100%; }
+  width: 20%; }
   input[type="text"]:invalid,
   input[type="password"]:invalid,
   input[type="email"]:invalid,
@@ -1851,7 +1852,7 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  border-radius: 2.5em;
+  border-radius: 0em;
   border: 0;
   cursor: pointer;
   display: inline-block;
@@ -1930,6 +1931,11 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
+  position: fixed;
+  top:95%;
+  left:0%;
+  height:5%;
+  width: 100%;
   background-color: #25383B;
   box-shadow: none;
   color: #fff !important; }
@@ -2979,4 +2985,12 @@ a:hover {
 /* selected link */
 a:active {
     color: blue;
+}
+
+
+.input_game{
+  position: relative;
+  width: 5%;
+  text-align: center;
+  background-color: red;
 }

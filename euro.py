@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import threading, json
-from game import Game
+from operator import itemgetter
 from datetime import datetime, date
 from socket import *
 
@@ -9,16 +9,21 @@ class euro(object):
 	"""docstring for euro"""
 	def __init__(self,port):
 		super(euro, self).__init__()
-
+		self.final_stages = ['Round of 16','Quarter-finals','Semi-finals','Final']
 		self.group_colors = ['#BBF3BB','#BBF3BB','#BBF3FF','transparent']
 		self.colors = self.get_colors()
 		self.PORT = port
 		self.buffersize = 1024
 		self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
-		#self.games = self.load_json('resources/games.json')
-		self.games = self.read_games_info()
+		self.games = self.load_json('resources/games.json')
+		#self.games = self.read_games_info()
+		for G in self.games:
+			self.games[G] = self.parse_score(self.games[G])
+
 		self.start_server()
+
+	## Internal functions
 
 	def get_colors(self):
 		colors = dict()
@@ -60,9 +65,11 @@ class euro(object):
 		t.daemon = True
 		t.start()
 
+	## Storing and Restoring
+
 	def dump_json(self,data,filename):
 		with open(filename,'w') as fp:
-			json.dump(data,fp,sort_keys=True,indent=4)
+			json.dump(data,fp,sort_keys=True,indent=4, encoding="utf-8")
 
 	def load_json(self,filename):
 		with open(filename, 'r') as fp:
@@ -77,6 +84,13 @@ class euro(object):
 				teams[team[0]] = dict()
 				teams[team[0]]['groups'] = team[1]
 				teams[team[0]]['flag_url'] = team[2]
+				teams[team[0]]['G'] = 0
+				teams[team[0]]['GF'] = 0
+				teams[team[0]]['GA'] = 0
+				teams[team[0]]['W'] = 0
+				teams[team[0]]['D'] = 0
+				teams[team[0]]['L'] = 0
+				teams[team[0]]['PTS'] = 0
 
 				if team[1] not in groups:
 					groups[team[1]] = [team[0]]
@@ -85,32 +99,6 @@ class euro(object):
 
 		self.groups = groups
 		self.teams = teams
-
-	def create_game(self,info,stage):
-
-		new_game = dict()
-		if len(stage) == 1:
-			new_game['stage'] = 'Groups'
-			new_game['group'] = stage
-		else:
-			new_game['stage'] = stage
-
-		info = info.split('\t')
-		new_game['number'] = info[0]
-		new_game['date'] = info[1].strip()
-		
-		new_game['t1'] = info[2]
-		new_game['t2'] = info[3]
-		new_game['location'] = info[4]
-		new_game['score'] = ''
-		new_game['winner'] = ''
-		if info[2] in self.teams:
-			new_game['t1_flag'] = self.teams[info[2]]['flag_url']
-		if info[3] in self.teams:
-			new_game['t2_flag'] = self.teams[info[3]]['flag_url']
-
-		# print new_game.number,new_game.stage,new_game.group,new_game.date, new_game.t1, new_game.t2,new_game.location
-		return new_game
 
 	def read_template(self,filename):
 
@@ -134,6 +122,33 @@ class euro(object):
 
 		return games
 
+	def create_game(self,info,stage):
+		new_game = dict()
+		if len(stage) == 1:
+			new_game['stage'] = 'Groups'
+			new_game['group'] = stage
+		else:
+			new_game['stage'] = stage
+
+		info = info.split('\t')
+		new_game['number'] = int(info[0])
+		new_game['date'] = info[1].strip()
+		
+		new_game['t1'] = info[2]
+		new_game['t2'] = info[3]
+		new_game['location'] = info[4]
+		new_game['score'] = ''
+		new_game['winner'] = ''
+		if info[2] in self.teams:
+			new_game['t1_flag'] = self.teams[info[2]]['flag_url']
+		if info[3] in self.teams:
+			new_game['t2_flag'] = self.teams[info[3]]['flag_url']
+
+		# print new_game.number,new_game.stage,new_game.group,new_game.date, new_game.t1, new_game.t2,new_game.location
+		return new_game
+
+	## HTML creation
+
 	def fill_game_template(self,g):
 
 		game_template = self.read_template('templates/game_template.html')
@@ -142,13 +157,16 @@ class euro(object):
 
 		remain = date_object - datetime.now()
 
-		if remain.days > 0:
+		if g['score']:
+			remain = g['score']
+		elif remain.days > 0:
 			remain = 'in ' + str(remain.days) + ' days'
+
 
 		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
 		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
 
-		return game_template.format(date=g['date'].replace('2016',''),location=g['location'],t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,number=g['number'],remain=remain)
+		return game_template.format(date=g['date'].replace('2016',''),location=g['location'].encode('utf-8'),t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,number=g['number'],remain=remain)
 
 	def create_scheduele_with_groups(self):
 
@@ -163,16 +181,27 @@ class euro(object):
 
 			positions_htmls = []
 			for i,team in enumerate(self.groups[group]):
+
 				group_postion_html = self.read_template('templates/group_position_template.html')
-				positions_htmls.append(group_postion_html.format(pos=i,team=team,team_flag = self.teams[team]['flag_url'],color = self.group_colors[i]))
+
+				group_postion_html = group_postion_html.format(team=team,team_flag = self.teams[team]['flag_url'],color = self.group_colors[i],G=self.teams[team]['G'],GF=self.teams[team]['GF'],GA=self.teams[team]['GA'],GD=self.teams[team]['GF']-self.teams[team]['GA'],W=self.teams[team]['W'],L=self.teams[team]['L'],D=self.teams[team]['D'],PTS=self.teams[team]['PTS'])
+
+				positions_htmls.append(group_postion_html)
 
 			games_html = games_html.format(group = group, t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
 
+			group_games = []
 			for G in self.games:
 				if 'group' in self.games[G] and self.games[G]['group'] == group:
-					games_html += self.fill_game_template(self.games[G])
+					group_games.append(self.games[G])
 
-		for phase in ['Round of 16','Quarter-finals','Semi-finals','Final']:
+			group_games = sorted(group_games, key=itemgetter('number'))
+
+			for G in group_games:
+				self.games[str(G['number'])] = self.parse_score(self.games[str(G['number'])])
+				games_html += self.fill_game_template(self.games[str(G['number'])])
+
+		for phase in self.final_stages:
 
 				games_html += '<h3>'+phase+'</h3>'
 				for game in [self.games[g] for g in self.games if self.games[g]['stage'] == phase]:
@@ -202,6 +231,42 @@ class euro(object):
 
 		file_location = '../' + file_location
 		return file_location
+
+
+	## Football Functions
+
+	def parse_score(self,game):
+		if game['score']:
+			game['t1_score'],game['t2_score'] = [int(a) for a in game['score'].split('-')]
+			self.teams[game['t1']]['G'] += 1
+			self.teams[game['t1']]['GF'] += game['t1_score']
+			self.teams[game['t1']]['GA'] += game['t2_score']
+
+			self.teams[game['t2']]['G'] += 1
+			self.teams[game['t2']]['GF'] += game['t2_score']
+			self.teams[game['t2']]['GA'] += game['t1_score']
+
+			if game['t1_score'] == game['t2_score']:
+				game['winner'] = 'tie'
+				if game['stage'] == 'Groups':
+					self.teams[game['t1']]['D'] += 1
+					self.teams[game['t1']]['PTS'] += 1
+					self.teams[game['t2']]['D'] += 1
+					self.teams[game['t2']]['PTS'] += 1
+			elif game['t1_score'] > game['t2_score']:
+				game['winner'] = game['t1']
+				self.teams[game['t1']]['W'] += 1
+				self.teams[game['t1']]['PTS'] += 3
+				self.teams[game['t2']]['L'] += 1
+			elif game['t1_score'] < game['t2_score']:
+				game['winner'] = game['t2']
+				self.teams[game['t1']]['L'] += 1
+				self.teams[game['t2']]['PTS'] += 3
+				self.teams[game['t2']]['W'] += 1
+
+		return game
+
+	## Server
 
 	def handle_request(self,conn,addr,data):
 
@@ -271,8 +336,6 @@ class euro(object):
 			except KeyboardInterrupt:
 				# self.save_session()
 				break
-
-		print type(self.games)
 
 		self.dump_json(self.games,'resources/games.json')
 		self.serv.close()
