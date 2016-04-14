@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import threading
+import threading, json
 from game import Game
 from datetime import datetime, date
 from socket import *
@@ -16,6 +16,7 @@ class euro(object):
 		self.buffersize = 1024
 		self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
+		#self.games = self.load_json('resources/games.json')
 		self.games = self.read_games_info()
 		self.start_server()
 
@@ -59,6 +60,14 @@ class euro(object):
 		t.daemon = True
 		t.start()
 
+	def dump_json(self,data,filename):
+		with open(filename,'w') as fp:
+			json.dump(data,fp,sort_keys=True,indent=4)
+
+	def load_json(self,filename):
+		with open(filename, 'r') as fp:
+			return json.load(fp)
+
 	def read_teams(self):
 		teams = dict()
 		groups = dict()
@@ -79,24 +88,26 @@ class euro(object):
 
 	def create_game(self,info,stage):
 
-		new_game = Game()
+		new_game = dict()
 		if len(stage) == 1:
-			new_game.stage = 'Groups'
-			new_game.group = stage
+			new_game['stage'] = 'Groups'
+			new_game['group'] = stage
 		else:
-			new_game.stage = stage
+			new_game['stage'] = stage
 
 		info = info.split('\t')
-		new_game.number = info[0]
-		new_game.date = info[1].strip()
+		new_game['number'] = info[0]
+		new_game['date'] = info[1].strip()
 		
-		new_game.t1 = info[2]
-		new_game.t2 = info[3]
-		new_game.location = info[4]
+		new_game['t1'] = info[2]
+		new_game['t2'] = info[3]
+		new_game['location'] = info[4]
+		new_game['score'] = ''
+		new_game['winner'] = ''
 		if info[2] in self.teams:
-			new_game.t1_flag = self.teams[info[2]]['flag_url']
+			new_game['t1_flag'] = self.teams[info[2]]['flag_url']
 		if info[3] in self.teams:
-			new_game.t2_flag = self.teams[info[3]]['flag_url']
+			new_game['t2_flag'] = self.teams[info[3]]['flag_url']
 
 		# print new_game.number,new_game.stage,new_game.group,new_game.date, new_game.t1, new_game.t2,new_game.location
 		return new_game
@@ -107,8 +118,7 @@ class euro(object):
 			return f.read()
 
 	def read_games_info(self):
-		games = []
-
+		games = dict()
 		with open('resources/data.txt','r') as f:
 			data = f.read().split('\n')
 			i = 0
@@ -118,7 +128,8 @@ class euro(object):
 				if len(data[i]) < 15:
 					current_stage = data[i]
 					i+=1
-				games.append(self.create_game(data[i],current_stage))
+				new_game = self.create_game(data[i],current_stage)		
+				games[new_game['number']] = new_game
 				i+=1			
 
 		return games
@@ -127,14 +138,17 @@ class euro(object):
 
 		game_template = self.read_template('templates/game_template.html')
 
-		date_object = datetime.strptime(g.date,'%d %B %Y %H:%M')
+		date_object = datetime.strptime(g['date'],'%d %B %Y %H:%M')
 
 		remain = date_object - datetime.now()
 
 		if remain.days > 0:
 			remain = 'in ' + str(remain.days) + ' days'
 
-		return game_template.format(date=g.date.replace('2016',''),location=g.location,t1=g.t1,t2=g.t2,t1_flag=g.t1_flag,t2_flag=g.t2_flag,number=g.number,remain=remain)
+		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
+		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
+
+		return game_template.format(date=g['date'].replace('2016',''),location=g['location'],t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,number=g['number'],remain=remain)
 
 	def create_scheduele_with_groups(self):
 
@@ -155,13 +169,13 @@ class euro(object):
 			games_html = games_html.format(group = group, t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
 
 			for G in self.games:
-				if G.group == group:
-					games_html += self.fill_game_template(G)
+				if 'group' in self.games[G] and self.games[G]['group'] == group:
+					games_html += self.fill_game_template(self.games[G])
 
 		for phase in ['Round of 16','Quarter-finals','Semi-finals','Final']:
 
 				games_html += '<h3>'+phase+'</h3>'
-				for game in [g for g in self.games if g.stage == phase]:
+				for game in [self.games[g] for g in self.games if self.games[g]['stage'] == phase]:
 					games_html += self.fill_game_template(game)
 
 		main = main.format(nav = nav ,data = games_html, footer = self.footer)
@@ -245,6 +259,7 @@ class euro(object):
 					conn.setblocking(1)
 				except timeout:
 					continue
+
 				self.timed_print('IP: '+ str(addr[0]) + ' Port: ' + str(addr[1]) + ' ...connected!','OKBLUE')
 
 				conn.send('ok')
@@ -257,6 +272,9 @@ class euro(object):
 				# self.save_session()
 				break
 
+		print type(self.games)
+
+		self.dump_json(self.games,'resources/games.json')
 		self.serv.close()
 		self.timed_print('euro server stopped','WARNING')
 
