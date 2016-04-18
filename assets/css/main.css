@@ -2983,7 +2983,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: red;
+    /*color: red;*/
 }
 
 /* selected link */
@@ -2995,6 +2995,8 @@ a:active {
 .input_game{
   text-align: center;
 }
+
+
 
 .form_wrapper,.game_line,.groups_wrapper,.group_anchor{
   display: flex;
@@ -3017,11 +3019,15 @@ a:active {
   width: 14.27%;
   height: 100%;
   text-align: center;
-  background-color: white;
+  background-color: #8ADBCE;
   color : white;
 }
 
 .group_anchor:hover{
-  background-color: pink;
+  background-color: #C2F0E8;
 
+}
+
+.input_game{
+  font-size: 100%;
 }
