@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import threading, json, urllib, ast
+import threading, json, urllib, ast, copy
 from operator import itemgetter
 from datetime import datetime, date
 from socket import *
@@ -15,13 +15,15 @@ class euro(object):
 		self.colors = self.get_colors()
 		self.PORT = port
 		self.buffersize = 250000
-		self.read_teams()
+		self.teams = self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
 		self.games = self.load_json('resources/games.json')
-		self.users = {'pedro':{'games':dict(),'teams':self.teams}}
+
+		self.users = {'pedro':{'games':dict(),'teams':self.read_teams()}}
 
 		#self.games = self.read_games_info()
 		for G in self.games:
+			self.games[G]['parsed'] = False
 			self.games[G],self.teams = self.parse_score(self.games[G],self.teams)
 
 		self.start_server()
@@ -101,7 +103,7 @@ class euro(object):
 					groups[team[1]].append(team[0])
 
 		self.groups = groups
-		self.teams = teams
+		return teams
 
 	def read_template(self,filename):
 
@@ -146,6 +148,8 @@ class euro(object):
 			new_game['t1_flag'] = self.teams[info[2]]['flag_url']
 		if info[3] in self.teams:
 			new_game['t2_flag'] = self.teams[info[3]]['flag_url']
+		
+		new_game['parsed'] = False
 
 		# print new_game.number,new_game.stage,new_game.group,new_game.date, new_game.t1, new_game.t2,new_game.location
 		return new_game
@@ -179,13 +183,27 @@ class euro(object):
 
 		return game_template.format(date=g['date'].replace('2016',''),location=g['location'].encode('utf-8'),t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,number=g['number'],remain=remain,t1_score=t1_score,t2_score=t2_score)
 
+	def create_group_table_html(self,teams,group):
+
+		group_html = self.read_template('templates/group_template.html')
+		positions_htmls = []
+
+		for i,team in enumerate(self.groups[group]):
+
+			group_postion_html = self.read_template('templates/group_position_template.html')
+			
+			T = teams[team]
+
+			group_postion_html = group_postion_html.format(team=team,team_flag = T['flag_url'],color = self.group_colors[i],G=T['G'],GF=T['GF'],GA=T['GA'],GD=T['GF']-T['GA'],W=T['W'],L=T['L'],D=T['D'],PTS=T['PTS'])
+
+			positions_htmls.append(group_postion_html)
+
+		return positions_htmls, group_html
+
 	def create_scheduele_with_groups(self,user):
 
 		main = self.read_template('templates/scheduele_template.html')
 		nav = self.read_template('templates/nav_template.html')
-
-		print 'create scheduele'
-		print self.users
 
 		games_html = ''
 
@@ -194,31 +212,13 @@ class euro(object):
 			table_html = self.read_template('templates/table_template.html')
 
 			# Real
-			group_html = self.read_template('templates/group_template.html')
-			positions_htmls = []
 
-			for i,team in enumerate(self.groups[group]):
-
-				group_postion_html = self.read_template('templates/group_position_template.html')
-
-				group_postion_html = group_postion_html.format(team=team,team_flag = self.teams[team]['flag_url'],color = self.group_colors[i],G=self.teams[team]['G'],GF=self.teams[team]['GF'],GA=self.teams[team]['GA'],GD=self.teams[team]['GF']-self.teams[team]['GA'],W=self.teams[team]['W'],L=self.teams[team]['L'],D=self.teams[team]['D'],PTS=self.teams[team]['PTS'])
-
-				positions_htmls.append(group_postion_html)
-
-
+			positions_htmls, group_html = self.create_group_table_html(self.teams,group)
 			table_left = group_html.format(side='left',title='Real', t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
 
 
 			# Predicted
-			group_html = self.read_template('templates/group_template.html')
-			positions_htmls = []
-			for i,team in enumerate(self.groups[group]):
-
-				group_postion_html = self.read_template('templates/group_position_template.html')
-
-				group_postion_html = group_postion_html.format(team=team,team_flag = self.users[user]['teams'][team]['flag_url'],color = self.group_colors[i],G=self.users[user]['teams'][team]['G'],GF=self.users[user]['teams'][team]['GF'],GA=self.users[user]['teams'][team]['GA'],GD=self.users[user]['teams'][team]['GF']-self.users[user]['teams'][team]['GA'],W=self.users[user]['teams'][team]['W'],L=self.users[user]['teams'][team]['L'],D=self.users[user]['teams'][team]['D'],PTS=self.users[user]['teams'][team]['PTS'])
-
-				positions_htmls.append(group_postion_html)
+			positions_htmls, group_html = self.create_group_table_html(self.users[user]['teams'],group)
 			table_right = group_html.format(side='right',title='Predicted', t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
 
 
@@ -271,40 +271,45 @@ class euro(object):
 		
 		for pred in ast.literal_eval(data[0]):
 			if 'None' not in pred[1]:
-				self.users[user]['games'][pred[0]] = self.games[pred[0]]
+				self.users[user]['games'][pred[0]] = copy.copy(self.games[pred[0]])
 				self.users[user]['games'][pred[0]]['score'] = pred[1]
+				print self.users[user]['games'][pred[0]]
 				self.users[user]['games'][pred[0]],self.users[user]['teams'] = self.parse_score(self.users[user]['games'][pred[0]],self.users[user]['teams'])
+				print self.users[user]['games'][pred[0]]
+
 
 	## Football Functions
 
 	def parse_score(self,game,teams):
-		if game['score']:
-			game['t1_score'],game['t2_score'] = [int(a) for a in game['score'].split('-')]
-			teams[game['t1']]['G'] += 1
-			teams[game['t1']]['GF'] += game['t1_score']
-			teams[game['t1']]['GA'] += game['t2_score']
+		if not game['parsed']:
+			if game['score']:
+				game['t1_score'],game['t2_score'] = [int(a) for a in game['score'].split('-')]
+				teams[game['t1']]['G'] += 1
+				teams[game['t1']]['GF'] += game['t1_score']
+				teams[game['t1']]['GA'] += game['t2_score']
 
-			teams[game['t2']]['G'] += 1
-			teams[game['t2']]['GF'] += game['t2_score']
-			teams[game['t2']]['GA'] += game['t1_score']
+				teams[game['t2']]['G'] += 1
+				teams[game['t2']]['GF'] += game['t2_score']
+				teams[game['t2']]['GA'] += game['t1_score']
 
-			if game['t1_score'] == game['t2_score']:
-				game['winner'] = 'tie'
-				if game['stage'] == 'Groups':
-					teams[game['t1']]['D'] += 1
-					teams[game['t1']]['PTS'] += 1
-					teams[game['t2']]['D'] += 1
-					teams[game['t2']]['PTS'] += 1
-			elif game['t1_score'] > game['t2_score']:
-				game['winner'] = game['t1']
-				teams[game['t1']]['W'] += 1
-				teams[game['t1']]['PTS'] += 3
-				teams[game['t2']]['L'] += 1
-			elif game['t1_score'] < game['t2_score']:
-				game['winner'] = game['t2']
-				teams[game['t1']]['L'] += 1
-				teams[game['t2']]['PTS'] += 3
-				teams[game['t2']]['W'] += 1
+				if game['t1_score'] == game['t2_score']:
+					game['winner'] = 'tie'
+					if game['stage'] == 'Groups':
+						teams[game['t1']]['D'] += 1
+						teams[game['t1']]['PTS'] += 1
+						teams[game['t2']]['D'] += 1
+						teams[game['t2']]['PTS'] += 1
+				elif game['t1_score'] > game['t2_score']:
+					game['winner'] = game['t1']
+					teams[game['t1']]['W'] += 1
+					teams[game['t1']]['PTS'] += 3
+					teams[game['t2']]['L'] += 1
+				elif game['t1_score'] < game['t2_score']:
+					game['winner'] = game['t2']
+					teams[game['t1']]['L'] += 1
+					teams[game['t2']]['PTS'] += 3
+					teams[game['t2']]['W'] += 1
+			game['parsed'] = True
 
 		return game,teams
 
@@ -332,9 +337,6 @@ class euro(object):
 
 			data = conn.recv(self.buffersize).split('\n')
 
-			print 'agenda'
-			print self.users
-
 			#if len(data) == 3:
 
 			#username = data[0]
@@ -361,7 +363,7 @@ class euro(object):
 
 			print data
 
-			self.users['pedro'] = self.update_predictions('pedro',data)
+			self.update_predictions('pedro',data)
 
 			new_link = 'agenda'
 
