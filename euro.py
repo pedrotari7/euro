@@ -19,12 +19,13 @@ class euro(object):
 		self.footer = self.read_template('templates/footer_template.html')
 		self.games = self.load_json('resources/games.json')
 
-		self.users = {'pedro':{'games':dict(),'teams':self.read_teams()}}
-
 		#self.games = self.read_games_info()
 		for G in self.games:
 			self.games[G]['parsed'] = False
+			self.games[G]['score'] = ''
 			self.games[G],self.teams = self.parse_score(self.games[G],self.teams)
+
+		self.users = {'pedro':{'games':dict(),'teams':self.read_teams()}}
 
 		self.start_server()
 
@@ -63,6 +64,7 @@ class euro(object):
 		print parent + self.get_current_time() + self.colors['ENDC'] + ' ' + color + message + self.colors['ENDC']
 
 	def get_current_time(self):
+
 		return datetime.now().strftime("%Y-%m-%d %H:%M:%S ")
 
 	def start_thread(self,handler,args=()):
@@ -271,6 +273,7 @@ class euro(object):
 		
 		for pred in ast.literal_eval(data[0]):
 			if 'None' not in pred[1]:
+				print pred
 				self.users[user]['games'][pred[0]] = copy.copy(self.games[pred[0]])
 				self.users[user]['games'][pred[0]]['score'] = pred[1]
 				print self.users[user]['games'][pred[0]]
@@ -309,7 +312,7 @@ class euro(object):
 					teams[game['t1']]['L'] += 1
 					teams[game['t2']]['PTS'] += 3
 					teams[game['t2']]['W'] += 1
-			game['parsed'] = True
+				game['parsed'] = True
 
 		return game,teams
 
@@ -329,7 +332,17 @@ class euro(object):
 
 			if len(data) == 1:
 				token = data[0]
-				print token
+				
+				url = "https://www.googleapis.com/oauth2/v3/tokeninfo?id_token="+token
+				response = urllib.urlopen(url)
+				data = json.loads(response.read())
+				self.data = data
+				print data
+				new_link = 'agenda'
+
+
+
+			conn.send(new_link)
 
 		elif data == 'agenda':
 
@@ -360,8 +373,6 @@ class euro(object):
 			conn.send('ok')
 
 			data = conn.recv(self.buffersize).split('\n')
-
-			print data
 
 			self.update_predictions('pedro',data)
 

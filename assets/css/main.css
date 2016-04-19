@@ -3021,6 +3021,7 @@ a:active {
   text-align: center;
   background-color: #8ADBCE;
   color : white;
+  font-weight: bold;
 }
 
 .group_anchor:hover{
