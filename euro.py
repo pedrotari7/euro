@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import threading, json, urllib, ast, copy
+import threading, json, urllib, ast, copy, os
 from operator import itemgetter
 from datetime import datetime, date
 from socket import *
@@ -17,14 +17,11 @@ class euro(object):
 		self.buffersize = 250000
 		self.teams = self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
-		self.games = self.load_json('resources/games.json')
-
-		self.users = {'pedro':{'games':dict(),'teams':self.read_teams()}}
+		self.games = self.load_json('resources/games_current.json')
+		self.users = dict()
+		self.create_new_user('pedro')
 
 		#self.games = self.read_games_info()
-		for G in self.games:
-			self.games[G]['parsed'] = False
-			self.games[G],self.teams = self.parse_score(self.games[G],self.teams)
 
 		self.start_server()
 
@@ -70,6 +67,7 @@ class euro(object):
 		t.daemon = True
 		t.start()
 
+
 	## Storing and Restoring
 
 	def dump_json(self,data,filename):
@@ -86,7 +84,9 @@ class euro(object):
 		with open('resources/teams.txt','r') as f:
 			for team in f.read().split('\n'):
 				team = team.split('\t')
+
 				teams[team[0]] = dict()
+				teams[team[0]]['name'] = team[0]
 				teams[team[0]]['groups'] = team[1]
 				teams[team[0]]['flag_url'] = team[2]
 				teams[team[0]]['G'] = 0
@@ -148,11 +148,37 @@ class euro(object):
 			new_game['t1_flag'] = self.teams[info[2]]['flag_url']
 		if info[3] in self.teams:
 			new_game['t2_flag'] = self.teams[info[3]]['flag_url']
-		
-		new_game['parsed'] = False
 
-		# print new_game.number,new_game.stage,new_game.group,new_game.date, new_game.t1, new_game.t2,new_game.location
 		return new_game
+
+	def clean_teams(self,teams):
+		for team in teams:
+				teams[team]['G'] = 0
+				teams[team]['GF'] = 0
+				teams[team]['GA'] = 0
+				teams[team]['W'] = 0
+				teams[team]['D'] = 0
+				teams[team]['L'] = 0
+				teams[team]['PTS'] = 0
+		return teams
+
+	## Users
+
+	def create_new_user(self,user):
+
+		self.users[user] = dict()
+
+		if not  os.path.exists(os.path.join('users',user)):
+			os.mkdir(os.path.join('users',user))
+
+		p = os.path.join('users',user,'games.json')
+		if os.path.exists(p):
+			self.users[user]['games'] = self.load_json(p)
+		else:
+			self.users[user]['games'] = self.load_json('resources/games_clean.json')
+			self.dump_json(self.games,p)
+
+		self.users[user]['teams'] = self.read_teams()
 
 	## HTML creation
 
@@ -173,7 +199,8 @@ class euro(object):
 		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
 		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
 
-		if str(g['number']) in self.users[user]['games']:
+
+		if 't1_score' in self.users[user]['games'][str(g['number'])]:
 			t1_score = self.users[user]['games'][str(g['number'])]['t1_score']
 			t2_score = self.users[user]['games'][str(g['number'])]['t2_score']
 		else:
@@ -188,13 +215,13 @@ class euro(object):
 		group_html = self.read_template('templates/group_template.html')
 		positions_htmls = []
 
-		for i,team in enumerate(self.groups[group]):
+		ordered_group = self.order_teams(self.groups[group],teams)
+
+		for i,T in enumerate(ordered_group):
 
 			group_postion_html = self.read_template('templates/group_position_template.html')
 			
-			T = teams[team]
-
-			group_postion_html = group_postion_html.format(team=team,team_flag = T['flag_url'],color = self.group_colors[i],G=T['G'],GF=T['GF'],GA=T['GA'],GD=T['GF']-T['GA'],W=T['W'],L=T['L'],D=T['D'],PTS=T['PTS'])
+			group_postion_html = group_postion_html.format(team=T['name'],team_flag = T['flag_url'],color = self.group_colors[i],G=T['G'],GF=T['GF'],GA=T['GA'],GD=T['GF']-T['GA'],W=T['W'],L=T['L'],D=T['D'],PTS=T['PTS'])
 
 			positions_htmls.append(group_postion_html)
 
@@ -206,6 +233,14 @@ class euro(object):
 		nav = self.read_template('templates/nav_template.html')
 
 		games_html = ''
+
+		self.users[user]['teams'] = self.clean_teams(self.users[user]['teams'])
+		self.teams = self.clean_teams(self.teams)
+
+		for game in self.games:
+			self.games[game],self.teams = self.parse_score(self.games[game],self.teams)
+			self.users[user]['games'][game],self.users[user]['teams']= self.parse_score(self.users[user]['games'][game],self.users[user]['teams'])
+
 
 		for group in sorted(self.groups):
 
@@ -232,7 +267,6 @@ class euro(object):
 			group_games = sorted(group_games, key=itemgetter('number'))
 
 			for G in group_games:
-				self.games[str(G['number'])],self.teams = self.parse_score(self.games[str(G['number'])],self.teams)
 				games_html += self.fill_game_template(user,self.games[str(G['number'])])
 
 		games_html += '<h2 id="Knockout">Knockout Stage</h2>'
@@ -269,52 +303,64 @@ class euro(object):
 
 	def update_predictions(self,user,data):
 		
+		self.users[user]['games'] = self.load_json('resources/games_clean.json')
+
 		for pred in ast.literal_eval(data[0]):
 			if 'None' not in pred[1]:
 				self.users[user]['games'][pred[0]] = copy.copy(self.games[pred[0]])
 				self.users[user]['games'][pred[0]]['score'] = pred[1]
-				print self.users[user]['games'][pred[0]]
-				self.users[user]['games'][pred[0]],self.users[user]['teams'] = self.parse_score(self.users[user]['games'][pred[0]],self.users[user]['teams'])
-				print self.users[user]['games'][pred[0]]
-
 
 	## Football Functions
 
 	def parse_score(self,game,teams):
-		if not game['parsed']:
-			if game['score']:
-				game['t1_score'],game['t2_score'] = [int(a) for a in game['score'].split('-')]
-				teams[game['t1']]['G'] += 1
-				teams[game['t1']]['GF'] += game['t1_score']
-				teams[game['t1']]['GA'] += game['t2_score']
 
-				teams[game['t2']]['G'] += 1
-				teams[game['t2']]['GF'] += game['t2_score']
-				teams[game['t2']]['GA'] += game['t1_score']
+		if game['score']:
+			game['t1_score'],game['t2_score'] = [int(a) for a in game['score'].split('-')]
+			teams[game['t1']]['G'] += 1
+			teams[game['t1']]['GF'] += game['t1_score']
+			teams[game['t1']]['GA'] += game['t2_score']
 
-				if game['t1_score'] == game['t2_score']:
-					game['winner'] = 'tie'
-					if game['stage'] == 'Groups':
-						teams[game['t1']]['D'] += 1
-						teams[game['t1']]['PTS'] += 1
-						teams[game['t2']]['D'] += 1
-						teams[game['t2']]['PTS'] += 1
-				elif game['t1_score'] > game['t2_score']:
-					game['winner'] = game['t1']
-					teams[game['t1']]['W'] += 1
-					teams[game['t1']]['PTS'] += 3
-					teams[game['t2']]['L'] += 1
-				elif game['t1_score'] < game['t2_score']:
-					game['winner'] = game['t2']
-					teams[game['t1']]['L'] += 1
-					teams[game['t2']]['PTS'] += 3
-					teams[game['t2']]['W'] += 1
-			game['parsed'] = True
+			teams[game['t2']]['G'] += 1
+			teams[game['t2']]['GF'] += game['t2_score']
+			teams[game['t2']]['GA'] += game['t1_score']
+
+			if game['t1_score'] == game['t2_score']:
+				game['winner'] = 'tie'
+				if game['stage'] == 'Groups':
+					teams[game['t1']]['D'] += 1
+					teams[game['t1']]['PTS'] += 1
+					teams[game['t2']]['D'] += 1
+					teams[game['t2']]['PTS'] += 1
+			elif game['t1_score'] > game['t2_score']:
+				game['winner'] = game['t1']
+				teams[game['t1']]['W'] += 1
+				teams[game['t1']]['PTS'] += 3
+				teams[game['t2']]['L'] += 1
+			elif game['t1_score'] < game['t2_score']:
+				game['winner'] = game['t2']
+				teams[game['t1']]['L'] += 1
+				teams[game['t2']]['PTS'] += 3
+				teams[game['t2']]['W'] += 1
 
 		return game,teams
 
+	def order_teams(self,group,teams):
+
+		group_teams = [teams[t] for t in group]
+
+		ordered_teams = sorted(group_teams, key=itemgetter('PTS'), reverse = True) 
+
+		return ordered_teams
 
 	## Server
+
+	def save_games(self):
+
+		self.dump_json(self.games,'resources/games_current.json')
+
+		for user in self.users:
+
+			self.dump_json(self.users[user]['games'],os.path.join('users',user,'games.json'))
 
 	def handle_request(self,conn,addr,data):
 
@@ -361,8 +407,6 @@ class euro(object):
 
 			data = conn.recv(self.buffersize).split('\n')
 
-			print data
-
 			self.update_predictions('pedro',data)
 
 			new_link = 'agenda'
@@ -408,7 +452,9 @@ class euro(object):
 				# self.save_session()
 				break
 
-		self.dump_json(self.games,'resources/games.json')
+
+		self.save_games()
+
 		self.serv.close()
 		self.timed_print('euro server stopped','WARNING')
 
