@@ -7,6 +7,8 @@ from socket import *
 cgitb.enable()
 form = cgi.FieldStorage()
 
+id = str(form.getvalue('id'))
+
 try:
 	HOST = 'localhost'
 	PORT = 50000
@@ -21,6 +23,9 @@ try:
 	if data.lower().strip('\n').strip('\r') == 'ok':
 		cli.send('rules')
 		data = cli.recv(1024)
+		if data.lower().strip('\n').strip('\r') == 'ok':
+			cli.send(id + '\n')
+			data = cli.recv(1024)
 
 except:
 	raise

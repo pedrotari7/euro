@@ -7,7 +7,7 @@ from socket import *
 cgitb.enable()
 form = cgi.FieldStorage()
 
-id = str(form.getvalue('id'))
+id = str(form.getvalue('id')) 
 
 # print "Content-type: text/html\n\n"
 
@@ -23,7 +23,7 @@ try:
 	data = cli.recv(1024)
 
 	if data.lower().strip('\n').strip('\r') == 'ok':
-		cli.send('agenda')
+		cli.send('scoreboard')
 		data = cli.recv(1024)
 		if data.lower().strip('\n').strip('\r') == 'ok':
 			cli.send(id + '\n')
