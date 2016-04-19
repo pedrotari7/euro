@@ -1792,7 +1792,7 @@ ul.alt > li {
   overflow-x: auto; }
 
 table {
-  margin: 0 0% 0em 0%;
+  margin: 0em 0em 0em 0em;
   width: 50%; }
   table tbody tr {
     border-style: solid;
@@ -2597,12 +2597,22 @@ body {
     color: #fff;
     display: inline-block;
     height: inherit;
-    left: 1.25em;
+    /*left: 1.25em;
+    float: right;*/
     line-height: inherit;
     margin: 0;
     padding: 0;
     position: absolute;
     top: 0; }
+   #header > div {
+    height: inherit;
+    left: 0.01em;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0; }
+
     #header > h1 a {
       font-size: 1.25em; }
   #header a {
@@ -2907,6 +2917,7 @@ body {
 
 /* Footer */
 #footer {
+  z-index: 10002;
   background-color: #1E2832;
   color: rgba(255, 255, 255, 0.75);
   text-align: center; }
@@ -2994,6 +3005,7 @@ a:active {
 
 .input_game{
   text-align: center;
+  font-weight: bold;
 }
 
 
@@ -3031,4 +3043,37 @@ a:active {
 
 .input_game{
   font-size: 100%;
+}
+
+.group_table {
+  margin: 0em 0em 1em 0em;
+}
+
+.scoreboard_table {
+  width: 100%;
+}
+
+#user_info {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  }
+
+  #user_info > h1 {
+    color: #fff;
+    height: inherit;
+    line-height: inherit;
+    margin: 0;
+    margin-left: 1em;
+    vertical-align: middle;
+    }
+}
+
+#user_flag {
+  float:left;
+  margin-left: 1em;
+  padding-left: 1em;
+  vertical-align: middle;
+  display: inline-block;
 }
