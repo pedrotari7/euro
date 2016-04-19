@@ -17,11 +17,23 @@ class euro(object):
 		self.buffersize = 250000
 		self.teams = self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
+<<<<<<< HEAD
 		self.games = self.load_json('resources/games_current.json')
 		self.users = dict()
 		self.create_new_user('pedro')
 
 		#self.games = self.read_games_info()
+=======
+		self.games = self.load_json('resources/games.json')
+
+		#self.games = self.read_games_info()
+		for G in self.games:
+			self.games[G]['parsed'] = False
+			self.games[G]['score'] = ''
+			self.games[G],self.teams = self.parse_score(self.games[G],self.teams)
+>>>>>>> 839fb97d4a6291dce37dc32eaaefec1e3c1a58be
+
+		self.users = {'pedro':{'games':dict(),'teams':self.read_teams()}}
 
 		self.start_server()
 
@@ -60,6 +72,7 @@ class euro(object):
 		print parent + self.get_current_time() + self.colors['ENDC'] + ' ' + color + message + self.colors['ENDC']
 
 	def get_current_time(self):
+
 		return datetime.now().strftime("%Y-%m-%d %H:%M:%S ")
 
 	def start_thread(self,handler,args=()):
@@ -307,12 +320,14 @@ class euro(object):
 
 		for pred in ast.literal_eval(data[0]):
 			if 'None' not in pred[1]:
+				print pred
 				self.users[user]['games'][pred[0]] = copy.copy(self.games[pred[0]])
 				self.users[user]['games'][pred[0]]['score'] = pred[1]
 
 	## Football Functions
 
 	def parse_score(self,game,teams):
+<<<<<<< HEAD
 
 		if game['score']:
 			game['t1_score'],game['t2_score'] = [int(a) for a in game['score'].split('-')]
@@ -341,6 +356,37 @@ class euro(object):
 				teams[game['t1']]['L'] += 1
 				teams[game['t2']]['PTS'] += 3
 				teams[game['t2']]['W'] += 1
+=======
+		if not game['parsed']:
+			if game['score']:
+				game['t1_score'],game['t2_score'] = [int(a) for a in game['score'].split('-')]
+				teams[game['t1']]['G'] += 1
+				teams[game['t1']]['GF'] += game['t1_score']
+				teams[game['t1']]['GA'] += game['t2_score']
+
+				teams[game['t2']]['G'] += 1
+				teams[game['t2']]['GF'] += game['t2_score']
+				teams[game['t2']]['GA'] += game['t1_score']
+
+				if game['t1_score'] == game['t2_score']:
+					game['winner'] = 'tie'
+					if game['stage'] == 'Groups':
+						teams[game['t1']]['D'] += 1
+						teams[game['t1']]['PTS'] += 1
+						teams[game['t2']]['D'] += 1
+						teams[game['t2']]['PTS'] += 1
+				elif game['t1_score'] > game['t2_score']:
+					game['winner'] = game['t1']
+					teams[game['t1']]['W'] += 1
+					teams[game['t1']]['PTS'] += 3
+					teams[game['t2']]['L'] += 1
+				elif game['t1_score'] < game['t2_score']:
+					game['winner'] = game['t2']
+					teams[game['t1']]['L'] += 1
+					teams[game['t2']]['PTS'] += 3
+					teams[game['t2']]['W'] += 1
+				game['parsed'] = True
+>>>>>>> 839fb97d4a6291dce37dc32eaaefec1e3c1a58be
 
 		return game,teams
 
@@ -375,7 +421,17 @@ class euro(object):
 
 			if len(data) == 1:
 				token = data[0]
-				print token
+				
+				url = "https://www.googleapis.com/oauth2/v3/tokeninfo?id_token="+token
+				response = urllib.urlopen(url)
+				data = json.loads(response.read())
+				self.data = data
+				print data
+				new_link = 'agenda'
+
+
+
+			conn.send(new_link)
 
 		elif data == 'agenda':
 
