@@ -448,8 +448,9 @@ class euro(object):
 		countries = ''
 
 		for team in teams:
-			countries += '<a href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id'] +'">'
-			countries += '<img class="settings_flag" src="'+ team['flag_url'].replace('23','150') +'"></img>'
+			countries += '<a style="background-image:url("'+ team['flag_url'].replace('23','150')  +'");" class="settings_flag_link" href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id'] +'">'
+			countries += team['name']
+			#countries += '<img class="settings_flag" src="'+ team['flag_url'].replace('23','150') +'"></img>'
 			countries += '</a>'
 
 		main_html = main_html.format(id=user, nav = nav, countries = countries, footer = self.footer)
