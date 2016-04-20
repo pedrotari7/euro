@@ -2610,7 +2610,7 @@ body {
     top: 0; }
    #header > div {
     height: inherit;
-    left: 0.01em;
+    left: 1em;
     line-height: inherit;
     margin: 0;
     padding: 0;
@@ -2677,6 +2677,7 @@ body {
       left: 1em; }
     #header.alt {
       padding: 0.5em 1em; } }
+
 /* Nav */
 #nav {
   -moz-transform: translateX(20em);
@@ -3054,6 +3055,12 @@ a:active {
   background-color: #C2F0E8;
 
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
 
 .input_game{
   font-size: 100%;
@@ -3067,11 +3074,15 @@ a:active {
   width: 100%;
 }
 
-#user_info {
+#user_info{
+  position: fixed;
   width: 70%;
+  left:10%;
   display: flex;
   justify-content: left;
   align-items: center;
+  padding: 1em;
+  margin-left: 2%;
   }
 
   #user_info > h1 {
@@ -3082,18 +3093,45 @@ a:active {
     margin-left: 1em;
     vertical-align: middle;
     }
+
+  #user_info >.user_flag {
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 10px;
+    }
 }
 
-#user_flag {
-  float:left;
-  margin-left: 1em;
-  padding-left: 1em;
-  vertical-align: middle;
-  display: inline-block;
+.user_flag {
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 10px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+
+.settings{
+  
+}
+
+#settings_title{
+  text-align: center
+}
+
+.settings_flag{
+  display: inline-block;
+  padding: 0em;
+  margin: 1%;
+  width: 120px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.settings_flag:hover{
+  border-color: black;
+  border-width: 10px;
 }

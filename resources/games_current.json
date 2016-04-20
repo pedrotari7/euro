@@ -4,30 +4,26 @@
         "group": "A", 
         "location": "Saint-Denis", 
         "number": 1, 
-        "score": "3-2", 
+        "score": "", 
         "stage": "Groups", 
         "t1": "France", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png", 
-        "t1_score": 3, 
         "t2": "Romania", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
-        "t2_score": 2, 
-        "winner": "France"
+        "winner": ""
     }, 
     "10": {
         "date": "13 June 2016 21:00", 
         "group": "E", 
         "location": "Lyon", 
         "number": 10, 
-        "score": "2-1", 
+        "score": "", 
         "stage": "Groups", 
         "t1": "Belgium", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png", 
-        "t1_score": 2, 
         "t2": "Italy", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png", 
-        "t2_score": 1, 
-        "winner": "Belgium"
+        "winner": ""
     }, 
     "11": {
         "date": "14 June 2016 18:00", 
@@ -38,11 +34,9 @@
         "stage": "Groups", 
         "t1": "Austria", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png", 
-        "t1_score": 3, 
         "t2": "Hungary", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png", 
-        "t2_score": 0, 
-        "winner": "Austria"
+        "winner": ""
     }, 
     "12": {
         "date": "14 June 2016 21:00", 
@@ -53,11 +47,9 @@
         "stage": "Groups", 
         "t1": "Portugal", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png", 
-        "t1_score": 1, 
         "t2": "Iceland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png", 
-        "t2_score": 4, 
-        "winner": "Iceland"
+        "winner": ""
     }, 
     "13": {
         "date": "15 June 2016 15:00", 
@@ -77,30 +69,26 @@
         "group": "A", 
         "location": "Paris", 
         "number": 14, 
-        "score": "1-2", 
+        "score": "", 
         "stage": "Groups", 
         "t1": "Romania", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
-        "t1_score": 1, 
         "t2": "Switzerland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png", 
-        "t2_score": 2, 
-        "winner": "Switzerland"
+        "winner": ""
     }, 
     "15": {
         "date": "15 June 2016 21:00", 
         "group": "A", 
         "location": "Marseille", 
         "number": 15, 
-        "score": "4-1", 
+        "score": "", 
         "stage": "Groups", 
         "t1": "France", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png", 
-        "t1_score": 4, 
         "t2": "Albania", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png", 
-        "t2_score": 1, 
-        "winner": "France"
+        "winner": ""
     }, 
     "16": {
         "date": "16 June 2016 15:00", 
@@ -159,15 +147,13 @@
         "group": "A", 
         "location": "Lens", 
         "number": 2, 
-        "score": "0-1", 
+        "score": "", 
         "stage": "Groups", 
         "t1": "Albania", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png", 
-        "t1_score": 0, 
         "t2": "Switzerland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png", 
-        "t2_score": 1, 
-        "winner": "Switzerland"
+        "winner": ""
     }, 
     "20": {
         "date": "17 June 2016 18:00", 
@@ -239,30 +225,26 @@
         "group": "A", 
         "location": "Lyon", 
         "number": 25, 
-        "score": "2-2", 
+        "score": "", 
         "stage": "Groups", 
         "t1": "Romania", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
-        "t1_score": 2, 
         "t2": "Albania", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png", 
-        "t2_score": 2, 
-        "winner": "tie"
+        "winner": ""
     }, 
     "26": {
         "date": "19 June 2016 21:00", 
         "group": "A", 
         "location": "Lille", 
         "number": 26, 
-        "score": "1-1", 
+        "score": "", 
         "stage": "Groups", 
         "t1": "Switzerland", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png", 
-        "t1_score": 1, 
         "t2": "France", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png", 
-        "t2_score": 1, 
-        "winner": "tie"
+        "winner": ""
     }, 
     "27": {
         "date": "20 June 2016 21:00", 
@@ -273,11 +255,9 @@
         "stage": "Groups", 
         "t1": "Russia", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png", 
-        "t1_score": 2, 
         "t2": "Wales", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/23px-Flag_of_Wales_2.svg.png", 
-        "t2_score": 1, 
-        "winner": "Russia"
+        "winner": ""
     }, 
     "28": {
         "date": "20 June 2016 21:00", 

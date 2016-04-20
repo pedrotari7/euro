@@ -8,7 +8,6 @@ cgitb.enable()
 form = cgi.FieldStorage()
 
 id = str(form.getvalue('id'))
-country = str(form.getvalue('country'))
 
 # print "Content-type: text/html\n\n"
 
@@ -24,10 +23,10 @@ try:
 	data = cli.recv(1024)
 
 	if data.lower().strip('\n').strip('\r') == 'ok':
-		cli.send('agenda')
+		cli.send('settings')
 		data = cli.recv(1024)
 		if data.lower().strip('\n').strip('\r') == 'ok':
-			cli.send(id + '\n' + country)
+			cli.send(id + '\n')
 			data = cli.recv(1024)
 
 except:

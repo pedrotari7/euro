@@ -19,11 +19,14 @@ class euro(object):
 		self.buffersize = 250000
 		self.teams = self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
-
 		self.games = self.load_json('resources/games_current.json')
-		self.users = dict()
+		self.users = self.load_json('users/info.json')
 
-		#self.create_new_user('João Pedro Ferreira Alvito')
+		user = unicode('João Pedro Alvito',encoding='utf-8')
+		self.create_new_user(user)
+		self.users[user]['id'] = self.id_generator()
+		print 'localhost/scripts/settings?id='+self.users[user]['id']
+
 		#self.create_new_user('pedro')
 		#self.games = self.read_games_info()
 
@@ -80,7 +83,7 @@ class euro(object):
 
 	def load_json(self,filename):
 		with open(filename, 'r') as fp:
-			return json.load(fp)
+			return json.load(fp, encoding='utf8')
 
 	def read_teams(self):
 		teams = dict()
@@ -112,7 +115,7 @@ class euro(object):
 	def read_template(self,filename):
 
 		with open(filename,'r') as f:
-			return f.read()
+			return unicode(f.read(),encoding='utf-8')
 
 	def read_games_info(self):
 		games = dict()
@@ -168,14 +171,16 @@ class euro(object):
 
 	## Users
 
-
 	def id_generator(self, size=10, chars=string.ascii_uppercase + string.digits +string.ascii_lowercase):
 		
 		return ''.join(random.choice(chars) for _ in range(size))
-
+   
 	def create_new_user(self,user):
 
-		self.users[user] = dict()
+		if user not in self.users:
+			self.users[user] = dict()
+
+		self.users[user]['username'] = user
 
 		if not  os.path.exists(os.path.join('users',user)):
 			os.mkdir(os.path.join('users',user))
@@ -189,12 +194,14 @@ class euro(object):
 
 		self.users[user]['teams'] = self.read_teams()
 
-		self.users[user]['country'] = 'Portugal'
-
-
 		self.users[user]['points'] = dict()
 
+		if 'country' not in self.users[user]:
+			self.users[user]['country'] = ''
+
 		self.clean_user_points(user)
+
+		print user,self.users[user].keys()
 
 	def clean_user_points(self,user):
 		self.users[user]['points']['exact'] = 0
@@ -212,6 +219,13 @@ class euro(object):
 				return user
 		return ''
 
+	def sort_users_scoreboard(self):
+
+		print self.users.keys()
+
+		scores = sorted([(self.users[u]['points']['PTS'],u) for u in self.users],reverse=True)
+
+	 	return [self.users[user] for score,user in scores]
 
 	## HTML creation
 
@@ -246,7 +260,7 @@ class euro(object):
 			t2_score = ''
 
 
-		return game_template.format(color=self.points_colors[result],date=g['date'].replace('2016',''),location=g['location'].encode('utf-8'),t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,number=g['number'],remain=remain,t1_score=t1_score,t2_score=t2_score)
+		return game_template.format(color=self.points_colors[result],date=g['date'].replace('2016',''),location=g['location'],t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,number=g['number'],remain=remain,t1_score=t1_score,t2_score=t2_score)
 
 	def create_group_table_html(self,user,ordered_group,compare_group=[]):
 
@@ -336,7 +350,7 @@ class euro(object):
 		file_location = 'html/agenda.html'
 
 		with open(file_location,'w') as f:
-			f.write(main)
+			f.write(main.encode("UTF-8"))
 
 		file_location = '../' + file_location
 		return file_location
@@ -354,7 +368,7 @@ class euro(object):
 		file_location = 'html/rules.html'
 
 		with open(file_location,'w') as f:
-			f.write(main)
+			f.write(main.encode("UTF-8"))
 
 		file_location = '../' + file_location
 		return file_location
@@ -383,7 +397,7 @@ class euro(object):
 		file_location = 'html/scoreboard.html'
 
 		with open(file_location,'w') as f:
-			f.write(main_html)
+			f.write(main_html.encode("UTF-8"))
 
 		file_location = '../' + file_location
 		return file_location
@@ -392,17 +406,50 @@ class euro(object):
 
 		positions = ''
 
-		for i,U in enumerate(self.users):
+		users = self.sort_users_scoreboard()
+
+		for i,U in enumerate(users):
 
 			position_html = self.read_template('templates/scoreboard_position_template.html')
 
-			S = self.users[U]['points']
+			S = U['points']
 
-			flag = self.teams[self.users[user]['country']]['flag_url']
+			print U.keys()
 
-			positions += position_html.format(pos=i+1,flag = flag ,name=U,exact=S['exact'],right=S['right'],one=S['one'],none=S['none'], points=S['PTS'] ,groups=S['groups'],awards=S['awards'])
+			flag = self.teams[self.users[U['username']]['country']]['flag_url']
+
+			positions += position_html.format(pos=i+1,flag = flag ,name=U['username'],exact=S['exact'],right=S['right'],one=S['one'],none=S['none'], points=S['PTS'] ,groups=S['groups'],awards=S['awards'])
 
 		return positions
+
+	def create_settings(self,user):
+		
+		main_html = self.read_template('templates/settings_template.html')
+		nav = self.read_template('templates/nav_template.html')
+
+		flag = self.teams[self.users[user]['country']]['flag_url']
+		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)	
+
+		teams = [self.teams[t] for t in self.teams.keys()]
+
+		teams = sorted(teams, key=itemgetter('name')) 
+
+		countries = ''
+
+		for team in teams:
+			countries += '<a href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id'] +'">'
+			countries += '<img class="settings_flag" src="'+ team['flag_url'].replace('23','150') +'"></img>'
+			countries += '</a>'
+
+		main_html = main_html.format(id=user, nav = nav, countries = countries, footer = self.footer)
+
+		file_location = 'html/settings.html'
+
+		with open(file_location,'w') as f:
+			f.write(main_html.encode('utf-8'))
+
+		file_location = '../' + file_location
+		return file_location		
 
 
 	## Football Functions
@@ -477,8 +524,14 @@ class euro(object):
 		self.dump_json(self.games,'resources/games_current.json')
 
 		for user in self.users:
+			if 'games' in self.users[user]:
+				self.dump_json(self.users[user]['games'],os.path.join('users',user,'games.json'))
+				del self.users[user]['games']
+			if 'teams' in self.users[user]:
+				del self.users[user]['teams']
 
-			self.dump_json(self.users[user]['games'],os.path.join('users',user,'games.json'))
+
+		self.dump_json(self.users,'users/info.json')
 
 	def handle_request(self,conn,addr,data):
 
@@ -497,14 +550,33 @@ class euro(object):
 				url = "https://www.googleapis.com/oauth2/v3/tokeninfo?id_token="+token
 				response = urllib.urlopen(url)
 				data = json.loads(response.read())
-				user = data['name'].encode('utf-8')
+				
+				user = unicode(data['name'],encoding='utf-8')
+
+				is_new_user = user in self.users 
 
 				self.create_new_user(user)
 				self.users[user]['email'] = data['email']
 				self.users[user]['id'] = self.id_generator()
 
-				new_link = 'agenda?&id=' + self.users[user]['id']
+				if is_new_user:
+					new_link = 'settings?&id=' + self.users[user]['id']
+				else:
+					new_link = 'agenda?&id=' + self.users[user]['id']
 
+
+			conn.send(new_link)
+
+		elif data == 'settings':
+
+			conn.send('ok')
+
+			data = conn.recv(self.buffersize).split('\n')
+			user = self.find_user_by_id(data[0])
+
+			print 'settings ' + user
+
+			new_link = self.create_settings(user)
 
 			conn.send(new_link)
 
@@ -514,8 +586,13 @@ class euro(object):
 
 			data = conn.recv(self.buffersize).split('\n')
 			user = self.find_user_by_id(data[0])
+			country = data[1]
 
-			print 'agenda ' + user
+
+			if country != 'None':
+				self.users[user]['country'] = country
+
+			print 'agenda ' + user + ' ' + country
 
 			new_link = self.create_scheduele_with_groups(user)
 
