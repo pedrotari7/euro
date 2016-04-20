@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import threading, json, urllib, ast, copy, os
+import random, string
 from operator import itemgetter
 from datetime import datetime, date
 from socket import *
@@ -21,8 +22,8 @@ class euro(object):
 
 		self.games = self.load_json('resources/games_current.json')
 		self.users = dict()
-		self.create_new_user('Joao Pedro Ferreira Alvito')
 
+		# self.create_new_user('pedro')
 		#self.games = self.read_games_info()
 
 		self.start_server()
@@ -166,6 +167,11 @@ class euro(object):
 
 	## Users
 
+
+	def id_generator(self, size=10, chars=string.ascii_uppercase + string.digits +string.ascii_lowercase):
+		
+		return ''.join(random.choice(chars) for _ in range(size))
+
 	def create_new_user(self,user):
 
 		self.users[user] = dict()
@@ -184,6 +190,7 @@ class euro(object):
 
 		self.users[user]['country'] = 'Portugal'
 
+
 		self.users[user]['points'] = dict()
 
 		self.clean_user_points(user)
@@ -196,6 +203,14 @@ class euro(object):
 		self.users[user]['points']['groups'] = 0
 		self.users[user]['points']['awards'] = 0
 		self.users[user]['points']['PTS'] = 0
+
+	def find_user_by_id(self,user_id):
+
+		for user in self.users:
+			if self.users[user]['id'] == user_id:
+				return user
+		return ''
+
 
 	## HTML creation
 
@@ -265,7 +280,7 @@ class euro(object):
 
 		flag = self.teams[self.users[user]['country']]['flag_url']
 
-		nav = nav.format(id=user,flag=flag)
+		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
 
 		games_html = ''
 
@@ -315,7 +330,7 @@ class euro(object):
 				for game in [self.games[g] for g in self.games if self.games[g]['stage'] == phase]:
 					games_html += self.fill_game_template(user,game)
 
-		main = main.format(id=user, nav = nav ,data = games_html, footer = self.footer)
+		main = main.format(id=self.users[user]['id'], nav = nav ,data = games_html, footer = self.footer)
 
 		file_location = 'html/agenda.html'
 
@@ -331,7 +346,7 @@ class euro(object):
 		nav = self.read_template('templates/nav_template.html')	
 
 		flag = self.teams[self.users[user]['country']]['flag_url']
-		nav = nav.format(id=user,flag = flag)	
+		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
 
 		main = main.format(nav = nav, footer = self.footer)
 
@@ -358,7 +373,7 @@ class euro(object):
 		nav = self.read_template('templates/nav_template.html')
 
 		flag = self.teams[self.users[user]['country']]['flag_url']
-		nav = nav.format(id=user,flag = flag)	
+		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)	
 
 		lines = self.create_scoreboard_user(user)
 
@@ -387,7 +402,6 @@ class euro(object):
 			positions += position_html.format(pos=i+1,flag = flag ,name=U,exact=S['exact'],right=S['right'],one=S['one'],none=S['none'], points=S['PTS'] ,groups=S['groups'],awards=S['awards'])
 
 		return positions
-
 
 
 	## Football Functions
@@ -454,6 +468,7 @@ class euro(object):
 			self.users[user]['points']['none'] +=1
 			return 1
 
+
 	## Server
 
 	def save_games(self):
@@ -481,10 +496,13 @@ class euro(object):
 				url = "https://www.googleapis.com/oauth2/v3/tokeninfo?id_token="+token
 				response = urllib.urlopen(url)
 				data = json.loads(response.read())
-				self.data = data
-				print data
-				new_link = 'agenda?&id=pedro'
+				user = data['name'].encode('utf-8')
 
+				self.create_new_user(user)
+				self.users[user]['email'] = data['email']
+				self.users[user]['id'] = self.id_generator()
+
+				new_link = 'agenda?&id=' + self.users[user]['id']
 
 
 			conn.send(new_link)
@@ -494,7 +512,7 @@ class euro(object):
 			conn.send('ok')
 
 			data = conn.recv(self.buffersize).split('\n')
-			user = data[0]
+			user = self.find_user_by_id(data[0])
 
 			print 'agenda ' + user
 
@@ -507,7 +525,7 @@ class euro(object):
 			conn.send('ok')
 
 			data = conn.recv(self.buffersize).split('\n')
-			user = data[0]
+			user = self.find_user_by_id(data[0])
 
 			new_link = self.create_rules(user)
 
@@ -521,11 +539,11 @@ class euro(object):
 
 			data = conn.recv(self.buffersize).split('\n')
 
-			user = data[0]
+			user = self.find_user_by_id(data[0])
 
 			self.update_predictions(user,data[1])
 
-			new_link = 'agenda?&id='+user
+			new_link = 'agenda?&id='+data[0]
 
 			conn.send(new_link)
 
@@ -534,7 +552,7 @@ class euro(object):
 			conn.send('ok')
 
 			data = conn.recv(self.buffersize).split('\n')
-			user = data[0]
+			user = self.find_user_by_id(data[0])
 
 			print 'scoreboard ' + user
 

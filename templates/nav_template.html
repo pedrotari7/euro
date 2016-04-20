@@ -3,7 +3,7 @@
 	<!-- <h1><a href="../index.html">{id}</a></h1> -->
 	<div id="user_info">
 		<img id="user_flag" src="{flag}">
-		<h1 style="text-align: center"><a href="../index.html">{id}</a></h1>
+		<h1 style="text-align: center"><a href="../index.html">{name}</a></h1>
 	</div>
 	<a href="#nav">Menu</a>
 </header>
@@ -15,7 +15,7 @@
 		<li><a href="../scripts/scoreboard?&id={id}">Scoreboard</a></li>
 		<li><a href="../scripts/rules.py?&id={id}">Rules</a></li>
 		<li>
-			<a href="#" class="fa fa-sign-out fa-2x"></a>
+			<a href="#" onclick="signOut();" class="fa fa-sign-out fa-2x"></a>
 		</li>
 	</ul>
 </nav>
