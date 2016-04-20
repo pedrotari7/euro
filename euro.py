@@ -82,8 +82,11 @@ class euro(object):
 			json.dump(data,fp,sort_keys=True,indent=4, encoding="utf-8")
 
 	def load_json(self,filename):
-		with open(filename, 'r') as fp:
-			return json.load(fp, encoding='utf8')
+		if os.path.exists(filename):
+			with open(filename, 'r') as fp:
+				return json.load(fp, encoding='utf8')
+		else:
+			return {}
 
 	def read_teams(self):
 		teams = dict()
