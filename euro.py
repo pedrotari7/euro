@@ -21,7 +21,7 @@ class euro(object):
 
 		self.games = self.load_json('resources/games_current.json')
 		self.users = dict()
-		self.create_new_user('Joao Pedro Ferreira Alvito')
+		self.create_new_user('João Pedro Ferreira Alvito')
 
 		#self.games = self.read_games_info()
 
