@@ -554,6 +554,8 @@ class euro(object):
 				response = urllib.urlopen(url)
 				data = json.loads(response.read())
 				
+				print data['name'], repr(data['name'])
+
 				user = unicode(data['name'],encoding='utf-8')
 
 				is_new_user = user in self.users 
