@@ -1217,25 +1217,25 @@ body {
   background-color: #fff;
   color: #777; }
 
-body, input, select, textarea {
+body, input, select, textarea, .input_game {
   font-family: "Raleway", Helvetica, sans-serif;
   font-size: 13pt;
   font-weight: 400;
   line-height: 2em; }
   @media screen and (max-width: 1680px) {
-    body, input, select, textarea {
+    body, input, select, textarea, .input_game {
       font-size: 11pt; } }
   @media screen and (max-width: 1280px) {
-    body, input, select, textarea {
+    body, input, select, textarea, .input_game {
       font-size: 11pt; } }
   @media screen and (max-width: 980px) {
-    body, input, select, textarea {
+    body, input, select, textarea, .input_game {
       font-size: 12pt; } }
   @media screen and (max-width: 736px) {
-    body, input, select, textarea {
+    body, input, select, textarea, .input_game {
       font-size: 12pt; } }
   @media screen and (max-width: 480px) {
-    body, input, select, textarea {
+    body, input, select, textarea, .input_game {
       font-size: 12pt; } }
 
 a {
@@ -1334,7 +1334,7 @@ hr {
 .align-right {
   text-align: right; }
 
-input, select, textarea {
+input, select, textarea, .input_game {
   color: #25383B; }
 
 a {
@@ -1424,7 +1424,7 @@ input[type="text"],
 input[type="password"],
 input[type="email"],
 select,
-textarea {
+textarea, .input_game{
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -1445,6 +1445,7 @@ textarea {
   input[type="password"]:invalid,
   input[type="email"]:invalid,
   select:invalid,
+  .input_game,
   textarea:invalid {
     box-shadow: none; }
 
@@ -1479,7 +1480,7 @@ input[type="email"],
 select {
   height: 3.5em; }
 
-textarea {
+textarea, .input_game {
   padding: 0.75em 1em; }
 
 input[type="checkbox"],
@@ -1558,7 +1559,8 @@ input[type="text"],
 input[type="password"],
 input[type="email"],
 select,
-textarea {
+textarea,
+.input_game{
   background-color: rgba(144, 144, 144, 0.075);
   border-color: rgba(144, 144, 144, 0.25);
   color: inherit; }
@@ -1566,7 +1568,8 @@ textarea {
   input[type="password"]:focus,
   input[type="email"]:focus,
   select:focus,
-  textarea:focus {
+  textarea:focus,
+  .input_game:focus {
     border-color: #51BAA4;
     box-shadow: 0 0 0 1px #51BAA4; }
 
@@ -1609,7 +1612,8 @@ form.alt input[type="text"],
 form.alt input[type="password"],
 form.alt input[type="email"],
 form.alt select,
-form.alt textarea {
+form.alt textarea,
+form.alt .input_game {
   background-color: transparent; }
 
 /* Box */
@@ -1936,9 +1940,9 @@ input[type="button"],
 button,
 .button {
   position: fixed;
-  top:95%;
+  top:90%;
   left:0%;
-  height:5%;
+  height:10%;
   width: 100%;
   background-color: #25383B;
   box-shadow: none;
@@ -3008,9 +3012,7 @@ a:active {
   font-weight: bold;
 }
 
-
-
-.form_wrapper,.game_line,.groups_wrapper,.group_anchor{
+.form_wrapper,.game_line,.group_anchor{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -3018,18 +3020,30 @@ a:active {
   align-items: center;
 }
 
+
+.groups_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+
+}
+
+
 .groups_wrapper{
   position: fixed;
   left: 0;
-  top: 90%;
-  width: 100%;
-  height: 5%;
+  top: 2%;
+  width: 2%;
+  height: 90%;
 }
 
 .group_anchor{
   position: relative;
-  width: 14.27%;
-  height: 100%;
+/*  width: 14.27%;
+  height: 100%;*/
+  width: 100%;
+  height: 15%;
   text-align: center;
   background-color: #8ADBCE;
   color : white;
@@ -3054,7 +3068,7 @@ a:active {
 }
 
 #user_info {
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -3076,4 +3090,10 @@ a:active {
   padding-left: 1em;
   vertical-align: middle;
   display: inline-block;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
