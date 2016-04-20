@@ -556,7 +556,7 @@ class euro(object):
 				
 				print data['name'], repr(data['name'])
 
-				user = unicode(data['name'],encoding='utf-8')
+				user = data['name'].encode('utf-8')
 
 				is_new_user = user in self.users 
 
