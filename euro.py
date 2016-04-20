@@ -296,8 +296,10 @@ class euro(object):
 		main = self.read_template('templates/scheduele_template.html')
 		nav = self.read_template('templates/nav_template.html')
 
-		flag = self.teams[self.users[user]['country']]['flag_url']
-
+		if self.users[user]['country'] in self.teams:
+			flag = self.teams[self.users[user]['country']]['flag_url']
+		else:
+			flag = ''
 		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
 
 		games_html = ''
@@ -363,7 +365,10 @@ class euro(object):
 		main = self.read_template('templates/rules_template.html')
 		nav = self.read_template('templates/nav_template.html')	
 
-		flag = self.teams[self.users[user]['country']]['flag_url']
+		if self.users[user]['country'] in self.teams:
+			flag = self.teams[self.users[user]['country']]['flag_url']
+		else:
+			flag = ''
 		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
 
 		main = main.format(nav = nav, footer = self.footer)
@@ -390,7 +395,10 @@ class euro(object):
 		main_html = self.read_template('templates/scoreboard_template.html')
 		nav = self.read_template('templates/nav_template.html')
 
-		flag = self.teams[self.users[user]['country']]['flag_url']
+		if self.users[user]['country'] in self.teams:
+			flag = self.teams[self.users[user]['country']]['flag_url']
+		else:
+			flag = ''
 		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)	
 
 		lines = self.create_scoreboard_user(user)
