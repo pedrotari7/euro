@@ -4,13 +4,15 @@
         "group": "A", 
         "location": "Saint-Denis", 
         "number": 1, 
-        "score": "", 
+        "score": "1-0", 
         "stage": "Groups", 
         "t1": "France", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png", 
+        "t1_score": 1, 
         "t2": "Romania", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
-        "winner": ""
+        "t2_score": 0, 
+        "winner": "France"
     }, 
     "10": {
         "date": "13 June 2016 21:00", 
@@ -21,8 +23,10 @@
         "stage": "Groups", 
         "t1": "Belgium", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png", 
+        "t1_score": "", 
         "t2": "Italy", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "11": {
@@ -34,8 +38,10 @@
         "stage": "Groups", 
         "t1": "Austria", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png", 
+        "t1_score": "", 
         "t2": "Hungary", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "12": {
@@ -47,8 +53,10 @@
         "stage": "Groups", 
         "t1": "Portugal", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png", 
+        "t1_score": "", 
         "t2": "Iceland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "13": {
@@ -60,8 +68,10 @@
         "stage": "Groups", 
         "t1": "Russia", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png", 
+        "t1_score": "", 
         "t2": "Slovakia", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "14": {
@@ -73,8 +83,10 @@
         "stage": "Groups", 
         "t1": "Romania", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
+        "t1_score": "", 
         "t2": "Switzerland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "15": {
@@ -86,8 +98,10 @@
         "stage": "Groups", 
         "t1": "France", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png", 
+        "t1_score": "", 
         "t2": "Albania", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "16": {
@@ -99,8 +113,10 @@
         "stage": "Groups", 
         "t1": "England", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png", 
+        "t1_score": "", 
         "t2": "Wales", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/23px-Flag_of_Wales_2.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "17": {
@@ -112,8 +128,10 @@
         "stage": "Groups", 
         "t1": "Ukraine", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png", 
+        "t1_score": "", 
         "t2": "Northern Ireland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Northern_Ireland.svg/23px-Flag_of_Northern_Ireland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "18": {
@@ -125,8 +143,10 @@
         "stage": "Groups", 
         "t1": "Germany", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png", 
+        "t1_score": "", 
         "t2": "Poland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "19": {
@@ -138,8 +158,10 @@
         "stage": "Groups", 
         "t1": "Italy", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png", 
+        "t1_score": "", 
         "t2": "Sweden", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "2": {
@@ -151,8 +173,10 @@
         "stage": "Groups", 
         "t1": "Albania", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png", 
+        "t1_score": "", 
         "t2": "Switzerland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "20": {
@@ -164,8 +188,10 @@
         "stage": "Groups", 
         "t1": "Czech Republic", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png", 
+        "t1_score": "", 
         "t2": "Croatia", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "21": {
@@ -177,8 +203,10 @@
         "stage": "Groups", 
         "t1": "Spain", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png", 
+        "t1_score": "", 
         "t2": "Turkey", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "22": {
@@ -190,8 +218,10 @@
         "stage": "Groups", 
         "t1": "Belgium", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png", 
+        "t1_score": "", 
         "t2": "Republic of Ireland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "23": {
@@ -203,8 +233,10 @@
         "stage": "Groups", 
         "t1": "Iceland", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png", 
+        "t1_score": "", 
         "t2": "Hungary", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "24": {
@@ -216,8 +248,10 @@
         "stage": "Groups", 
         "t1": "Portugal", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png", 
+        "t1_score": "", 
         "t2": "Austria", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "25": {
@@ -229,8 +263,10 @@
         "stage": "Groups", 
         "t1": "Romania", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
+        "t1_score": "", 
         "t2": "Albania", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "26": {
@@ -242,8 +278,10 @@
         "stage": "Groups", 
         "t1": "Switzerland", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png", 
+        "t1_score": "", 
         "t2": "France", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "27": {
@@ -255,8 +293,10 @@
         "stage": "Groups", 
         "t1": "Russia", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png", 
+        "t1_score": "", 
         "t2": "Wales", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/23px-Flag_of_Wales_2.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "28": {
@@ -268,8 +308,10 @@
         "stage": "Groups", 
         "t1": "Slovakia", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png", 
+        "t1_score": "", 
         "t2": "England", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "29": {
@@ -281,8 +323,10 @@
         "stage": "Groups", 
         "t1": "Ukraine", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png", 
+        "t1_score": "", 
         "t2": "Poland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "3": {
@@ -294,8 +338,10 @@
         "stage": "Groups", 
         "t1": "Wales", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/23px-Flag_of_Wales_2.svg.png", 
+        "t1_score": "", 
         "t2": "Slovakia", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "30": {
@@ -307,8 +353,10 @@
         "stage": "Groups", 
         "t1": "Northern Ireland", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Northern_Ireland.svg/23px-Flag_of_Northern_Ireland.svg.png", 
+        "t1_score": "", 
         "t2": "Germany", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "31": {
@@ -320,8 +368,10 @@
         "stage": "Groups", 
         "t1": "Czech Republic", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png", 
+        "t1_score": "", 
         "t2": "Turkey", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "32": {
@@ -333,8 +383,10 @@
         "stage": "Groups", 
         "t1": "Croatia", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png", 
+        "t1_score": "", 
         "t2": "Spain", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "33": {
@@ -346,8 +398,10 @@
         "stage": "Groups", 
         "t1": "Iceland", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png", 
+        "t1_score": "", 
         "t2": "Austria", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "34": {
@@ -359,8 +413,10 @@
         "stage": "Groups", 
         "t1": "Hungary", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png", 
+        "t1_score": "", 
         "t2": "Portugal", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "35": {
@@ -372,8 +428,10 @@
         "stage": "Groups", 
         "t1": "Italy", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png", 
+        "t1_score": "", 
         "t2": "Republic of Ireland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "36": {
@@ -385,8 +443,10 @@
         "stage": "Groups", 
         "t1": "Sweden", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png", 
+        "t1_score": "", 
         "t2": "Belgium", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "37": {
@@ -396,7 +456,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "2A", 
+        "t1_score": "", 
         "t2": "2C", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "38": {
@@ -406,7 +468,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "1B", 
+        "t1_score": "", 
         "t2": "3ACD", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "39": {
@@ -416,7 +480,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "1D", 
+        "t1_score": "", 
         "t2": "3BEF", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "4": {
@@ -428,8 +494,10 @@
         "stage": "Groups", 
         "t1": "England", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png", 
+        "t1_score": "", 
         "t2": "Russia", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "40": {
@@ -439,7 +507,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "1A", 
+        "t1_score": "", 
         "t2": "3CDE", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "41": {
@@ -449,7 +519,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "1C", 
+        "t1_score": "", 
         "t2": "3ABF", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "42": {
@@ -459,7 +531,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "1F", 
+        "t1_score": "", 
         "t2": "2E", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "43": {
@@ -469,7 +543,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "1E", 
+        "t1_score": "", 
         "t2": "2D", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "44": {
@@ -479,7 +555,9 @@
         "score": "", 
         "stage": "Round of 16", 
         "t1": "2B", 
+        "t1_score": "", 
         "t2": "2F", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "45": {
@@ -489,7 +567,9 @@
         "score": "", 
         "stage": "Quarter-finals", 
         "t1": "37", 
+        "t1_score": "", 
         "t2": "39", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "46": {
@@ -499,7 +579,9 @@
         "score": "", 
         "stage": "Quarter-finals", 
         "t1": "38", 
+        "t1_score": "", 
         "t2": "42", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "47": {
@@ -509,7 +591,9 @@
         "score": "", 
         "stage": "Quarter-finals", 
         "t1": "41", 
+        "t1_score": "", 
         "t2": "43", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "48": {
@@ -519,7 +603,9 @@
         "score": "", 
         "stage": "Quarter-finals", 
         "t1": "40", 
+        "t1_score": "", 
         "t2": "44", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "49": {
@@ -529,7 +615,9 @@
         "score": "", 
         "stage": "Semi-finals", 
         "t1": "45", 
+        "t1_score": "", 
         "t2": "46", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "5": {
@@ -541,8 +629,10 @@
         "stage": "Groups", 
         "t1": "Turkey", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png", 
+        "t1_score": "", 
         "t2": "Croatia", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "50": {
@@ -552,7 +642,9 @@
         "score": "", 
         "stage": "Semi-finals", 
         "t1": "47", 
+        "t1_score": "", 
         "t2": "48", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "51": {
@@ -562,7 +654,9 @@
         "score": "", 
         "stage": "Final", 
         "t1": "49", 
+        "t1_score": "", 
         "t2": "50", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "6": {
@@ -574,8 +668,10 @@
         "stage": "Groups", 
         "t1": "Poland", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png", 
+        "t1_score": "", 
         "t2": "Northern Ireland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Northern_Ireland.svg/23px-Flag_of_Northern_Ireland.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "7": {
@@ -587,8 +683,10 @@
         "stage": "Groups", 
         "t1": "Germany", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png", 
+        "t1_score": "", 
         "t2": "Ukraine", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "8": {
@@ -600,8 +698,10 @@
         "stage": "Groups", 
         "t1": "Spain", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png", 
+        "t1_score": "", 
         "t2": "Czech Republic", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }, 
     "9": {
@@ -613,8 +713,10 @@
         "stage": "Groups", 
         "t1": "Republic of Ireland", 
         "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png", 
+        "t1_score": "", 
         "t2": "Sweden", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png", 
+        "t2_score": "", 
         "winner": ""
     }
 }

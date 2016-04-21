@@ -3021,6 +3021,13 @@ a:active {
   align-items: center;
 }
 
+.game_line_individual{
+  width: 100%;
+
+  background-color: white;
+
+}
+
 
 .groups_wrapper{
   display: flex;
@@ -3168,4 +3175,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1'); 
 */
+}
+
+.game_number:hover{
+  border-color: black;
+  background: #e1e1e1;
+  border: 3px solid black;
+  border-radius: 5px;
 }
