@@ -27,7 +27,7 @@ class euro(object):
 		user = unicode('João Pedro Alvito',encoding='utf-8')
 
 		# self.create_new_user(user)
-		print 'localhost/scripts/agenda?id='+self.users[user]['id']+'&user='+user.replace(' ','%20')
+		# print 'localhost/scripts/agenda?id='+self.users[user]['id']+'&user='+user.replace(' ','%20')
 
 		
 
@@ -458,7 +458,7 @@ class euro(object):
 		countries = ''
 
 		for team in teams:
-			countries += '<a style="background-image:url('+ team['flag_url'].replace('23','200')  +');" class="settings_flag_link" href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id'] +'">'
+			countries += '<a style="background-image:url('+ team['flag_url'].replace('23','200')  +');" class="settings_flag_link" href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id']+ '&user='+ user +'">'
 			# countries += '<p>'+team['name']+'</p>'
 			#countries += '<img class="settings_flag" src="'+ team['flag_url'].replace('23','150') +'"></img>'
 			countries += '</a>'
