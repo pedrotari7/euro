@@ -9,7 +9,7 @@ form = cgi.FieldStorage()
 
 id = str(form.getvalue('id'))
 
-# print "Content-type: text/html\n\n"
+buffersize = 250000
 
 try:
 	HOST = 'localhost'
@@ -20,17 +20,19 @@ try:
 	cli = socket( AF_INET,SOCK_STREAM)
 	cli.connect((ADDR))
 
-	data = cli.recv(1024)
+	data = cli.recv(buffersize)
 
 	if data.lower().strip('\n').strip('\r') == 'ok':
 		cli.send('settings')
-		data = cli.recv(1024)
+		data = cli.recv(buffersize)
 		if data.lower().strip('\n').strip('\r') == 'ok':
 			cli.send(id + '\n')
-			data = cli.recv(1024)
+			data = cli.recv(buffersize)
 
 except:
 	raise
 	login = False
 
-print "Location:"+ data +"\n\n";
+
+print "Content-type: text/html\n\n"
+print data
