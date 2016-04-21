@@ -22,10 +22,10 @@ class euro(object):
 		self.games = self.load_json('resources/games_current.json')
 		self.users = self.load_json('users/info.json')
 
-		user = unicode('João Pedro Alvito',encoding='utf-8')
-		self.create_new_user(user)
-		self.users[user]['id'] = self.id_generator()
-		print 'localhost/scripts/settings?id='+self.users[user]['id']
+		# user = unicode('João Pedro Alvito',encoding='utf-8')
+		# self.create_new_user(user)
+		# self.users[user]['id'] = self.id_generator()
+		# print 'localhost/scripts/settings?id='+self.users[user]['id']
 
 		#self.create_new_user('pedro')
 		#self.games = self.read_games_info()
@@ -438,7 +438,10 @@ class euro(object):
 		main_html = self.read_template('templates/settings_template.html')
 		nav = self.read_template('templates/nav_template.html')
 
-		flag = self.teams[self.users[user]['country']]['flag_url']
+		if self.users[user]['country'] in self.teams:
+			flag = self.teams[self.users[user]['country']]['flag_url']
+		else:
+			flag = ''
 		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)	
 
 		teams = [self.teams[t] for t in self.teams.keys()]
@@ -448,8 +451,8 @@ class euro(object):
 		countries = ''
 
 		for team in teams:
-			countries += '<a style="background-image:url("'+ team['flag_url'].replace('23','150')  +'");" class="settings_flag_link" href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id'] +'">'
-			countries += team['name']
+			countries += '<a style="background-image:url('+ team['flag_url'].replace('23','200')  +');" class="settings_flag_link" href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id'] +'">'
+			# countries += '<p>'+team['name']+'</p>'
 			#countries += '<img class="settings_flag" src="'+ team['flag_url'].replace('23','150') +'"></img>'
 			countries += '</a>'
 
@@ -565,15 +568,18 @@ class euro(object):
 				
 				print data['name'], repr(data['name'])
 
-				user = data['name'].encode('utf-8')
+				user = data['name']
 
+				print user, repr(user)
 				is_new_user = user in self.users 
+
+				print self.users.keys()
 
 				self.create_new_user(user)
 				self.users[user]['email'] = data['email']
 				self.users[user]['id'] = self.id_generator()
 
-				if is_new_user:
+				if not is_new_user:
 					new_link = 'settings?&id=' + self.users[user]['id']
 				else:
 					new_link = 'agenda?&id=' + self.users[user]['id']
