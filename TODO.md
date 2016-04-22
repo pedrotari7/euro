@@ -18,7 +18,6 @@ Future:
 
 - Landing page with summary of what is going on
 
-
 - Sort scoreboard with tie-brake rules
 
 - Blur images from settings when hovering and show country names
