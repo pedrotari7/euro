@@ -20,16 +20,14 @@ class euro(object):
 		self.teams = self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
 		self.games = self.load_json('resources/games_current.json')
+		self.thirdplace = self.load_json('resources/3place.json')
 		self.users = self.load_json('users/info.json')
-
 		self.load_users()
 
 		user = unicode('João Pedro Alvito',encoding='utf-8')
 
 		# self.create_new_user(user)
 		print 'localhost/scripts/agenda?id='+self.users[user]['id']+'&user='+user.replace(' ','%20')
-
-		
 
 		#self.create_new_user('pedro')
 		#self.games = self.read_games_info()
@@ -171,10 +169,12 @@ class euro(object):
 				teams[team]['G'] = 0
 				teams[team]['GF'] = 0
 				teams[team]['GA'] = 0
+				teams[team]['GD'] = 0
 				teams[team]['W'] = 0
 				teams[team]['D'] = 0
 				teams[team]['L'] = 0
 				teams[team]['PTS'] = 0
+				teams[team]['name'] = team
 		return teams
 
 
@@ -257,8 +257,8 @@ class euro(object):
 
 			for group in sorted(self.groups):
 
-				predicted_ordered_group = self.order_teams(self.groups[group],self.users[user]['teams'])
-				real_ordered_group = self.order_teams(self.groups[group],self.teams)
+				predicted_ordered_group = self.sort_teams(self.groups[group],self.users[user]['teams'],self.users[user]['games'])
+				real_ordered_group = self.sort_teams(self.groups[group],self.teams,self.games)
 
 				for i,T in enumerate(predicted_ordered_group):					
 					if real_ordered_group[i]['name'] == T['name']:
@@ -355,13 +355,13 @@ class euro(object):
 			table_html = self.read_template('templates/table_template.html')
 
 			# Real
-			ordered_group = self.order_teams(self.groups[group],self.teams)
+			ordered_group = self.sort_teams(self.groups[group],self.teams,self.games)
 			positions_htmls, group_html = self.create_group_table_html(desired_user,ordered_group)
 			table_left = group_html.format(side='left',title='Real', t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
 
 
 			# Predicted
-			pred_ordered_group = self.order_teams(self.groups[group],self.users[desired_user]['teams'])
+			pred_ordered_group = self.sort_teams(self.groups[group],self.users[desired_user]['teams'],self.users[desired_user]['games'])
 			positions_htmls, group_html = self.create_group_table_html(desired_user,pred_ordered_group, compare_group=ordered_group)
 			table_right = group_html.format(side='right',title='Predicted', t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
 
@@ -549,10 +549,13 @@ class euro(object):
 			teams[game['t1']]['G'] += 1
 			teams[game['t1']]['GF'] += game['t1_score']
 			teams[game['t1']]['GA'] += game['t2_score']
+			teams[game['t1']]['GD'] = teams[game['t1']]['GF'] - teams[game['t1']]['GA']
 
 			teams[game['t2']]['G'] += 1
 			teams[game['t2']]['GF'] += game['t2_score']
 			teams[game['t2']]['GA'] += game['t1_score']
+			teams[game['t2']]['GD'] = teams[game['t2']]['GF'] - teams[game['t2']]['GA']
+
 
 			if game['t1_score'] == game['t2_score']:
 				game['winner'] = 'tie'
@@ -577,17 +580,110 @@ class euro(object):
 
 		return game,teams
 
-	def order_teams(self,group,teams):
+	def sort_teams(self,group,teams,games):
 
-		group_teams = [teams[t] for t in group]
+		final_order = []
 
-		ordered_teams = sorted(group_teams, key=itemgetter('PTS'), reverse = True) 
+		group_teams = dict()
 
-		return ordered_teams
+		for t in group:
+			if teams[t]['PTS'] in group_teams:
+				group_teams[teams[t]['PTS']].append(t)
+			else:
+				group_teams[teams[t]['PTS']] = [t]
+
+
+		for points in sorted(group_teams.keys(),reverse=True):
+			if len(group_teams[points]) == 1:
+				final_order += [group_teams[points][0]]
+			else:
+				# First Tie break points in the games between each other
+				final_order += self.sort_teams_common_games(group_teams[points],teams,games)
+
+		return [teams[t] for t in final_order]
+
+	def sort_teams_common_games(self,tied_teams,teams,games):
+
+		common_games = [games[g] for g in games if (games[g]['t1'] in tied_teams and games[g]['t2'] in tied_teams) and games[g]['score']]
+
+		if not common_games:
+			teams = sorted([teams[t] for t in tied_teams], key=itemgetter('GD'),reverse=True)
+			return [t['name'] for t in teams]
+
+		
+		new_teams = dict() 
+		for t in tied_teams:
+			new_teams[t] = dict() 
+		new_teams = self.clean_teams(new_teams)
+
+		for game in common_games:
+			games[str(game['number'])],new_teams = self.parse_score(games[str(game['number'])],new_teams)
+
+		group_teams = dict()
+		for t in new_teams:
+			if new_teams[t]['PTS'] in group_teams:
+				group_teams[new_teams[t]['PTS']].append(t)
+			else:
+				group_teams[new_teams[t]['PTS']] = [t]
+
+		final_order = []
+
+		for points in sorted(group_teams.keys(),reverse=True):
+			if len(group_teams[points]) == 1:
+				# Tie break points in the games between each other
+				final_order += [group_teams[points][0]]
+			else:
+				# First Tie break goal diference in the games between each other
+				sorted_teams = self.sort_teams_parameter(group_teams[points],new_teams,'GD')
+
+				if sorted_teams:
+					final_order += sorted_teams
+				else:
+					sorted_teams = self.sort_teams_parameter(group_teams[points],new_teams,'GF')
+					if sorted_teams:
+						final_order += sorted_teams
+					else:
+						sorted_teams = self.sort_teams_parameter(group_teams[points],teams,'GD')
+						if sorted_teams:
+							final_order += sorted_teams
+						else:
+							sorted_teams = self.sort_teams_parameter(group_teams[points],teams,'GF')
+							if sorted_teams:
+								final_order += sorted_teams
+							else:
+								return group_teams[points]
+
+
+		return final_order
+
+	def sort_teams_parameter(self,tied_teams,teams,tiebreaker):
+
+		group_teams = dict()
+		for t in tied_teams:
+			if teams[t][tiebreaker] in group_teams:
+				group_teams[teams[t][tiebreaker]].append(t)
+			else:
+				group_teams[teams[t][tiebreaker]] = [t]
+
+		final_order = []
+
+		for goals in sorted(group_teams.keys(),reverse=True):
+
+			if len(group_teams[goals]) == 1:
+				# Tie break goals in the games between each other
+
+				final_order += [group_teams[goals][0]]
+			else:
+				# First Tie break goal diference in the games between each other
+
+				return None
+
+		return final_order
+
 
 	def prediction_result(self,user,real,predicted,points=True):
 
-		if not predicted['score']:
+		if not predicted['score'] or '-' not in real['score']:
 			return 0
 		elif real['score'] == predicted['score']:
 			if points:

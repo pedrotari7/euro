@@ -6,7 +6,11 @@ Today:
 
 - Redirect to initial page (or other page) when the user is no longer valid
 
+- Incorporate logout in all the pages
+
 Future:
+
+- Implement the 3 place sorting and html creation
 
 - Error handling when user is messing with the url
 
@@ -14,10 +18,8 @@ Future:
 
 - Landing page with summary of what is going on
 
-- Sort groups according to the official rules
 
 - Sort scoreboard with tie-brake rules
-
 
 - Blur images from settings when hovering and show country names
 
@@ -48,3 +50,9 @@ Future:
 - Update scores and scoreboard 
 
 - Page for each game with everybody predictions
+
+- Sort groups according to the official rules
+
+
+
+
