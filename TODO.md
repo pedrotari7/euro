@@ -4,19 +4,17 @@
 
 Today:
 
-- Redirect to initial page (or other page) when the user is no longer valid
 
-- Incorporate logout in all the pages
 
 Future:
 
 - Implement the 3 place sorting and html creation
 
-- Error handling when user is messing with the url
+- 404 page
+
+- Javacript to make sure that both scores of one game are there
 
 - Final phase games parsing and advance to the next stage
-
-- Landing page with summary of what is going on
 
 - Sort scoreboard with tie-brake rules
 
@@ -26,11 +24,15 @@ Future:
 
 - Time left to the game in hours and then minutes
 
+- Backup of users info
+
 - Prediciton for individual awards
 
 - Setup email for welcome message and notifications for deadlines
 
 - Add facebook login? maybe
+
+
 
 
 -------------------------------------------------------------------------------
@@ -52,6 +54,13 @@ Future:
 
 - Sort groups according to the official rules
 
+- Incorporate logout in all the pages
+
+- Redirect to initial page (or other page) when the user is no longer valid
+
+- Error handling when user is messing with the url
+
+- Landing page with summary of what is going on
 
 
 

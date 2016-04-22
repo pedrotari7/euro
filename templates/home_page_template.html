@@ -1,16 +1,18 @@
 <!DOCTYPE HTML>
 
 <html>
-	
 	{header}
 
 	<body>
 
 		{nav}
+
+		<!-- Main -->
+
 		<div class="container">
 
 		<header class="major special">
-					<h2>Game {number}</h2>
+					<h2>Next Game</h2>
 		</header>
 
 		<table style="width: 100%; background-color:white; clear:both; text-align:center;">
@@ -50,6 +52,35 @@
 
 		<br>
 
+		<div class="container">
+
+		<table class="scoreboard_table" style="text-align:center;"> 
+				<tr>
+				<th scope="col" style="text-align: center;">Pos</th>
+				<th scope="col" style="text-align: center;">Country</th>
+				<th scope="col" style="text-align: center;">Name</th>
+				<th scope="col" style="text-align: center;"><abbr title="Exact">E</abbr></th>
+
+				<th scope="col" style="text-align: center;"><abbr title="Right Result">R</abbr></th>
+
+				<th scope="col" style="text-align: center;"><abbr title="Team Score">T</abbr></th>
+
+				<th scope="col" style="text-align: center;"><abbr title="Fail">F</abbr></th>
+
+				<th scope="col" style="text-align: center;"><abbr title="Groups">G</abbr></th>
+
+				<th scope="col" style="text-align: center;"><abbr title="Awards">A</abbr></th>
+
+				<th scope="col" style="text-align: center;"><abbr title="Points">PTS</abbr></th>
+				</tr>
+				{lines}
+		</table>
+
+		</div>
+
+
+
 		{footer}
 
+	</body>
 </html>

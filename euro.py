@@ -24,13 +24,17 @@ class euro(object):
 		self.users = self.load_json('users/info.json')
 		self.load_users()
 
-		user = unicode('João Pedro Alvito',encoding='utf-8')
+		# user = unicode('João Pedro Alvito',encoding='utf-8')
 
 		# self.create_new_user(user)
-		print 'localhost/scripts/agenda?id='+self.users[user]['id']+'&user='+user.replace(' ','%20')
+		# print 'localhost/scripts/agenda?id='+self.users[user]['id']+'&user='+user.replace(' ','%20')
 
 		#self.create_new_user('pedro')
 		#self.games = self.read_games_info()
+
+		for game in self.games:
+			self.games[game],self.teams = self.parse_score(self.games[game],self.teams)
+
 
 		self.start_server()
 
@@ -201,7 +205,7 @@ class euro(object):
 			self.users[user]['games'] = self.load_json('resources/games_clean.json')
 			self.dump_json(self.games,p)
 
-		self.users[user]['teams'] = self.read_teams()
+		self.users[user]['teams'] = self.clean_teams(self.read_teams())
 
 		self.users[user]['points'] = dict()
 
@@ -211,8 +215,6 @@ class euro(object):
 		self.clean_user_points(user)
 
 		self.users[user]['id'] = self.id_generator()
-
-		print user,self.users[user].keys()
 
 	def load_users(self):
 		for user in self.users:
@@ -230,14 +232,11 @@ class euro(object):
 	def find_user_by_id(self,user_id):
 
 		for user in self.users:
-			print repr(user),self.users[user]['id'], user_id
 			if self.users[user]['id'] == user_id:
 				return user
 		return ''
 
 	def sort_users_scoreboard(self):
-
-		print self.users.keys()
 
 		scores = sorted([(self.users[u]['points']['PTS'],u) for u in self.users],reverse=True)
 
@@ -258,12 +257,14 @@ class euro(object):
 			for group in sorted(self.groups):
 
 				predicted_ordered_group = self.sort_teams(self.groups[group],self.users[user]['teams'],self.users[user]['games'])
+
 				real_ordered_group = self.sort_teams(self.groups[group],self.teams,self.games)
 
 				for i,T in enumerate(predicted_ordered_group):					
 					if real_ordered_group[i]['name'] == T['name']:
 						self.users[user]['points']['groups'] += 1
 						self.users[user]['points']['PTS'] += 1
+
 
 	## HTML creation
 
@@ -331,6 +332,10 @@ class euro(object):
 		else:
 			main = self.read_template('templates/scheduele_read_only_template.html')
 
+		header = self.read_template('templates/header_template.html')
+
+		header = header.format(title='My Predictions')
+
 		nav = self.read_template('templates/nav_template.html')
 
 		if self.users[user]['country'] in self.teams:
@@ -387,7 +392,7 @@ class euro(object):
 				for game in [self.games[g] for g in self.games if self.games[g]['stage'] == phase]:
 					games_html += self.fill_game_template(desired_user,user,game,user!=desired_user)
 
-		main = main.format(id=self.users[desired_user]['id'], nav = nav ,data = games_html, footer = self.footer)
+		main = main.format(id=self.users[desired_user]['id'],header = header, nav = nav ,data = games_html, footer = self.footer)
 
 		return main.encode('utf-8')
 
@@ -396,13 +401,16 @@ class euro(object):
 		main = self.read_template('templates/rules_template.html')
 		nav = self.read_template('templates/nav_template.html')	
 
+		header = self.read_template('templates/header_template.html')
+		header = header.format(title='Rules')
+
 		if self.users[user]['country'] in self.teams:
 			flag = self.teams[self.users[user]['country']]['flag_url']
 		else:
 			flag = ''
 		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
 
-		main = main.format(nav = nav, footer = self.footer)
+		main = main.format(nav = nav, header=header, footer = self.footer)
 
 		return main.encode('utf-8')
 
@@ -420,17 +428,22 @@ class euro(object):
 		main_html = self.read_template('templates/scoreboard_template.html')
 		nav = self.read_template('templates/nav_template.html')
 
+		header = self.read_template('templates/header_template.html')
+		header = header.format(title='Scoreboard')
+
+		self.teams = self.clean_teams(self.teams)
 		self.update_users_pontuations()
 
 		if self.users[user]['country'] in self.teams:
 			flag = self.teams[self.users[user]['country']]['flag_url']
 		else:
 			flag = ''
+
 		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)	
 
 		lines = self.create_scoreboard_user(user)
 
-		main_html = main_html.format(id=user, nav = nav, lines = lines, footer = self.footer)
+		main_html = main_html.format(id=user, header = header, nav = nav, lines = lines, footer = self.footer)
 
 		return main_html.encode('utf-8')
 
@@ -451,13 +464,16 @@ class euro(object):
 			else:
 				color = ''
 
-			flag = self.teams[self.users[U['username']]['country']]['flag_url']
+			if self.users[user]['country'] in self.teams:
+				flag = self.teams[self.users[user]['country']]['flag_url']
+			else:
+				flag = ''
 
 			positions += position_html.format(pos=i+1,color=color,id = self.users[user]['id'] ,flag = flag ,name=U['username'],exact=S['exact'],right=S['right'],one=S['one'],none=S['none'], points=S['PTS'] ,groups=S['groups'],awards=S['awards'])
 
 		return positions
 
-	def create_settings(self,user):
+	def create_settings(self,user,new_user):
 		
 		main_html = self.read_template('templates/settings_template.html')
 		nav = self.read_template('templates/nav_template.html')
@@ -468,6 +484,10 @@ class euro(object):
 			flag = ''
 		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)	
 
+		header = self.read_template('templates/header_template.html')
+		header = header.format(title='Settings')
+
+
 		teams = [self.teams[t] for t in self.teams.keys()]
 
 		teams = sorted(teams, key=itemgetter('name')) 
@@ -475,12 +495,12 @@ class euro(object):
 		countries = ''
 
 		for team in teams:
-			countries += '<a style="background-image:url('+ team['flag_url'].replace('23','200')  +');" class="settings_flag_link" href="../scripts/agenda?&country='+team['name'] +'&id='+ self.users[user]['id']+ '&user='+ user +'">'
+			countries += '<a style="background-image:url('+ team['flag_url'].replace('23','200')  +');" class="settings_flag_link" href="../scripts/home?&country='+team['name'] +'&id='+ self.users[user]['id']+ '">'
 			# countries += '<p>'+team['name']+'</p>'
 			#countries += '<img class="settings_flag" src="'+ team['flag_url'].replace('23','150') +'"></img>'
 			countries += '</a>'
 
-		main_html = main_html.format(id=user, nav = nav, countries = countries, footer = self.footer)
+		main_html = main_html.format(id=user,header = header, nav = nav, countries = countries, footer = self.footer)
 
 		return main_html.encode('utf-8')		
 
@@ -489,7 +509,9 @@ class euro(object):
 		main_html = self.read_template('templates/game_page_template.html')
 		nav = self.read_template('templates/nav_template.html')
 
-		# self.update_users_pontuations()
+		
+		header = self.read_template('templates/header_template.html')
+		header = header.format(title='Game ' + game)
 
 
 		if self.users[user]['country'] in self.teams:
@@ -534,8 +556,81 @@ class euro(object):
 			users_predictions += position_html.format(id =self.users[user]['id'] ,name = self.users[U]['username'],flag=flag, score = score, color= self.points_colors[result])
 
 
+		main_html = main_html.format(id=user,header=header,predictions=users_predictions,number=game,nav=nav,date=g['date'].replace('2016',''),location=g['location'],t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,remain=remain,t1_score=t1_score,t2_score=t2_score, footer = self.footer)
 
-		main_html = main_html.format(id=user,predictions=users_predictions,number=game,nav=nav,date=g['date'].replace('2016',''),location=g['location'],t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,remain=remain,t1_score=t1_score,t2_score=t2_score, footer = self.footer)
+
+
+		return main_html.encode('utf-8')
+
+	def create_home_page(self,user):
+
+		main_html = self.read_template('templates/home_page_template.html')
+		nav = self.read_template('templates/nav_template.html')
+
+		header = self.read_template('templates/header_template.html')
+		header = header.format(title='Home')
+
+		self.teams = self.clean_teams(self.teams)
+
+		self.update_users_pontuations()
+
+
+		if self.users[user]['country'] in self.teams:
+			flag = self.teams[self.users[user]['country']]['flag_url']
+		else:
+			flag = ''
+
+		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)	
+
+		lines = self.create_scoreboard_user(user)
+
+		for game in sorted([int(n) for n in self.games.keys()]):
+			game = str(game)
+			if not self.games[game]['score']:
+				break
+
+		g = self.games[game]	
+
+		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
+		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
+
+
+		date_object = datetime.strptime(g['date'],'%d %B %Y %H:%M')
+
+		remain = date_object - datetime.now()
+
+		if g['score']:
+			remain = g['score']
+		elif remain.days > 0:
+			remain = str(remain.days) + ' days'
+
+		t1_score = g['t1_score']
+		t2_score = g['t2_score']
+
+		users_predictions=''
+
+		for U in self.users:
+
+			position_html = self.read_template('templates/game_page_position_template.html')
+
+			g = self.users[U]['games'][game]
+
+			result = self.prediction_result(user,self.games[game],g,points = False)
+
+			score = g['score'] if g['score'] else '-'
+
+			if self.users[user]['country'] in self.teams:
+				flag = self.teams[self.users[user]['country']]['flag_url']
+			else:
+				flag = ''
+
+			users_predictions += position_html.format(id =self.users[user]['id'] ,name = self.users[U]['username'],flag=flag, score = score, color= self.points_colors[result])
+
+
+		main_html = main_html.format(id=user,header=header,lines = lines,predictions=users_predictions,number=game,nav=nav,date=g['date'].replace('2016',''),location=g['location'],t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,remain=remain,t1_score=t1_score,t2_score=t2_score, footer = self.footer)
+
+
+		#main_html = main_html.format(id=user ,header = header, nav = nav, lines = lines, footer = self.footer)
 
 		return main_html.encode('utf-8')
 
@@ -584,6 +679,8 @@ class euro(object):
 
 		final_order = []
 
+		print group
+
 		group_teams = dict()
 
 		for t in group:
@@ -593,6 +690,7 @@ class euro(object):
 				group_teams[teams[t]['PTS']] = [t]
 
 
+		print group_teams
 		for points in sorted(group_teams.keys(),reverse=True):
 			if len(group_teams[points]) == 1:
 				final_order += [group_teams[points][0]]
@@ -610,14 +708,18 @@ class euro(object):
 			teams = sorted([teams[t] for t in tied_teams], key=itemgetter('GD'),reverse=True)
 			return [t['name'] for t in teams]
 
+		print 'common games ',len(common_games)
 		
 		new_teams = dict() 
 		for t in tied_teams:
 			new_teams[t] = dict() 
 		new_teams = self.clean_teams(new_teams)
+		print new_teams
 
 		for game in common_games:
 			games[str(game['number'])],new_teams = self.parse_score(games[str(game['number'])],new_teams)
+
+		print new_teams
 
 		group_teams = dict()
 		for t in new_teams:
@@ -628,7 +730,10 @@ class euro(object):
 
 		final_order = []
 
+		print group_teams
+
 		for points in sorted(group_teams.keys(),reverse=True):
+			print group_teams[points]
 			if len(group_teams[points]) == 1:
 				# Tie break points in the games between each other
 				final_order += [group_teams[points][0]]
@@ -651,7 +756,7 @@ class euro(object):
 							if sorted_teams:
 								final_order += sorted_teams
 							else:
-								return group_teams[points]
+								final_order += group_teams[points]
 
 
 		return final_order
@@ -680,9 +785,8 @@ class euro(object):
 
 		return final_order
 
-
 	def prediction_result(self,user,real,predicted,points=True):
-
+		
 		if not predicted['score'] or '-' not in real['score']:
 			return 0
 		elif real['score'] == predicted['score']:
@@ -733,7 +837,6 @@ class euro(object):
 		new_link = '../html/missing.html'
 
 		if data == 'login':
-			print 'login'
 
 			conn.send('ok')
 
@@ -746,22 +849,19 @@ class euro(object):
 				response = urllib.urlopen(url)
 				data = json.loads(response.read())
 				
-				print data['name'], repr(data['name'])
-
 				user = data['name']
 
-				print user, repr(user)
 				is_new_user = user in self.users 
-
-				print self.users.keys()
 
 				self.create_new_user(user)
 				self.users[user]['email'] = data['email']
 
 				if not is_new_user:
-					new_link = 'settings?&id=' + self.users[user]['id']
+					self.timed_print('New user: ' + user,color=self.colors['OKBLUE'])
+					new_link = 'settings?&id=' + self.users[user]['id'] + '&new=Y'
 				else:
-					new_link = 'agenda?&id=' + self.users[user]['id']+'&user='+user
+					self.timed_print('User logged in: ' + user,color=self.colors['OKBLUE'])
+					new_link = 'home?&id=' + self.users[user]['id']
 
 
 			conn.send(new_link.encode('utf-8'))
@@ -772,10 +872,15 @@ class euro(object):
 
 			data = conn.recv(self.buffersize).split('\n')
 			user = self.find_user_by_id(data[0])
+			new = data[1] == 'Y'
 
-			print 'settings ' + user
+			if user:
+				self.timed_print('['+user+'] Settings')
+				new_page = self.create_settings(user,new)
 
-			new_page = self.create_settings(user)
+			else:
+				self.timed_print('Error in getting user',self.colors['FAIL'])
+				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
 
@@ -786,15 +891,14 @@ class euro(object):
 			data = conn.recv(self.buffersize).split('\n')
 			user = self.find_user_by_id(data[0])
 			desired_user = unicode(data[1],encoding='utf-8')
-			country = data[2]
-
-			if country != 'None':
-				self.users[user]['country'] = country
-
-			print 'agenda ',data[0],user,country,desired_user
 
 
-			new_page = self.create_scheduele_with_groups(user,desired_user)
+			if user and desired_user in self.users:
+				self.timed_print('['+user+'] Requested '+desired_user+' predictions')
+				new_page = self.create_scheduele_with_groups(user,desired_user)
+			else:
+				self.timed_print('Error in getting user',self.colors['FAIL'])
+				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
 
@@ -805,13 +909,17 @@ class euro(object):
 			data = conn.recv(self.buffersize).split('\n')
 			user = self.find_user_by_id(data[0])
 
-			new_page = self.create_rules(user)
+			
+			if user:
+				self.timed_print('['+user+'] Rules')
+				new_page = new_page = self.create_rules(user)
+			else:
+				self.timed_print('Error in getting user',self.colors['FAIL'])
+				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
 
 		elif data == 'predict':
-
-			print 'predict'
 
 			conn.send('ok')
 
@@ -819,9 +927,14 @@ class euro(object):
 
 			user = self.find_user_by_id(data[0])
 
-			self.update_predictions(user,data[1])
+			if user:
+				self.timed_print('['+user+'] New predictions')
+				self.update_predictions(user,data[1])
+				new_page = 'agenda?&id='+data[0]+'&user='+user 
 
-			new_link = 'agenda?&id='+data[0]+'&user='+user 
+			else:
+				self.timed_print('Error in getting user',self.colors['FAIL'])
+				new_page = '../index.html'
 
 			conn.send(new_link.encode('utf-8'))
 
@@ -832,9 +945,12 @@ class euro(object):
 			data = conn.recv(self.buffersize).split('\n')
 			user = self.find_user_by_id(data[0])
 
-			print 'scoreboard ' + user
-
-			new_page = self.create_scoreboard(user)
+			if user:
+				self.timed_print('['+user+'] Scoreboard')
+				new_page = self.create_scoreboard(user)
+			else:
+				self.timed_print('Error in getting user',self.colors['FAIL'])
+				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
 
@@ -846,11 +962,37 @@ class euro(object):
 			user = self.find_user_by_id(data[0])
 			game = data[1]
 
-			print 'game ',data[0],user,game
+			if user:
+				self.timed_print('['+user+'] Game ' + game)
+				new_page = self.create_game_page(user,game)
+			else:
+				self.timed_print('Error in getting user',self.colors['FAIL'])
+				new_page = self.read_template('templates/start_template.html')
 
-			new_page = self.create_game_page(user,game)
 
 			conn.send(new_page)
+
+		elif data == 'home':
+
+			conn.send('ok')
+
+			data = conn.recv(self.buffersize).split('\n')
+			user = self.find_user_by_id(data[0])
+
+			if user:
+				self.timed_print('['+user+'] Home')
+				country = data[1]
+				if country != 'None':
+					self.users[user]['country'] = country
+				new_page = self.create_home_page(user)
+
+
+			else:
+				self.timed_print('Error in getting user',self.colors['FAIL'])
+				new_page = self.read_template('templates/start_template.html')
+
+
+			conn.send(new_page)			
 
 
 	def start_server(self):

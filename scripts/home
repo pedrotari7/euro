@@ -3,17 +3,14 @@
 import cgi ,cgitb, os
 from socket import *
 
-buffersize = 125000
+
+buffersize = 250000
 
 cgitb.enable()
 form = cgi.FieldStorage()
 
 id = str(form.getvalue('id'))
-user = str(form.getvalue('user'))
-
-
-print "Content-type: text/html\n\n"
-
+country = str(form.getvalue('country'))
 
 try:
 	HOST = 'localhost'
@@ -22,27 +19,20 @@ try:
 	ADDR = (HOST,PORT)
 
 	cli = socket( AF_INET,SOCK_STREAM)
-
-	# cli.setsockopt(SOL_SOCKET,SO_REUSEADDR, 1)
-
-	# cli.settimeout(0.2)
-
 	cli.connect((ADDR))
-
 	data = cli.recv(buffersize)
 
 	if data.lower().strip('\n').strip('\r') == 'ok':
-		cli.send('agenda')
+		cli.send('home')
 		data = cli.recv(buffersize)
 		if data.lower().strip('\n').strip('\r') == 'ok':
-			cli.send(id + '\n' + user)
-			data = '1'
-			while data:
-				data = cli.recv(buffersize)
-				print data
-				if '</html>' in data:
-					break
+			cli.send(id + '\n' + country)
+			data = cli.recv(buffersize)
 
 except:
 	raise
 	login = False
+
+
+print "Content-type: text/html\n\n"
+print data
