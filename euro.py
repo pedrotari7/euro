@@ -587,7 +587,7 @@ class euro(object):
 
 	def prediction_result(self,user,real,predicted,points=True):
 
-		if not real['winner']:
+		if not predicted['score']:
 			return 0
 		elif real['score'] == predicted['score']:
 			if points:
