@@ -3144,10 +3144,10 @@ input[type=number]::-webkit-outer-spin-button {
   -moz-border-radius: 20px;
   border-radius: 20px;
 
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25 s ease-in-out;
 
 }
 
@@ -3166,14 +3166,14 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-transform-origin: 50% 50%;
     /* add other prefixes as required */
 
-/*    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: url(blur.svg#blur);
+  /*    filter: blur(3px);
+      -webkit-filter: blur(3px);
+      -moz-filter: blur(3px);
+      -o-filter: blur(3px);
+      -ms-filter: blur(3px);
+      filter: url(blur.svg#blur);
 
-filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1'); 
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1'); 
 */
 }
 

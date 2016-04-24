@@ -4,17 +4,17 @@
 
 Today:
 
-
-
-Future:
+- Javacript to make sure that both scores of one game are there
 
 - Implement the 3 place sorting and html creation
 
+- Final phase games parsing and advance to the next stage
+
+Future:
+
+
 - 404 page
 
-- Javacript to make sure that both scores of one game are there
-
-- Final phase games parsing and advance to the next stage
 
 - Sort scoreboard with tie-brake rules
 

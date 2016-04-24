@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import threading, json, urllib, ast, copy, os
+import threading, json, urllib, ast, copy, os,sys
 import random, string
 from operator import itemgetter
 from datetime import datetime, date
@@ -11,6 +11,10 @@ class euro(object):
 	"""docstring for euro"""
 	def __init__(self,port):
 		super(euro, self).__init__()
+
+		# sys.stdout = open('logs/output.log', 'a+')
+		# print 'test'
+
 		self.final_stages = ['Round of 16','Quarter-finals','Semi-finals','Final']
 		self.group_colors = ['#BBF3BB','#BBF3BB','#BBF3FF','transparent']
 		self.points_colors = ['transparent','#F7DCDC','#F2EEC2','#C5E5E8','#CAF2BF']
@@ -20,6 +24,7 @@ class euro(object):
 		self.teams = self.read_teams()
 		self.footer = self.read_template('templates/footer_template.html')
 		self.games = self.load_json('resources/games_current.json')
+		# self.games = self.read_games_info()
 		self.thirdplace = self.load_json('resources/3place.json')
 		self.users = self.load_json('users/info.json')
 		self.load_users()
@@ -70,7 +75,12 @@ class euro(object):
 		except:
 			parent = ''
 
-		print parent + self.get_current_time() + self.colors['ENDC'] + ' ' + color + message + self.colors['ENDC']
+		out =  parent + self.get_current_time() + self.colors['ENDC'] + ' ' + color + message + self.colors['ENDC']
+
+		print out
+
+		with open('logs/output.log','a+') as f:
+			f.write(out.encode('utf-8')+'\n')
 
 	def get_current_time(self):
 
@@ -80,6 +90,7 @@ class euro(object):
 		t = threading.Thread(target=handler,args=args)
 		t.daemon = True
 		t.start()
+
 
 
 	## Storing and Restoring
@@ -158,6 +169,8 @@ class euro(object):
 		
 		new_game['t1'] = info[2]
 		new_game['t2'] = info[3]
+		new_game['t1_original'] = info[2]
+		new_game['t2_original'] = info[3]
 		new_game['location'] = info[4]
 		new_game['score'] = ''
 		new_game['winner'] = ''
@@ -180,6 +193,7 @@ class euro(object):
 				teams[team]['PTS'] = 0
 				teams[team]['name'] = team
 		return teams
+
 
 
 	## Users
@@ -244,6 +258,22 @@ class euro(object):
 
 	def update_users_pontuations(self):
 
+		self.teams = self.clean_teams(self.teams)
+
+		for game in self.games:
+			self.games[game],self.teams = self.parse_score(self.games[game],self.teams)
+				
+
+		self.third_group = []
+		real_ordered_group = dict()
+		for group in sorted(self.groups):
+			real_ordered_group[group] = self.sort_teams(self.groups[group],self.teams,self.games)
+			self.third_group.append(real_ordered_group[group][2])
+
+		print [(t['name'],t['groups']) for t in self.third_group]
+
+		self.sort_third_group()
+
 		for user in self.users:
 			self.clean_user_points(user)
 			self.users[user]['teams'] = self.clean_teams(self.users[user]['teams'])
@@ -258,12 +288,12 @@ class euro(object):
 
 				predicted_ordered_group = self.sort_teams(self.groups[group],self.users[user]['teams'],self.users[user]['games'])
 
-				real_ordered_group = self.sort_teams(self.groups[group],self.teams,self.games)
-
 				for i,T in enumerate(predicted_ordered_group):					
-					if real_ordered_group[i]['name'] == T['name']:
+					if real_ordered_group[group][i]['name'] == T['name']:
 						self.users[user]['points']['groups'] += 1
 						self.users[user]['points']['PTS'] += 1
+
+
 
 
 	## HTML creation
@@ -302,7 +332,7 @@ class euro(object):
 	def create_group_table_html(self,user,ordered_group,compare_group=[]):
 
 		group_html = self.read_template('templates/group_template.html')
-		positions_htmls = []
+		positions_htmls = ''
 
 		for i,T in enumerate(ordered_group):
 
@@ -321,7 +351,7 @@ class euro(object):
 
 			group_postion_html = group_postion_html.format(team=T['name'],team_flag = T['flag_url'],color = color,G=T['G'],GF=T['GF'],GA=T['GA'],GD=T['GF']-T['GA'],W=T['W'],L=T['L'],D=T['D'],PTS=T['PTS'])
 
-			positions_htmls.append(group_postion_html)
+			positions_htmls+=group_postion_html
 
 		return positions_htmls, group_html
 
@@ -362,13 +392,13 @@ class euro(object):
 			# Real
 			ordered_group = self.sort_teams(self.groups[group],self.teams,self.games)
 			positions_htmls, group_html = self.create_group_table_html(desired_user,ordered_group)
-			table_left = group_html.format(side='left',title='Real', t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
+			table_left = group_html.format(side='float:left',title='Real', positions=positions_htmls)
 
 
 			# Predicted
 			pred_ordered_group = self.sort_teams(self.groups[group],self.users[desired_user]['teams'],self.users[desired_user]['games'])
 			positions_htmls, group_html = self.create_group_table_html(desired_user,pred_ordered_group, compare_group=ordered_group)
-			table_right = group_html.format(side='right',title='Predicted', t1=positions_htmls[0],t2=positions_htmls[1],t3=positions_htmls[2],t4=positions_htmls[3])
+			table_right = group_html.format(side='float:right',title='Predicted', positions=positions_htmls)
 
 
 			games_html += table_html.format(group= group,left=table_left,right=table_right)
@@ -385,7 +415,12 @@ class euro(object):
 			for G in group_games:
 				games_html += self.fill_game_template(desired_user,user,self.games[str(G['number'])],user!=desired_user)
 
-		games_html += '<h2 id="Knockout">Knockout Stage</h2>'
+		## third group
+		games_html += '<br>'
+
+		games_html += self.create_third_group_table()
+
+		games_html += '<br><h2 id="Knockout">Knockout Stage</h2>'
 
 		for phase in self.final_stages:
 				games_html += '<h3 id="'+ phase +'">'+phase+'</h3>'
@@ -453,6 +488,8 @@ class euro(object):
 
 		users = self.sort_users_scoreboard()
 
+		print [(u['username'],u['country']) for u in users]
+
 		for i,U in enumerate(users):
 
 			position_html = self.read_template('templates/scoreboard_position_template.html')
@@ -464,8 +501,9 @@ class euro(object):
 			else:
 				color = ''
 
-			if self.users[user]['country'] in self.teams:
-				flag = self.teams[self.users[user]['country']]['flag_url']
+
+			if U['country'] in self.teams:
+				flag = self.teams[U['country']]['flag_url']
 			else:
 				flag = ''
 
@@ -550,8 +588,10 @@ class euro(object):
 
 			score = g['score'] if g['score'] else '-'
 
-			if 'flag_url' in self.teams[self.users[U]['country']]:
-				flag = self.teams[self.users[U]['country']]['flag_url']
+			flag = ''
+			if self.users[U]['country'] in self.teams:
+				if 'flag_url' in self.teams[self.users[U]['country']]:
+					flag = self.teams[self.users[U]['country']]['flag_url']
 
 			users_predictions += position_html.format(id =self.users[user]['id'] ,name = self.users[U]['username'],flag=flag, score = score, color= self.points_colors[result])
 
@@ -634,6 +674,31 @@ class euro(object):
 
 		return main_html.encode('utf-8')
 
+	def create_third_group_table(self):
+
+		group_html = self.read_template('templates/group_template.html')
+		positions_htmls = ''
+
+
+		a = ''.join([t['groups']for t in self.third_group][:4])		
+		print a
+		print self.thirdplace[a]
+
+		for i,T in enumerate(self.third_group):
+
+			group_postion_html = self.read_template('templates/group_position_template.html')
+			
+			if i<4:
+				color = self.points_colors[4] 
+			else:
+				color = self.points_colors[1] 
+
+			group_postion_html = group_postion_html.format(team=T['name'],team_flag = T['flag_url'],color = color,G=T['G'],GF=T['GF'],GA=T['GA'],GD=T['GF']-T['GA'],W=T['W'],L=T['L'],D=T['D'],PTS=T['PTS'])
+
+			positions_htmls+=group_postion_html
+
+		return group_html.format(side='margin:0px auto;',title='Third Place Tie Break', positions=positions_htmls)
+
 
 	## Football Functions
 
@@ -679,8 +744,6 @@ class euro(object):
 
 		final_order = []
 
-		print group
-
 		group_teams = dict()
 
 		for t in group:
@@ -689,8 +752,6 @@ class euro(object):
 			else:
 				group_teams[teams[t]['PTS']] = [t]
 
-
-		print group_teams
 		for points in sorted(group_teams.keys(),reverse=True):
 			if len(group_teams[points]) == 1:
 				final_order += [group_teams[points][0]]
@@ -708,18 +769,14 @@ class euro(object):
 			teams = sorted([teams[t] for t in tied_teams], key=itemgetter('GD'),reverse=True)
 			return [t['name'] for t in teams]
 
-		print 'common games ',len(common_games)
-		
 		new_teams = dict() 
 		for t in tied_teams:
 			new_teams[t] = dict() 
 		new_teams = self.clean_teams(new_teams)
-		print new_teams
+
 
 		for game in common_games:
 			games[str(game['number'])],new_teams = self.parse_score(games[str(game['number'])],new_teams)
-
-		print new_teams
 
 		group_teams = dict()
 		for t in new_teams:
@@ -730,10 +787,9 @@ class euro(object):
 
 		final_order = []
 
-		print group_teams
 
 		for points in sorted(group_teams.keys(),reverse=True):
-			print group_teams[points]
+
 			if len(group_teams[points]) == 1:
 				# Tie break points in the games between each other
 				final_order += [group_teams[points][0]]
@@ -814,6 +870,61 @@ class euro(object):
 			if points:
 				self.users[user]['points']['none'] +=1
 			return 1
+
+	def sort_third_group(self):
+
+		tiebreaker = 'PTS'
+
+		final_order = []
+
+		tied_teams = [t['name'] for t in self.third_group]
+
+		teams = self.teams
+
+		group_teams = dict()
+		for t in tied_teams:
+			if teams[t][tiebreaker] in group_teams:
+				group_teams[teams[t][tiebreaker]].append(t)
+			else:
+				group_teams[teams[t][tiebreaker]] = [t]
+
+		for goals_pts in sorted(group_teams.keys(),reverse=True):
+
+			if len(group_teams[goals_pts]) == 1:
+				final_order += [group_teams[goals_pts][0]]
+			else:
+
+				tiebreaker = 'GF'
+				group_teams_gf = dict()
+				tied_teams = group_teams[goals_pts]
+				for t in tied_teams:
+					if teams[t][tiebreaker] in group_teams_gf:
+						group_teams_gf[teams[t][tiebreaker]].append(t)
+					else:
+						group_teams_gf[teams[t][tiebreaker]] = [t]
+						
+				for goals_gf in sorted(group_teams_gf.keys(),reverse=True):
+
+					if len(group_teams_gf[goals_gf]) == 1:
+						final_order += [group_teams_gf[goals_gf][0]]
+					else:
+						tiebreaker = 'GD'
+						group_teams_gd = dict()
+						tied_teams = group_teams_gf[goals_gf]
+						for t in tied_teams:
+							if teams[t][tiebreaker] in group_teams_gd:
+								group_teams_gd[teams[t][tiebreaker]].append(t)
+							else:
+								group_teams_gd[teams[t][tiebreaker]] = [t]
+								
+						for goals_gd in sorted(group_teams_gd.keys(),reverse=True):
+
+							if len(group_teams_gd[goals_gd]) == 1:
+								final_order += [group_teams_gd[goals_gd][0]]
+							else:
+								final_order += group_teams_gd[goals_gd]
+
+		self.third_group = [teams[t] for t in final_order]
 
 
 	## Server
@@ -993,7 +1104,6 @@ class euro(object):
 
 
 			conn.send(new_page)			
-
 
 	def start_server(self):
 
