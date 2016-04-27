@@ -6,15 +6,14 @@ Today:
 
 - Javacript to make sure that both scores of one game are there
 
-- Implement the 3 place sorting and html creation
-
 - Final phase games parsing and advance to the next stage
+
 
 Future:
 
-
 - 404 page
 
+- add penalti shootout scenerio in knockout stage
 
 - Sort scoreboard with tie-brake rules
 
@@ -62,5 +61,6 @@ Future:
 
 - Landing page with summary of what is going on
 
+- Implement the 3 place sorting and html creation
 
 
