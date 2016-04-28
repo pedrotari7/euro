@@ -10,6 +10,7 @@ form = cgi.FieldStorage()
 
 id = str(form.getvalue('id'))
 user = str(form.getvalue('user'))
+stage = str(form.getvalue('stage'))
 
 
 print "Content-type: text/html\n\n"
@@ -35,7 +36,7 @@ try:
 		cli.send('agenda')
 		data = cli.recv(buffersize)
 		if data.lower().strip('\n').strip('\r') == 'ok':
-			cli.send(id + '\n' + user)
+			cli.send(id + '\n' + user + '\n' + stage)
 			data = '1'
 			while data:
 				data = cli.recv(buffersize)

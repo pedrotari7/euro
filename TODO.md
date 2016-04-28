@@ -4,12 +4,11 @@
 
 Today:
 
-- Javacript to make sure that both scores of one game are there
-
-- Final phase games parsing and advance to the next stage
-
+- Load prediction in the last prediction
 
 Future:
+
+- Javacript to make sure that both scores of one game are there
 
 - 404 page
 
@@ -38,7 +37,6 @@ Future:
 										DONE
 -------------------------------------------------------------------------------
 
-
 - Settings images
 
 - Send page through cgi the pages instead of sending the location
@@ -63,4 +61,5 @@ Future:
 
 - Implement the 3 place sorting and html creation
 
+- Final phase games parsing and advance to the next stage
 
