@@ -34,8 +34,8 @@ try:
 
 			data = cli.recv(1024)
 
-except:
-	raise
-	login = False
+	print "Location:"+ data +"\n\n";
 
-print "Location:"+ data +"\n\n";
+except:
+	print "Location:../html/down.html\n\n"
+

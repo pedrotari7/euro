@@ -14,7 +14,7 @@ class euro(object):
 
 		# sys.stdout = open('logs/output.log', 'a+')
 		# print 'test'
-
+		self.folder = "/home/pedrotari7/Desktop/euro"
 		self.final_stages = ['Round of 16','Quarter-finals','Semi-finals','Final']
 		self.group_colors = ['#BBF3BB','#BBF3BB','#BBF3FF','transparent']
 		self.points_colors = ['transparent','#F7DCDC','#F2EEC2','#C5E5E8','#CAF2BF']
@@ -94,14 +94,14 @@ class euro(object):
 		t.start()
 
 
-
 	## Storing and Restoring
 
 	def dump_json(self,data,filename):
-		with open(filename,'w') as fp:
+		with open(os.path.join(self.folder,filename),'w') as fp:
 			json.dump(data,fp,sort_keys=True,indent=4, encoding="utf-8")
 
 	def load_json(self,filename):
+		filename = os.path.join(self.folder,filename)
 		if os.path.exists(filename):
 			with open(filename, 'r') as fp:
 				return json.load(fp, encoding='utf8')
@@ -111,7 +111,7 @@ class euro(object):
 	def read_teams(self):
 		teams = dict()
 		groups = dict()
-		with open('resources/teams.txt','r') as f:
+		with open(os.path.join(self.folder,'resources/teams.txt'),'r') as f:
 			for team in f.read().split('\n'):
 				team = team.split('\t')
 
@@ -137,12 +137,12 @@ class euro(object):
 
 	def read_template(self,filename):
 
-		with open(filename,'r') as f:
+		with open(os.path.join(self.folder,filename),'r') as f:
 			return unicode(f.read(),encoding='utf-8')
 
 	def read_games_info(self):
 		games = dict()
-		with open('resources/data.txt','r') as f:
+		with open(os.path.join(self.folder,'resources/data.txt'),'r') as f:
 			data = f.read().split('\n')
 			i = 0
 			current_stage = ''
@@ -211,15 +211,15 @@ class euro(object):
 
 		self.users[user]['username'] = user
 
-		if not  os.path.exists(os.path.join('users',user)):
-			os.mkdir(os.path.join('users',user))
+		if not  os.path.exists(os.path.join(self.folder,'users',user)):
+			os.mkdir(os.path.join(self.folder,'users',user))
 
-		p = os.path.join('users',user,'games.json')
+		p = os.path.join(self.folder,'users',user,'games.json')
 		if os.path.exists(p):
-			self.users[user]['games'] = self.load_json(p)
+			self.users[user]['games'] = self.load_json(os.path.join('users',user,'games.json'))
 		else:
 			self.users[user]['games'] = self.load_json('resources/games_clean.json')
-			self.dump_json(self.games,p)
+			self.dump_json(self.games,os.path.join('users',user,'games.json'))
 
 		self.users[user]['teams'] = self.clean_teams(self.read_teams())
 

@@ -36,9 +36,9 @@ try:
 		if data.lower().strip('\n').strip('\r') == 'ok':
 			cli.send(id+ '\n' + str(values))
 			data = cli.recv(1024)
+	
+	print "Location:"+ data +"\n\n";
 
 except:
-	raise
-	login = False
+	print "Location:../html/down.html\n\n"
 
-print "Location:"+ data +"\n\n";

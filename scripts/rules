@@ -28,10 +28,11 @@ try:
 			cli.send(id + '\n')
 			data = cli.recv(buffersize)
 
+	print "Content-type: text/html\n\n"
+	print data
+
 except:
-	raise
-	login = False
+	print "Location:../html/down.html\n\n";
 
 
-print "Content-type: text/html\n\n"
-print data
+

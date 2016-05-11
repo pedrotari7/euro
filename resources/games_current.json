@@ -515,15 +515,15 @@
         "number": 37, 
         "score": "1-0", 
         "stage": "Round of 16", 
-        "t1": "Switzerland", 
-        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
+        "t1": "Romania", 
+        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
         "t1_original": "2A", 
         "t1_score": 1, 
         "t2": "Ukraine", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png", 
         "t2_original": "2C", 
         "t2_score": 0, 
-        "winner": "Switzerland"
+        "winner": "Romania"
     }, 
     "38": {
         "date": "25 June 2016 18:00", 
@@ -580,15 +580,15 @@
         "number": 40, 
         "score": "1-0", 
         "stage": "Round of 16", 
-        "t1": "Romania", 
-        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
+        "t1": "Switzerland", 
+        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
         "t1_original": "1A", 
         "t1_score": 1, 
         "t2": "Poland", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png", 
         "t2_original": "3CDE", 
         "t2_score": 0, 
-        "winner": "Romania"
+        "winner": "Switzerland"
     }, 
     "41": {
         "date": "26 June 2016 18:00", 
@@ -660,15 +660,15 @@
         "number": 45, 
         "score": "1-0", 
         "stage": "Quarter-finals", 
-        "t1": "Switzerland", 
-        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
+        "t1": "Romania", 
+        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
         "t1_original": "37", 
         "t1_score": 1, 
         "t2": "Spain", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png", 
         "t2_original": "39", 
         "t2_score": 0, 
-        "winner": "Switzerland"
+        "winner": "Romania"
     }, 
     "46": {
         "date": "1 July 2016 21:00", 
@@ -708,15 +708,15 @@
         "number": 48, 
         "score": "1-0", 
         "stage": "Quarter-finals", 
-        "t1": "Romania", 
-        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
+        "t1": "Switzerland", 
+        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
         "t1_original": "40", 
         "t1_score": 1, 
         "t2": "Russia", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png", 
         "t2_original": "44", 
         "t2_score": 0, 
-        "winner": "Romania"
+        "winner": "Switzerland"
     }, 
     "49": {
         "date": "6 July 2016 21:00", 
@@ -724,15 +724,15 @@
         "number": 49, 
         "score": "1-0", 
         "stage": "Semi-finals", 
-        "t1": "Switzerland", 
-        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
+        "t1": "Romania", 
+        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
         "t1_original": "45", 
         "t1_score": 1, 
         "t2": "England", 
         "t2_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png", 
         "t2_original": "46", 
         "t2_score": 0, 
-        "winner": "Switzerland"
+        "winner": "Romania"
     }, 
     "5": {
         "date": "12 June 2016 15:00", 
@@ -761,11 +761,11 @@
         "t1_flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png", 
         "t1_original": "47", 
         "t1_score": 0, 
-        "t2": "Romania", 
-        "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
+        "t2": "Switzerland", 
+        "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
         "t2_original": "48", 
         "t2_score": 1, 
-        "winner": "Romania"
+        "winner": "Switzerland"
     }, 
     "51": {
         "date": "10 July 2016 21:00", 
@@ -773,15 +773,15 @@
         "number": 51, 
         "score": "1-0", 
         "stage": "Final", 
-        "t1": "Switzerland", 
-        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
+        "t1": "Romania", 
+        "t1_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
         "t1_original": "49", 
         "t1_score": 1, 
-        "t2": "Romania", 
-        "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png", 
+        "t2": "Switzerland", 
+        "t2_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/23px-Flag_of_Switzerland.svg.png", 
         "t2_original": "50", 
         "t2_score": 0, 
-        "winner": "Romania"
+        "winner": "Switzerland"
     }, 
     "6": {
         "date": "12 June 2016 18:00", 

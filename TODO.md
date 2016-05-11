@@ -6,11 +6,11 @@ Today:
 
 - Load prediction in the last prediction
 
+
 Future:
 
 - Javacript to make sure that both scores of one game are there
 
-- 404 page
 
 - add penalti shootout scenerio in knockout stage
 
@@ -62,4 +62,9 @@ Future:
 - Implement the 3 place sorting and html creation
 
 - Final phase games parsing and advance to the next stage
+
+- Change folders for absolutes paths
+
+- 404 page
+
 
