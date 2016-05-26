@@ -6,25 +6,20 @@ Today:
 
 - Load prediction in the last prediction
 
-
 Future:
+ 
+- Prediciton for individual awards
+
+- Sort scoreboard with tie-brake rules
+
+- add penalti shootout scenerio in knockout stage
 
 - Javacript to make sure that both scores of one game are there
 
 
-- add penalti shootout scenerio in knockout stage
-
-- Sort scoreboard with tie-brake rules
+- Avoid user predictions after the game if over.
 
 - Blur images from settings when hovering and show country names
-
-- Disable predictions when the due date is over
-
-- Time left to the game in hours and then minutes
-
-- Backup of users info
-
-- Prediciton for individual awards
 
 - Setup email for welcome message and notifications for deadlines
 
@@ -66,5 +61,14 @@ Future:
 - Change folders for absolutes paths
 
 - 404 page
+
+- Time left to the game in hours and then minutes
+
+- Backup of users info
+
+- Disable predictions when the due date is over
+
+- Make group shortcut pop up on the side
+
 
 

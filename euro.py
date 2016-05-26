@@ -88,6 +88,13 @@ class euro(object):
 
 		return datetime.now().strftime("%Y-%m-%d %H:%M:%S ")
 
+	def get_timeobject_now(self):
+
+		return datetime.now()
+
+		#return datetime(2016, 6, 9, 21, 0, 1)
+
+
 	def start_thread(self,handler,args=()):
 		t = threading.Thread(target=handler,args=args)
 		t.daemon = True
@@ -304,22 +311,32 @@ class euro(object):
 				
 				if '1' in game['t1_original']:
 					group = game['t1_original'].split('1')[1]
-					game['t1'] = self.real_ordered_group[group][0]['name']
+					team = self.real_ordered_group[group][0]['name']
+					if self.teams[team]['G'] == 3:
+						game['t1'] = team
 				if '1' in game['t2_original']:
 					group = game['t2_original'].split('1')[1]
-					game['t2'] = self.real_ordered_group[group][0]['name']
+					team = self.real_ordered_group[group][0]['name']
+					if self.teams[team]['G'] == 3:
+						game['t2'] = team
 				if '2' in game['t1_original']:
 					group = game['t1_original'].split('2')[1]
-					game['t1'] = self.real_ordered_group[group][1]['name']
+					team = self.real_ordered_group[group][1]['name']
+					if self.teams[team]['G'] == 3:
+						game['t1'] = team
 				if '2' in game['t2_original']:
 					group = game['t2_original'].split('2')[1]
-					game['t2'] = self.real_ordered_group[group][1]['name']
+					team = self.real_ordered_group[group][1]['name']
+					if self.teams[team]['G'] == 3:
+						game['t2'] = team
 				
 				if '3' in game['t2_original']:
 					group = game['t1_original'].split('1')[1]
 					a = ''.join([t['groups']for t in self.third_group][:4])		
 					group = self.thirdplace[a][group]
-					game['t2'] = self.real_ordered_group[group][2]['name']
+					team = self.real_ordered_group[group][2]['name']
+					if self.teams[team]['G'] == 3:
+						game['t2'] = team
 
 			if game['stage'] in ['Quarter-finals','Semi-finals','Final']:
 				if self.games[game['t1_original']]['winner']:
@@ -337,19 +354,33 @@ class euro(object):
 
 	## HTML creation
 
-	def fill_game_template(self,desired_user,user,g,read_only = False):
+	def calculate_time_diference(self,g):
 
-		game_template = self.read_template('templates/game_template.html')
+		readonly = ''
 
 		date_object = datetime.strptime(g['date'],'%d %B %Y %H:%M')
 
-		remain = date_object - datetime.now()
-
+		remain = date_object - self.get_timeobject_now()
 		if g['score']:
 			remain = g['score']
 		elif remain.days > 0:
 			remain = 'in ' + str(remain.days) + ' days'
+		elif remain.days < 0:
+			remain = 'Live'
 
+		if g['stage']=='Groups' and (datetime(2016, 6, 10, 21, 0, 0) - self.get_timeobject_now()).days < 0:
+			readonly = 'readonly'
+		elif g['stage']!='Groups' and ((g['t1'] not in self.teams.keys()) or (g['t2'] not in self.teams.keys())):
+			readonly = 'readonly'
+
+
+		return readonly,remain
+
+	def fill_game_template(self,desired_user,user,g,read_only = False):
+
+		game_template = self.read_template('templates/game_template.html')
+
+		readonly,remain = self.calculate_time_diference(g)
 
 		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
 		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
@@ -363,8 +394,6 @@ class euro(object):
 
 		if read_only:
 			readonly = 'readonly'
-		else:
-			readonly = ''
 
 		return game_template.format(id=self.users[user]['id'],color=self.points_colors[result],date=g['date'].replace('2016',''),location=g['location'],t1=g['t1'],t2=g['t2'],t1_flag=t1_flag,t2_flag=t2_flag,number=g['number'],remain=remain,t1_score=t1_score,t2_score=t2_score,read=readonly)
 
@@ -677,12 +706,7 @@ class euro(object):
 
 		date_object = datetime.strptime(g['date'],'%d %B %Y %H:%M')
 
-		remain = date_object - datetime.now()
-
-		if g['score']:
-			remain = g['score']
-		elif remain.days > 0:
-			remain = str(remain.days) + ' days'
+		readonly,remain = self.calculate_time_diference(g)
 
 		t1_score = g['t1_score']
 		t2_score = g['t2_score']

@@ -3044,6 +3044,10 @@ a:active {
   top: 2%;
   width: 2%;
   height: 90%;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .group_anchor{
@@ -3060,7 +3064,14 @@ a:active {
 
 .group_anchor:hover{
   background-color: #C2F0E8;
+}
 
+.groups_wrapper:hover{
+  position: fixed;
+  left: 0;
+  top: 2%;
+  width: 10%;
+  height: 90%;
 }
 
 input::-webkit-outer-spin-button,
@@ -3072,6 +3083,12 @@ input::-webkit-inner-spin-button {
 
 .input_game{
   font-size: 100%;
+}
+
+.input_game:read-only{
+  background-color: rgba(144, 144, 144, 0);
+  border-color: rgba(144, 144, 144, 0);
+  color: inherit;
 }
 
 .group_table {
