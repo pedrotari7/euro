@@ -1,0 +1,4416 @@
+{
+    "Albania": {
+        "Alban Hoxha": {
+            "age": "28", 
+            "club": "Partizani Tirana", 
+            "link": "http://www.thefinalball.com/player.php?id=68587&edicao_id=66233", 
+            "name": "Alban Hoxha", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Amir Abrashi": {
+            "age": "26", 
+            "club": "SC Freiburg", 
+            "link": "http://www.thefinalball.com/player.php?id=105045&edicao_id=66233", 
+            "name": "Amir Abrashi", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Andi Lila": {
+            "age": "30", 
+            "club": "PAS Giannina", 
+            "link": "http://www.thefinalball.com/player.php?id=40231&edicao_id=66233", 
+            "name": "Andi Lila", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Ansi Agolli": {
+            "age": "33", 
+            "club": "Karabakh", 
+            "link": "http://www.thefinalball.com/player.php?id=4775&edicao_id=66233", 
+            "name": "Ansi Agolli", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Arlind Ajeti": {
+            "age": "22", 
+            "club": "Frosinone", 
+            "link": "http://www.thefinalball.com/player.php?id=142916&edicao_id=66233", 
+            "name": "Arlind Ajeti", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Armando Sadiku": {
+            "age": "25", 
+            "club": "FC Vaduz", 
+            "link": "http://www.thefinalball.com/player.php?id=102782&edicao_id=66233", 
+            "name": "Armando Sadiku", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Bekim Balaj": {
+            "age": "25", 
+            "club": "HNK Rijeka", 
+            "link": "http://www.thefinalball.com/player.php?id=101597&edicao_id=66233", 
+            "name": "Bekim Balaj", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Burim Kukeli": {
+            "age": "32", 
+            "club": "FC Z\u00fcrich", 
+            "link": "http://www.thefinalball.com/player.php?id=63764&edicao_id=66233", 
+            "name": "Burim Kukeli", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Elseid Hysaj": {
+            "age": "22", 
+            "club": "Napoli", 
+            "link": "http://www.thefinalball.com/player.php?id=222787&edicao_id=66233", 
+            "name": "Elseid Hysaj", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Ergys Ka\u00e7e": {
+            "age": "22", 
+            "club": "PAOK", 
+            "link": "http://www.thefinalball.com/player.php?id=173359&edicao_id=66233", 
+            "name": "Ergys Ka\u00e7e", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Ermir Lenjani": {
+            "age": "26", 
+            "club": "Nantes", 
+            "link": "http://www.thefinalball.com/player.php?id=146860&edicao_id=66233", 
+            "name": "Ermir Lenjani", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Etrit Berisha": {
+            "age": "27", 
+            "club": "Lazio", 
+            "link": "http://www.thefinalball.com/player.php?id=103915&edicao_id=66233", 
+            "name": "Etrit Berisha", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Fr\u00e9d\u00e9ric Veseli": {
+            "age": "23", 
+            "club": "FC Lugano", 
+            "link": "http://www.thefinalball.com/player.php?id=134979&edicao_id=66233", 
+            "name": "Fr\u00e9d\u00e9ric Veseli", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Ledian Memushaj": {
+            "age": "29", 
+            "club": "Pescara", 
+            "link": "http://www.thefinalball.com/player.php?id=124844&edicao_id=66233", 
+            "name": "Ledian Memushaj", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Lorik Cana": {
+            "age": "32", 
+            "club": "Nantes", 
+            "link": "http://www.thefinalball.com/player.php?id=3091&edicao_id=66233", 
+            "name": "Lorik Cana", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Migjen Basha": {
+            "age": "29", 
+            "club": "Como", 
+            "link": "http://www.thefinalball.com/player.php?id=59771&edicao_id=66233", 
+            "name": "Migjen Basha", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "M\u00ebrgim Mavraj": {
+            "age": "30", 
+            "club": "FC K\u00f6ln", 
+            "link": "http://www.thefinalball.com/player.php?id=43062&edicao_id=66233", 
+            "name": "M\u00ebrgim Mavraj", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "png"
+        }, 
+        "Naser Aliji": {
+            "age": "22", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=186465&edicao_id=66233", 
+            "name": "Naser Aliji", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Odise Roshi": {
+            "age": "25", 
+            "club": "HNK Rijeka", 
+            "link": "http://www.thefinalball.com/player.php?id=134052&edicao_id=66233", 
+            "name": "Odise Roshi", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "png"
+        }, 
+        "Orges Shehi": {
+            "age": "38", 
+            "club": "Skenderbeu", 
+            "link": "http://www.thefinalball.com/player.php?id=125991&edicao_id=66233", 
+            "name": "Orges Shehi", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "png"
+        }, 
+        "Shk\u00eblzen Gashi": {
+            "age": "27", 
+            "club": "Colorado Rapids", 
+            "link": "http://www.thefinalball.com/player.php?id=51754&edicao_id=66233", 
+            "name": "Shk\u00eblzen Gashi", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Sokol Cikalleshi": {
+            "age": "25", 
+            "club": "Basaksehir", 
+            "link": "http://www.thefinalball.com/player.php?id=100981&edicao_id=66233", 
+            "name": "Sokol Cikalleshi", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Taulant Xhaka": {
+            "age": "25", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=146861&edicao_id=66233", 
+            "name": "Taulant Xhaka", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }
+    }, 
+    "Belgium": {
+        "Axel Witsel": {
+            "age": "27", 
+            "club": "Zenit", 
+            "link": "http://www.thefinalball.com/player.php?id=34169&edicao_id=66233", 
+            "name": "Axel Witsel", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Christian Benteke": {
+            "age": "25", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=66062&edicao_id=66233", 
+            "name": "Christian Benteke", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Christian Kabasele": {
+            "age": "25", 
+            "club": "Genk", 
+            "link": "http://www.thefinalball.com/player.php?id=70734&edicao_id=66233", 
+            "name": "Christian Kabasele", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Divock Origi": {
+            "age": "21", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=149513&edicao_id=66233", 
+            "name": "Divock Origi", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Dries Mertens": {
+            "age": "29", 
+            "club": "Napoli", 
+            "link": "http://www.thefinalball.com/player.php?id=86100&edicao_id=66233", 
+            "name": "Dries Mertens", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Eden Hazard": {
+            "age": "25", 
+            "club": "Chelsea", 
+            "link": "http://www.thefinalball.com/player.php?id=50292&edicao_id=66233", 
+            "name": "Eden Hazard", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Ferreira-Carrasco": {
+            "age": "22", 
+            "club": "Atl\u00e9tico Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=150537&edicao_id=66233", 
+            "name": "Ferreira-Carrasco", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Jan Vertonghen": {
+            "age": "29", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=32809&edicao_id=66233", 
+            "name": "Jan Vertonghen", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Jason Denayer": {
+            "age": "20", 
+            "club": "Galatasaray", 
+            "link": "http://www.thefinalball.com/player.php?id=370553&edicao_id=66233", 
+            "name": "Jason Denayer", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Jean-Fran\u00e7ois Gillet": {
+            "age": "37", 
+            "club": "KV Mechelen", 
+            "link": "http://www.thefinalball.com/player.php?id=51238&edicao_id=66233", 
+            "name": "Jean-Fran\u00e7ois Gillet", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Jordan Lukaku": {
+            "age": "21", 
+            "club": "Oostende", 
+            "link": "http://www.thefinalball.com/player.php?id=148897&edicao_id=66233", 
+            "name": "Jordan Lukaku", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Kevin De Bruyne": {
+            "age": "24", 
+            "club": "Manchester City", 
+            "link": "http://www.thefinalball.com/player.php?id=97908&edicao_id=66233", 
+            "name": "Kevin De Bruyne", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Laurent Ciman": {
+            "age": "30", 
+            "club": "Impact Montr\u00e9al ", 
+            "link": "http://www.thefinalball.com/player.php?id=33723&edicao_id=66233", 
+            "name": "Laurent Ciman", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Marouane Fellaini": {
+            "age": "28", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=34167&edicao_id=66233", 
+            "name": "Marouane Fellaini", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Michy Batshuayi": {
+            "age": "22", 
+            "club": "Marseille", 
+            "link": "http://www.thefinalball.com/player.php?id=184083&edicao_id=66233", 
+            "name": "Michy Batshuayi", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Moussa Demb\u00e9l\u00e9": {
+            "age": "28", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=29871&edicao_id=66233", 
+            "name": "Moussa Demb\u00e9l\u00e9", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Radja Nainggolan": {
+            "age": "28", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=51228&edicao_id=66233", 
+            "name": "Radja Nainggolan", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Romelu Lukaku": {
+            "age": "23", 
+            "club": "Everton", 
+            "link": "http://www.thefinalball.com/player.php?id=104335&edicao_id=66233", 
+            "name": "Romelu Lukaku", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Simon Mignolet": {
+            "age": "28", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=34125&edicao_id=66233", 
+            "name": "Simon Mignolet", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Thibaut Courtois": {
+            "age": "24", 
+            "club": "Chelsea", 
+            "link": "http://www.thefinalball.com/player.php?id=95628&edicao_id=66233", 
+            "name": "Thibaut Courtois", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Thomas Meunier": {
+            "age": "24", 
+            "club": "Club Brugge", 
+            "link": "http://www.thefinalball.com/player.php?id=203186&edicao_id=66233", 
+            "name": "Thomas Meunier", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Thomas Vermaelen": {
+            "age": "30", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=9725&edicao_id=66233", 
+            "name": "Thomas Vermaelen", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Toby Alderweireld": {
+            "age": "27", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=79437&edicao_id=66233", 
+            "name": "Toby Alderweireld", 
+            "num": "0", 
+            "pos": "DEF"
+        }
+    }, 
+    "Croatia": {
+        "Andrej Kramari\u0107": {
+            "age": "24", 
+            "club": "TSG Hoffenheim", 
+            "link": "http://www.thefinalball.com/player.php?id=103220&edicao_id=66233", 
+            "name": "Andrej Kramari\u0107", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Ante \u0106ori\u0107": {
+            "age": "19", 
+            "club": "Dinamo Zagreb", 
+            "link": "http://www.thefinalball.com/player.php?id=84473&edicao_id=66233", 
+            "name": "Ante \u0106ori\u0107", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Danijel Suba\u0161i\u0107": {
+            "age": "31", 
+            "club": "Monaco", 
+            "link": "http://www.thefinalball.com/player.php?id=66909&edicao_id=66233", 
+            "name": "Danijel Suba\u0161i\u0107", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Darijo Srna": {
+            "age": "34", 
+            "club": "Shakhtar Donetsk", 
+            "link": "http://www.thefinalball.com/player.php?id=5956&edicao_id=66233", 
+            "name": "Darijo Srna", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Domagoj Vida": {
+            "age": "27", 
+            "club": "Dynamo Kyiv", 
+            "link": "http://www.thefinalball.com/player.php?id=68998&edicao_id=66233", 
+            "name": "Domagoj Vida", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Duje \u010cop": {
+            "age": "26", 
+            "club": "M\u00e1laga", 
+            "link": "http://www.thefinalball.com/player.php?id=61791&edicao_id=66233", 
+            "name": "Duje \u010cop", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Gordon Schildenfeld": {
+            "age": "31", 
+            "club": "Dinamo Zagreb", 
+            "link": "http://www.thefinalball.com/player.php?id=103355&edicao_id=66233", 
+            "name": "Gordon Schildenfeld", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Ivan Peri\u0161i\u0107": {
+            "age": "27", 
+            "club": "Internazionale", 
+            "link": "http://www.thefinalball.com/player.php?id=31585&edicao_id=66233", 
+            "name": "Ivan Peri\u0161i\u0107", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Ivan Rakiti\u0107": {
+            "age": "28", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=37487&edicao_id=66233", 
+            "name": "Ivan Rakiti\u0107", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Ivan Strini\u0107": {
+            "age": "28", 
+            "club": "Napoli", 
+            "link": "http://www.thefinalball.com/player.php?id=66920&edicao_id=66233", 
+            "name": "Ivan Strini\u0107", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Ivan Vargi\u0107": {
+            "age": "29", 
+            "club": "HNK Rijeka", 
+            "link": "http://www.thefinalball.com/player.php?id=68984&edicao_id=66233", 
+            "name": "Ivan Vargi\u0107", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Lovre Kalini\u0107": {
+            "age": "26", 
+            "club": "Hajduk Split", 
+            "link": "http://www.thefinalball.com/player.php?id=155250&edicao_id=66233", 
+            "name": "Lovre Kalini\u0107", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Luka Modri\u0107": {
+            "age": "30", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=26872&edicao_id=66233", 
+            "name": "Luka Modri\u0107", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Marcelo Brozovi\u0107": {
+            "age": "23", 
+            "club": "Internazionale", 
+            "link": "http://www.thefinalball.com/player.php?id=152005&edicao_id=66233", 
+            "name": "Marcelo Brozovi\u0107", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Mario Mand\u017euki\u0107": {
+            "age": "30", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=66904&edicao_id=66233", 
+            "name": "Mario Mand\u017euki\u0107", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Marko Pjaca": {
+            "age": "21", 
+            "club": "Dinamo Zagreb", 
+            "link": "http://www.thefinalball.com/player.php?id=248415&edicao_id=66233", 
+            "name": "Marko Pjaca", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Marko Rog": {
+            "age": "20", 
+            "club": "Dinamo Zagreb", 
+            "link": "http://www.thefinalball.com/player.php?id=413134&edicao_id=66233", 
+            "name": "Marko Rog", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Mateo Kova\u010di\u0107": {
+            "age": "22", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=167679&edicao_id=66233", 
+            "name": "Mateo Kova\u010di\u0107", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Milan Badelj": {
+            "age": "27", 
+            "club": "Fiorentina", 
+            "link": "http://www.thefinalball.com/player.php?id=66901&edicao_id=66233", 
+            "name": "Milan Badelj", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Nikola Kalini\u0107": {
+            "age": "28", 
+            "club": "Fiorentina", 
+            "link": "http://www.thefinalball.com/player.php?id=59907&edicao_id=66233", 
+            "name": "Nikola Kalini\u0107", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Tin Jedvaj": {
+            "age": "20", 
+            "club": "Bayer Leverkusen", 
+            "link": "http://www.thefinalball.com/player.php?id=316233&edicao_id=66233", 
+            "name": "Tin Jedvaj", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Vedran \u0106orluka": {
+            "age": "30", 
+            "club": "Lokomotiv", 
+            "link": "http://www.thefinalball.com/player.php?id=42662&edicao_id=66233", 
+            "name": "Vedran \u0106orluka", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "\u0160ime Vrsaljko": {
+            "age": "24", 
+            "club": "Sassuolo", 
+            "link": "http://www.thefinalball.com/player.php?id=104757&edicao_id=66233", 
+            "name": "\u0160ime Vrsaljko", 
+            "num": "0", 
+            "pos": "DEF"
+        }
+    }, 
+    "Czech Rep.": {
+        "Bo\u0159ek Do\u010dkal": {
+            "age": "27", 
+            "club": "Sparta Praha", 
+            "link": "http://www.thefinalball.com/player.php?id=66240&edicao_id=66233", 
+            "name": "Bo\u0159ek Do\u010dkal", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Daniel Kol\u00e1\u0159": {
+            "age": "30", 
+            "club": "Plzen", 
+            "link": "http://www.thefinalball.com/player.php?id=35576&edicao_id=66233", 
+            "name": "Daniel Kol\u00e1\u0159", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Daniel Pudil": {
+            "age": "30", 
+            "club": "Sheffield Wed.", 
+            "link": "http://www.thefinalball.com/player.php?id=35579&edicao_id=66233", 
+            "name": "Daniel Pudil", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "David Lafata": {
+            "age": "34", 
+            "club": "Sparta Praha", 
+            "link": "http://www.thefinalball.com/player.php?id=41429&edicao_id=66233", 
+            "name": "David Lafata", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "David Limbersk\u00fd": {
+            "age": "32", 
+            "club": "Plzen", 
+            "link": "http://www.thefinalball.com/player.php?id=9193&edicao_id=66233", 
+            "name": "David Limbersk\u00fd", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "David Pavelka": {
+            "age": "25", 
+            "club": "Kasimpasa", 
+            "link": "http://www.thefinalball.com/player.php?id=192370&edicao_id=66233", 
+            "name": "David Pavelka", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Gebre Selassie": {
+            "age": "29", 
+            "club": "Werder Bremen", 
+            "link": "http://www.thefinalball.com/player.php?id=66235&edicao_id=66233", 
+            "name": "Gebre Selassie", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Jaroslav Pla\u0161il": {
+            "age": "34", 
+            "club": "Bordeaux", 
+            "link": "http://www.thefinalball.com/player.php?id=2703&edicao_id=66233", 
+            "name": "Jaroslav Pla\u0161il", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Ji\u0159\u00ed Skal\u00e1k": {
+            "age": "24", 
+            "club": "Brighton & Hove Albion", 
+            "link": "http://www.thefinalball.com/player.php?id=147168&edicao_id=66233", 
+            "name": "Ji\u0159\u00ed Skal\u00e1k", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Josef \u0160ural": {
+            "age": "26", 
+            "club": "Sparta Praha", 
+            "link": "http://www.thefinalball.com/player.php?id=66148&edicao_id=66233", 
+            "name": "Josef \u0160ural", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Ladislav Krej\u010d\u00ed": {
+            "age": "23", 
+            "club": "Sparta Praha", 
+            "link": "http://www.thefinalball.com/player.php?id=147165&edicao_id=66233", 
+            "name": "Ladislav Krej\u010d\u00ed", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Marek Such\u00fd": {
+            "age": "28", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=38621&edicao_id=66233", 
+            "name": "Marek Such\u00fd", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Michal Kadlec": {
+            "age": "31", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=19023&edicao_id=66233", 
+            "name": "Michal Kadlec", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Milan \u0160koda": {
+            "age": "30", 
+            "club": "Slavia Praha", 
+            "link": "http://www.thefinalball.com/player.php?id=42315&edicao_id=66233", 
+            "name": "Milan \u0160koda", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Pavel Kade\u0159\u00e1bek": {
+            "age": "24", 
+            "club": "TSG Hoffenheim", 
+            "link": "http://www.thefinalball.com/player.php?id=149751&edicao_id=66233", 
+            "name": "Pavel Kade\u0159\u00e1bek", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Petr \u010cech": {
+            "age": "34", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=3747&edicao_id=66233", 
+            "name": "Petr \u010cech", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Roman Hubn\u00edk": {
+            "age": "32", 
+            "club": "Sigma Olomouc", 
+            "link": "http://www.thefinalball.com/player.php?id=35573&edicao_id=66233", 
+            "name": "Roman Hubn\u00edk", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Tom\u00e1\u0161 Koubek": {
+            "age": "23", 
+            "club": "Slovan Liberec", 
+            "link": "http://www.thefinalball.com/player.php?id=163780&edicao_id=66233", 
+            "name": "Tom\u00e1\u0161 Koubek", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Tom\u00e1\u0161 Necid": {
+            "age": "26", 
+            "club": "Bursaspor", 
+            "link": "http://www.thefinalball.com/player.php?id=40933&edicao_id=66233", 
+            "name": "Tom\u00e1\u0161 Necid", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Tom\u00e1\u0161 Rosick\u00fd": {
+            "age": "35", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=3284&edicao_id=66233", 
+            "name": "Tom\u00e1\u0161 Rosick\u00fd", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Tom\u00e1\u0161 Sivok": {
+            "age": "32", 
+            "club": "Bursaspor", 
+            "link": "http://www.thefinalball.com/player.php?id=3359&edicao_id=66233", 
+            "name": "Tom\u00e1\u0161 Sivok", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Tom\u00e1\u0161 Vacl\u00edk": {
+            "age": "27", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=114454&edicao_id=66233", 
+            "name": "Tom\u00e1\u0161 Vacl\u00edk", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Vladim\u00edr Darida": {
+            "age": "25", 
+            "club": "Hertha BSC", 
+            "link": "http://www.thefinalball.com/player.php?id=149659&edicao_id=66233", 
+            "name": "Vladim\u00edr Darida", 
+            "num": "0", 
+            "pos": "MID"
+        }
+    }, 
+    "England": {
+        "Adam Lallana": {
+            "age": "28", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=48781&edicao_id=66233", 
+            "name": "Adam Lallana", 
+            "num": "8", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Chris Smalling": {
+            "age": "26", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=89529&edicao_id=66233", 
+            "name": "Chris Smalling", 
+            "num": "6", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Daniel Sturridge": {
+            "age": "26", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=31691&edicao_id=66233", 
+            "name": "Daniel Sturridge", 
+            "num": "15", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Danny Rose": {
+            "age": "25", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=84959&edicao_id=66233", 
+            "name": "Danny Rose", 
+            "num": "3", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Dele Alli ": {
+            "age": "20", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=236970&edicao_id=66233", 
+            "name": "Dele Alli ", 
+            "num": "20", 
+            "pos": "MID"
+        }, 
+        "Eric Dier": {
+            "age": "22", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=74358&edicao_id=66233", 
+            "name": "Eric Dier", 
+            "num": "17", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Fraser Forster": {
+            "age": "28", 
+            "club": "Southampton", 
+            "link": "http://www.thefinalball.com/player.php?id=42661&edicao_id=66233", 
+            "name": "Fraser Forster", 
+            "num": "13", 
+            "pos": "GK", 
+            "term": "png"
+        }, 
+        "Gary Cahill": {
+            "age": "30", 
+            "club": "Chelsea", 
+            "link": "http://www.thefinalball.com/player.php?id=17566&edicao_id=66233", 
+            "name": "Gary Cahill", 
+            "num": "5", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Harry Kane": {
+            "age": "22", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=180569&edicao_id=66233", 
+            "name": "Harry Kane", 
+            "num": "9", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Jack Wilshere": {
+            "age": "24", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=69180&edicao_id=66233", 
+            "name": "Jack Wilshere", 
+            "num": "18", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "James Milner": {
+            "age": "30", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=1478&edicao_id=66233", 
+            "name": "James Milner", 
+            "num": "4", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Jamie Vardy": {
+            "age": "29", 
+            "club": "Leicester City", 
+            "link": "http://www.thefinalball.com/player.php?id=225482&edicao_id=66233", 
+            "name": "Jamie Vardy", 
+            "num": "11", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Joe Hart": {
+            "age": "29", 
+            "club": "Manchester City", 
+            "link": "http://www.thefinalball.com/player.php?id=29070&edicao_id=66233", 
+            "name": "Joe Hart", 
+            "num": "1", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "John Stones": {
+            "age": "22", 
+            "club": "Everton", 
+            "link": "http://www.thefinalball.com/player.php?id=195615&edicao_id=66233", 
+            "name": "John Stones", 
+            "num": "16", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Jordan Henderson": {
+            "age": "25", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=74491&edicao_id=66233", 
+            "name": "Jordan Henderson", 
+            "num": "14", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Kyle Walker": {
+            "age": "26", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=92774&edicao_id=66233", 
+            "name": "Kyle Walker", 
+            "num": "2", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Marcus Rashford": {
+            "age": "18", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=434080&edicao_id=66233", 
+            "name": "Marcus Rashford", 
+            "num": "22", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Nathaniel Clyne": {
+            "age": "25", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=79690&edicao_id=66233", 
+            "name": "Nathaniel Clyne", 
+            "num": "12", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Raheem Sterling": {
+            "age": "21", 
+            "club": "Manchester City", 
+            "link": "http://www.thefinalball.com/player.php?id=122506&edicao_id=66233", 
+            "name": "Raheem Sterling", 
+            "num": "7", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Ross Barkley": {
+            "age": "22", 
+            "club": "Everton", 
+            "link": "http://www.thefinalball.com/player.php?id=142938&edicao_id=66233", 
+            "name": "Ross Barkley", 
+            "num": "19", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Ryan Bertrand": {
+            "age": "26", 
+            "club": "Southampton", 
+            "link": "http://www.thefinalball.com/player.php?id=50429&edicao_id=66233", 
+            "name": "Ryan Bertrand", 
+            "num": "21", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Tom Heaton": {
+            "age": "30", 
+            "club": "Burnley", 
+            "link": "http://www.thefinalball.com/player.php?id=29687&edicao_id=66233", 
+            "name": "Tom Heaton", 
+            "num": "23", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Wayne Rooney": {
+            "age": "30", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=1396&edicao_id=66233", 
+            "name": "Wayne Rooney", 
+            "num": "10", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }
+    }, 
+    "France": {
+        "Adil Rami": {
+            "age": "30", 
+            "club": "Sevilla", 
+            "link": "http://www.thefinalball.com/player.php?id=33907&edicao_id=66233", 
+            "name": "Adil Rami", 
+            "num": "4", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Andr\u00e9-Pierre Gignac": {
+            "age": "30", 
+            "club": "Tigres", 
+            "link": "http://www.thefinalball.com/player.php?id=28681&edicao_id=66233", 
+            "name": "Andr\u00e9-Pierre Gignac", 
+            "num": "10", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Anthony Martial": {
+            "age": "20", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=236654&edicao_id=66233", 
+            "name": "Anthony Martial", 
+            "num": "11", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Antoine Griezmann": {
+            "age": "25", 
+            "club": "Atl\u00e9tico Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=115090&edicao_id=66233", 
+            "name": "Antoine Griezmann", 
+            "num": "7", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Bacary Sagna": {
+            "age": "33", 
+            "club": "Manchester City", 
+            "link": "http://www.thefinalball.com/player.php?id=4409&edicao_id=66233", 
+            "name": "Bacary Sagna", 
+            "num": "19", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Beno\u00eet Costil": {
+            "age": "28", 
+            "club": "Rennes", 
+            "link": "http://www.thefinalball.com/player.php?id=7369&edicao_id=66233", 
+            "name": "Beno\u00eet Costil", 
+            "num": "23", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Blaise Matuidi": {
+            "age": "29", 
+            "club": "Paris SG", 
+            "link": "http://www.thefinalball.com/player.php?id=17969&edicao_id=66233", 
+            "name": "Blaise Matuidi", 
+            "num": "14", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Christophe Jallet": {
+            "age": "32", 
+            "club": "Lyon", 
+            "link": "http://www.thefinalball.com/player.php?id=28682&edicao_id=66233", 
+            "name": "Christophe Jallet", 
+            "num": "2", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Dimitri Payet": {
+            "age": "29", 
+            "club": "West Ham", 
+            "link": "http://www.thefinalball.com/player.php?id=24572&edicao_id=66233", 
+            "name": "Dimitri Payet", 
+            "num": "8", 
+            "pos": "MID", 
+            "term": "png"
+        }, 
+        "Eliaquim Mangala": {
+            "age": "25", 
+            "club": "Manchester City", 
+            "link": "http://www.thefinalball.com/player.php?id=105444&edicao_id=66233", 
+            "name": "Eliaquim Mangala", 
+            "num": "13", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Hugo Lloris": {
+            "age": "29", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=28605&edicao_id=66233", 
+            "name": "Hugo Lloris", 
+            "num": "1", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Kingsley Coman": {
+            "age": "19", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=239997&edicao_id=66233", 
+            "name": "Kingsley Coman", 
+            "num": "20", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Laurent Koscielny": {
+            "age": "30", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=31649&edicao_id=66233", 
+            "name": "Laurent Koscielny", 
+            "num": "21", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Lucas Digne": {
+            "age": "22", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=142875&edicao_id=66233", 
+            "name": "Lucas Digne", 
+            "num": "17", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Morgan Schneiderlin": {
+            "age": "26", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=31740&edicao_id=66233", 
+            "name": "Morgan Schneiderlin", 
+            "num": "12", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Moussa Sissoko": {
+            "age": "26", 
+            "club": "Newcastle", 
+            "link": "http://www.thefinalball.com/player.php?id=42537&edicao_id=66233", 
+            "name": "Moussa Sissoko", 
+            "num": "18", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "N\u2019Golo Kant\u00e9": {
+            "age": "25", 
+            "club": "Leicester City", 
+            "link": "http://www.thefinalball.com/player.php?id=264078&edicao_id=66233", 
+            "name": "N\u2019Golo Kant\u00e9", 
+            "num": "5", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Olivier Giroud": {
+            "age": "29", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=32147&edicao_id=66233", 
+            "name": "Olivier Giroud", 
+            "num": "9", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Patrice Evra": {
+            "age": "35", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=2698&edicao_id=66233", 
+            "name": "Patrice Evra", 
+            "num": "3", 
+            "pos": "DEF", 
+            "term": "png"
+        }, 
+        "Paul Pogba": {
+            "age": "23", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=106444&edicao_id=66233", 
+            "name": "Paul Pogba", 
+            "num": "15", 
+            "pos": "MID", 
+            "term": "png"
+        }, 
+        "Samuel Umtiti": {
+            "age": "22", 
+            "club": "Lyon", 
+            "link": "http://www.thefinalball.com/player.php?id=142867&edicao_id=66233", 
+            "name": "Samuel Umtiti", 
+            "num": "22", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Steve Mandanda": {
+            "age": "31", 
+            "club": "Marseille", 
+            "link": "http://www.thefinalball.com/player.php?id=27739&edicao_id=66233", 
+            "name": "Steve Mandanda", 
+            "num": "16", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Yohan Cabaye": {
+            "age": "30", 
+            "club": "Crystal Palace", 
+            "link": "http://www.thefinalball.com/player.php?id=19064&edicao_id=66233", 
+            "name": "Yohan Cabaye", 
+            "num": "6", 
+            "pos": "MID", 
+            "term": "jpg"
+        }
+    }, 
+    "Germany": {
+        "Andr\u00e9 Sch\u00fcrrle": {
+            "age": "25", 
+            "club": "Wolfsburg", 
+            "link": "http://www.thefinalball.com/player.php?id=107738&edicao_id=66233", 
+            "name": "Andr\u00e9 Sch\u00fcrrle", 
+            "num": "9", 
+            "pos": "FRW"
+        }, 
+        "Antonio R\u00fcdiger": {
+            "age": "23", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=206801&edicao_id=66233", 
+            "name": "Antonio R\u00fcdiger", 
+            "num": "16", 
+            "pos": "DEF"
+        }, 
+        "Bastian Schweinsteiger": {
+            "age": "31", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=2610&edicao_id=66233", 
+            "name": "Bastian Schweinsteiger", 
+            "num": "7", 
+            "pos": "MID"
+        }, 
+        "Benedikt H\u00f6wedes": {
+            "age": "28", 
+            "club": "Schalke 04", 
+            "link": "http://www.thefinalball.com/player.php?id=42864&edicao_id=66233", 
+            "name": "Benedikt H\u00f6wedes", 
+            "num": "4", 
+            "pos": "DEF"
+        }, 
+        "Bernd Leno": {
+            "age": "24", 
+            "club": "Bayer Leverkusen", 
+            "link": "http://www.thefinalball.com/player.php?id=127961&edicao_id=66233", 
+            "name": "Bernd Leno", 
+            "num": "12", 
+            "pos": "GK"
+        }, 
+        "Emre Can": {
+            "age": "22", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=161816&edicao_id=66233", 
+            "name": "Emre Can", 
+            "num": "14", 
+            "pos": "MID"
+        }, 
+        "Jonas Hector": {
+            "age": "26", 
+            "club": "FC K\u00f6ln", 
+            "link": "http://www.thefinalball.com/player.php?id=215731&edicao_id=66233", 
+            "name": "Jonas Hector", 
+            "num": "3", 
+            "pos": "DEF"
+        }, 
+        "Joshua Kimmich": {
+            "age": "21", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=330909&edicao_id=66233", 
+            "name": "Joshua Kimmich", 
+            "num": "21", 
+            "pos": "MID"
+        }, 
+        "Julian Draxler": {
+            "age": "22", 
+            "club": "Wolfsburg", 
+            "link": "http://www.thefinalball.com/player.php?id=174904&edicao_id=66233", 
+            "name": "Julian Draxler", 
+            "num": "11", 
+            "pos": "MID"
+        }, 
+        "Julian Weigl": {
+            "age": "20", 
+            "club": "Borussia Dortmund", 
+            "link": "http://www.thefinalball.com/player.php?id=395624&edicao_id=66233", 
+            "name": "Julian Weigl", 
+            "num": "15", 
+            "pos": "MID"
+        }, 
+        "J\u00e9r\u00f4me Boateng": {
+            "age": "27", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=43041&edicao_id=66233", 
+            "name": "J\u00e9r\u00f4me Boateng", 
+            "num": "20", 
+            "pos": "DEF"
+        }, 
+        "Leroy San\u00e9": {
+            "age": "20", 
+            "club": "Schalke 04", 
+            "link": "http://www.thefinalball.com/player.php?id=370843&edicao_id=66233", 
+            "name": "Leroy San\u00e9", 
+            "num": "20", 
+            "pos": "MID"
+        }, 
+        "Lukas Podolski": {
+            "age": "31", 
+            "club": "Galatasaray", 
+            "link": "http://www.thefinalball.com/player.php?id=4645&edicao_id=66233", 
+            "name": "Lukas Podolski", 
+            "num": "10", 
+            "pos": "FRW"
+        }, 
+        "Manuel Neuer": {
+            "age": "30", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=29193&edicao_id=66233", 
+            "name": "Manuel Neuer", 
+            "num": "1", 
+            "pos": "GK"
+        }, 
+        "Mario G\u00f3mez": {
+            "age": "30", 
+            "club": "Besiktas", 
+            "link": "http://www.thefinalball.com/player.php?id=4345&edicao_id=66233", 
+            "name": "Mario G\u00f3mez", 
+            "num": "23", 
+            "pos": "FRW"
+        }, 
+        "Mario G\u00f6tze": {
+            "age": "24", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=119675&edicao_id=66233", 
+            "name": "Mario G\u00f6tze", 
+            "num": "19", 
+            "pos": "MID"
+        }, 
+        "Mats Hummels": {
+            "age": "27", 
+            "club": "Borussia Dortmund", 
+            "link": "http://www.thefinalball.com/player.php?id=29975&edicao_id=66233", 
+            "name": "Mats Hummels", 
+            "num": "5", 
+            "pos": "DEF"
+        }, 
+        "Mesut \u00d6zil": {
+            "age": "27", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=43020&edicao_id=66233", 
+            "name": "Mesut \u00d6zil", 
+            "num": "8", 
+            "pos": "MID"
+        }, 
+        "Sami Khedira": {
+            "age": "29", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=29966&edicao_id=66233", 
+            "name": "Sami Khedira", 
+            "num": "6", 
+            "pos": "MID"
+        }, 
+        "Shkodran Mustafi": {
+            "age": "24", 
+            "club": "Valencia", 
+            "link": "http://www.thefinalball.com/player.php?id=106597&edicao_id=66233", 
+            "name": "Shkodran Mustafi", 
+            "num": "2", 
+            "pos": "DEF"
+        }, 
+        "Thomas M\u00fcller": {
+            "age": "26", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=65295&edicao_id=66233", 
+            "name": "Thomas M\u00fcller", 
+            "num": "13", 
+            "pos": "FRW"
+        }, 
+        "Toni Kroos": {
+            "age": "26", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=43004&edicao_id=66233", 
+            "name": "Toni Kroos", 
+            "num": "18", 
+            "pos": "MID"
+        }, 
+        "ter Stegen": {
+            "age": "24", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=114914&edicao_id=66233", 
+            "name": "ter Stegen", 
+            "num": "22", 
+            "pos": "GK"
+        }
+    }, 
+    "Hungary": {
+        "Adam Nagy": {
+            "age": "20", 
+            "club": "Ferencv\u00e1ros", 
+            "link": "http://www.thefinalball.com/player.php?id=461424&edicao_id=66233", 
+            "name": "Adam Nagy", 
+            "num": "8", 
+            "pos": "MID"
+        }, 
+        "Attila Fiola": {
+            "age": "26", 
+            "club": "Pusk\u00e1s Akad\u00e9mia FC", 
+            "link": "http://www.thefinalball.com/player.php?id=91619&edicao_id=66233", 
+            "name": "Attila Fiola", 
+            "num": "5", 
+            "pos": "DEF"
+        }, 
+        "Bal\u00e1zs Dzsudzs\u00e1k": {
+            "age": "29", 
+            "club": "Bursaspor", 
+            "link": "http://www.thefinalball.com/player.php?id=42398&edicao_id=66233", 
+            "name": "Bal\u00e1zs Dzsudzs\u00e1k", 
+            "num": "7", 
+            "pos": "MID"
+        }, 
+        "Barnab\u00e1s Bese": {
+            "age": "22", 
+            "club": "MTK", 
+            "link": "http://www.thefinalball.com/player.php?id=241790&edicao_id=66233", 
+            "name": "Barnab\u00e1s Bese", 
+            "num": "21", 
+            "pos": "MID"
+        }, 
+        "D\u00e1niel B\u00f6de": {
+            "age": "29", 
+            "club": "Ferencv\u00e1ros", 
+            "link": "http://www.thefinalball.com/player.php?id=42858&edicao_id=66233", 
+            "name": "D\u00e1niel B\u00f6de", 
+            "num": "13", 
+            "pos": "FRW"
+        }, 
+        "D\u00e9nes Dibusz": {
+            "age": "25", 
+            "club": "Ferencv\u00e1ros", 
+            "link": "http://www.thefinalball.com/player.php?id=163485&edicao_id=66233", 
+            "name": "D\u00e9nes Dibusz", 
+            "num": "12", 
+            "pos": "GK"
+        }, 
+        "Gerg\u0151 Lovrencsics": {
+            "age": "27", 
+            "club": "Lech Poznan", 
+            "link": "http://www.thefinalball.com/player.php?id=163489&edicao_id=66233", 
+            "name": "Gerg\u0151 Lovrencsics", 
+            "num": "14", 
+            "pos": "FRW"
+        }, 
+        "G\u00e1bor Kir\u00e1ly": {
+            "age": "40", 
+            "club": "Halad\u00e1s", 
+            "link": "http://www.thefinalball.com/player.php?id=4599&edicao_id=66233", 
+            "name": "G\u00e1bor Kir\u00e1ly", 
+            "num": "1", 
+            "pos": "GK"
+        }, 
+        "Kriszti\u00e1n N\u00e9meth": {
+            "age": "27", 
+            "club": "Al-Gharafa", 
+            "link": "http://www.thefinalball.com/player.php?id=35078&edicao_id=66233", 
+            "name": "Kriszti\u00e1n N\u00e9meth", 
+            "num": "11", 
+            "pos": "FRW"
+        }, 
+        "L\u00e1szl\u00f3 Kleinheisler ": {
+            "age": "22", 
+            "club": "Werder Bremen", 
+            "link": "http://www.thefinalball.com/player.php?id=359899&edicao_id=66233", 
+            "name": "L\u00e1szl\u00f3 Kleinheisler ", 
+            "num": "15", 
+            "pos": "MID"
+        }, 
+        "Mih\u00e1ly Korhut": {
+            "age": "27", 
+            "club": "Debreceni", 
+            "link": "http://www.thefinalball.com/player.php?id=104479&edicao_id=66233", 
+            "name": "Mih\u00e1ly Korhut", 
+            "num": "3", 
+            "pos": "DEF"
+        }, 
+        "Nemanja Nikoli\u0107": {
+            "age": "28", 
+            "club": "Legia Warszawa", 
+            "link": "http://www.thefinalball.com/player.php?id=67027&edicao_id=66233", 
+            "name": "Nemanja Nikoli\u0107", 
+            "num": "17", 
+            "pos": "FRW"
+        }, 
+        "P\u00e9ter Gul\u00e1csi": {
+            "age": "26", 
+            "club": "RB Leipzig", 
+            "link": "http://www.thefinalball.com/player.php?id=42464&edicao_id=66233", 
+            "name": "P\u00e9ter Gul\u00e1csi", 
+            "num": "22", 
+            "pos": "GK"
+        }, 
+        "Rich\u00e1rd Guzmics": {
+            "age": "29", 
+            "club": "Wisla Krak\u00f3w", 
+            "link": "http://www.thefinalball.com/player.php?id=67453&edicao_id=66233", 
+            "name": "Rich\u00e1rd Guzmics", 
+            "num": "20", 
+            "pos": "DEF"
+        }, 
+        "Roland Juh\u00e1sz": {
+            "age": "32", 
+            "club": "Videoton", 
+            "link": "http://www.thefinalball.com/player.php?id=19017&edicao_id=66233", 
+            "name": "Roland Juh\u00e1sz", 
+            "num": "23", 
+            "pos": "DEF"
+        }, 
+        "Tam\u00e1s K\u00e1d\u00e1r": {
+            "age": "26", 
+            "club": "Lech Poznan", 
+            "link": "http://www.thefinalball.com/player.php?id=42514&edicao_id=66233", 
+            "name": "Tam\u00e1s K\u00e1d\u00e1r", 
+            "num": "4", 
+            "pos": "DEF"
+        }, 
+        "Tam\u00e1s Priskin": {
+            "age": "29", 
+            "club": "Slovan Bratislava", 
+            "link": "http://www.thefinalball.com/player.php?id=29065&edicao_id=66233", 
+            "name": "Tam\u00e1s Priskin", 
+            "num": "19", 
+            "pos": "FRW"
+        }, 
+        "Zolt\u00e1n Gera": {
+            "age": "37", 
+            "club": "Ferencv\u00e1ros", 
+            "link": "http://www.thefinalball.com/player.php?id=4897&edicao_id=66233", 
+            "name": "Zolt\u00e1n Gera", 
+            "num": "10", 
+            "pos": "FRW"
+        }, 
+        "Zolt\u00e1n Stieber": {
+            "age": "27", 
+            "club": "FC N\u00fcrnberg", 
+            "link": "http://www.thefinalball.com/player.php?id=50320&edicao_id=66233", 
+            "name": "Zolt\u00e1n Stieber", 
+            "num": "18", 
+            "pos": "MID"
+        }, 
+        "\u00c1d\u00e1m Lang": {
+            "age": "23", 
+            "club": "Videoton", 
+            "link": "http://www.thefinalball.com/player.php?id=278865&edicao_id=66233", 
+            "name": "\u00c1d\u00e1m Lang", 
+            "num": "2", 
+            "pos": "DEF"
+        }, 
+        "\u00c1d\u00e1m Pint\u00e9r": {
+            "age": "27", 
+            "club": "Ferencv\u00e1ros", 
+            "link": "http://www.thefinalball.com/player.php?id=42487&edicao_id=66233", 
+            "name": "\u00c1d\u00e1m Pint\u00e9r", 
+            "num": "16", 
+            "pos": "DEF"
+        }, 
+        "\u00c1d\u00e1m Szalai": {
+            "age": "28", 
+            "club": "Hannover 96", 
+            "link": "http://www.thefinalball.com/player.php?id=61275&edicao_id=66233", 
+            "name": "\u00c1d\u00e1m Szalai", 
+            "num": "9", 
+            "pos": "FRW"
+        }, 
+        "\u00c1kos Elek": {
+            "age": "27", 
+            "club": "Di\u00f3sgy\u00f6r", 
+            "link": "http://www.thefinalball.com/player.php?id=66977&edicao_id=66233", 
+            "name": "\u00c1kos Elek", 
+            "num": "6", 
+            "pos": "MID"
+        }
+    }, 
+    "Iceland": {
+        "Alfre\u00f0 Finnbogason": {
+            "age": "27", 
+            "club": "FC Augsburg", 
+            "link": "http://www.thefinalball.com/player.php?id=104192&edicao_id=66233", 
+            "name": "Alfre\u00f0 Finnbogason", 
+            "num": "11", 
+            "pos": "FRW"
+        }, 
+        "Ari Sk\u00falason": {
+            "age": "29", 
+            "club": "Odense BK", 
+            "link": "http://www.thefinalball.com/player.php?id=68306&edicao_id=66233", 
+            "name": "Ari Sk\u00falason", 
+            "num": "23", 
+            "pos": "MID"
+        }, 
+        "Arn\u00f3r Traustason": {
+            "age": "23", 
+            "club": "IFK Norrk\u00f6ping", 
+            "link": "http://www.thefinalball.com/player.php?id=152281&edicao_id=66233", 
+            "name": "Arn\u00f3r Traustason", 
+            "num": "21", 
+            "pos": "MID"
+        }, 
+        "Aron Gunnarsson": {
+            "age": "27", 
+            "club": "Cardiff City", 
+            "link": "http://www.thefinalball.com/player.php?id=62096&edicao_id=66233", 
+            "name": "Aron Gunnarsson", 
+            "num": "17", 
+            "pos": "MID"
+        }, 
+        "Birkir Bjarnason": {
+            "age": "28", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=33502&edicao_id=66233", 
+            "name": "Birkir Bjarnason", 
+            "num": "8", 
+            "pos": "MID"
+        }, 
+        "Birkir S\u00e6varsson": {
+            "age": "31", 
+            "club": "Hammarby", 
+            "link": "http://www.thefinalball.com/player.php?id=70667&edicao_id=66233", 
+            "name": "Birkir S\u00e6varsson", 
+            "num": "2", 
+            "pos": "DEF"
+        }, 
+        "Ei\u00f0ur Gu\u00f0johnsen": {
+            "age": "37", 
+            "club": "Molde", 
+            "link": "http://www.thefinalball.com/player.php?id=1364&edicao_id=66233", 
+            "name": "Ei\u00f0ur Gu\u00f0johnsen", 
+            "num": "22", 
+            "pos": "FRW"
+        }, 
+        "Emil Hallfre\u00f0sson": {
+            "age": "31", 
+            "club": "Udinese", 
+            "link": "http://www.thefinalball.com/player.php?id=42901&edicao_id=66233", 
+            "name": "Emil Hallfre\u00f0sson", 
+            "num": "20", 
+            "pos": "MID"
+        }, 
+        "Gylfi Sigur\u00f0sson": {
+            "age": "26", 
+            "club": "Swansea City", 
+            "link": "http://www.thefinalball.com/player.php?id=114073&edicao_id=66233", 
+            "name": "Gylfi Sigur\u00f0sson", 
+            "num": "10", 
+            "pos": "MID"
+        }, 
+        "Hannes Halld\u00f3rsson": {
+            "age": "32", 
+            "club": "Bodo/Glimt", 
+            "link": "http://www.thefinalball.com/player.php?id=97388&edicao_id=66233", 
+            "name": "Hannes Halld\u00f3rsson", 
+            "num": "1", 
+            "pos": "GK"
+        }, 
+        "Haukur Hauksson": {
+            "age": "24", 
+            "club": "AIK", 
+            "link": "http://www.thefinalball.com/player.php?id=157287&edicao_id=66233", 
+            "name": "Haukur Hauksson", 
+            "num": "3", 
+            "pos": "DEF"
+        }, 
+        "Hj\u00f6rtur Hermannsson ": {
+            "age": "21", 
+            "club": "IFK Goteborg", 
+            "link": "http://www.thefinalball.com/player.php?id=196901&edicao_id=66233", 
+            "name": "Hj\u00f6rtur Hermannsson ", 
+            "num": "4", 
+            "pos": "DEF"
+        }, 
+        "H\u00f6r\u00f0ur Magn\u00fasson": {
+            "age": "23", 
+            "club": "Cesena", 
+            "link": "http://www.thefinalball.com/player.php?id=141219&edicao_id=66233", 
+            "name": "H\u00f6r\u00f0ur Magn\u00fasson", 
+            "num": "19", 
+            "pos": "DEF"
+        }, 
+        "Ingvar J\u00f3nsson": {
+            "age": "26", 
+            "club": "Sandefjord", 
+            "link": "http://www.thefinalball.com/player.php?id=195251&edicao_id=66233", 
+            "name": "Ingvar J\u00f3nsson", 
+            "num": "13", 
+            "pos": "GK"
+        }, 
+        "J\u00f3hann Gu\u00f0mundsson": {
+            "age": "25", 
+            "club": "Charlton Athletic", 
+            "link": "http://www.thefinalball.com/player.php?id=105145&edicao_id=66233", 
+            "name": "J\u00f3hann Gu\u00f0mundsson", 
+            "num": "7", 
+            "pos": "MID"
+        }, 
+        "J\u00f3n B\u00f6\u00f0varsson": {
+            "age": "24", 
+            "club": "Kaiserslautern", 
+            "link": "http://www.thefinalball.com/player.php?id=143499&edicao_id=66233", 
+            "name": "J\u00f3n B\u00f6\u00f0varsson", 
+            "num": "15", 
+            "pos": "FRW"
+        }, 
+        "Kolbeinn Sig\u00fe\u00f3rsson": {
+            "age": "26", 
+            "club": "Nantes", 
+            "link": "http://www.thefinalball.com/player.php?id=151802&edicao_id=66233", 
+            "name": "Kolbeinn Sig\u00fe\u00f3rsson", 
+            "num": "9", 
+            "pos": "FRW"
+        }, 
+        "K\u00e1ri \u00c1rnason": {
+            "age": "33", 
+            "club": "Malm\u00f6", 
+            "link": "http://www.thefinalball.com/player.php?id=63831&edicao_id=66233", 
+            "name": "K\u00e1ri \u00c1rnason", 
+            "num": "14", 
+            "pos": "MID"
+        }, 
+        "Ragnar Sigur\u00f0sson": {
+            "age": "29", 
+            "club": "FK Krasnodar", 
+            "link": "http://www.thefinalball.com/player.php?id=50235&edicao_id=66233", 
+            "name": "Ragnar Sigur\u00f0sson", 
+            "num": "6", 
+            "pos": "DEF"
+        }, 
+        "R\u00fanar Sigurj\u00f3nsson": {
+            "age": "25", 
+            "club": "GIF Sundsvall", 
+            "link": "http://www.thefinalball.com/player.php?id=143471&edicao_id=66233", 
+            "name": "R\u00fanar Sigurj\u00f3nsson", 
+            "num": "16", 
+            "pos": "MID"
+        }, 
+        "Sverrir Ingason": {
+            "age": "22", 
+            "club": "Lokeren", 
+            "link": "http://www.thefinalball.com/player.php?id=152280&edicao_id=66233", 
+            "name": "Sverrir Ingason", 
+            "num": "5", 
+            "pos": "DEF"
+        }, 
+        "The\u00f3d\u00f3r Bjarnason": {
+            "age": "29", 
+            "club": "AGF Aarhus", 
+            "link": "http://www.thefinalball.com/player.php?id=11824&edicao_id=66233", 
+            "name": "The\u00f3d\u00f3r Bjarnason", 
+            "num": "18", 
+            "pos": "MID"
+        }, 
+        "\u00d6gmundur Kristinsson": {
+            "age": "26", 
+            "club": "Hammarby", 
+            "link": "http://www.thefinalball.com/player.php?id=97389&edicao_id=66233", 
+            "name": "\u00d6gmundur Kristinsson", 
+            "num": "12", 
+            "pos": "GK"
+        }
+    }, 
+    "Ireland": {
+        "Aiden McGeady": {
+            "age": "30", 
+            "club": "Sheffield Wed.", 
+            "link": "http://www.thefinalball.com/player.php?id=6369&edicao_id=66233", 
+            "name": "Aiden McGeady", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Ciaran Clark": {
+            "age": "26", 
+            "club": "Aston Villa", 
+            "link": "http://www.thefinalball.com/player.php?id=79754&edicao_id=66233", 
+            "name": "Ciaran Clark", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Cyrus Christie": {
+            "age": "23", 
+            "club": "Derby County", 
+            "link": "http://www.thefinalball.com/player.php?id=153864&edicao_id=66233", 
+            "name": "Cyrus Christie", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Darren Randolph": {
+            "age": "29", 
+            "club": "West Ham", 
+            "link": "http://www.thefinalball.com/player.php?id=25572&edicao_id=66233", 
+            "name": "Darren Randolph", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Daryl Murphy": {
+            "age": "33", 
+            "club": "Ipswich Town", 
+            "link": "http://www.thefinalball.com/player.php?id=16391&edicao_id=66233", 
+            "name": "Daryl Murphy", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "David Meyler": {
+            "age": "27", 
+            "club": "Hull City", 
+            "link": "http://www.thefinalball.com/player.php?id=65973&edicao_id=66233", 
+            "name": "David Meyler", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Glenn Whelan": {
+            "age": "32", 
+            "club": "Stoke City", 
+            "link": "http://www.thefinalball.com/player.php?id=1571&edicao_id=66233", 
+            "name": "Glenn Whelan", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "James McCarthy": {
+            "age": "25", 
+            "club": "Everton", 
+            "link": "http://www.thefinalball.com/player.php?id=67408&edicao_id=66233", 
+            "name": "James McCarthy", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "James McClean": {
+            "age": "27", 
+            "club": "West Bromwich", 
+            "link": "http://www.thefinalball.com/player.php?id=113151&edicao_id=66233", 
+            "name": "James McClean", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Jeff Hendrick": {
+            "age": "24", 
+            "club": "Derby County", 
+            "link": "http://www.thefinalball.com/player.php?id=153985&edicao_id=66233", 
+            "name": "Jeff Hendrick", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "John O\u2019Shea": {
+            "age": "35", 
+            "club": "Sunderland", 
+            "link": "http://www.thefinalball.com/player.php?id=1593&edicao_id=66233", 
+            "name": "John O\u2019Shea", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Jon Walters": {
+            "age": "32", 
+            "club": "Stoke City", 
+            "link": "http://www.thefinalball.com/player.php?id=1292&edicao_id=66233", 
+            "name": "Jon Walters", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Keiren Westwood": {
+            "age": "31", 
+            "club": "Sheffield Wed.", 
+            "link": "http://www.thefinalball.com/player.php?id=107951&edicao_id=66233", 
+            "name": "Keiren Westwood", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Richard Keogh": {
+            "age": "29", 
+            "club": "Derby County", 
+            "link": "http://www.thefinalball.com/player.php?id=48542&edicao_id=66233", 
+            "name": "Richard Keogh", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Robbie Brady": {
+            "age": "24", 
+            "club": "Norwich City", 
+            "link": "http://www.thefinalball.com/player.php?id=133847&edicao_id=66233", 
+            "name": "Robbie Brady", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Robbie Keane": {
+            "age": "35", 
+            "club": "LA Galaxy", 
+            "link": "http://www.thefinalball.com/player.php?id=1732&edicao_id=66233", 
+            "name": "Robbie Keane", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Shane Duffy": {
+            "age": "24", 
+            "club": "Blackburn Rovers", 
+            "link": "http://www.thefinalball.com/player.php?id=108823&edicao_id=66233", 
+            "name": "Shane Duffy", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Shane Long": {
+            "age": "29", 
+            "club": "Southampton", 
+            "link": "http://www.thefinalball.com/player.php?id=29118&edicao_id=66233", 
+            "name": "Shane Long", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Shay Given": {
+            "age": "40", 
+            "club": "Stoke City", 
+            "link": "http://www.thefinalball.com/player.php?id=1632&edicao_id=66233", 
+            "name": "Shay Given", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Stephen Quinn": {
+            "age": "30", 
+            "club": "Reading", 
+            "link": "http://www.thefinalball.com/player.php?id=30178&edicao_id=66233", 
+            "name": "Stephen Quinn", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Stephen Ward": {
+            "age": "30", 
+            "club": "Burnley", 
+            "link": "http://www.thefinalball.com/player.php?id=48655&edicao_id=66233", 
+            "name": "Stephen Ward", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "S\u00e9amus Coleman": {
+            "age": "27", 
+            "club": "Everton", 
+            "link": "http://www.thefinalball.com/player.php?id=106629&edicao_id=66233", 
+            "name": "S\u00e9amus Coleman", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Wes Hoolahan": {
+            "age": "34", 
+            "club": "Norwich City", 
+            "link": "http://www.thefinalball.com/player.php?id=49186&edicao_id=66233", 
+            "name": "Wes Hoolahan", 
+            "num": "0", 
+            "pos": "MID"
+        }
+    }, 
+    "Italy": {
+        "Alessandro Florenzi": {
+            "age": "25", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=147357&edicao_id=66233", 
+            "name": "Alessandro Florenzi", 
+            "num": "8", 
+            "pos": "MID"
+        }, 
+        "Andrea Barzagli": {
+            "age": "35", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=2180&edicao_id=66233", 
+            "name": "Andrea Barzagli", 
+            "num": "15", 
+            "pos": "DEF"
+        }, 
+        "Angelo Ogbonna": {
+            "age": "28", 
+            "club": "West Ham", 
+            "link": "http://www.thefinalball.com/player.php?id=31025&edicao_id=66233", 
+            "name": "Angelo Ogbonna", 
+            "num": "5", 
+            "pos": "DEF"
+        }, 
+        "Antonio Candreva": {
+            "age": "29", 
+            "club": "Lazio", 
+            "link": "http://www.thefinalball.com/player.php?id=43468&edicao_id=66233", 
+            "name": "Antonio Candreva", 
+            "num": "6", 
+            "pos": "MID"
+        }, 
+        "Ciro Immobile": {
+            "age": "26", 
+            "club": "Torino", 
+            "link": "http://www.thefinalball.com/player.php?id=81006&edicao_id=66233", 
+            "name": "Ciro Immobile", 
+            "num": "11", 
+            "pos": "FRW"
+        }, 
+        "Daniele De Rossi": {
+            "age": "32", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=1926&edicao_id=66233", 
+            "name": "Daniele De Rossi", 
+            "num": "16", 
+            "pos": "MID"
+        }, 
+        "Emanuele Giaccherini": {
+            "age": "31", 
+            "club": "Bologna", 
+            "link": "http://www.thefinalball.com/player.php?id=87556&edicao_id=66233", 
+            "name": "Emanuele Giaccherini", 
+            "num": "23", 
+            "pos": "MID"
+        }, 
+        "Federico Bernardeschi": {
+            "age": "22", 
+            "club": "Fiorentina", 
+            "link": "http://www.thefinalball.com/player.php?id=235362&edicao_id=66233", 
+            "name": "Federico Bernardeschi", 
+            "num": "21", 
+            "pos": "FRW"
+        }, 
+        "Federico Marchetti": {
+            "age": "33", 
+            "club": "Lazio", 
+            "link": "http://www.thefinalball.com/player.php?id=48095&edicao_id=66233", 
+            "name": "Federico Marchetti", 
+            "num": "13", 
+            "pos": "GK"
+        }, 
+        "Gianluigi Buffon": {
+            "age": "38", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=1979&edicao_id=66233", 
+            "name": "Gianluigi Buffon", 
+            "num": "1", 
+            "pos": "GK"
+        }, 
+        "Giorgio Chiellini": {
+            "age": "31", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=6934&edicao_id=66233", 
+            "name": "Giorgio Chiellini", 
+            "num": "3", 
+            "pos": "DEF"
+        }, 
+        "Graziano Pell\u00e8": {
+            "age": "30", 
+            "club": "Southampton", 
+            "link": "http://www.thefinalball.com/player.php?id=7888&edicao_id=66233", 
+            "name": "Graziano Pell\u00e8", 
+            "num": "9", 
+            "pos": "FRW"
+        }, 
+        "Leonardo Bonucci": {
+            "age": "29", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=28495&edicao_id=66233", 
+            "name": "Leonardo Bonucci", 
+            "num": "19", 
+            "pos": "DEF"
+        }, 
+        "Lorenzo Insigne": {
+            "age": "25", 
+            "club": "Napoli", 
+            "link": "http://www.thefinalball.com/player.php?id=126107&edicao_id=66233", 
+            "name": "Lorenzo Insigne", 
+            "num": "20", 
+            "pos": "FRW"
+        }, 
+        "Marco Parolo": {
+            "age": "31", 
+            "club": "Lazio", 
+            "link": "http://www.thefinalball.com/player.php?id=87821&edicao_id=66233", 
+            "name": "Marco Parolo", 
+            "num": "18", 
+            "pos": "MID"
+        }, 
+        "Matteo Darmian": {
+            "age": "26", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=30204&edicao_id=66233", 
+            "name": "Matteo Darmian", 
+            "num": "4", 
+            "pos": "DEF"
+        }, 
+        "Mattia De Sciglio": {
+            "age": "23", 
+            "club": "Milan", 
+            "link": "http://www.thefinalball.com/player.php?id=145852&edicao_id=66233", 
+            "name": "Mattia De Sciglio", 
+            "num": "2", 
+            "pos": "DEF"
+        }, 
+        "Salvatore Sirigu": {
+            "age": "29", 
+            "club": "Paris SG", 
+            "link": "http://www.thefinalball.com/player.php?id=29268&edicao_id=66233", 
+            "name": "Salvatore Sirigu", 
+            "num": "12", 
+            "pos": "GK"
+        }, 
+        "Simone Zaza": {
+            "age": "24", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=88798&edicao_id=66233", 
+            "name": "Simone Zaza", 
+            "num": "7", 
+            "pos": "FRW"
+        }, 
+        "Stefano Sturaro": {
+            "age": "23", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=173749&edicao_id=66233", 
+            "name": "Stefano Sturaro", 
+            "num": "14", 
+            "pos": "MID"
+        }, 
+        "Stephan El Shaarawy": {
+            "age": "23", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=80440&edicao_id=66233", 
+            "name": "Stephan El Shaarawy", 
+            "num": "22", 
+            "pos": "FRW"
+        }, 
+        "Thiago Motta": {
+            "age": "33", 
+            "club": "Paris SG", 
+            "link": "http://www.thefinalball.com/player.php?id=765&edicao_id=66233", 
+            "name": "Thiago Motta", 
+            "num": "10", 
+            "pos": "MID"
+        }, 
+        "\u00c9der Martins": {
+            "age": "29", 
+            "club": "Internazionale", 
+            "link": "http://www.thefinalball.com/player.php?id=29289&edicao_id=66233", 
+            "name": "\u00c9der Martins", 
+            "num": "17", 
+            "pos": "FRW"
+        }
+    }, 
+    "N. Ireland": {
+        "Aaron Hughes": {
+            "age": "36", 
+            "club": "Melbourne City", 
+            "link": "http://www.thefinalball.com/player.php?id=1645&edicao_id=66233", 
+            "name": "Aaron Hughes", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Alan Mannus": {
+            "age": "34", 
+            "club": "St. Johnstone", 
+            "link": "http://www.thefinalball.com/player.php?id=68821&edicao_id=66233", 
+            "name": "Alan Mannus", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Chris Baird": {
+            "age": "34", 
+            "club": "Fulham", 
+            "link": "http://www.thefinalball.com/player.php?id=1720&edicao_id=66233", 
+            "name": "Chris Baird", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Conor McLaughlin": {
+            "age": "24", 
+            "club": "Fleetwood Town", 
+            "link": "http://www.thefinalball.com/player.php?id=151211&edicao_id=66233", 
+            "name": "Conor McLaughlin", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Conor Washington": {
+            "age": "24", 
+            "club": "QPR", 
+            "link": "http://www.thefinalball.com/player.php?id=365073&edicao_id=66233", 
+            "name": "Conor Washington", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Corry Evans": {
+            "age": "25", 
+            "club": "Blackburn Rovers", 
+            "link": "http://www.thefinalball.com/player.php?id=98547&edicao_id=66233", 
+            "name": "Corry Evans", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Craig Cathcart": {
+            "age": "27", 
+            "club": "Watford", 
+            "link": "http://www.thefinalball.com/player.php?id=77105&edicao_id=66233", 
+            "name": "Craig Cathcart", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Gareth McAuley": {
+            "age": "36", 
+            "club": "West Bromwich", 
+            "link": "http://www.thefinalball.com/player.php?id=48797&edicao_id=66233", 
+            "name": "Gareth McAuley", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Jamie Ward": {
+            "age": "30", 
+            "club": "Nottingham Forest", 
+            "link": "http://www.thefinalball.com/player.php?id=99445&edicao_id=66233", 
+            "name": "Jamie Ward", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Jonny Evans": {
+            "age": "28", 
+            "club": "West Bromwich", 
+            "link": "http://www.thefinalball.com/player.php?id=43713&edicao_id=66233", 
+            "name": "Jonny Evans", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Josh Magennis": {
+            "age": "25", 
+            "club": "Kilmarnock", 
+            "link": "http://www.thefinalball.com/player.php?id=66735&edicao_id=66233", 
+            "name": "Josh Magennis", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Kyle Lafferty": {
+            "age": "28", 
+            "club": "Birmingham City", 
+            "link": "http://www.thefinalball.com/player.php?id=49055&edicao_id=66233", 
+            "name": "Kyle Lafferty", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Lee Hodson": {
+            "age": "24", 
+            "club": "Kilmarnock", 
+            "link": "http://www.thefinalball.com/player.php?id=107970&edicao_id=66233", 
+            "name": "Lee Hodson", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Luke McCullough": {
+            "age": "22", 
+            "club": "Doncaster Rovers", 
+            "link": "http://www.thefinalball.com/player.php?id=188950&edicao_id=66233", 
+            "name": "Luke McCullough", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Mike McGovern": {
+            "age": "31", 
+            "club": "Hamilton", 
+            "link": "http://www.thefinalball.com/player.php?id=4686&edicao_id=66233", 
+            "name": "Mike McGovern", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Niall McGinn": {
+            "age": "28", 
+            "club": "Aberdeen", 
+            "link": "http://www.thefinalball.com/player.php?id=91608&edicao_id=66233", 
+            "name": "Niall McGinn", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Oliver Norwood": {
+            "age": "25", 
+            "club": "Reading", 
+            "link": "http://www.thefinalball.com/player.php?id=133845&edicao_id=66233", 
+            "name": "Oliver Norwood", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Paddy McNair": {
+            "age": "21", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=370884&edicao_id=66233", 
+            "name": "Paddy McNair", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Roy Carroll": {
+            "age": "38", 
+            "club": "Notts County", 
+            "link": "http://www.thefinalball.com/player.php?id=1584&edicao_id=66233", 
+            "name": "Roy Carroll", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Shane Ferguson": {
+            "age": "24", 
+            "club": "Millwall", 
+            "link": "http://www.thefinalball.com/player.php?id=117339&edicao_id=66233", 
+            "name": "Shane Ferguson", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Steven Davis": {
+            "age": "31", 
+            "club": "Southampton", 
+            "link": "http://www.thefinalball.com/player.php?id=1216&edicao_id=66233", 
+            "name": "Steven Davis", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Stuart Dallas": {
+            "age": "25", 
+            "club": "Leeds United", 
+            "link": "http://www.thefinalball.com/player.php?id=157635&edicao_id=66233", 
+            "name": "Stuart Dallas", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Will Grigg": {
+            "age": "24", 
+            "club": "Wigan Athletic", 
+            "link": "http://www.thefinalball.com/player.php?id=210236&edicao_id=66233", 
+            "name": "Will Grigg", 
+            "num": "0", 
+            "pos": "FRW"
+        }
+    }, 
+    "Poland": {
+        "Arkadiusz Milik": {
+            "age": "22", 
+            "club": "Ajax", 
+            "link": "http://www.thefinalball.com/player.php?id=208336&edicao_id=66233", 
+            "name": "Arkadiusz Milik", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Artur Boruc": {
+            "age": "36", 
+            "club": "AFC Bournemouth", 
+            "link": "http://www.thefinalball.com/player.php?id=27752&edicao_id=66233", 
+            "name": "Artur Boruc", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Artur Jedrzejczyk": {
+            "age": "28", 
+            "club": "Legia Warszawa", 
+            "link": "http://www.thefinalball.com/player.php?id=78517&edicao_id=66233", 
+            "name": "Artur Jedrzejczyk", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Bartosz Kapustka": {
+            "age": "19", 
+            "club": "Cracovia Krakow", 
+            "link": "http://www.thefinalball.com/player.php?id=321875&edicao_id=66233", 
+            "name": "Bartosz Kapustka", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Bartosz Salamon": {
+            "age": "25", 
+            "club": "Cagliari", 
+            "link": "http://www.thefinalball.com/player.php?id=76437&edicao_id=66233", 
+            "name": "Bartosz Salamon", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Filip Starzy\u0144ski": {
+            "age": "25", 
+            "club": "Zaglebie Lubin", 
+            "link": "http://www.thefinalball.com/player.php?id=213206&edicao_id=66233", 
+            "name": "Filip Starzy\u0144ski", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Grzegorz Krychowiak": {
+            "age": "26", 
+            "club": "Sevilla", 
+            "link": "http://www.thefinalball.com/player.php?id=38006&edicao_id=66233", 
+            "name": "Grzegorz Krychowiak", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Jakub Wawrzyniak": {
+            "age": "32", 
+            "club": "Lechia Gdansk", 
+            "link": "http://www.thefinalball.com/player.php?id=44747&edicao_id=66233", 
+            "name": "Jakub Wawrzyniak", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Kamil Glik": {
+            "age": "28", 
+            "club": "Torino", 
+            "link": "http://www.thefinalball.com/player.php?id=81253&edicao_id=66233", 
+            "name": "Kamil Glik", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Kamil Grosicki": {
+            "age": "28", 
+            "club": "Rennes", 
+            "link": "http://www.thefinalball.com/player.php?id=63773&edicao_id=66233", 
+            "name": "Kamil Grosicki", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Karol Linetty": {
+            "age": "21", 
+            "club": "Lech Poznan", 
+            "link": "http://www.thefinalball.com/player.php?id=260711&edicao_id=66233", 
+            "name": "Karol Linetty", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Krzysztof M\u0105czy\u0144ski": {
+            "age": "29", 
+            "club": "Wisla Krak\u00f3w", 
+            "link": "http://www.thefinalball.com/player.php?id=65150&edicao_id=66233", 
+            "name": "Krzysztof M\u0105czy\u0144ski", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Kuba": {
+            "age": "30", 
+            "club": "Fiorentina", 
+            "link": "http://www.thefinalball.com/player.php?id=43007&edicao_id=66233", 
+            "name": "Kuba", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Mariusz St\u0119pi\u0144ski": {
+            "age": "21", 
+            "club": "Ruch Chorz\u00f3w", 
+            "link": "http://www.thefinalball.com/player.php?id=228639&edicao_id=66233", 
+            "name": "Mariusz St\u0119pi\u0144ski", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Micha\u0142 Pazdan": {
+            "age": "28", 
+            "club": "Legia Warszawa", 
+            "link": "http://www.thefinalball.com/player.php?id=59910&edicao_id=66233", 
+            "name": "Micha\u0142 Pazdan", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Piotr Zieli\u0144ski": {
+            "age": "22", 
+            "club": "Empoli", 
+            "link": "http://www.thefinalball.com/player.php?id=282239&edicao_id=66233", 
+            "name": "Piotr Zieli\u0144ski", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Robert Lewandowski": {
+            "age": "27", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=71023&edicao_id=66233", 
+            "name": "Robert Lewandowski", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Slawomir Peszko": {
+            "age": "31", 
+            "club": "Lechia Gdansk", 
+            "link": "http://www.thefinalball.com/player.php?id=72793&edicao_id=66233", 
+            "name": "Slawomir Peszko", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Thiago Cionek": {
+            "age": "30", 
+            "club": "Palermo", 
+            "link": "http://www.thefinalball.com/player.php?id=80385&edicao_id=66233", 
+            "name": "Thiago Cionek", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Tomasz Jodlowiec": {
+            "age": "31", 
+            "club": "Legia Warszawa", 
+            "link": "http://www.thefinalball.com/player.php?id=75461&edicao_id=66233", 
+            "name": "Tomasz Jodlowiec", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Wojciech Szcz\u0119s\u0144y": {
+            "age": "26", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=38011&edicao_id=66233", 
+            "name": "Wojciech Szcz\u0119s\u0144y", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "\u0141ukasz Fabia\u0144ski": {
+            "age": "31", 
+            "club": "Swansea City", 
+            "link": "http://www.thefinalball.com/player.php?id=27735&edicao_id=66233", 
+            "name": "\u0141ukasz Fabia\u0144ski", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "\u0141ukasz Piszczek": {
+            "age": "31", 
+            "club": "Borussia Dortmund", 
+            "link": "http://www.thefinalball.com/player.php?id=43045&edicao_id=66233", 
+            "name": "\u0141ukasz Piszczek", 
+            "num": "0", 
+            "pos": "DEF"
+        }
+    }, 
+    "Portugal": {
+        "Adrien Silva": {
+            "age": "27", 
+            "club": "Sporting", 
+            "link": "http://www.thefinalball.com/player.php?id=32302&edicao_id=66233", 
+            "name": "Adrien Silva", 
+            "num": "23", 
+            "pos": "MID"
+        }, 
+        "Andr\u00e9 Gomes": {
+            "age": "22", 
+            "club": "Valencia", 
+            "link": "http://www.thefinalball.com/player.php?id=204312&edicao_id=66233", 
+            "name": "Andr\u00e9 Gomes", 
+            "num": "15", 
+            "pos": "MID"
+        }, 
+        "Anthony Lopes": {
+            "age": "25", 
+            "club": "Lyon", 
+            "link": "http://www.thefinalball.com/player.php?id=74587&edicao_id=66233", 
+            "name": "Anthony Lopes", 
+            "num": "12", 
+            "pos": "GK"
+        }, 
+        "Bruno Alves": {
+            "age": "34", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=511&edicao_id=66233", 
+            "name": "Bruno Alves", 
+            "num": "2", 
+            "pos": "DEF"
+        }, 
+        "Cristiano Ronaldo": {
+            "age": "31", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=1579&edicao_id=66233", 
+            "name": "Cristiano Ronaldo", 
+            "num": "7", 
+            "pos": "FRW"
+        }, 
+        "C\u00e9dric Soares": {
+            "age": "24", 
+            "club": "Southampton", 
+            "link": "http://www.thefinalball.com/player.php?id=43621&edicao_id=66233", 
+            "name": "C\u00e9dric Soares", 
+            "num": "21", 
+            "pos": "DEF"
+        }, 
+        "Danilo Pereira": {
+            "age": "24", 
+            "club": "FC Porto", 
+            "link": "http://www.thefinalball.com/player.php?id=74722&edicao_id=66233", 
+            "name": "Danilo Pereira", 
+            "num": "13", 
+            "pos": "MID"
+        }, 
+        "Eduardo": {
+            "age": "33", 
+            "club": "Dinamo Zagreb", 
+            "link": "http://www.thefinalball.com/player.php?id=12512&edicao_id=66233", 
+            "name": "Eduardo", 
+            "num": "22", 
+            "pos": "GK"
+        }, 
+        "Eliseu": {
+            "age": "32", 
+            "club": "Benfica", 
+            "link": "http://www.thefinalball.com/player.php?id=43&edicao_id=66233", 
+            "name": "Eliseu", 
+            "num": "19", 
+            "pos": "DEF"
+        }, 
+        "Jos\u00e9 Fonte": {
+            "age": "32", 
+            "club": "Southampton", 
+            "link": "http://www.thefinalball.com/player.php?id=15537&edicao_id=66233", 
+            "name": "Jos\u00e9 Fonte", 
+            "num": "4", 
+            "pos": "DEF"
+        }, 
+        "Jo\u00e3o Moutinho": {
+            "age": "29", 
+            "club": "Monaco", 
+            "link": "http://www.thefinalball.com/player.php?id=7608&edicao_id=66233", 
+            "name": "Jo\u00e3o Moutinho", 
+            "num": "8", 
+            "pos": "MID"
+        }, 
+        "Jo\u00e3o M\u00e1rio": {
+            "age": "23", 
+            "club": "Sporting", 
+            "link": "http://www.thefinalball.com/player.php?id=56560&edicao_id=66233", 
+            "name": "Jo\u00e3o M\u00e1rio", 
+            "num": "10", 
+            "pos": "MID"
+        }, 
+        "Nani": {
+            "age": "29", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=16812&edicao_id=66233", 
+            "name": "Nani", 
+            "num": "17", 
+            "pos": "FRW"
+        }, 
+        "Pepe": {
+            "age": "33", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=130&edicao_id=66233", 
+            "name": "Pepe", 
+            "num": "3", 
+            "pos": "DEF"
+        }, 
+        "Rafa Silva": {
+            "age": "23", 
+            "club": "Braga", 
+            "link": "http://www.thefinalball.com/player.php?id=261061&edicao_id=66233", 
+            "name": "Rafa Silva", 
+            "num": "18", 
+            "pos": "FRW"
+        }, 
+        "Rapha\u00ebl Guerreiro": {
+            "age": "22", 
+            "club": "Lorient", 
+            "link": "http://www.thefinalball.com/player.php?id=184207&edicao_id=66233", 
+            "name": "Rapha\u00ebl Guerreiro", 
+            "num": "5", 
+            "pos": "DEF"
+        }, 
+        "Renato Sanches": {
+            "age": "18", 
+            "club": "Benfica", 
+            "link": "http://www.thefinalball.com/player.php?id=155284&edicao_id=66233", 
+            "name": "Renato Sanches", 
+            "num": "16", 
+            "pos": "MID"
+        }, 
+        "Ricardo Carvalho": {
+            "age": "38", 
+            "club": "Monaco", 
+            "link": "http://www.thefinalball.com/player.php?id=413&edicao_id=66233", 
+            "name": "Ricardo Carvalho", 
+            "num": "6", 
+            "pos": "DEF"
+        }, 
+        "Ricardo Quaresma": {
+            "age": "32", 
+            "club": "Besiktas", 
+            "link": "http://www.thefinalball.com/player.php?id=771&edicao_id=66233", 
+            "name": "Ricardo Quaresma", 
+            "num": "20", 
+            "pos": "FRW"
+        }, 
+        "Rui Patr\u00edcio": {
+            "age": "28", 
+            "club": "Sporting", 
+            "link": "http://www.thefinalball.com/player.php?id=28531&edicao_id=66233", 
+            "name": "Rui Patr\u00edcio", 
+            "num": "1", 
+            "pos": "GK"
+        }, 
+        "Vieirinha": {
+            "age": "30", 
+            "club": "Wolfsburg", 
+            "link": "http://www.thefinalball.com/player.php?id=16507&edicao_id=66233", 
+            "name": "Vieirinha", 
+            "num": "11", 
+            "pos": "DEF"
+        }, 
+        "William Carvalho": {
+            "age": "24", 
+            "club": "Sporting", 
+            "link": "http://www.thefinalball.com/player.php?id=43626&edicao_id=66233", 
+            "name": "William Carvalho", 
+            "num": "14", 
+            "pos": "MID"
+        }, 
+        "\u00c9der": {
+            "age": "28", 
+            "club": "Lille", 
+            "link": "http://www.thefinalball.com/player.php?id=56073&edicao_id=66233", 
+            "name": "\u00c9der", 
+            "num": "9", 
+            "pos": "FRW"
+        }
+    }, 
+    "Romania": {
+        "Adrian Popa": {
+            "age": "27", 
+            "club": "Steaua Bucuresti", 
+            "link": "http://www.thefinalball.com/player.php?id=206885&edicao_id=66233", 
+            "name": "Adrian Popa", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Alexandru Chipciu": {
+            "age": "27", 
+            "club": "Steaua Bucuresti", 
+            "link": "http://www.thefinalball.com/player.php?id=127859&edicao_id=66233", 
+            "name": "Alexandru Chipciu", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Alexandru M\u0103\u0163el": {
+            "age": "26", 
+            "club": "Dinamo Zagreb", 
+            "link": "http://www.thefinalball.com/player.php?id=99550&edicao_id=66233", 
+            "name": "Alexandru M\u0103\u0163el", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Andrei Prepeli\u0163\u0103": {
+            "age": "30", 
+            "club": "Ludogorets Razgrad", 
+            "link": "http://www.thefinalball.com/player.php?id=45804&edicao_id=66233", 
+            "name": "Andrei Prepeli\u0163\u0103", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Bogdan Stancu": {
+            "age": "28", 
+            "club": "Gen\u00e7lerbirligi", 
+            "link": "http://www.thefinalball.com/player.php?id=44784&edicao_id=66233", 
+            "name": "Bogdan Stancu", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Ciprian T\u0103t\u0103rusanu": {
+            "age": "30", 
+            "club": "Fiorentina", 
+            "link": "http://www.thefinalball.com/player.php?id=44663&edicao_id=66233", 
+            "name": "Ciprian T\u0103t\u0103rusanu", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Claudiu Keser\u00fc": {
+            "age": "29", 
+            "club": "Ludogorets Razgrad", 
+            "link": "http://www.thefinalball.com/player.php?id=3711&edicao_id=66233", 
+            "name": "Claudiu Keser\u00fc", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Cosmin Mo\u021bi": {
+            "age": "31", 
+            "club": "Ludogorets Razgrad", 
+            "link": "http://www.thefinalball.com/player.php?id=44809&edicao_id=66233", 
+            "name": "Cosmin Mo\u021bi", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Costel Pantilimon": {
+            "age": "29", 
+            "club": "Watford", 
+            "link": "http://www.thefinalball.com/player.php?id=44482&edicao_id=66233", 
+            "name": "Costel Pantilimon", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "png"
+        }, 
+        "Cristian S\u0103punaru": {
+            "age": "32", 
+            "club": "Pandurii", 
+            "link": "http://www.thefinalball.com/player.php?id=43969&edicao_id=66233", 
+            "name": "Cristian S\u0103punaru", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Denis Alibec": {
+            "age": "25", 
+            "club": "Astra Giurgiu", 
+            "link": "http://www.thefinalball.com/player.php?id=76503&edicao_id=66233", 
+            "name": "Denis Alibec", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Dragos Grigore": {
+            "age": "29", 
+            "club": "Al-Sailiya", 
+            "link": "http://www.thefinalball.com/player.php?id=107581&edicao_id=66233", 
+            "name": "Dragos Grigore", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Florin Andone": {
+            "age": "23", 
+            "club": "C\u00f3rdoba", 
+            "link": "http://www.thefinalball.com/player.php?id=438046&edicao_id=66233", 
+            "name": "Florin Andone", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Gabriel Torje": {
+            "age": "26", 
+            "club": "Osmanlispor", 
+            "link": "http://www.thefinalball.com/player.php?id=44529&edicao_id=66233", 
+            "name": "Gabriel Torje", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Lucian S\u00e2nm\u0103rtean": {
+            "age": "36", 
+            "club": "Al Ittihad FC", 
+            "link": "http://www.thefinalball.com/player.php?id=2871&edicao_id=66233", 
+            "name": "Lucian S\u00e2nm\u0103rtean", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Mihai Pintilii": {
+            "age": "31", 
+            "club": "Steaua Bucuresti", 
+            "link": "http://www.thefinalball.com/player.php?id=130962&edicao_id=66233", 
+            "name": "Mihai Pintilii", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Nicolae Stanciu": {
+            "age": "23", 
+            "club": "Steaua Bucuresti", 
+            "link": "http://www.thefinalball.com/player.php?id=132601&edicao_id=66233", 
+            "name": "Nicolae Stanciu", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Ovidiu Hoban": {
+            "age": "33", 
+            "club": "Hapoel Be\u2019er Sheva", 
+            "link": "http://www.thefinalball.com/player.php?id=64337&edicao_id=66233", 
+            "name": "Ovidiu Hoban", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "R\u0103zvan Ra\u0163": {
+            "age": "35", 
+            "club": "Rayo Vallecano", 
+            "link": "http://www.thefinalball.com/player.php?id=9709&edicao_id=66233", 
+            "name": "R\u0103zvan Ra\u0163", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Silviu Lung Jr.": {
+            "age": "27", 
+            "club": "Astra Giurgiu", 
+            "link": "http://www.thefinalball.com/player.php?id=64375&edicao_id=66233", 
+            "name": "Silviu Lung Jr.", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Steliano Filip": {
+            "age": "22", 
+            "club": "Dinamo Bucuresti", 
+            "link": "http://www.thefinalball.com/player.php?id=197608&edicao_id=66233", 
+            "name": "Steliano Filip", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Valeric\u0103 G\u0103man": {
+            "age": "27", 
+            "club": "Astra Giurgiu", 
+            "link": "http://www.thefinalball.com/player.php?id=45826&edicao_id=66233", 
+            "name": "Valeric\u0103 G\u0103man", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Vlad Chiriche\u0219": {
+            "age": "26", 
+            "club": "Napoli", 
+            "link": "http://www.thefinalball.com/player.php?id=107995&edicao_id=66233", 
+            "name": "Vlad Chiriche\u0219", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }
+    }, 
+    "Russia": {
+        "Aleksander Kokorin": {
+            "age": "25", 
+            "club": "Zenit", 
+            "link": "http://www.thefinalball.com/player.php?id=75022&edicao_id=66233", 
+            "name": "Aleksander Kokorin", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Aleksandr Golovin": {
+            "age": "20", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=364521&edicao_id=66233", 
+            "name": "Aleksandr Golovin", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Aleksandr Samedov": {
+            "age": "31", 
+            "club": "Lokomotiv", 
+            "link": "http://www.thefinalball.com/player.php?id=60516&edicao_id=66233", 
+            "name": "Aleksandr Samedov", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Aleksey Berezutskiy": {
+            "age": "33", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=9628&edicao_id=66233", 
+            "name": "Aleksey Berezutskiy", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Artyom Dzyuba": {
+            "age": "27", 
+            "club": "Zenit", 
+            "link": "http://www.thefinalball.com/player.php?id=30242&edicao_id=66233", 
+            "name": "Artyom Dzyuba", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Denis Glushakov": {
+            "age": "29", 
+            "club": "Spartak Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=60517&edicao_id=66233", 
+            "name": "Denis Glushakov", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Dmitri Torbinskiy": {
+            "age": "32", 
+            "club": "FK Krasnodar", 
+            "link": "http://www.thefinalball.com/player.php?id=29582&edicao_id=66233", 
+            "name": "Dmitri Torbinskiy", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "png"
+        }, 
+        "Dmitry Kombarov": {
+            "age": "29", 
+            "club": "Spartak Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=60670&edicao_id=66233", 
+            "name": "Dmitry Kombarov", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Fyodor Smolov": {
+            "age": "26", 
+            "club": "FK Krasnodar", 
+            "link": "http://www.thefinalball.com/player.php?id=60678&edicao_id=66233", 
+            "name": "Fyodor Smolov", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Georgi Schennikov": {
+            "age": "25", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=60992&edicao_id=66233", 
+            "name": "Georgi Schennikov", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Guilherme Marinato": {
+            "age": "30", 
+            "club": "Lokomotiv", 
+            "link": "http://www.thefinalball.com/player.php?id=32312&edicao_id=66233", 
+            "name": "Guilherme Marinato", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Igor Akinfeev": {
+            "age": "30", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=6174&edicao_id=66233", 
+            "name": "Igor Akinfeev", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Igor Denisov": {
+            "age": "32", 
+            "club": "Dynamo Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=19765&edicao_id=66233", 
+            "name": "Igor Denisov", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Igor Smolnikov": {
+            "age": "27", 
+            "club": "Zenit", 
+            "link": "http://www.thefinalball.com/player.php?id=60513&edicao_id=66233", 
+            "name": "Igor Smolnikov", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Oleg Ivanov": {
+            "age": "29", 
+            "club": "Terek Grozny", 
+            "link": "http://www.thefinalball.com/player.php?id=60430&edicao_id=66233", 
+            "name": "Oleg Ivanov", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Oleg Shatov": {
+            "age": "25", 
+            "club": "Zenit", 
+            "link": "http://www.thefinalball.com/player.php?id=63362&edicao_id=66233", 
+            "name": "Oleg Shatov", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Pavel Mamayev": {
+            "age": "27", 
+            "club": "FK Krasnodar", 
+            "link": "http://www.thefinalball.com/player.php?id=46144&edicao_id=66233", 
+            "name": "Pavel Mamayev", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "png"
+        }, 
+        "Roman Neust\u00e4dter": {
+            "age": "28", 
+            "club": "Schalke 04", 
+            "link": "http://www.thefinalball.com/player.php?id=52873&edicao_id=66233", 
+            "name": "Roman Neust\u00e4dter", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Roman Shirokov": {
+            "age": "34", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=56677&edicao_id=66233", 
+            "name": "Roman Shirokov", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Roman Shishkin": {
+            "age": "29", 
+            "club": "Lokomotiv", 
+            "link": "http://www.thefinalball.com/player.php?id=29576&edicao_id=66233", 
+            "name": "Roman Shishkin", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Sergey Ignashevich": {
+            "age": "36", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=2652&edicao_id=66233", 
+            "name": "Sergey Ignashevich", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Vasily Berezutskiy": {
+            "age": "33", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=9630&edicao_id=66233", 
+            "name": "Vasily Berezutskiy", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Yuri Lodygin": {
+            "age": "26", 
+            "club": "Zenit", 
+            "link": "http://www.thefinalball.com/player.php?id=258866&edicao_id=66233", 
+            "name": "Yuri Lodygin", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }
+    }, 
+    "Slovakia": {
+        "Adam Nemec": {
+            "age": "30", 
+            "club": "Willem II", 
+            "link": "http://www.thefinalball.com/player.php?id=59600&edicao_id=66233", 
+            "name": "Adam Nemec", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Du\u0161an \u0160vento": {
+            "age": "30", 
+            "club": "FC K\u00f6ln", 
+            "link": "http://www.thefinalball.com/player.php?id=40928&edicao_id=66233", 
+            "name": "Du\u0161an \u0160vento", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Juraj Kucka": {
+            "age": "29", 
+            "club": "Milan", 
+            "link": "http://www.thefinalball.com/player.php?id=104860&edicao_id=66233", 
+            "name": "Juraj Kucka", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "J\u00e1n Gregu\u0161": {
+            "age": "25", 
+            "club": "FK Jablonec", 
+            "link": "http://www.thefinalball.com/player.php?id=104873&edicao_id=66233", 
+            "name": "J\u00e1n Gregu\u0161", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "J\u00e1n Mucha": {
+            "age": "33", 
+            "club": "Slovan Bratislava", 
+            "link": "http://www.thefinalball.com/player.php?id=71024&edicao_id=66233", 
+            "name": "J\u00e1n Mucha", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "J\u00e1n Novota": {
+            "age": "32", 
+            "club": "Rapid Wien", 
+            "link": "http://www.thefinalball.com/player.php?id=104359&edicao_id=66233", 
+            "name": "J\u00e1n Novota", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "J\u00e1n \u010eurica": {
+            "age": "34", 
+            "club": "Lokomotiv", 
+            "link": "http://www.thefinalball.com/player.php?id=4916&edicao_id=66233", 
+            "name": "J\u00e1n \u010eurica", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Korn\u00e9l Sal\u00e1ta": {
+            "age": "31", 
+            "club": "Slovan Bratislava", 
+            "link": "http://www.thefinalball.com/player.php?id=68642&edicao_id=66233", 
+            "name": "Korn\u00e9l Sal\u00e1ta", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Marek Ham\u0161\u00edk": {
+            "age": "28", 
+            "club": "Napoli", 
+            "link": "http://www.thefinalball.com/player.php?id=13765&edicao_id=66233", 
+            "name": "Marek Ham\u0161\u00edk", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Martin \u0160krtel": {
+            "age": "31", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=19763&edicao_id=66233", 
+            "name": "Martin \u0160krtel", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Mat\u00fa\u0161 Koz\u00e1\u010dik": {
+            "age": "32", 
+            "club": "Plzen", 
+            "link": "http://www.thefinalball.com/player.php?id=40908&edicao_id=66233", 
+            "name": "Mat\u00fa\u0161 Koz\u00e1\u010dik", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Michal \u010euri\u0161": {
+            "age": "28", 
+            "club": "Plzen", 
+            "link": "http://www.thefinalball.com/player.php?id=104230&edicao_id=66233", 
+            "name": "Michal \u010euri\u0161", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Milan Skriniar": {
+            "age": "21", 
+            "club": "Sampdoria", 
+            "link": "http://www.thefinalball.com/player.php?id=254443&edicao_id=66233", 
+            "name": "Milan Skriniar", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Miroslav \u0160toch": {
+            "age": "26", 
+            "club": "Bursaspor", 
+            "link": "http://www.thefinalball.com/player.php?id=56075&edicao_id=66233", 
+            "name": "Miroslav \u0160toch", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Norbert Gy\u00f6mb\u00e9r": {
+            "age": "23", 
+            "club": "Roma", 
+            "link": "http://www.thefinalball.com/player.php?id=221441&edicao_id=66233", 
+            "name": "Norbert Gy\u00f6mb\u00e9r", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Ondrej Duda": {
+            "age": "21", 
+            "club": "Legia Warszawa", 
+            "link": "http://www.thefinalball.com/player.php?id=276473&edicao_id=66233", 
+            "name": "Ondrej Duda", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Patrik Hro\u0161ovsk\u00fd": {
+            "age": "24", 
+            "club": "Plzen", 
+            "link": "http://www.thefinalball.com/player.php?id=316202&edicao_id=66233", 
+            "name": "Patrik Hro\u0161ovsk\u00fd", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Peter Pekar\u00edk": {
+            "age": "29", 
+            "club": "Hertha BSC", 
+            "link": "http://www.thefinalball.com/player.php?id=71025&edicao_id=66233", 
+            "name": "Peter Pekar\u00edk", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "R\u00f3bert Mak": {
+            "age": "25", 
+            "club": "PAOK", 
+            "link": "http://www.thefinalball.com/player.php?id=135122&edicao_id=66233", 
+            "name": "R\u00f3bert Mak", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Stanislav \u0160est\u00e1k": {
+            "age": "33", 
+            "club": "Ferencv\u00e1ros", 
+            "link": "http://www.thefinalball.com/player.php?id=35342&edicao_id=66233", 
+            "name": "Stanislav \u0160est\u00e1k", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Tom\u00e1\u0161 Hubo\u010dan": {
+            "age": "30", 
+            "club": "Dynamo Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=55243&edicao_id=66233", 
+            "name": "Tom\u00e1\u0161 Hubo\u010dan", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Viktor Pe\u010dovsk\u00fd": {
+            "age": "33", 
+            "club": "MSK Zilina", 
+            "link": "http://www.thefinalball.com/player.php?id=8690&edicao_id=66233", 
+            "name": "Viktor Pe\u010dovsk\u00fd", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Vladim\u00edr Weiss": {
+            "age": "26", 
+            "club": "Al-Gharafa", 
+            "link": "http://www.thefinalball.com/player.php?id=83507&edicao_id=66233", 
+            "name": "Vladim\u00edr Weiss", 
+            "num": "0", 
+            "pos": "MID"
+        }
+    }, 
+    "Spain": {
+        "Andr\u00e9s Iniesta": {
+            "age": "32", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=762&edicao_id=66233", 
+            "name": "Andr\u00e9s Iniesta", 
+            "num": "6", 
+            "pos": "MID"
+        }, 
+        "Aritz Aduriz": {
+            "age": "35", 
+            "club": "Athletic", 
+            "link": "http://www.thefinalball.com/player.php?id=23885&edicao_id=66233", 
+            "name": "Aritz Aduriz", 
+            "num": "20", 
+            "pos": "FRW"
+        }, 
+        "Bruno Soriano": {
+            "age": "31", 
+            "club": "Villarreal", 
+            "link": "http://www.thefinalball.com/player.php?id=29779&edicao_id=66233", 
+            "name": "Bruno Soriano", 
+            "num": "19", 
+            "pos": "MID"
+        }, 
+        "Cesc F\u00e0bregas": {
+            "age": "29", 
+            "club": "Chelsea", 
+            "link": "http://www.thefinalball.com/player.php?id=3356&edicao_id=66233", 
+            "name": "Cesc F\u00e0bregas", 
+            "num": "10", 
+            "pos": "MID"
+        }, 
+        "C\u00e9sar Azpilicueta": {
+            "age": "26", 
+            "club": "Chelsea", 
+            "link": "http://www.thefinalball.com/player.php?id=32687&edicao_id=66233", 
+            "name": "C\u00e9sar Azpilicueta", 
+            "num": "2", 
+            "pos": "DEF"
+        }, 
+        "David Silva": {
+            "age": "30", 
+            "club": "Manchester City", 
+            "link": "http://www.thefinalball.com/player.php?id=17543&edicao_id=66233", 
+            "name": "David Silva", 
+            "num": "21", 
+            "pos": "MID"
+        }, 
+        "David de Gea": {
+            "age": "25", 
+            "club": "Manchester United", 
+            "link": "http://www.thefinalball.com/player.php?id=111925&edicao_id=66233", 
+            "name": "David de Gea", 
+            "num": "13", 
+            "pos": "GK"
+        }, 
+        "Gerard Piqu\u00e9": {
+            "age": "29", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=6958&edicao_id=66233", 
+            "name": "Gerard Piqu\u00e9", 
+            "num": "3", 
+            "pos": "DEF"
+        }, 
+        "H\u00e9ctor Beller\u00edn": {
+            "age": "21", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=288219&edicao_id=66233", 
+            "name": "H\u00e9ctor Beller\u00edn", 
+            "num": "12", 
+            "pos": "DEF"
+        }, 
+        "Iker Casillas": {
+            "age": "35", 
+            "club": "FC Porto", 
+            "link": "http://www.thefinalball.com/player.php?id=1003&edicao_id=66233", 
+            "name": "Iker Casillas", 
+            "num": "1", 
+            "pos": "GK"
+        }, 
+        "Jordi Alba": {
+            "age": "27", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=85728&edicao_id=66233", 
+            "name": "Jordi Alba", 
+            "num": "18", 
+            "pos": "DEF"
+        }, 
+        "Juanfran": {
+            "age": "31", 
+            "club": "Atl\u00e9tico Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=4366&edicao_id=66233", 
+            "name": "Juanfran", 
+            "num": "16", 
+            "pos": "DEF"
+        }, 
+        "Koke ": {
+            "age": "24", 
+            "club": "Atl\u00e9tico Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=113787&edicao_id=66233", 
+            "name": "Koke ", 
+            "num": "8", 
+            "pos": "MID"
+        }, 
+        "Lucas V\u00e1zquez": {
+            "age": "24", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=219770&edicao_id=66233", 
+            "name": "Lucas V\u00e1zquez", 
+            "num": "9", 
+            "pos": "FRW"
+        }, 
+        "Marc Bartra": {
+            "age": "25", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=130056&edicao_id=66233", 
+            "name": "Marc Bartra", 
+            "num": "4", 
+            "pos": "DEF"
+        }, 
+        "Mikel San Jos\u00e9": {
+            "age": "27", 
+            "club": "Athletic", 
+            "link": "http://www.thefinalball.com/player.php?id=54903&edicao_id=66233", 
+            "name": "Mikel San Jos\u00e9", 
+            "num": "17", 
+            "pos": "DEF"
+        }, 
+        "Nolito": {
+            "age": "29", 
+            "club": "Celta de Vigo", 
+            "link": "http://www.thefinalball.com/player.php?id=135957&edicao_id=66233", 
+            "name": "Nolito", 
+            "num": "22", 
+            "pos": "FRW"
+        }, 
+        "Pedro Rodr\u00edguez": {
+            "age": "28", 
+            "club": "Chelsea", 
+            "link": "http://www.thefinalball.com/player.php?id=53270&edicao_id=66233", 
+            "name": "Pedro Rodr\u00edguez", 
+            "num": "11", 
+            "pos": "FRW"
+        }, 
+        "Sergio Busquets": {
+            "age": "27", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=72432&edicao_id=66233", 
+            "name": "Sergio Busquets", 
+            "num": "5", 
+            "pos": "MID"
+        }, 
+        "Sergio Ramos": {
+            "age": "30", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=9894&edicao_id=66233", 
+            "name": "Sergio Ramos", 
+            "num": "15", 
+            "pos": "DEF"
+        }, 
+        "Sergio Rico": {
+            "age": "22", 
+            "club": "Sevilla", 
+            "link": "http://www.thefinalball.com/player.php?id=220243&edicao_id=66233", 
+            "name": "Sergio Rico", 
+            "num": "23", 
+            "pos": "GK"
+        }, 
+        "Thiago Alc\u00e2ntara": {
+            "age": "25", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=75175&edicao_id=66233", 
+            "name": "Thiago Alc\u00e2ntara", 
+            "num": "14", 
+            "pos": "MID"
+        }, 
+        "\u00c1lvaro Morata": {
+            "age": "23", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=119676&edicao_id=66233", 
+            "name": "\u00c1lvaro Morata", 
+            "num": "7", 
+            "pos": "FRW"
+        }
+    }, 
+    "Sweden": {
+        "Albin Ekdal": {
+            "age": "26", 
+            "club": "Hamburger SV", 
+            "link": "http://www.thefinalball.com/player.php?id=61235&edicao_id=66233", 
+            "name": "Albin Ekdal", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Andreas Granqvist": {
+            "age": "31", 
+            "club": "FK Krasnodar", 
+            "link": "http://www.thefinalball.com/player.php?id=30337&edicao_id=66233", 
+            "name": "Andreas Granqvist", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Andreas Isaksson": {
+            "age": "34", 
+            "club": "Kasimpasa", 
+            "link": "http://www.thefinalball.com/player.php?id=5781&edicao_id=66233", 
+            "name": "Andreas Isaksson", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Emil Forsberg": {
+            "age": "24", 
+            "club": "RB Leipzig", 
+            "link": "http://www.thefinalball.com/player.php?id=98376&edicao_id=66233", 
+            "name": "Emil Forsberg", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Emir Kujovi\u0107": {
+            "age": "27", 
+            "club": "IFK Norrk\u00f6ping", 
+            "link": "http://www.thefinalball.com/player.php?id=68252&edicao_id=66233", 
+            "name": "Emir Kujovi\u0107", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Erik Johansson": {
+            "age": "27", 
+            "club": "FC Kobenhavn", 
+            "link": "http://www.thefinalball.com/player.php?id=146974&edicao_id=66233", 
+            "name": "Erik Johansson", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Erkan Zengin": {
+            "age": "30", 
+            "club": "Trabzonspor", 
+            "link": "http://www.thefinalball.com/player.php?id=68433&edicao_id=66233", 
+            "name": "Erkan Zengin", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Jimmy Durmaz": {
+            "age": "27", 
+            "club": "Olympiacos", 
+            "link": "http://www.thefinalball.com/player.php?id=95254&edicao_id=66233", 
+            "name": "Jimmy Durmaz", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "John Guidetti": {
+            "age": "24", 
+            "club": "Celta de Vigo", 
+            "link": "http://www.thefinalball.com/player.php?id=135128&edicao_id=66233", 
+            "name": "John Guidetti", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Kim K\u00e4llstr\u00f6m": {
+            "age": "33", 
+            "club": "Grasshoppers", 
+            "link": "http://www.thefinalball.com/player.php?id=3763&edicao_id=66233", 
+            "name": "Kim K\u00e4llstr\u00f6m", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Ludwig Augustinsson": {
+            "age": "22", 
+            "club": "FC Kobenhavn", 
+            "link": "http://www.thefinalball.com/player.php?id=211805&edicao_id=66233", 
+            "name": "Ludwig Augustinsson", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Marcus Berg": {
+            "age": "29", 
+            "club": "Panathinaikos", 
+            "link": "http://www.thefinalball.com/player.php?id=45327&edicao_id=66233", 
+            "name": "Marcus Berg", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Martin Olsson": {
+            "age": "28", 
+            "club": "Norwich City", 
+            "link": "http://www.thefinalball.com/player.php?id=42806&edicao_id=66233", 
+            "name": "Martin Olsson", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Mikael Lustig": {
+            "age": "29", 
+            "club": "Celtic", 
+            "link": "http://www.thefinalball.com/player.php?id=68297&edicao_id=66233", 
+            "name": "Mikael Lustig", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Oscar Hiljemark ": {
+            "age": "23", 
+            "club": "Palermo", 
+            "link": "http://www.thefinalball.com/player.php?id=153005&edicao_id=66233", 
+            "name": "Oscar Hiljemark ", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Oscar Lewicki": {
+            "age": "23", 
+            "club": "Malm\u00f6", 
+            "link": "http://www.thefinalball.com/player.php?id=150036&edicao_id=66233", 
+            "name": "Oscar Lewicki", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Patrik Carlgren": {
+            "age": "24", 
+            "club": "AIK", 
+            "link": "http://www.thefinalball.com/player.php?id=203120&edicao_id=66233", 
+            "name": "Patrik Carlgren", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Pontus Jansson": {
+            "age": "25", 
+            "club": "Torino", 
+            "link": "http://www.thefinalball.com/player.php?id=98953&edicao_id=66233", 
+            "name": "Pontus Jansson", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Pontus Wernbloom": {
+            "age": "29", 
+            "club": "CSKA Moskva", 
+            "link": "http://www.thefinalball.com/player.php?id=50237&edicao_id=66233", 
+            "name": "Pontus Wernbloom", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Robin Olsen": {
+            "age": "26", 
+            "club": "FC Kobenhavn", 
+            "link": "http://www.thefinalball.com/player.php?id=254266&edicao_id=66233", 
+            "name": "Robin Olsen", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Sebastian Larsson": {
+            "age": "31", 
+            "club": "Sunderland", 
+            "link": "http://www.thefinalball.com/player.php?id=10737&edicao_id=66233", 
+            "name": "Sebastian Larsson", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Victor Lindel\u00f6f": {
+            "age": "21", 
+            "club": "Benfica", 
+            "link": "http://www.thefinalball.com/player.php?id=184866&edicao_id=66233", 
+            "name": "Victor Lindel\u00f6f", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Zlatan Ibrahimovi\u0107": {
+            "age": "34", 
+            "club": "Paris SG", 
+            "link": "http://www.thefinalball.com/player.php?id=3049&edicao_id=66233", 
+            "name": "Zlatan Ibrahimovi\u0107", 
+            "num": "0", 
+            "pos": "FRW"
+        }
+    }, 
+    "Switzerland": {
+        "Admir Mehmedi": {
+            "age": "25", 
+            "club": "Bayer Leverkusen", 
+            "link": "http://www.thefinalball.com/player.php?id=63780&edicao_id=66233", 
+            "name": "Admir Mehmedi", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Blerim D\u017eemaili": {
+            "age": "30", 
+            "club": "Genoa", 
+            "link": "http://www.thefinalball.com/player.php?id=26902&edicao_id=66233", 
+            "name": "Blerim D\u017eemaili", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Breel Embolo": {
+            "age": "19", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=370795&edicao_id=66233", 
+            "name": "Breel Embolo", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Denis Zakaria": {
+            "age": "19", 
+            "club": "Young Boys", 
+            "link": "http://www.thefinalball.com/player.php?id=433707&edicao_id=66233", 
+            "name": "Denis Zakaria", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Eren Derdiyok": {
+            "age": "27", 
+            "club": "Kasimpasa", 
+            "link": "http://www.thefinalball.com/player.php?id=51737&edicao_id=66233", 
+            "name": "Eren Derdiyok", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Fabian Frei": {
+            "age": "27", 
+            "club": "Mainz ", 
+            "link": "http://www.thefinalball.com/player.php?id=51734&edicao_id=66233", 
+            "name": "Fabian Frei", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Fabian Sch\u00e4r": {
+            "age": "24", 
+            "club": "TSG Hoffenheim", 
+            "link": "http://www.thefinalball.com/player.php?id=121669&edicao_id=66233", 
+            "name": "Fabian Sch\u00e4r", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Fran\u00e7ois Moubandje": {
+            "age": "25", 
+            "club": "Toulouse", 
+            "link": "http://www.thefinalball.com/player.php?id=131273&edicao_id=66233", 
+            "name": "Fran\u00e7ois Moubandje", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Gelson Fernandes": {
+            "age": "29", 
+            "club": "Rennes", 
+            "link": "http://www.thefinalball.com/player.php?id=39983&edicao_id=66233", 
+            "name": "Gelson Fernandes", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Granit Xhaka": {
+            "age": "23", 
+            "club": "Borussia M\u2019gladbach", 
+            "link": "http://www.thefinalball.com/player.php?id=148638&edicao_id=66233", 
+            "name": "Granit Xhaka", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "png"
+        }, 
+        "Haris Seferovi\u0107": {
+            "age": "24", 
+            "club": "Eintracht Frankfurt", 
+            "link": "http://www.thefinalball.com/player.php?id=102379&edicao_id=66233", 
+            "name": "Haris Seferovi\u0107", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Johan Djourou": {
+            "age": "29", 
+            "club": "Hamburger SV", 
+            "link": "http://www.thefinalball.com/player.php?id=10901&edicao_id=66233", 
+            "name": "Johan Djourou", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Marwin Hitz": {
+            "age": "28", 
+            "club": "FC Augsburg", 
+            "link": "http://www.thefinalball.com/player.php?id=52496&edicao_id=66233", 
+            "name": "Marwin Hitz", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Michael Lang": {
+            "age": "25", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=52122&edicao_id=66233", 
+            "name": "Michael Lang", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Nico Elvedi": {
+            "age": "19", 
+            "club": "Borussia M\u2019gladbach", 
+            "link": "http://www.thefinalball.com/player.php?id=335973&edicao_id=66233", 
+            "name": "Nico Elvedi", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Ricardo Rodr\u00edguez": {
+            "age": "23", 
+            "club": "Wolfsburg", 
+            "link": "http://www.thefinalball.com/player.php?id=103083&edicao_id=66233", 
+            "name": "Ricardo Rodr\u00edguez", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Roman B\u00fcrki": {
+            "age": "25", 
+            "club": "Borussia Dortmund", 
+            "link": "http://www.thefinalball.com/player.php?id=63755&edicao_id=66233", 
+            "name": "Roman B\u00fcrki", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Shani Tarashaj": {
+            "age": "21", 
+            "club": "Grasshoppers", 
+            "link": "http://www.thefinalball.com/player.php?id=240122&edicao_id=66233", 
+            "name": "Shani Tarashaj", 
+            "num": "0", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Stephan Lichtsteiner": {
+            "age": "32", 
+            "club": "Juventus", 
+            "link": "http://www.thefinalball.com/player.php?id=19061&edicao_id=66233", 
+            "name": "Stephan Lichtsteiner", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Steve von Bergen": {
+            "age": "33", 
+            "club": "Young Boys", 
+            "link": "http://www.thefinalball.com/player.php?id=44958&edicao_id=66233", 
+            "name": "Steve von Bergen", 
+            "num": "0", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Valon Behrami": {
+            "age": "31", 
+            "club": "Watford", 
+            "link": "http://www.thefinalball.com/player.php?id=18244&edicao_id=66233", 
+            "name": "Valon Behrami", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Xherdan Shaqiri": {
+            "age": "24", 
+            "club": "Stoke City", 
+            "link": "http://www.thefinalball.com/player.php?id=102352&edicao_id=66233", 
+            "name": "Xherdan Shaqiri", 
+            "num": "0", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Yann Sommer": {
+            "age": "27", 
+            "club": "Borussia M\u2019gladbach", 
+            "link": "http://www.thefinalball.com/player.php?id=51738&edicao_id=66233", 
+            "name": "Yann Sommer", 
+            "num": "0", 
+            "pos": "GK", 
+            "term": "jpg"
+        }
+    }, 
+    "Turkey": {
+        "Ahmet \u00c7alik ": {
+            "age": "22", 
+            "club": "Gen\u00e7lerbirligi", 
+            "link": "http://www.thefinalball.com/player.php?id=315615&edicao_id=66233", 
+            "name": "Ahmet \u00c7alik ", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Arda Turan": {
+            "age": "29", 
+            "club": "Barcelona", 
+            "link": "http://www.thefinalball.com/player.php?id=29532&edicao_id=66233", 
+            "name": "Arda Turan", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Burak Y\u0131lmaz": {
+            "age": "30", 
+            "club": "Beijing Guoan", 
+            "link": "http://www.thefinalball.com/player.php?id=35149&edicao_id=66233", 
+            "name": "Burak Y\u0131lmaz", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Caner Erkin": {
+            "age": "27", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=46145&edicao_id=66233", 
+            "name": "Caner Erkin", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Cenk Tosun": {
+            "age": "25", 
+            "club": "Besiktas", 
+            "link": "http://www.thefinalball.com/player.php?id=104514&edicao_id=66233", 
+            "name": "Cenk Tosun", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Emre Mor": {
+            "age": "18", 
+            "club": "Nordsjaelland", 
+            "link": "http://www.thefinalball.com/player.php?id=489001&edicao_id=66233", 
+            "name": "Emre Mor", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "G\u00f6khan G\u00f6n\u00fcl": {
+            "age": "31", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=46142&edicao_id=66233", 
+            "name": "G\u00f6khan G\u00f6n\u00fcl", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Hakan Balta": {
+            "age": "33", 
+            "club": "Galatasaray", 
+            "link": "http://www.thefinalball.com/player.php?id=35731&edicao_id=66233", 
+            "name": "Hakan Balta", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Hakan \u00c7alhano\u011flu": {
+            "age": "22", 
+            "club": "Bayer Leverkusen", 
+            "link": "http://www.thefinalball.com/player.php?id=166278&edicao_id=66233", 
+            "name": "Hakan \u00c7alhano\u011flu", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Harun Tekin": {
+            "age": "26", 
+            "club": "Bursaspor", 
+            "link": "http://www.thefinalball.com/player.php?id=152617&edicao_id=66233", 
+            "name": "Harun Tekin", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Mehmet Topal": {
+            "age": "30", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=29524&edicao_id=66233", 
+            "name": "Mehmet Topal", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Nuri \u015eahin": {
+            "age": "27", 
+            "club": "Borussia Dortmund", 
+            "link": "http://www.thefinalball.com/player.php?id=18378&edicao_id=66233", 
+            "name": "Nuri \u015eahin", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Olcay \u015eahan": {
+            "age": "29", 
+            "club": "Besiktas", 
+            "link": "http://www.thefinalball.com/player.php?id=65860&edicao_id=66233", 
+            "name": "Olcay \u015eahan", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Onur K\u0131vrak": {
+            "age": "28", 
+            "club": "Trabzonspor", 
+            "link": "http://www.thefinalball.com/player.php?id=69629&edicao_id=66233", 
+            "name": "Onur K\u0131vrak", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Ozan Tufan": {
+            "age": "21", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=284290&edicao_id=66233", 
+            "name": "Ozan Tufan", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "O\u011fuzhan \u00d6zyakup": {
+            "age": "23", 
+            "club": "Besiktas", 
+            "link": "http://www.thefinalball.com/player.php?id=100274&edicao_id=66233", 
+            "name": "O\u011fuzhan \u00d6zyakup", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Sel\u00e7uk \u00cdnan": {
+            "age": "31", 
+            "club": "Galatasaray", 
+            "link": "http://www.thefinalball.com/player.php?id=35735&edicao_id=66233", 
+            "name": "Sel\u00e7uk \u00cdnan", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Semih Kaya": {
+            "age": "25", 
+            "club": "Galatasaray", 
+            "link": "http://www.thefinalball.com/player.php?id=88554&edicao_id=66233", 
+            "name": "Semih Kaya", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Volkan Babacan": {
+            "age": "27", 
+            "club": "Basaksehir", 
+            "link": "http://www.thefinalball.com/player.php?id=46153&edicao_id=66233", 
+            "name": "Volkan Babacan", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Volkan \u015een": {
+            "age": "28", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=47514&edicao_id=66233", 
+            "name": "Volkan \u015een", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Yunus Mall\u0131": {
+            "age": "24", 
+            "club": "Mainz ", 
+            "link": "http://www.thefinalball.com/player.php?id=174181&edicao_id=66233", 
+            "name": "Yunus Mall\u0131", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "\u0130smail K\u00f6yba\u015f\u0131": {
+            "age": "26", 
+            "club": "Besiktas", 
+            "link": "http://www.thefinalball.com/player.php?id=112352&edicao_id=66233", 
+            "name": "\u0130smail K\u00f6yba\u015f\u0131", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "\u015eener \u00d6zbayrakl\u0131": {
+            "age": "26", 
+            "club": "Fenerbah\u00e7e", 
+            "link": "http://www.thefinalball.com/player.php?id=313197&edicao_id=66233", 
+            "name": "\u015eener \u00d6zbayrakl\u0131", 
+            "num": "0", 
+            "pos": "DEF"
+        }
+    }, 
+    "Ukraine": {
+        "Anatoliy Tymoshchuk": {
+            "age": "37", 
+            "club": "Kairat", 
+            "link": "http://www.thefinalball.com/player.php?id=9700&edicao_id=66233", 
+            "name": "Anatoliy Tymoshchuk", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Andriy Pyatov": {
+            "age": "31", 
+            "club": "Shakhtar Donetsk", 
+            "link": "http://www.thefinalball.com/player.php?id=27859&edicao_id=66233", 
+            "name": "Andriy Pyatov", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Andriy Yarmolenko": {
+            "age": "26", 
+            "club": "Dynamo Kyiv", 
+            "link": "http://www.thefinalball.com/player.php?id=62955&edicao_id=66233", 
+            "name": "Andriy Yarmolenko", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Artem Fedetskiy": {
+            "age": "31", 
+            "club": "Dnipro", 
+            "link": "http://www.thefinalball.com/player.php?id=66531&edicao_id=66233", 
+            "name": "Artem Fedetskiy", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Bogdan Butko": {
+            "age": "25", 
+            "club": "Amkar", 
+            "link": "http://www.thefinalball.com/player.php?id=149546&edicao_id=66233", 
+            "name": "Bogdan Butko", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Denys Boyko": {
+            "age": "28", 
+            "club": "Besiktas", 
+            "link": "http://www.thefinalball.com/player.php?id=104644&edicao_id=66233", 
+            "name": "Denys Boyko", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Denys Garmash": {
+            "age": "26", 
+            "club": "Dynamo Kyiv", 
+            "link": "http://www.thefinalball.com/player.php?id=109298&edicao_id=66233", 
+            "name": "Denys Garmash", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Evgen Khacheridi": {
+            "age": "28", 
+            "club": "Dynamo Kyiv", 
+            "link": "http://www.thefinalball.com/player.php?id=103784&edicao_id=66233", 
+            "name": "Evgen Khacheridi", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Mykyta Shevchenko": {
+            "age": "23", 
+            "club": "Zorya", 
+            "link": "http://www.thefinalball.com/player.php?id=217248&edicao_id=66233", 
+            "name": "Mykyta Shevchenko", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Oleksandr Karavaev": {
+            "age": "24", 
+            "club": "Zorya", 
+            "link": "http://www.thefinalball.com/player.php?id=235578&edicao_id=66233", 
+            "name": "Oleksandr Karavaev", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Oleksandr Kucher": {
+            "age": "33", 
+            "club": "Shakhtar Donetsk", 
+            "link": "http://www.thefinalball.com/player.php?id=29510&edicao_id=66233", 
+            "name": "Oleksandr Kucher", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Oleksandr Zinchenko": {
+            "age": "19", 
+            "club": "Ufa", 
+            "link": "http://www.thefinalball.com/player.php?id=364550&edicao_id=66233", 
+            "name": "Oleksandr Zinchenko", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Pylyp Budkivskiy": {
+            "age": "24", 
+            "club": "Zorya", 
+            "link": "http://www.thefinalball.com/player.php?id=184968&edicao_id=66233", 
+            "name": "Pylyp Budkivskiy", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Roman Zozulya": {
+            "age": "26", 
+            "club": "Dnipro", 
+            "link": "http://www.thefinalball.com/player.php?id=62956&edicao_id=66233", 
+            "name": "Roman Zozulya", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Ruslan Rotan": {
+            "age": "34", 
+            "club": "Dnipro", 
+            "link": "http://www.thefinalball.com/player.php?id=27895&edicao_id=66233", 
+            "name": "Ruslan Rotan", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Sergiy Rybalka": {
+            "age": "26", 
+            "club": "Dynamo Kyiv", 
+            "link": "http://www.thefinalball.com/player.php?id=187555&edicao_id=66233", 
+            "name": "Sergiy Rybalka", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Serhiy Sydorchuk": {
+            "age": "25", 
+            "club": "Dynamo Kyiv", 
+            "link": "http://www.thefinalball.com/player.php?id=103958&edicao_id=66233", 
+            "name": "Serhiy Sydorchuk", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Taras Stepanenko": {
+            "age": "26", 
+            "club": "Shakhtar Donetsk", 
+            "link": "http://www.thefinalball.com/player.php?id=65711&edicao_id=66233", 
+            "name": "Taras Stepanenko", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Viktor Kovalenko": {
+            "age": "20", 
+            "club": "Shakhtar Donetsk", 
+            "link": "http://www.thefinalball.com/player.php?id=370985&edicao_id=66233", 
+            "name": "Viktor Kovalenko", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Vyacheslav Shevchuk": {
+            "age": "37", 
+            "club": "Shakhtar Donetsk", 
+            "link": "http://www.thefinalball.com/player.php?id=29513&edicao_id=66233", 
+            "name": "Vyacheslav Shevchuk", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Yaroslav Rakitskiy": {
+            "age": "26", 
+            "club": "Shakhtar Donetsk", 
+            "link": "http://www.thefinalball.com/player.php?id=106429&edicao_id=66233", 
+            "name": "Yaroslav Rakitskiy", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Yevhen Konoplyanka": {
+            "age": "26", 
+            "club": "Sevilla", 
+            "link": "http://www.thefinalball.com/player.php?id=64281&edicao_id=66233", 
+            "name": "Yevhen Konoplyanka", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Yevhen Seleznyov": {
+            "age": "30", 
+            "club": "Kuban Krasnodar", 
+            "link": "http://www.thefinalball.com/player.php?id=62696&edicao_id=66233", 
+            "name": "Yevhen Seleznyov", 
+            "num": "0", 
+            "pos": "FRW"
+        }
+    }, 
+    "Wales": {
+        "Aaron Ramsey": {
+            "age": "25", 
+            "club": "Arsenal", 
+            "link": "http://www.thefinalball.com/player.php?id=49236&edicao_id=66233", 
+            "name": "Aaron Ramsey", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Andy King": {
+            "age": "27", 
+            "club": "Leicester City", 
+            "link": "http://www.thefinalball.com/player.php?id=48812&edicao_id=66233", 
+            "name": "Andy King", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Ashley Williams": {
+            "age": "31", 
+            "club": "Swansea City", 
+            "link": "http://www.thefinalball.com/player.php?id=66739&edicao_id=66233", 
+            "name": "Ashley Williams", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Ben Davies": {
+            "age": "23", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=211353&edicao_id=66233", 
+            "name": "Ben Davies", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Chris Gunter": {
+            "age": "26", 
+            "club": "Reading", 
+            "link": "http://www.thefinalball.com/player.php?id=49237&edicao_id=66233", 
+            "name": "Chris Gunter", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Danny Ward": {
+            "age": "22", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=225947&edicao_id=66233", 
+            "name": "Danny Ward", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "David Cotterill": {
+            "age": "28", 
+            "club": "Birmingham City", 
+            "link": "http://www.thefinalball.com/player.php?id=29486&edicao_id=66233", 
+            "name": "David Cotterill", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "David Edwards": {
+            "age": "30", 
+            "club": "Wolverhampton", 
+            "link": "http://www.thefinalball.com/player.php?id=50261&edicao_id=66233", 
+            "name": "David Edwards", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "David Vaughan": {
+            "age": "33", 
+            "club": "Nottingham Forest", 
+            "link": "http://www.thefinalball.com/player.php?id=57016&edicao_id=66233", 
+            "name": "David Vaughan", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Gareth Bale": {
+            "age": "26", 
+            "club": "Real Madrid", 
+            "link": "http://www.thefinalball.com/player.php?id=34961&edicao_id=66233", 
+            "name": "Gareth Bale", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "George Williams": {
+            "age": "20", 
+            "club": "Gillingham", 
+            "link": "http://www.thefinalball.com/player.php?id=236969&edicao_id=66233", 
+            "name": "George Williams", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Hal Robson-Kanu": {
+            "age": "27", 
+            "club": "Reading", 
+            "link": "http://www.thefinalball.com/player.php?id=66296&edicao_id=66233", 
+            "name": "Hal Robson-Kanu", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "James Chester": {
+            "age": "27", 
+            "club": "West Bromwich", 
+            "link": "http://www.thefinalball.com/player.php?id=69273&edicao_id=66233", 
+            "name": "James Chester", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "James Collins": {
+            "age": "32", 
+            "club": "West Ham", 
+            "link": "http://www.thefinalball.com/player.php?id=17729&edicao_id=66233", 
+            "name": "James Collins", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Jazz Richards": {
+            "age": "25", 
+            "club": "Fulham", 
+            "link": "http://www.thefinalball.com/player.php?id=108888&edicao_id=66233", 
+            "name": "Jazz Richards", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Joe Allen": {
+            "age": "26", 
+            "club": "Liverpool", 
+            "link": "http://www.thefinalball.com/player.php?id=49883&edicao_id=66233", 
+            "name": "Joe Allen", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Joe Ledley": {
+            "age": "29", 
+            "club": "Crystal Palace", 
+            "link": "http://www.thefinalball.com/player.php?id=49234&edicao_id=66233", 
+            "name": "Joe Ledley", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Jonathan Williams": {
+            "age": "22", 
+            "club": "MK Dons", 
+            "link": "http://www.thefinalball.com/player.php?id=209419&edicao_id=66233", 
+            "name": "Jonathan Williams", 
+            "num": "0", 
+            "pos": "MID"
+        }, 
+        "Neil Taylor": {
+            "age": "27", 
+            "club": "Swansea City", 
+            "link": "http://www.thefinalball.com/player.php?id=147078&edicao_id=66233", 
+            "name": "Neil Taylor", 
+            "num": "0", 
+            "pos": "DEF"
+        }, 
+        "Owain Fon Williams": {
+            "age": "29", 
+            "club": "Inverness", 
+            "link": "http://www.thefinalball.com/player.php?id=50053&edicao_id=66233", 
+            "name": "Owain Fon Williams", 
+            "num": "0", 
+            "pos": "GK"
+        }, 
+        "Sam Vokes": {
+            "age": "26", 
+            "club": "Burnley", 
+            "link": "http://www.thefinalball.com/player.php?id=50722&edicao_id=66233", 
+            "name": "Sam Vokes", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Simon Church": {
+            "age": "27", 
+            "club": "Aberdeen", 
+            "link": "http://www.thefinalball.com/player.php?id=50061&edicao_id=66233", 
+            "name": "Simon Church", 
+            "num": "0", 
+            "pos": "FRW"
+        }, 
+        "Wayne Hennessey": {
+            "age": "29", 
+            "club": "Crystal Palace", 
+            "link": "http://www.thefinalball.com/player.php?id=48669&edicao_id=66233", 
+            "name": "Wayne Hennessey", 
+            "num": "0", 
+            "pos": "GK"
+        }
+    }
+}

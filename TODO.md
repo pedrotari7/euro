@@ -4,22 +4,22 @@
 
 Today:
 
-- Load prediction in the last prediction
 
 Future:
- 
+
+- Load prediction in the last prediction
+
+- Fix pontuation in case of panalties
+
+- Get images and players from zero_zero
+
+- Players positions and links to zerozero
+
 - Prediciton for individual awards
 
 - Sort scoreboard with tie-brake rules
 
-- add penalti shootout scenerio in knockout stage
-
-- Javacript to make sure that both scores of one game are there
-
-
-- Avoid user predictions after the game if over.
-
-- Blur images from settings when hovering and show country names
+- real time results
 
 - Setup email for welcome message and notifications for deadlines
 
@@ -70,5 +70,17 @@ Future:
 
 - Make group shortcut pop up on the side
 
+- Next team for the the thrid place
 
+- add penalti shootout scenerio in knockout stage
+
+- Shorten some teams names
+
+- Do not show predictions to others before start
+
+- Make obvious the you are checking someone else's page
+
+- Javacript to make sure that both scores of one game are there
+
+- Avoid user predictions after the game if over.
 

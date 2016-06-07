@@ -12,6 +12,21 @@
 			<form action="../scripts/predict">
 				<input type="hidden" name="id" value="{id}" visibility="hidden">
 				<div class="container">
+					<table class="individual">
+					<tr>
+					<td>
+					<h3 id='name'>{user}</h3>
+					</td>
+					<td>
+					<a href="{mvp_link}">
+					<div class='mvp'><img class="mvp_img"src="{mvp_img}">MVP</div>
+					</td>
+					<td>
+					<a href="{scorer_link}">
+					<div class='mvp'><img class="mvp_img"src="{scorer_img}">Scorer</div></a>
+					</td>
+					</tr>
+					</table>
 					{data}
 					<div class="groups_wrapper">
 						<a id="A" href="#A" class="group_anchor">

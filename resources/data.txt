@@ -13,26 +13,26 @@ B
 28	20 June 2016 21:00	Slovakia	England	Saint-Étienne
 27	20 June 2016 21:00	Russia	Wales	Toulouse
 C
-6	12 June 2016 18:00	Poland	Northern Ireland	Nice 
+6	12 June 2016 18:00	Poland	N. Ireland	Nice 
 7	12 June 2016 21:00	Germany	Ukraine	Lille
-17	16 June 2016 18:00	Ukraine	Northern Ireland	Lyon
+17	16 June 2016 18:00	Ukraine	N. Ireland	Lyon
 18	16 June 2016 21:00	Germany	Poland	Saint-Denis
-30	21 June 2016 18:00	Northern Ireland	Germany	Paris
+30	21 June 2016 18:00	N. Ireland	Germany	Paris
 29	21 June 2016 18:00	Ukraine	Poland	Marseille
 D
 5	12 June 2016 15:00	Turkey	Croatia	Paris
-8	13 June 2016 15:00	Spain	Czech Republic	Toulouse
-20	17 June 2016 18:00	Czech Republic	Croatia	Saint-Étienne
+8	13 June 2016 15:00	Spain	Czech Rep.	Toulouse
+20	17 June 2016 18:00	Czech Rep.	Croatia	Saint-Étienne
 21	17 June 2016 21:00	Spain	Turkey	Nice
 32	21 June 2016 21:00	Croatia	Spain	Bordeaux
-31	21 June 2016 21:00	Czech Republic	Turkey	Lens
+31	21 June 2016 21:00	Czech Rep.	Turkey	Lens
 E
-9	13 June 2016 18:00	Republic of Ireland	Sweden	Saint-Denis
+9	13 June 2016 18:00	Ireland	Sweden	Saint-Denis
 10	13 June 2016 21:00	Belgium	Italy	Lyon
 19	17 June 2016 15:00	Italy	Sweden	Toulouse
-22	18 June 2016 15:00	Belgium	Republic of Ireland	Bordeaux
+22	18 June 2016 15:00	Belgium	Ireland	Bordeaux
 36	22 June 2016 21:00	Sweden	Belgium	Nice
-35	22 June 2016 21:00	Italy	Republic of Ireland	Lille
+35	22 June 2016 21:00	Italy	Ireland	Lille
 F
 11	14 June 2016 18:00	Austria	Hungary	Bordeaux
 12	14 June 2016 21:00	Portugal	Iceland	Saint-Étienne

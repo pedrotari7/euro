@@ -3042,7 +3042,7 @@ a:active {
   position: fixed;
   left: 0;
   top: 2%;
-  width: 2%;
+  width: 3%;
   height: 90%;
   -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-in-out;
@@ -3147,7 +3147,7 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: center
 }
 
-.settings_flag_link{
+.settings_flag_link,.player_link{
   position: relative;
   display: inline-block;
   padding: 0em;
@@ -3159,7 +3159,8 @@ input[type=number]::-webkit-outer-spin-button {
   background-repeat: no-repeat;
   background-position: center;
   -moz-border-radius: 20px;
-  border-radius: 20px;
+  border-radius: 30px;
+  color: rgba(0,0,0,1);
 
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -3193,6 +3194,20 @@ input[type=number]::-webkit-outer-spin-button {
   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1'); 
 */
 }
+
+.individual{
+  width: 100%;
+  background-image:white;
+}
+
+.mvp_img{
+  width: 50px;
+  height: 70px;
+  -moz-border-radius: 20px;
+  border-radius: 30px;
+}
+
+
 
 .game_number:hover{
   border-color: black;
