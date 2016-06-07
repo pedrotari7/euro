@@ -1,0 +1,39 @@
+#!/usr/bin/python
+
+import cgi ,cgitb, os
+from socket import *
+
+
+cgitb.enable()
+form = cgi.FieldStorage()
+
+mvp = str(form.getvalue('mvp'))
+id = str(form.getvalue('id'))
+country = str(form.getvalue('country'))
+player = str(form.getvalue('player'))
+
+buffersize = 400000
+
+try:
+	HOST = 'localhost'
+	PORT = 50000
+
+	ADDR = (HOST, PORT)
+
+	cli = socket(AF_INET, SOCK_STREAM)
+	cli.connect((ADDR))
+
+	data = cli.recv(buffersize)
+
+	if data.lower().strip('\n').strip('\r') == 'ok':
+		cli.send('mvp')
+		data = cli.recv(buffersize)
+		if data.lower().strip('\n').strip('\r') == 'ok':
+			cli.send(id + '\n' + mvp + '\n' + country + '\n' + player)
+			data = cli.recv(buffersize)
+
+	print "Content-type: text/html\n\n"
+	print data
+
+except:
+	print "Location:../html/down.html\n\n"
