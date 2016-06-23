@@ -12,6 +12,8 @@ id = str(form.getvalue('id'))
 
 buffersize = 400000
 
+print "Content-type: text/html\n\n"
+
 try:
 	HOST = 'localhost'
 	PORT = 50000
@@ -28,10 +30,12 @@ try:
 		data = cli.recv(buffersize)
 		if data.lower().strip('\n').strip('\r') == 'ok':
 			cli.send(id + '\n' + country)
-			data = cli.recv(buffersize)
-
-	print "Content-type: text/html\n\n"
-	print data
+			data = '1'
+			while data:
+				data = cli.recv(buffersize)
+				print data
+				if '</html>' in data:
+					break
 
 except:
 	print "Location:../html/down.html\n\n"

@@ -15,6 +15,8 @@ from operator import itemgetter
 from datetime import datetime, date
 from socket import *
 
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class euro(object):
 	"""docstring for euro"""
@@ -43,10 +45,10 @@ class euro(object):
 		self.load_users()
 		self.players = self.load_json('resources/players.json')
 
-		user = unicode('João Pedro Alvito', encoding='utf-8')
+		# user = unicode('João Pedro Alvito', encoding='utf-8')
 
 		# self.create_new_user(user)
-		print 'localhost/scripts/agenda?id=' + self.users[user]['id'] + '&user=' + user.replace(' ', '%20')
+		# print 'localhost/scripts/agenda?id=' + self.users[user]['id'] + '&user=' + user.replace(' ', '%20')
 
 		# self.create_new_user('pedro')
 		# self.games = self.read_games_info()
@@ -216,6 +218,10 @@ class euro(object):
 
 	# Users
 
+	def is_admin(self, user):
+	
+		return user == u'João Pedro Alvito'
+
 	def id_generator(self, size=10, chars=string.ascii_uppercase + string.digits + string.ascii_lowercase):
 
 		return ''.join(random.choice(chars) for _ in range(size))
@@ -304,6 +310,8 @@ class euro(object):
 				self.groups[group], self.teams, self.games)
 			self.third_group.append(self.real_ordered_group[group][2])
 
+		third_group_finished = all([team['G']>=3 for team in self.third_group]) 	
+
 		self.sort_third_group()
 
 		for user in self.users:
@@ -319,15 +327,19 @@ class euro(object):
 
 			self.users[user]['predicted_groups'] = dict()
 
+
 			for group in sorted(self.groups):
 
 				self.users[user]['predicted_groups'][group] = self.sort_teams(
 					self.groups[group], self.users[user]['teams'], self.users[user]['games'])
 
-				for i, T in enumerate(self.users[user]['predicted_groups'][group]):
-					if self.users[user]['predicted_groups'][group][i]['name'] == T['name']:
-						self.users[user]['points']['groups'] += 1
-						self.users[user]['points']['PTS'] += 1
+
+				if all([team['G']>=3 for team in self.real_ordered_group[group]]):
+
+					for i, T in enumerate(self.real_ordered_group[group]):
+						if self.users[user]['predicted_groups'][group][i]['name'] == T['name']:
+							self.users[user]['points']['groups'] += 1
+							self.users[user]['points']['PTS'] += 1
 
 		for game in self.games:
 			game = self.games[game]
@@ -354,7 +366,7 @@ class euro(object):
 					if self.teams[team]['G'] == 3:
 						game['t2'] = team
 
-				if '3' in game['t2_original']:
+				if '3' in game['t2_original'] and third_group_finished:
 					group = game['t1_original'].split('1')[1]
 					a = ''.join([t['groups']for t in self.third_group][:4])
 					a = ''.join(sorted(a))
@@ -376,6 +388,26 @@ class euro(object):
 
 	# HTML creation
 
+	def create_nav(self, user):
+
+		nav = self.read_template('templates/nav_template.html')
+
+		if self.users[user]['country'] in self.teams:
+			flag = self.teams[self.users[user]['country']]['flag_url']
+		else:
+			flag = ''
+
+		if self.is_admin(user):
+			admin = '<li><a href="../scripts/admin?&id='+self.users[user]['id']+'">Admin</a></li>'
+			admin += '<li><a href="../logs/output.log">Logs</a></li>'
+
+		else:
+			admin = ''
+
+		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag, admin = admin)
+
+		return nav
+
 	def calculate_time_diference(self, g):
 
 		readonly = ''
@@ -387,6 +419,8 @@ class euro(object):
 			remain = g['score']
 		elif diff.days > 0:
 			remain = 'in ' + str(diff.days) + ' days'
+		elif diff.days == 0:
+			remain = str(diff).split(".")[0]
 		elif diff.days < 0:
 			remain = 'Live'
 
@@ -397,15 +431,48 @@ class euro(object):
 
 		return readonly, diff, remain
 
+	def fill_real_game(self, user, g):
+
+		game_template = self.read_template('templates/admin_game_template.html')
+
+		readonly, diff, remain = self.calculate_time_diference(g)
+
+		if g['t1'] in self.teams:
+			t1_link = 'team?&country='+g['t1']+'&id='+self.users[user]['id']
+		else:
+			t1_link = ''
+		if g['t2'] in self.teams:	
+			t2_link = 'team?&country='+g['t2']+'&id='+self.users[user]['id']
+		else:
+			t2_link = ''
+
+		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
+		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
+
+		result = 0
+
+		t1_score = self.games[str(g['number'])]['t1_score']
+		t2_score = self.games[str(g['number'])]['t2_score']
+
+		checked = 'checked' if g['finished'] else ''
+
+		return game_template.format(is_finished = checked ,id=self.users[user]['id'], color='', date=g['date'].replace('2016', ''), location=g['location'], t1=g['t1'], t2=g['t2'], t1_flag=t1_flag, t2_flag=t2_flag, number=g['number'], remain=remain, t1_score=t1_score, t2_score=t2_score, t1_link=t1_link, t2_link=t2_link, read='')
+
 	def fill_game_template(self, desired_user, user, g, read_only=False):
 
 		game_template = self.read_template('templates/game_template.html')
 
 		readonly, diff, remain = self.calculate_time_diference(g)
 
-		t1_link = 'team?&country='+g['t1']+'&id='+self.users[user]['id']
-		t2_link = 'team?&country='+g['t2']+'&id='+self.users[user]['id']
-		
+		if g['t1'] in self.teams:
+			t1_link = 'team?&country='+g['t1']+'&id='+self.users[user]['id']
+		else:
+			t1_link = ''
+		if g['t2'] in self.teams:	
+			t2_link = 'team?&country='+g['t2']+'&id='+self.users[user]['id']
+		else:
+			t2_link = ''
+
 		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
 		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
 
@@ -414,8 +481,8 @@ class euro(object):
 		t1_score = self.users[desired_user]['games'][str(g['number'])]['t1_score']
 		t2_score = self.users[desired_user]['games'][str(g['number'])]['t2_score']
 
-		if t1_score:
-			if diff.days > 0:
+		if t1_score!='':
+			if diff.days >= 0 and desired_user!=user:
 				t1_score = 'X'
 				t2_score = 'X'
 
@@ -463,41 +530,57 @@ class euro(object):
 			main = self.read_template(
 				'templates/scheduele_read_only_template.html')
 
-		if user == desired_user:
+		if user == desired_user and (datetime(2016, 6, 11, 14, 0, 0) - self.get_timeobject_now()).days > 0:
 			mvp_link = 'mvp?&id='+self.users[user]['id']+'&mvp=mvp'
 		else:
-			mvp_link = ''
+			if 'name' in self.users[desired_user]['mvp'] and self.users[desired_user]['mvp']['name']:
+				mvp_link = self.players[self.users[desired_user]['mvp']['country']][self.users[desired_user]['mvp']['name']]['link']
+			else:
+				mvp_link = ''
+
 		if self.users[desired_user]['mvp']['country']:			
 			mvp_img = '../images/teams/'+self.users[desired_user]['mvp']['country']+'/'+ self.users[desired_user]['mvp']['name']
-			mvp_img = mvp_img.replace(' ','%20')
+			mvp_img = mvp_img.replace(' ','%20').encode('utf-8')
+			if desired_user != user and (datetime(2016, 6, 11, 14, 0, 0) - self.get_timeobject_now()).days >= 0:
+				mvp_img = '../images/avatar.png'
 		else:
-			mvp_img = ''
+			mvp_img = '../images/avatar.png'
 
-		if user == desired_user:
+		if user == desired_user  and (datetime(2016, 6, 11, 14, 0, 0) - self.get_timeobject_now()).days >= 0:
 			scorer_link = 'mvp?&id='+self.users[user]['id']+'&mvp=scorer'
 		else:
-			scorer_link = ''
+			if 'name' in self.users[desired_user]['scorer'] and self.users[desired_user]['scorer']['name']:
+				scorer_link = self.players[self.users[desired_user]['scorer']['country']][self.users[desired_user]['scorer']['name']]['link']
+			else:
+				scorer_link = ''
+
 		if self.users[desired_user]['scorer']['country']:			
 			scorer_img = '../images/teams/'+self.users[desired_user]['scorer']['country']+'/'+ self.users[desired_user]['scorer']['name']
-			scorer_img = scorer_img.replace(' ','%20')
+			scorer_img = scorer_img.replace(' ','%20').encode('utf-8')
+			if desired_user != user and (datetime(2016, 6, 11, 14, 0, 0) - self.get_timeobject_now()).days >= 0:
+				scorer_img = '../images/avatar.png'
 		else:
-			scorer_img = ''
+			scorer_img = '../images/avatar.png'
 
 		header = self.read_template('templates/header_template.html')
 
 		header = header.format(title='My Predictions')
 
-		nav = self.read_template('templates/nav_template.html')
-
 		self.update_users_pontuations()
 
-		if self.users[user]['country'] in self.teams:
-			flag = self.teams[self.users[user]['country']]['flag_url']
-		else:
-			flag = ''
-		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
+		nav = self.create_nav(user)
 
 		games_html = ''
+
+		games_html += '<br><h2 id="Knockout">Knockout Stage</h2>'
+
+		for phase in self.final_stages:
+			games_html += '<h3 id="' + phase + '">' + phase + '</h3>'
+			for game in [self.games[g] for g in sorted(self.games.keys()) if self.games[g]['stage'] == phase]:
+				games_html += self.fill_game_template(
+					desired_user, user, game, user != desired_user)
+
+
 
 		for group in sorted(self.groups):
 
@@ -539,14 +622,6 @@ class euro(object):
 
 		games_html += self.create_third_group_table()
 
-		games_html += '<br><h2 id="Knockout">Knockout Stage</h2>'
-
-		for phase in self.final_stages:
-			games_html += '<h3 id="' + phase + '">' + phase + '</h3>'
-			for game in [self.games[g] for g in sorted(self.games.keys()) if self.games[g]['stage'] == phase]:
-				games_html += self.fill_game_template(
-					desired_user, user, game, user != desired_user)
-
 		main = main.format(id=self.users[desired_user]['id'], header=header, nav=nav,user=desired_user , data=games_html, footer=self.footer, anchor=stage, mvp_img=mvp_img, mvp_link=mvp_link, scorer_img=scorer_img, scorer_link=scorer_link)
 
 		return main.encode('utf-8')
@@ -554,16 +629,11 @@ class euro(object):
 	def create_rules(self, user):
 
 		main = self.read_template('templates/rules_template.html')
-		nav = self.read_template('templates/nav_template.html')
 
 		header = self.read_template('templates/header_template.html')
 		header = header.format(title='Rules')
 
-		if self.users[user]['country'] in self.teams:
-			flag = self.teams[self.users[user]['country']]['flag_url']
-		else:
-			flag = ''
-		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
+		nav = self.create_nav(user)
 
 		main = main.format(nav=nav, header=header, footer=self.footer)
 
@@ -586,12 +656,24 @@ class euro(object):
 				elif self.users[user]['games'][pred[0]]['stage'] == 'Groups' and len(group) < 2:
 					if self.users[user]['games'][pred[0]]['stage'] > group:
 						group = self.users[user]['games'][pred[0]]['group']
+
+		self.dump_json(self.users[user]['games'], os.path.join('users', user, 'games.json'))
+
 		return group
+
+	def update_real_scores(self, data):
+
+		for pred in ast.literal_eval(data):
+
+			if 'None' not in pred[1]:
+				self.games[pred[0]]['score'] = pred[1]
+				self.games[pred[0]]['finished'] = pred[2] == 'on'
+
+		self.dump_json(self.games, 'resources/games_current.json')
 
 	def create_scoreboard(self, user):
 
 		main_html = self.read_template('templates/scoreboard_template.html')
-		nav = self.read_template('templates/nav_template.html')
 
 		header = self.read_template('templates/header_template.html')
 		header = header.format(title='Scoreboard')
@@ -599,14 +681,9 @@ class euro(object):
 		self.teams = self.clean_teams(self.teams)
 		self.update_users_pontuations()
 
-		if self.users[user]['country'] in self.teams:
-			flag = self.teams[self.users[user]['country']]['flag_url']
-		else:
-			flag = ''
+		nav = self.create_nav(user)
 
-		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
-
-		lines = self.create_scoreboard_user(user)
+		lines, ordered_users = self.create_scoreboard_user(user)
 
 		main_html = main_html.format(
 			id=user, header=header, nav=nav, lines=lines, footer=self.footer)
@@ -638,18 +715,15 @@ class euro(object):
 
 			positions += position_html.format(pos=i + 1, color=color, id=self.users[user]['id'], flag=flag, name=U['username'], exact=S['exact'], right=S['right'], one=S['one'], none=S['none'], points=S['PTS'], groups=S['groups'], awards=S['awards'])
 
-		return positions
+		return positions,[u['username'] for u in users]
 
 	def create_settings(self, user, new_user):
 
 		main_html = self.read_template('templates/settings_template.html')
-		nav = self.read_template('templates/nav_template.html')
 
-		if self.users[user]['country'] in self.teams:
-			flag = self.teams[self.users[user]['country']]['flag_url']
-		else:
-			flag = ''
-		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
+		title = 'Pick your Favourite Country'	
+
+		nav = self.create_nav(user)
 
 		header = self.read_template('templates/header_template.html')
 		header = header.format(title='Settings')
@@ -668,38 +742,34 @@ class euro(object):
 			countries += '</a>'
 
 		main_html = main_html.format(
-			id=user, header=header, nav=nav, countries=countries, footer=self.footer)
+			title=title, id=user, header=header, nav=nav, countries=countries, footer=self.footer)
 
 		return main_html.encode('utf-8')
 
 	def create_game_page(self, user, game):
 
 		main_html = self.read_template('templates/game_page_template.html')
-		nav = self.read_template('templates/nav_template.html')
 
 		header = self.read_template('templates/header_template.html')
 		header = header.format(title='Game ' + game)
 
-		if self.users[user]['country'] in self.teams:
-			flag = self.teams[self.users[user]['country']]['flag_url']
-		else:
-			flag = ''
-		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
-
+		nav = self.create_nav(user)
+		
 		g = self.games[game]
 
-		t1_link = 'team?&country='+g['t1']+'&id='+self.users[user]['id']
-		t2_link = 'team?&country='+g['t2']+'&id='+self.users[user]['id']
-
+		if g['t1'] in self.teams:
+			t1_link = 'team?&country='+g['t1']+'&id='+self.users[user]['id']
+		else:
+			t1_link = ''
+		if g['t2'] in self.teams:
+			t2_link = 'team?&country='+g['t2']+'&id='+self.users[user]['id']
+		else:
+			t2_link = ''
+		
 		t1_flag = g['t1_flag'] if 't1_flag' in g else ''
 		t2_flag = g['t2_flag'] if 't2_flag' in g else ''
 
 		readonly, diff, remain = self.calculate_time_diference(g)
-
-		if g['score']:
-			remain = g['score']
-		elif diff.days > 0:
-			remain = str(diff.days) + ' days'
 
 		t1_score = g['t1_score']
 		t2_score = g['t2_score']
@@ -735,7 +805,6 @@ class euro(object):
 	def create_home_page(self, user):
 
 		main_html = self.read_template('templates/home_page_template.html')
-		nav = self.read_template('templates/nav_template.html')
 
 		header = self.read_template('templates/header_template.html')
 		header = header.format(title='Home')
@@ -744,19 +813,11 @@ class euro(object):
 
 		self.update_users_pontuations()
 
-		if self.users[user]['country'] in self.teams:
-			flag = self.teams[self.users[user]['country']]['flag_url']
-		else:
-			flag = ''
+		nav = self.create_nav(user)
 
-		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
+		lines, ordered_users = self.create_scoreboard_user(user)
 
-		lines = self.create_scoreboard_user(user)
-
-		for game in sorted([int(n) for n in self.games.keys()]):
-			game = str(game)
-			if not self.games[game]['score']:
-				break
+		game = str(sorted([int(n) for n in self.games.keys() if not self.games[n]['finished']])[0])
 
 		g = self.games[game]
 
@@ -773,22 +834,22 @@ class euro(object):
 
 		readonly, diff, remain = self.calculate_time_diference(g)
 
-		for U in self.users:
+		for U in ordered_users:
 
 			position_html = self.read_template(
 				'templates/game_page_position_template.html')
 
-			g = self.users[U]['games'][game]
+			G = self.users[U]['games'][game]
 
 			result = self.prediction_result(
-				user, self.games[game], g, points=False)
+				user, self.games[game], G, points=False)
 
 			if diff.days < 0:
-				score = g['score'] if g['score'] else '-'
+				score = G['score'] if G['score'] else '-'
 			else:
-				score = 'x-x' if g['score'] else '-'
+				score = 'x-x' if G['score'] else '-'
 
-			if self.users[user]['country'] in self.teams:
+			if self.users[U]['country'] in self.teams:
 				flag = self.teams[self.users[U]['country']]['flag_url']
 			else:
 				flag = ''
@@ -840,15 +901,7 @@ class euro(object):
 
 		header = header.format(title=country)
 
-		nav = self.read_template('templates/nav_template.html')
-
-		if self.users[user]['country'] in self.teams:
-			flag = self.teams[self.users[user]['country']]['flag_url']
-		else:
-			flag = ''
-		nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
-
-		print self.players[country].keys()
+		nav = self.create_nav(user)
 
 		G = '<div class="players" style="text-align:center;">'
 		D = '<div class="players" style="text-align:center;">'
@@ -882,13 +935,10 @@ class euro(object):
 
 		if country == 'None' and player =='None':
 			main_html = self.read_template('templates/settings_template.html')
-			nav = self.read_template('templates/nav_template.html')
 
-			if self.users[user]['country'] in self.teams:
-				flag = self.teams[self.users[user]['country']]['flag_url']
-			else:
-				flag = ''
-			nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
+			title = 'From which country...'
+
+			nav = self.create_nav(user)
 
 			header = self.read_template('templates/header_template.html')
 			header = header.format(title=mvp)
@@ -907,7 +957,7 @@ class euro(object):
 				countries += '</a>'
 
 			main_html = main_html.format(
-				id=user, header=header, nav=nav, countries=countries, footer=self.footer)
+				title=title, id=user, header=header, nav=nav, countries=countries, footer=self.footer)
 
 			return main_html.encode('utf-8')
 		elif player == 'None':
@@ -917,15 +967,7 @@ class euro(object):
 
 			header = header.format(title=country)
 
-			nav = self.read_template('templates/nav_template.html')
-
-			if self.users[user]['country'] in self.teams:
-				flag = self.teams[self.users[user]['country']]['flag_url']
-			else:
-				flag = ''
-			nav = nav.format(name=user, id=self.users[user]['id'], flag=flag)
-
-			print self.players[country].keys()
+			nav = self.create_nav(user)
 
 			G = '<div class="players" style="text-align:center;">'
 			D = '<div class="players" style="text-align:center;">'
@@ -955,6 +997,28 @@ class euro(object):
 
 			return main.encode('utf-8')
 
+	def create_admin(self, user):
+
+		main = self.read_template('templates/admin_template.html')
+
+		header = self.read_template('templates/header_template.html')
+
+		header = header.format(title='Admin')
+
+		self.update_users_pontuations()
+
+		nav = self.create_nav(user)
+
+		games_html = ''
+
+		for g in sorted([int(n) for n in self.games.keys()]):
+			g = str(g)
+
+			games_html += self.fill_real_game(user, self.games[g])
+
+		main = main.format(id=self.users[user]['id'], header=header, nav=nav, data=games_html, footer=self.footer)
+
+		return main.encode('utf-8')
 
 	# Football Functions
 	def parse_score(self, game, teams, scoring=True):
@@ -1179,7 +1243,7 @@ class euro(object):
 				final_order += [group_teams[goals_pts][0]]
 			else:
 
-				tiebreaker = 'GF'
+				tiebreaker = 'GD'
 				group_teams_gf = dict()
 				tied_teams = group_teams[goals_pts]
 				for t in tied_teams:
@@ -1193,7 +1257,7 @@ class euro(object):
 					if len(group_teams_gf[goals_gf]) == 1:
 						final_order += [group_teams_gf[goals_gf][0]]
 					else:
-						tiebreaker = 'GD'
+						tiebreaker = 'GF'
 						group_teams_gd = dict()
 						tied_teams = group_teams_gf[goals_gf]
 						for t in tied_teams:
@@ -1278,6 +1342,21 @@ class euro(object):
 
 			conn.send(new_page)
 
+		elif data == 'admin':
+
+			conn.send('ok')
+
+			data = conn.recv(self.buffersize).split('\n')
+			user = self.find_user_by_id(data[0])
+			if user in self.users:
+				self.timed_print('[' + user + '] Admin')
+				new_page = self.create_admin(user)
+			else:
+				self.timed_print('Error in getting user', self.colors['FAIL'])
+				new_page = self.read_template('templates/start_template.html')
+
+			conn.send(new_page)
+
 		elif data == 'agenda':
 
 			conn.send('ok')
@@ -1331,6 +1410,24 @@ class euro(object):
 
 			conn.send(new_page.encode('utf-8'))
 
+		elif data == 'updatescore':
+
+			conn.send('ok')
+
+			data = conn.recv(self.buffersize).split('\n')
+
+			user = self.find_user_by_id(data[0])
+
+			if user:
+				self.timed_print('[' + user + '] Update real score')
+				self.update_real_scores(data[1])
+				new_page = 'admin?&id=' + data[0]  
+			else:
+				self.timed_print('Error in getting user', self.colors['FAIL'])
+				new_page = '../index.html'
+
+			conn.send(new_page.encode('utf-8'))
+
 		elif data == 'scoreboard':
 
 			conn.send('ok')
@@ -1371,7 +1468,6 @@ class euro(object):
 
 			data = conn.recv(self.buffersize).split('\n')
 
-			print data
 			user = self.find_user_by_id(data[0])
 			mvp = data[1]
 			country = data[2]
@@ -1457,8 +1553,8 @@ class euro(object):
 				except timeout:
 					continue
 
-				self.timed_print(
-					'IP: ' + str(addr[0]) + ' Port: ' + str(addr[1]) + ' ...connected!', 'OKBLUE')
+				# self.timed_print(
+					# 'IP: ' + str(addr[0]) + ' Port: ' + str(addr[1]) + ' ...connected!', 'OKBLUE')
 
 				conn.send('ok')
 

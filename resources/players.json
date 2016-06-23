@@ -208,6 +208,215 @@
             "term": "jpg"
         }
     }, 
+    "Austria": {
+        "Aleksandar Dragovic": {
+            "age": "25", 
+            "club": "Dynamo Kyiv", 
+            "link": "http://www.thefinalball.com/player.php?id=63154&edicao_id=66233", 
+            "name": "Aleksandar Dragovic", 
+            "num": "3", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Alessandro Sch\u00f6pf": {
+            "age": "22", 
+            "club": "Schalke 04", 
+            "link": "http://www.thefinalball.com/player.php?id=237584&edicao_id=66233", 
+            "name": "Alessandro Sch\u00f6pf", 
+            "num": "18", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Christian Fuchs": {
+            "age": "30", 
+            "club": "Leicester City", 
+            "link": "http://www.thefinalball.com/player.php?id=59917&edicao_id=66233", 
+            "name": "Christian Fuchs", 
+            "num": "5", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "David Alaba": {
+            "age": "24", 
+            "club": "Bayern M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=108400&edicao_id=66233", 
+            "name": "David Alaba", 
+            "num": "8", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Florian Klein": {
+            "age": "29", 
+            "club": "Stuttgart", 
+            "link": "http://www.thefinalball.com/player.php?id=63191&edicao_id=66233", 
+            "name": "Florian Klein", 
+            "num": "17", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Gy\u00f6rgy Garics": {
+            "age": "32", 
+            "club": "Darmstadt 98", 
+            "link": "http://www.thefinalball.com/player.php?id=9872&edicao_id=66233", 
+            "name": "Gy\u00f6rgy Garics", 
+            "num": "2", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Heinz Lindner": {
+            "age": "25", 
+            "club": "Eintracht Frankfurt", 
+            "link": "http://www.thefinalball.com/player.php?id=103278&edicao_id=66233", 
+            "name": "Heinz Lindner", 
+            "num": "12", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Jakob Jantscher": {
+            "age": "27", 
+            "club": "Luzern", 
+            "link": "http://www.thefinalball.com/player.php?id=58518&edicao_id=66233", 
+            "name": "Jakob Jantscher", 
+            "num": "22", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Julian Baumgartlinger": {
+            "age": "28", 
+            "club": "Mainz ", 
+            "link": "http://www.thefinalball.com/player.php?id=59330&edicao_id=66233", 
+            "name": "Julian Baumgartlinger", 
+            "num": "14", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Kevin Wimmer": {
+            "age": "23", 
+            "club": "Tottenham", 
+            "link": "http://www.thefinalball.com/player.php?id=205319&edicao_id=66233", 
+            "name": "Kevin Wimmer", 
+            "num": "16", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Lukas Hinterseer": {
+            "age": "25", 
+            "club": "FC Ingolstadt 04", 
+            "link": "http://www.thefinalball.com/player.php?id=140315&edicao_id=66233", 
+            "name": "Lukas Hinterseer", 
+            "num": "19", 
+            "pos": "FRW", 
+            "term": "png"
+        }, 
+        "Marc Janko": {
+            "age": "33", 
+            "club": "FC Basel", 
+            "link": "http://www.thefinalball.com/player.php?id=59919&edicao_id=66233", 
+            "name": "Marc Janko", 
+            "num": "21", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Marcel Sabitzer ": {
+            "age": "22", 
+            "club": "RB Leipzig", 
+            "link": "http://www.thefinalball.com/player.php?id=205467&edicao_id=66233", 
+            "name": "Marcel Sabitzer ", 
+            "num": "20", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Marko Arnautovi\u0107": {
+            "age": "27", 
+            "club": "Stoke City", 
+            "link": "http://www.thefinalball.com/player.php?id=45213&edicao_id=66233", 
+            "name": "Marko Arnautovi\u0107", 
+            "num": "7", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Markus Suttner": {
+            "age": "29", 
+            "club": "FC Ingolstadt 04", 
+            "link": "http://www.thefinalball.com/player.php?id=38568&edicao_id=66233", 
+            "name": "Markus Suttner", 
+            "num": "13", 
+            "pos": "DEF", 
+            "term": "png"
+        }, 
+        "Martin Harnik": {
+            "age": "29", 
+            "club": "Stuttgart", 
+            "link": "http://www.thefinalball.com/player.php?id=38570&edicao_id=66233", 
+            "name": "Martin Harnik", 
+            "num": "11", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Martin Hinteregger": {
+            "age": "23", 
+            "club": "Borussia M\u0092gladbach", 
+            "link": "http://www.thefinalball.com/player.php?id=139558&edicao_id=66233", 
+            "name": "Martin Hinteregger", 
+            "num": "4", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Ramazan \u00d6zcan": {
+            "age": "32", 
+            "club": "FC Ingolstadt 04", 
+            "link": "http://www.thefinalball.com/player.php?id=58949&edicao_id=66233", 
+            "name": "Ramazan \u00d6zcan", 
+            "num": "23", 
+            "pos": "GK", 
+            "term": "png"
+        }, 
+        "Robert Almer": {
+            "age": "32", 
+            "club": "Austria Wien", 
+            "link": "http://www.thefinalball.com/player.php?id=61792&edicao_id=66233", 
+            "name": "Robert Almer", 
+            "num": "1", 
+            "pos": "GK", 
+            "term": "jpg"
+        }, 
+        "Rubin Okotie": {
+            "age": "29", 
+            "club": "TSV 1860 M\u00fcnchen", 
+            "link": "http://www.thefinalball.com/player.php?id=38580&edicao_id=66233", 
+            "name": "Rubin Okotie", 
+            "num": "9", 
+            "pos": "FRW", 
+            "term": "jpg"
+        }, 
+        "Sebastian Pr\u00f6dl": {
+            "age": "29", 
+            "club": "Watford", 
+            "link": "http://www.thefinalball.com/player.php?id=38567&edicao_id=66233", 
+            "name": "Sebastian Pr\u00f6dl", 
+            "num": "15", 
+            "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Stefan Ilsanker": {
+            "age": "27", 
+            "club": "RB Leipzig", 
+            "link": "http://www.thefinalball.com/player.php?id=98838&edicao_id=66233", 
+            "name": "Stefan Ilsanker", 
+            "num": "6", 
+            "pos": "MID", 
+            "term": "jpg"
+        }, 
+        "Zlatko Junuzovi\u0107": {
+            "age": "28", 
+            "club": "Werder Bremen", 
+            "link": "http://www.thefinalball.com/player.php?id=38572&edicao_id=66233", 
+            "name": "Zlatko Junuzovi\u0107", 
+            "num": "10", 
+            "pos": "MID", 
+            "term": "png"
+        }
+    }, 
     "Belgium": {
         "Axel Witsel": {
             "age": "27", 
@@ -215,7 +424,8 @@
             "link": "http://www.thefinalball.com/player.php?id=34169&edicao_id=66233", 
             "name": "Axel Witsel", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Christian Benteke": {
             "age": "25", 
@@ -223,7 +433,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66062&edicao_id=66233", 
             "name": "Christian Benteke", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Christian Kabasele": {
             "age": "25", 
@@ -231,7 +442,8 @@
             "link": "http://www.thefinalball.com/player.php?id=70734&edicao_id=66233", 
             "name": "Christian Kabasele", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Divock Origi": {
             "age": "21", 
@@ -239,7 +451,8 @@
             "link": "http://www.thefinalball.com/player.php?id=149513&edicao_id=66233", 
             "name": "Divock Origi", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Dries Mertens": {
             "age": "29", 
@@ -247,7 +460,8 @@
             "link": "http://www.thefinalball.com/player.php?id=86100&edicao_id=66233", 
             "name": "Dries Mertens", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Eden Hazard": {
             "age": "25", 
@@ -255,7 +469,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50292&edicao_id=66233", 
             "name": "Eden Hazard", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Ferreira-Carrasco": {
             "age": "22", 
@@ -263,7 +478,8 @@
             "link": "http://www.thefinalball.com/player.php?id=150537&edicao_id=66233", 
             "name": "Ferreira-Carrasco", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Jan Vertonghen": {
             "age": "29", 
@@ -271,7 +487,8 @@
             "link": "http://www.thefinalball.com/player.php?id=32809&edicao_id=66233", 
             "name": "Jan Vertonghen", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Jason Denayer": {
             "age": "20", 
@@ -279,7 +496,8 @@
             "link": "http://www.thefinalball.com/player.php?id=370553&edicao_id=66233", 
             "name": "Jason Denayer", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Jean-Fran\u00e7ois Gillet": {
             "age": "37", 
@@ -287,7 +505,8 @@
             "link": "http://www.thefinalball.com/player.php?id=51238&edicao_id=66233", 
             "name": "Jean-Fran\u00e7ois Gillet", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Jordan Lukaku": {
             "age": "21", 
@@ -295,7 +514,8 @@
             "link": "http://www.thefinalball.com/player.php?id=148897&edicao_id=66233", 
             "name": "Jordan Lukaku", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Kevin De Bruyne": {
             "age": "24", 
@@ -303,7 +523,8 @@
             "link": "http://www.thefinalball.com/player.php?id=97908&edicao_id=66233", 
             "name": "Kevin De Bruyne", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Laurent Ciman": {
             "age": "30", 
@@ -311,7 +532,8 @@
             "link": "http://www.thefinalball.com/player.php?id=33723&edicao_id=66233", 
             "name": "Laurent Ciman", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Marouane Fellaini": {
             "age": "28", 
@@ -319,7 +541,8 @@
             "link": "http://www.thefinalball.com/player.php?id=34167&edicao_id=66233", 
             "name": "Marouane Fellaini", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Michy Batshuayi": {
             "age": "22", 
@@ -327,7 +550,8 @@
             "link": "http://www.thefinalball.com/player.php?id=184083&edicao_id=66233", 
             "name": "Michy Batshuayi", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Moussa Demb\u00e9l\u00e9": {
             "age": "28", 
@@ -335,7 +559,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29871&edicao_id=66233", 
             "name": "Moussa Demb\u00e9l\u00e9", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Radja Nainggolan": {
             "age": "28", 
@@ -343,7 +568,8 @@
             "link": "http://www.thefinalball.com/player.php?id=51228&edicao_id=66233", 
             "name": "Radja Nainggolan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Romelu Lukaku": {
             "age": "23", 
@@ -351,7 +577,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104335&edicao_id=66233", 
             "name": "Romelu Lukaku", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Simon Mignolet": {
             "age": "28", 
@@ -359,7 +586,8 @@
             "link": "http://www.thefinalball.com/player.php?id=34125&edicao_id=66233", 
             "name": "Simon Mignolet", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Thibaut Courtois": {
             "age": "24", 
@@ -367,7 +595,8 @@
             "link": "http://www.thefinalball.com/player.php?id=95628&edicao_id=66233", 
             "name": "Thibaut Courtois", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Thomas Meunier": {
             "age": "24", 
@@ -375,7 +604,8 @@
             "link": "http://www.thefinalball.com/player.php?id=203186&edicao_id=66233", 
             "name": "Thomas Meunier", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Thomas Vermaelen": {
             "age": "30", 
@@ -383,7 +613,8 @@
             "link": "http://www.thefinalball.com/player.php?id=9725&edicao_id=66233", 
             "name": "Thomas Vermaelen", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Toby Alderweireld": {
             "age": "27", 
@@ -391,7 +622,8 @@
             "link": "http://www.thefinalball.com/player.php?id=79437&edicao_id=66233", 
             "name": "Toby Alderweireld", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }
     }, 
     "Croatia": {
@@ -401,7 +633,8 @@
             "link": "http://www.thefinalball.com/player.php?id=103220&edicao_id=66233", 
             "name": "Andrej Kramari\u0107", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Ante \u0106ori\u0107": {
             "age": "19", 
@@ -409,7 +642,8 @@
             "link": "http://www.thefinalball.com/player.php?id=84473&edicao_id=66233", 
             "name": "Ante \u0106ori\u0107", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Danijel Suba\u0161i\u0107": {
             "age": "31", 
@@ -417,7 +651,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66909&edicao_id=66233", 
             "name": "Danijel Suba\u0161i\u0107", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Darijo Srna": {
             "age": "34", 
@@ -425,7 +660,8 @@
             "link": "http://www.thefinalball.com/player.php?id=5956&edicao_id=66233", 
             "name": "Darijo Srna", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Domagoj Vida": {
             "age": "27", 
@@ -433,7 +669,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68998&edicao_id=66233", 
             "name": "Domagoj Vida", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Duje \u010cop": {
             "age": "26", 
@@ -441,7 +678,8 @@
             "link": "http://www.thefinalball.com/player.php?id=61791&edicao_id=66233", 
             "name": "Duje \u010cop", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Gordon Schildenfeld": {
             "age": "31", 
@@ -449,7 +687,8 @@
             "link": "http://www.thefinalball.com/player.php?id=103355&edicao_id=66233", 
             "name": "Gordon Schildenfeld", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Ivan Peri\u0161i\u0107": {
             "age": "27", 
@@ -457,7 +696,8 @@
             "link": "http://www.thefinalball.com/player.php?id=31585&edicao_id=66233", 
             "name": "Ivan Peri\u0161i\u0107", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ivan Rakiti\u0107": {
             "age": "28", 
@@ -465,7 +705,8 @@
             "link": "http://www.thefinalball.com/player.php?id=37487&edicao_id=66233", 
             "name": "Ivan Rakiti\u0107", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Ivan Strini\u0107": {
             "age": "28", 
@@ -473,7 +714,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66920&edicao_id=66233", 
             "name": "Ivan Strini\u0107", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Ivan Vargi\u0107": {
             "age": "29", 
@@ -481,7 +723,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68984&edicao_id=66233", 
             "name": "Ivan Vargi\u0107", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Lovre Kalini\u0107": {
             "age": "26", 
@@ -489,7 +732,8 @@
             "link": "http://www.thefinalball.com/player.php?id=155250&edicao_id=66233", 
             "name": "Lovre Kalini\u0107", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Luka Modri\u0107": {
             "age": "30", 
@@ -497,7 +741,8 @@
             "link": "http://www.thefinalball.com/player.php?id=26872&edicao_id=66233", 
             "name": "Luka Modri\u0107", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Marcelo Brozovi\u0107": {
             "age": "23", 
@@ -505,7 +750,8 @@
             "link": "http://www.thefinalball.com/player.php?id=152005&edicao_id=66233", 
             "name": "Marcelo Brozovi\u0107", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Mario Mand\u017euki\u0107": {
             "age": "30", 
@@ -513,7 +759,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66904&edicao_id=66233", 
             "name": "Mario Mand\u017euki\u0107", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Marko Pjaca": {
             "age": "21", 
@@ -521,7 +768,8 @@
             "link": "http://www.thefinalball.com/player.php?id=248415&edicao_id=66233", 
             "name": "Marko Pjaca", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Marko Rog": {
             "age": "20", 
@@ -529,7 +777,8 @@
             "link": "http://www.thefinalball.com/player.php?id=413134&edicao_id=66233", 
             "name": "Marko Rog", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Mateo Kova\u010di\u0107": {
             "age": "22", 
@@ -537,7 +786,8 @@
             "link": "http://www.thefinalball.com/player.php?id=167679&edicao_id=66233", 
             "name": "Mateo Kova\u010di\u0107", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Milan Badelj": {
             "age": "27", 
@@ -545,7 +795,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66901&edicao_id=66233", 
             "name": "Milan Badelj", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Nikola Kalini\u0107": {
             "age": "28", 
@@ -553,7 +804,8 @@
             "link": "http://www.thefinalball.com/player.php?id=59907&edicao_id=66233", 
             "name": "Nikola Kalini\u0107", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Tin Jedvaj": {
             "age": "20", 
@@ -561,7 +813,8 @@
             "link": "http://www.thefinalball.com/player.php?id=316233&edicao_id=66233", 
             "name": "Tin Jedvaj", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Vedran \u0106orluka": {
             "age": "30", 
@@ -569,7 +822,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42662&edicao_id=66233", 
             "name": "Vedran \u0106orluka", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "\u0160ime Vrsaljko": {
             "age": "24", 
@@ -577,7 +831,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104757&edicao_id=66233", 
             "name": "\u0160ime Vrsaljko", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }
     }, 
     "Czech Rep.": {
@@ -587,7 +842,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66240&edicao_id=66233", 
             "name": "Bo\u0159ek Do\u010dkal", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Daniel Kol\u00e1\u0159": {
             "age": "30", 
@@ -595,7 +851,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35576&edicao_id=66233", 
             "name": "Daniel Kol\u00e1\u0159", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Daniel Pudil": {
             "age": "30", 
@@ -603,7 +860,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35579&edicao_id=66233", 
             "name": "Daniel Pudil", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "David Lafata": {
             "age": "34", 
@@ -611,7 +869,8 @@
             "link": "http://www.thefinalball.com/player.php?id=41429&edicao_id=66233", 
             "name": "David Lafata", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "David Limbersk\u00fd": {
             "age": "32", 
@@ -619,7 +878,8 @@
             "link": "http://www.thefinalball.com/player.php?id=9193&edicao_id=66233", 
             "name": "David Limbersk\u00fd", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "David Pavelka": {
             "age": "25", 
@@ -627,7 +887,8 @@
             "link": "http://www.thefinalball.com/player.php?id=192370&edicao_id=66233", 
             "name": "David Pavelka", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Gebre Selassie": {
             "age": "29", 
@@ -635,7 +896,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66235&edicao_id=66233", 
             "name": "Gebre Selassie", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Jaroslav Pla\u0161il": {
             "age": "34", 
@@ -643,7 +905,8 @@
             "link": "http://www.thefinalball.com/player.php?id=2703&edicao_id=66233", 
             "name": "Jaroslav Pla\u0161il", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ji\u0159\u00ed Skal\u00e1k": {
             "age": "24", 
@@ -651,7 +914,8 @@
             "link": "http://www.thefinalball.com/player.php?id=147168&edicao_id=66233", 
             "name": "Ji\u0159\u00ed Skal\u00e1k", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Josef \u0160ural": {
             "age": "26", 
@@ -659,7 +923,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66148&edicao_id=66233", 
             "name": "Josef \u0160ural", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Ladislav Krej\u010d\u00ed": {
             "age": "23", 
@@ -667,7 +932,8 @@
             "link": "http://www.thefinalball.com/player.php?id=147165&edicao_id=66233", 
             "name": "Ladislav Krej\u010d\u00ed", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Marek Such\u00fd": {
             "age": "28", 
@@ -675,7 +941,8 @@
             "link": "http://www.thefinalball.com/player.php?id=38621&edicao_id=66233", 
             "name": "Marek Such\u00fd", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Michal Kadlec": {
             "age": "31", 
@@ -683,7 +950,8 @@
             "link": "http://www.thefinalball.com/player.php?id=19023&edicao_id=66233", 
             "name": "Michal Kadlec", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Milan \u0160koda": {
             "age": "30", 
@@ -691,7 +959,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42315&edicao_id=66233", 
             "name": "Milan \u0160koda", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Pavel Kade\u0159\u00e1bek": {
             "age": "24", 
@@ -699,7 +968,8 @@
             "link": "http://www.thefinalball.com/player.php?id=149751&edicao_id=66233", 
             "name": "Pavel Kade\u0159\u00e1bek", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Petr \u010cech": {
             "age": "34", 
@@ -707,7 +977,8 @@
             "link": "http://www.thefinalball.com/player.php?id=3747&edicao_id=66233", 
             "name": "Petr \u010cech", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Roman Hubn\u00edk": {
             "age": "32", 
@@ -715,7 +986,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35573&edicao_id=66233", 
             "name": "Roman Hubn\u00edk", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Tom\u00e1\u0161 Koubek": {
             "age": "23", 
@@ -723,7 +995,8 @@
             "link": "http://www.thefinalball.com/player.php?id=163780&edicao_id=66233", 
             "name": "Tom\u00e1\u0161 Koubek", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Tom\u00e1\u0161 Necid": {
             "age": "26", 
@@ -731,7 +1004,8 @@
             "link": "http://www.thefinalball.com/player.php?id=40933&edicao_id=66233", 
             "name": "Tom\u00e1\u0161 Necid", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Tom\u00e1\u0161 Rosick\u00fd": {
             "age": "35", 
@@ -739,7 +1013,8 @@
             "link": "http://www.thefinalball.com/player.php?id=3284&edicao_id=66233", 
             "name": "Tom\u00e1\u0161 Rosick\u00fd", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Tom\u00e1\u0161 Sivok": {
             "age": "32", 
@@ -747,7 +1022,8 @@
             "link": "http://www.thefinalball.com/player.php?id=3359&edicao_id=66233", 
             "name": "Tom\u00e1\u0161 Sivok", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Tom\u00e1\u0161 Vacl\u00edk": {
             "age": "27", 
@@ -755,7 +1031,8 @@
             "link": "http://www.thefinalball.com/player.php?id=114454&edicao_id=66233", 
             "name": "Tom\u00e1\u0161 Vacl\u00edk", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Vladim\u00edr Darida": {
             "age": "25", 
@@ -763,7 +1040,8 @@
             "link": "http://www.thefinalball.com/player.php?id=149659&edicao_id=66233", 
             "name": "Vladim\u00edr Darida", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }
     }, 
     "England": {
@@ -809,7 +1087,8 @@
             "link": "http://www.thefinalball.com/player.php?id=236970&edicao_id=66233", 
             "name": "Dele Alli ", 
             "num": "20", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Eric Dier": {
             "age": "22", 
@@ -1190,7 +1469,8 @@
             "link": "http://www.thefinalball.com/player.php?id=107738&edicao_id=66233", 
             "name": "Andr\u00e9 Sch\u00fcrrle", 
             "num": "9", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Antonio R\u00fcdiger": {
             "age": "23", 
@@ -1198,7 +1478,8 @@
             "link": "http://www.thefinalball.com/player.php?id=206801&edicao_id=66233", 
             "name": "Antonio R\u00fcdiger", 
             "num": "16", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Bastian Schweinsteiger": {
             "age": "31", 
@@ -1206,7 +1487,8 @@
             "link": "http://www.thefinalball.com/player.php?id=2610&edicao_id=66233", 
             "name": "Bastian Schweinsteiger", 
             "num": "7", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Benedikt H\u00f6wedes": {
             "age": "28", 
@@ -1214,7 +1496,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42864&edicao_id=66233", 
             "name": "Benedikt H\u00f6wedes", 
             "num": "4", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Bernd Leno": {
             "age": "24", 
@@ -1222,7 +1505,8 @@
             "link": "http://www.thefinalball.com/player.php?id=127961&edicao_id=66233", 
             "name": "Bernd Leno", 
             "num": "12", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Emre Can": {
             "age": "22", 
@@ -1230,7 +1514,8 @@
             "link": "http://www.thefinalball.com/player.php?id=161816&edicao_id=66233", 
             "name": "Emre Can", 
             "num": "14", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Jonas Hector": {
             "age": "26", 
@@ -1238,7 +1523,8 @@
             "link": "http://www.thefinalball.com/player.php?id=215731&edicao_id=66233", 
             "name": "Jonas Hector", 
             "num": "3", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Joshua Kimmich": {
             "age": "21", 
@@ -1246,7 +1532,8 @@
             "link": "http://www.thefinalball.com/player.php?id=330909&edicao_id=66233", 
             "name": "Joshua Kimmich", 
             "num": "21", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Julian Draxler": {
             "age": "22", 
@@ -1254,7 +1541,8 @@
             "link": "http://www.thefinalball.com/player.php?id=174904&edicao_id=66233", 
             "name": "Julian Draxler", 
             "num": "11", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Julian Weigl": {
             "age": "20", 
@@ -1262,7 +1550,8 @@
             "link": "http://www.thefinalball.com/player.php?id=395624&edicao_id=66233", 
             "name": "Julian Weigl", 
             "num": "15", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "J\u00e9r\u00f4me Boateng": {
             "age": "27", 
@@ -1270,7 +1559,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43041&edicao_id=66233", 
             "name": "J\u00e9r\u00f4me Boateng", 
             "num": "20", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Leroy San\u00e9": {
             "age": "20", 
@@ -1278,7 +1568,8 @@
             "link": "http://www.thefinalball.com/player.php?id=370843&edicao_id=66233", 
             "name": "Leroy San\u00e9", 
             "num": "20", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Lukas Podolski": {
             "age": "31", 
@@ -1286,7 +1577,8 @@
             "link": "http://www.thefinalball.com/player.php?id=4645&edicao_id=66233", 
             "name": "Lukas Podolski", 
             "num": "10", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Manuel Neuer": {
             "age": "30", 
@@ -1294,7 +1586,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29193&edicao_id=66233", 
             "name": "Manuel Neuer", 
             "num": "1", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Mario G\u00f3mez": {
             "age": "30", 
@@ -1302,7 +1595,8 @@
             "link": "http://www.thefinalball.com/player.php?id=4345&edicao_id=66233", 
             "name": "Mario G\u00f3mez", 
             "num": "23", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Mario G\u00f6tze": {
             "age": "24", 
@@ -1310,7 +1604,8 @@
             "link": "http://www.thefinalball.com/player.php?id=119675&edicao_id=66233", 
             "name": "Mario G\u00f6tze", 
             "num": "19", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Mats Hummels": {
             "age": "27", 
@@ -1318,7 +1613,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29975&edicao_id=66233", 
             "name": "Mats Hummels", 
             "num": "5", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Mesut \u00d6zil": {
             "age": "27", 
@@ -1326,7 +1622,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43020&edicao_id=66233", 
             "name": "Mesut \u00d6zil", 
             "num": "8", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Sami Khedira": {
             "age": "29", 
@@ -1334,7 +1631,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29966&edicao_id=66233", 
             "name": "Sami Khedira", 
             "num": "6", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Shkodran Mustafi": {
             "age": "24", 
@@ -1342,7 +1640,8 @@
             "link": "http://www.thefinalball.com/player.php?id=106597&edicao_id=66233", 
             "name": "Shkodran Mustafi", 
             "num": "2", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Thomas M\u00fcller": {
             "age": "26", 
@@ -1350,7 +1649,8 @@
             "link": "http://www.thefinalball.com/player.php?id=65295&edicao_id=66233", 
             "name": "Thomas M\u00fcller", 
             "num": "13", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Toni Kroos": {
             "age": "26", 
@@ -1358,7 +1658,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43004&edicao_id=66233", 
             "name": "Toni Kroos", 
             "num": "18", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "ter Stegen": {
             "age": "24", 
@@ -1366,7 +1667,8 @@
             "link": "http://www.thefinalball.com/player.php?id=114914&edicao_id=66233", 
             "name": "ter Stegen", 
             "num": "22", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }
     }, 
     "Hungary": {
@@ -1376,7 +1678,8 @@
             "link": "http://www.thefinalball.com/player.php?id=461424&edicao_id=66233", 
             "name": "Adam Nagy", 
             "num": "8", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Attila Fiola": {
             "age": "26", 
@@ -1384,7 +1687,8 @@
             "link": "http://www.thefinalball.com/player.php?id=91619&edicao_id=66233", 
             "name": "Attila Fiola", 
             "num": "5", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Bal\u00e1zs Dzsudzs\u00e1k": {
             "age": "29", 
@@ -1392,7 +1696,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42398&edicao_id=66233", 
             "name": "Bal\u00e1zs Dzsudzs\u00e1k", 
             "num": "7", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Barnab\u00e1s Bese": {
             "age": "22", 
@@ -1400,7 +1705,8 @@
             "link": "http://www.thefinalball.com/player.php?id=241790&edicao_id=66233", 
             "name": "Barnab\u00e1s Bese", 
             "num": "21", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "D\u00e1niel B\u00f6de": {
             "age": "29", 
@@ -1408,7 +1714,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42858&edicao_id=66233", 
             "name": "D\u00e1niel B\u00f6de", 
             "num": "13", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "D\u00e9nes Dibusz": {
             "age": "25", 
@@ -1416,7 +1723,8 @@
             "link": "http://www.thefinalball.com/player.php?id=163485&edicao_id=66233", 
             "name": "D\u00e9nes Dibusz", 
             "num": "12", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Gerg\u0151 Lovrencsics": {
             "age": "27", 
@@ -1424,7 +1732,8 @@
             "link": "http://www.thefinalball.com/player.php?id=163489&edicao_id=66233", 
             "name": "Gerg\u0151 Lovrencsics", 
             "num": "14", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "G\u00e1bor Kir\u00e1ly": {
             "age": "40", 
@@ -1432,7 +1741,8 @@
             "link": "http://www.thefinalball.com/player.php?id=4599&edicao_id=66233", 
             "name": "G\u00e1bor Kir\u00e1ly", 
             "num": "1", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Kriszti\u00e1n N\u00e9meth": {
             "age": "27", 
@@ -1440,7 +1750,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35078&edicao_id=66233", 
             "name": "Kriszti\u00e1n N\u00e9meth", 
             "num": "11", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "L\u00e1szl\u00f3 Kleinheisler ": {
             "age": "22", 
@@ -1448,7 +1759,8 @@
             "link": "http://www.thefinalball.com/player.php?id=359899&edicao_id=66233", 
             "name": "L\u00e1szl\u00f3 Kleinheisler ", 
             "num": "15", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Mih\u00e1ly Korhut": {
             "age": "27", 
@@ -1456,7 +1768,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104479&edicao_id=66233", 
             "name": "Mih\u00e1ly Korhut", 
             "num": "3", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Nemanja Nikoli\u0107": {
             "age": "28", 
@@ -1464,7 +1777,8 @@
             "link": "http://www.thefinalball.com/player.php?id=67027&edicao_id=66233", 
             "name": "Nemanja Nikoli\u0107", 
             "num": "17", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "P\u00e9ter Gul\u00e1csi": {
             "age": "26", 
@@ -1472,7 +1786,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42464&edicao_id=66233", 
             "name": "P\u00e9ter Gul\u00e1csi", 
             "num": "22", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Rich\u00e1rd Guzmics": {
             "age": "29", 
@@ -1480,7 +1795,8 @@
             "link": "http://www.thefinalball.com/player.php?id=67453&edicao_id=66233", 
             "name": "Rich\u00e1rd Guzmics", 
             "num": "20", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Roland Juh\u00e1sz": {
             "age": "32", 
@@ -1488,7 +1804,8 @@
             "link": "http://www.thefinalball.com/player.php?id=19017&edicao_id=66233", 
             "name": "Roland Juh\u00e1sz", 
             "num": "23", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Tam\u00e1s K\u00e1d\u00e1r": {
             "age": "26", 
@@ -1496,7 +1813,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42514&edicao_id=66233", 
             "name": "Tam\u00e1s K\u00e1d\u00e1r", 
             "num": "4", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Tam\u00e1s Priskin": {
             "age": "29", 
@@ -1504,7 +1822,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29065&edicao_id=66233", 
             "name": "Tam\u00e1s Priskin", 
             "num": "19", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Zolt\u00e1n Gera": {
             "age": "37", 
@@ -1512,7 +1831,8 @@
             "link": "http://www.thefinalball.com/player.php?id=4897&edicao_id=66233", 
             "name": "Zolt\u00e1n Gera", 
             "num": "10", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Zolt\u00e1n Stieber": {
             "age": "27", 
@@ -1520,7 +1840,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50320&edicao_id=66233", 
             "name": "Zolt\u00e1n Stieber", 
             "num": "18", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "\u00c1d\u00e1m Lang": {
             "age": "23", 
@@ -1528,7 +1849,8 @@
             "link": "http://www.thefinalball.com/player.php?id=278865&edicao_id=66233", 
             "name": "\u00c1d\u00e1m Lang", 
             "num": "2", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "\u00c1d\u00e1m Pint\u00e9r": {
             "age": "27", 
@@ -1536,7 +1858,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42487&edicao_id=66233", 
             "name": "\u00c1d\u00e1m Pint\u00e9r", 
             "num": "16", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "\u00c1d\u00e1m Szalai": {
             "age": "28", 
@@ -1544,7 +1867,8 @@
             "link": "http://www.thefinalball.com/player.php?id=61275&edicao_id=66233", 
             "name": "\u00c1d\u00e1m Szalai", 
             "num": "9", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "\u00c1kos Elek": {
             "age": "27", 
@@ -1552,7 +1876,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66977&edicao_id=66233", 
             "name": "\u00c1kos Elek", 
             "num": "6", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }
     }, 
     "Iceland": {
@@ -1562,7 +1887,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104192&edicao_id=66233", 
             "name": "Alfre\u00f0 Finnbogason", 
             "num": "11", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Ari Sk\u00falason": {
             "age": "29", 
@@ -1570,7 +1896,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68306&edicao_id=66233", 
             "name": "Ari Sk\u00falason", 
             "num": "23", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Arn\u00f3r Traustason": {
             "age": "23", 
@@ -1578,7 +1905,8 @@
             "link": "http://www.thefinalball.com/player.php?id=152281&edicao_id=66233", 
             "name": "Arn\u00f3r Traustason", 
             "num": "21", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Aron Gunnarsson": {
             "age": "27", 
@@ -1586,7 +1914,8 @@
             "link": "http://www.thefinalball.com/player.php?id=62096&edicao_id=66233", 
             "name": "Aron Gunnarsson", 
             "num": "17", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Birkir Bjarnason": {
             "age": "28", 
@@ -1594,7 +1923,8 @@
             "link": "http://www.thefinalball.com/player.php?id=33502&edicao_id=66233", 
             "name": "Birkir Bjarnason", 
             "num": "8", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Birkir S\u00e6varsson": {
             "age": "31", 
@@ -1602,7 +1932,8 @@
             "link": "http://www.thefinalball.com/player.php?id=70667&edicao_id=66233", 
             "name": "Birkir S\u00e6varsson", 
             "num": "2", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Ei\u00f0ur Gu\u00f0johnsen": {
             "age": "37", 
@@ -1610,7 +1941,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1364&edicao_id=66233", 
             "name": "Ei\u00f0ur Gu\u00f0johnsen", 
             "num": "22", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Emil Hallfre\u00f0sson": {
             "age": "31", 
@@ -1618,7 +1950,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42901&edicao_id=66233", 
             "name": "Emil Hallfre\u00f0sson", 
             "num": "20", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Gylfi Sigur\u00f0sson": {
             "age": "26", 
@@ -1626,7 +1959,8 @@
             "link": "http://www.thefinalball.com/player.php?id=114073&edicao_id=66233", 
             "name": "Gylfi Sigur\u00f0sson", 
             "num": "10", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Hannes Halld\u00f3rsson": {
             "age": "32", 
@@ -1634,7 +1968,8 @@
             "link": "http://www.thefinalball.com/player.php?id=97388&edicao_id=66233", 
             "name": "Hannes Halld\u00f3rsson", 
             "num": "1", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Haukur Hauksson": {
             "age": "24", 
@@ -1642,7 +1977,8 @@
             "link": "http://www.thefinalball.com/player.php?id=157287&edicao_id=66233", 
             "name": "Haukur Hauksson", 
             "num": "3", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Hj\u00f6rtur Hermannsson ": {
             "age": "21", 
@@ -1650,7 +1986,8 @@
             "link": "http://www.thefinalball.com/player.php?id=196901&edicao_id=66233", 
             "name": "Hj\u00f6rtur Hermannsson ", 
             "num": "4", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "H\u00f6r\u00f0ur Magn\u00fasson": {
             "age": "23", 
@@ -1658,7 +1995,8 @@
             "link": "http://www.thefinalball.com/player.php?id=141219&edicao_id=66233", 
             "name": "H\u00f6r\u00f0ur Magn\u00fasson", 
             "num": "19", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Ingvar J\u00f3nsson": {
             "age": "26", 
@@ -1666,7 +2004,8 @@
             "link": "http://www.thefinalball.com/player.php?id=195251&edicao_id=66233", 
             "name": "Ingvar J\u00f3nsson", 
             "num": "13", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "J\u00f3hann Gu\u00f0mundsson": {
             "age": "25", 
@@ -1674,7 +2013,8 @@
             "link": "http://www.thefinalball.com/player.php?id=105145&edicao_id=66233", 
             "name": "J\u00f3hann Gu\u00f0mundsson", 
             "num": "7", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "J\u00f3n B\u00f6\u00f0varsson": {
             "age": "24", 
@@ -1682,7 +2022,8 @@
             "link": "http://www.thefinalball.com/player.php?id=143499&edicao_id=66233", 
             "name": "J\u00f3n B\u00f6\u00f0varsson", 
             "num": "15", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Kolbeinn Sig\u00fe\u00f3rsson": {
             "age": "26", 
@@ -1690,7 +2031,8 @@
             "link": "http://www.thefinalball.com/player.php?id=151802&edicao_id=66233", 
             "name": "Kolbeinn Sig\u00fe\u00f3rsson", 
             "num": "9", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "K\u00e1ri \u00c1rnason": {
             "age": "33", 
@@ -1698,7 +2040,8 @@
             "link": "http://www.thefinalball.com/player.php?id=63831&edicao_id=66233", 
             "name": "K\u00e1ri \u00c1rnason", 
             "num": "14", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ragnar Sigur\u00f0sson": {
             "age": "29", 
@@ -1706,7 +2049,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50235&edicao_id=66233", 
             "name": "Ragnar Sigur\u00f0sson", 
             "num": "6", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "R\u00fanar Sigurj\u00f3nsson": {
             "age": "25", 
@@ -1714,7 +2058,8 @@
             "link": "http://www.thefinalball.com/player.php?id=143471&edicao_id=66233", 
             "name": "R\u00fanar Sigurj\u00f3nsson", 
             "num": "16", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Sverrir Ingason": {
             "age": "22", 
@@ -1722,7 +2067,8 @@
             "link": "http://www.thefinalball.com/player.php?id=152280&edicao_id=66233", 
             "name": "Sverrir Ingason", 
             "num": "5", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "The\u00f3d\u00f3r Bjarnason": {
             "age": "29", 
@@ -1730,7 +2076,8 @@
             "link": "http://www.thefinalball.com/player.php?id=11824&edicao_id=66233", 
             "name": "The\u00f3d\u00f3r Bjarnason", 
             "num": "18", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "\u00d6gmundur Kristinsson": {
             "age": "26", 
@@ -1738,7 +2085,8 @@
             "link": "http://www.thefinalball.com/player.php?id=97389&edicao_id=66233", 
             "name": "\u00d6gmundur Kristinsson", 
             "num": "12", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }
     }, 
     "Ireland": {
@@ -1748,7 +2096,8 @@
             "link": "http://www.thefinalball.com/player.php?id=6369&edicao_id=66233", 
             "name": "Aiden McGeady", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ciaran Clark": {
             "age": "26", 
@@ -1756,7 +2105,8 @@
             "link": "http://www.thefinalball.com/player.php?id=79754&edicao_id=66233", 
             "name": "Ciaran Clark", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Cyrus Christie": {
             "age": "23", 
@@ -1764,7 +2114,8 @@
             "link": "http://www.thefinalball.com/player.php?id=153864&edicao_id=66233", 
             "name": "Cyrus Christie", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Darren Randolph": {
             "age": "29", 
@@ -1772,7 +2123,8 @@
             "link": "http://www.thefinalball.com/player.php?id=25572&edicao_id=66233", 
             "name": "Darren Randolph", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Daryl Murphy": {
             "age": "33", 
@@ -1780,7 +2132,8 @@
             "link": "http://www.thefinalball.com/player.php?id=16391&edicao_id=66233", 
             "name": "Daryl Murphy", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "David Meyler": {
             "age": "27", 
@@ -1788,7 +2141,8 @@
             "link": "http://www.thefinalball.com/player.php?id=65973&edicao_id=66233", 
             "name": "David Meyler", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Glenn Whelan": {
             "age": "32", 
@@ -1796,7 +2150,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1571&edicao_id=66233", 
             "name": "Glenn Whelan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "James McCarthy": {
             "age": "25", 
@@ -1804,7 +2159,8 @@
             "link": "http://www.thefinalball.com/player.php?id=67408&edicao_id=66233", 
             "name": "James McCarthy", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "James McClean": {
             "age": "27", 
@@ -1812,7 +2168,8 @@
             "link": "http://www.thefinalball.com/player.php?id=113151&edicao_id=66233", 
             "name": "James McClean", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Jeff Hendrick": {
             "age": "24", 
@@ -1820,7 +2177,8 @@
             "link": "http://www.thefinalball.com/player.php?id=153985&edicao_id=66233", 
             "name": "Jeff Hendrick", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "John O\u2019Shea": {
             "age": "35", 
@@ -1828,7 +2186,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1593&edicao_id=66233", 
             "name": "John O\u2019Shea", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Jon Walters": {
             "age": "32", 
@@ -1836,7 +2195,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1292&edicao_id=66233", 
             "name": "Jon Walters", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Keiren Westwood": {
             "age": "31", 
@@ -1844,7 +2204,8 @@
             "link": "http://www.thefinalball.com/player.php?id=107951&edicao_id=66233", 
             "name": "Keiren Westwood", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Richard Keogh": {
             "age": "29", 
@@ -1852,7 +2213,8 @@
             "link": "http://www.thefinalball.com/player.php?id=48542&edicao_id=66233", 
             "name": "Richard Keogh", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Robbie Brady": {
             "age": "24", 
@@ -1860,7 +2222,8 @@
             "link": "http://www.thefinalball.com/player.php?id=133847&edicao_id=66233", 
             "name": "Robbie Brady", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Robbie Keane": {
             "age": "35", 
@@ -1868,7 +2231,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1732&edicao_id=66233", 
             "name": "Robbie Keane", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Shane Duffy": {
             "age": "24", 
@@ -1876,7 +2240,8 @@
             "link": "http://www.thefinalball.com/player.php?id=108823&edicao_id=66233", 
             "name": "Shane Duffy", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Shane Long": {
             "age": "29", 
@@ -1884,7 +2249,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29118&edicao_id=66233", 
             "name": "Shane Long", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Shay Given": {
             "age": "40", 
@@ -1892,7 +2258,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1632&edicao_id=66233", 
             "name": "Shay Given", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Stephen Quinn": {
             "age": "30", 
@@ -1900,7 +2267,8 @@
             "link": "http://www.thefinalball.com/player.php?id=30178&edicao_id=66233", 
             "name": "Stephen Quinn", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Stephen Ward": {
             "age": "30", 
@@ -1908,7 +2276,8 @@
             "link": "http://www.thefinalball.com/player.php?id=48655&edicao_id=66233", 
             "name": "Stephen Ward", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "S\u00e9amus Coleman": {
             "age": "27", 
@@ -1916,7 +2285,8 @@
             "link": "http://www.thefinalball.com/player.php?id=106629&edicao_id=66233", 
             "name": "S\u00e9amus Coleman", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Wes Hoolahan": {
             "age": "34", 
@@ -1924,7 +2294,8 @@
             "link": "http://www.thefinalball.com/player.php?id=49186&edicao_id=66233", 
             "name": "Wes Hoolahan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }
     }, 
     "Italy": {
@@ -1934,7 +2305,8 @@
             "link": "http://www.thefinalball.com/player.php?id=147357&edicao_id=66233", 
             "name": "Alessandro Florenzi", 
             "num": "8", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Andrea Barzagli": {
             "age": "35", 
@@ -1942,7 +2314,8 @@
             "link": "http://www.thefinalball.com/player.php?id=2180&edicao_id=66233", 
             "name": "Andrea Barzagli", 
             "num": "15", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Angelo Ogbonna": {
             "age": "28", 
@@ -1950,7 +2323,8 @@
             "link": "http://www.thefinalball.com/player.php?id=31025&edicao_id=66233", 
             "name": "Angelo Ogbonna", 
             "num": "5", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Antonio Candreva": {
             "age": "29", 
@@ -1958,7 +2332,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43468&edicao_id=66233", 
             "name": "Antonio Candreva", 
             "num": "6", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ciro Immobile": {
             "age": "26", 
@@ -1966,7 +2341,8 @@
             "link": "http://www.thefinalball.com/player.php?id=81006&edicao_id=66233", 
             "name": "Ciro Immobile", 
             "num": "11", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Daniele De Rossi": {
             "age": "32", 
@@ -1974,7 +2350,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1926&edicao_id=66233", 
             "name": "Daniele De Rossi", 
             "num": "16", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Emanuele Giaccherini": {
             "age": "31", 
@@ -1982,7 +2359,8 @@
             "link": "http://www.thefinalball.com/player.php?id=87556&edicao_id=66233", 
             "name": "Emanuele Giaccherini", 
             "num": "23", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Federico Bernardeschi": {
             "age": "22", 
@@ -1990,7 +2368,8 @@
             "link": "http://www.thefinalball.com/player.php?id=235362&edicao_id=66233", 
             "name": "Federico Bernardeschi", 
             "num": "21", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Federico Marchetti": {
             "age": "33", 
@@ -1998,7 +2377,8 @@
             "link": "http://www.thefinalball.com/player.php?id=48095&edicao_id=66233", 
             "name": "Federico Marchetti", 
             "num": "13", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Gianluigi Buffon": {
             "age": "38", 
@@ -2006,7 +2386,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1979&edicao_id=66233", 
             "name": "Gianluigi Buffon", 
             "num": "1", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Giorgio Chiellini": {
             "age": "31", 
@@ -2014,7 +2395,8 @@
             "link": "http://www.thefinalball.com/player.php?id=6934&edicao_id=66233", 
             "name": "Giorgio Chiellini", 
             "num": "3", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Graziano Pell\u00e8": {
             "age": "30", 
@@ -2022,7 +2404,8 @@
             "link": "http://www.thefinalball.com/player.php?id=7888&edicao_id=66233", 
             "name": "Graziano Pell\u00e8", 
             "num": "9", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Leonardo Bonucci": {
             "age": "29", 
@@ -2030,7 +2413,8 @@
             "link": "http://www.thefinalball.com/player.php?id=28495&edicao_id=66233", 
             "name": "Leonardo Bonucci", 
             "num": "19", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Lorenzo Insigne": {
             "age": "25", 
@@ -2038,7 +2422,8 @@
             "link": "http://www.thefinalball.com/player.php?id=126107&edicao_id=66233", 
             "name": "Lorenzo Insigne", 
             "num": "20", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Marco Parolo": {
             "age": "31", 
@@ -2046,7 +2431,8 @@
             "link": "http://www.thefinalball.com/player.php?id=87821&edicao_id=66233", 
             "name": "Marco Parolo", 
             "num": "18", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Matteo Darmian": {
             "age": "26", 
@@ -2054,7 +2440,8 @@
             "link": "http://www.thefinalball.com/player.php?id=30204&edicao_id=66233", 
             "name": "Matteo Darmian", 
             "num": "4", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Mattia De Sciglio": {
             "age": "23", 
@@ -2062,7 +2449,8 @@
             "link": "http://www.thefinalball.com/player.php?id=145852&edicao_id=66233", 
             "name": "Mattia De Sciglio", 
             "num": "2", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Salvatore Sirigu": {
             "age": "29", 
@@ -2070,7 +2458,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29268&edicao_id=66233", 
             "name": "Salvatore Sirigu", 
             "num": "12", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Simone Zaza": {
             "age": "24", 
@@ -2078,7 +2467,8 @@
             "link": "http://www.thefinalball.com/player.php?id=88798&edicao_id=66233", 
             "name": "Simone Zaza", 
             "num": "7", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Stefano Sturaro": {
             "age": "23", 
@@ -2086,7 +2476,8 @@
             "link": "http://www.thefinalball.com/player.php?id=173749&edicao_id=66233", 
             "name": "Stefano Sturaro", 
             "num": "14", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Stephan El Shaarawy": {
             "age": "23", 
@@ -2094,7 +2485,8 @@
             "link": "http://www.thefinalball.com/player.php?id=80440&edicao_id=66233", 
             "name": "Stephan El Shaarawy", 
             "num": "22", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Thiago Motta": {
             "age": "33", 
@@ -2102,7 +2494,8 @@
             "link": "http://www.thefinalball.com/player.php?id=765&edicao_id=66233", 
             "name": "Thiago Motta", 
             "num": "10", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "\u00c9der Martins": {
             "age": "29", 
@@ -2110,7 +2503,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29289&edicao_id=66233", 
             "name": "\u00c9der Martins", 
             "num": "17", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }
     }, 
     "N. Ireland": {
@@ -2120,7 +2514,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1645&edicao_id=66233", 
             "name": "Aaron Hughes", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Alan Mannus": {
             "age": "34", 
@@ -2128,7 +2523,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68821&edicao_id=66233", 
             "name": "Alan Mannus", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Chris Baird": {
             "age": "34", 
@@ -2136,7 +2532,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1720&edicao_id=66233", 
             "name": "Chris Baird", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Conor McLaughlin": {
             "age": "24", 
@@ -2144,7 +2541,8 @@
             "link": "http://www.thefinalball.com/player.php?id=151211&edicao_id=66233", 
             "name": "Conor McLaughlin", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Conor Washington": {
             "age": "24", 
@@ -2152,7 +2550,8 @@
             "link": "http://www.thefinalball.com/player.php?id=365073&edicao_id=66233", 
             "name": "Conor Washington", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Corry Evans": {
             "age": "25", 
@@ -2160,7 +2559,8 @@
             "link": "http://www.thefinalball.com/player.php?id=98547&edicao_id=66233", 
             "name": "Corry Evans", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Craig Cathcart": {
             "age": "27", 
@@ -2168,7 +2568,8 @@
             "link": "http://www.thefinalball.com/player.php?id=77105&edicao_id=66233", 
             "name": "Craig Cathcart", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Gareth McAuley": {
             "age": "36", 
@@ -2176,7 +2577,8 @@
             "link": "http://www.thefinalball.com/player.php?id=48797&edicao_id=66233", 
             "name": "Gareth McAuley", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Jamie Ward": {
             "age": "30", 
@@ -2184,7 +2586,8 @@
             "link": "http://www.thefinalball.com/player.php?id=99445&edicao_id=66233", 
             "name": "Jamie Ward", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Jonny Evans": {
             "age": "28", 
@@ -2192,7 +2595,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43713&edicao_id=66233", 
             "name": "Jonny Evans", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Josh Magennis": {
             "age": "25", 
@@ -2200,7 +2604,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66735&edicao_id=66233", 
             "name": "Josh Magennis", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Kyle Lafferty": {
             "age": "28", 
@@ -2208,7 +2613,8 @@
             "link": "http://www.thefinalball.com/player.php?id=49055&edicao_id=66233", 
             "name": "Kyle Lafferty", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Lee Hodson": {
             "age": "24", 
@@ -2216,7 +2622,8 @@
             "link": "http://www.thefinalball.com/player.php?id=107970&edicao_id=66233", 
             "name": "Lee Hodson", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Luke McCullough": {
             "age": "22", 
@@ -2224,7 +2631,8 @@
             "link": "http://www.thefinalball.com/player.php?id=188950&edicao_id=66233", 
             "name": "Luke McCullough", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Mike McGovern": {
             "age": "31", 
@@ -2232,7 +2640,8 @@
             "link": "http://www.thefinalball.com/player.php?id=4686&edicao_id=66233", 
             "name": "Mike McGovern", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Niall McGinn": {
             "age": "28", 
@@ -2240,7 +2649,8 @@
             "link": "http://www.thefinalball.com/player.php?id=91608&edicao_id=66233", 
             "name": "Niall McGinn", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Oliver Norwood": {
             "age": "25", 
@@ -2248,7 +2658,8 @@
             "link": "http://www.thefinalball.com/player.php?id=133845&edicao_id=66233", 
             "name": "Oliver Norwood", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Paddy McNair": {
             "age": "21", 
@@ -2256,7 +2667,8 @@
             "link": "http://www.thefinalball.com/player.php?id=370884&edicao_id=66233", 
             "name": "Paddy McNair", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Roy Carroll": {
             "age": "38", 
@@ -2264,7 +2676,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1584&edicao_id=66233", 
             "name": "Roy Carroll", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Shane Ferguson": {
             "age": "24", 
@@ -2272,7 +2685,8 @@
             "link": "http://www.thefinalball.com/player.php?id=117339&edicao_id=66233", 
             "name": "Shane Ferguson", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Steven Davis": {
             "age": "31", 
@@ -2280,7 +2694,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1216&edicao_id=66233", 
             "name": "Steven Davis", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Stuart Dallas": {
             "age": "25", 
@@ -2288,7 +2703,8 @@
             "link": "http://www.thefinalball.com/player.php?id=157635&edicao_id=66233", 
             "name": "Stuart Dallas", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Will Grigg": {
             "age": "24", 
@@ -2296,7 +2712,8 @@
             "link": "http://www.thefinalball.com/player.php?id=210236&edicao_id=66233", 
             "name": "Will Grigg", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }
     }, 
     "Poland": {
@@ -2306,7 +2723,8 @@
             "link": "http://www.thefinalball.com/player.php?id=208336&edicao_id=66233", 
             "name": "Arkadiusz Milik", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Artur Boruc": {
             "age": "36", 
@@ -2314,7 +2732,8 @@
             "link": "http://www.thefinalball.com/player.php?id=27752&edicao_id=66233", 
             "name": "Artur Boruc", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Artur Jedrzejczyk": {
             "age": "28", 
@@ -2322,7 +2741,8 @@
             "link": "http://www.thefinalball.com/player.php?id=78517&edicao_id=66233", 
             "name": "Artur Jedrzejczyk", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Bartosz Kapustka": {
             "age": "19", 
@@ -2330,7 +2750,8 @@
             "link": "http://www.thefinalball.com/player.php?id=321875&edicao_id=66233", 
             "name": "Bartosz Kapustka", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Bartosz Salamon": {
             "age": "25", 
@@ -2338,7 +2759,8 @@
             "link": "http://www.thefinalball.com/player.php?id=76437&edicao_id=66233", 
             "name": "Bartosz Salamon", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Filip Starzy\u0144ski": {
             "age": "25", 
@@ -2346,7 +2768,8 @@
             "link": "http://www.thefinalball.com/player.php?id=213206&edicao_id=66233", 
             "name": "Filip Starzy\u0144ski", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Grzegorz Krychowiak": {
             "age": "26", 
@@ -2354,7 +2777,8 @@
             "link": "http://www.thefinalball.com/player.php?id=38006&edicao_id=66233", 
             "name": "Grzegorz Krychowiak", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Jakub Wawrzyniak": {
             "age": "32", 
@@ -2362,7 +2786,8 @@
             "link": "http://www.thefinalball.com/player.php?id=44747&edicao_id=66233", 
             "name": "Jakub Wawrzyniak", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Kamil Glik": {
             "age": "28", 
@@ -2370,7 +2795,8 @@
             "link": "http://www.thefinalball.com/player.php?id=81253&edicao_id=66233", 
             "name": "Kamil Glik", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Kamil Grosicki": {
             "age": "28", 
@@ -2378,7 +2804,8 @@
             "link": "http://www.thefinalball.com/player.php?id=63773&edicao_id=66233", 
             "name": "Kamil Grosicki", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Karol Linetty": {
             "age": "21", 
@@ -2386,7 +2813,8 @@
             "link": "http://www.thefinalball.com/player.php?id=260711&edicao_id=66233", 
             "name": "Karol Linetty", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Krzysztof M\u0105czy\u0144ski": {
             "age": "29", 
@@ -2394,7 +2822,8 @@
             "link": "http://www.thefinalball.com/player.php?id=65150&edicao_id=66233", 
             "name": "Krzysztof M\u0105czy\u0144ski", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Kuba": {
             "age": "30", 
@@ -2402,7 +2831,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43007&edicao_id=66233", 
             "name": "Kuba", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Mariusz St\u0119pi\u0144ski": {
             "age": "21", 
@@ -2410,7 +2840,8 @@
             "link": "http://www.thefinalball.com/player.php?id=228639&edicao_id=66233", 
             "name": "Mariusz St\u0119pi\u0144ski", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Micha\u0142 Pazdan": {
             "age": "28", 
@@ -2418,7 +2849,8 @@
             "link": "http://www.thefinalball.com/player.php?id=59910&edicao_id=66233", 
             "name": "Micha\u0142 Pazdan", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Piotr Zieli\u0144ski": {
             "age": "22", 
@@ -2426,7 +2858,8 @@
             "link": "http://www.thefinalball.com/player.php?id=282239&edicao_id=66233", 
             "name": "Piotr Zieli\u0144ski", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Robert Lewandowski": {
             "age": "27", 
@@ -2434,7 +2867,8 @@
             "link": "http://www.thefinalball.com/player.php?id=71023&edicao_id=66233", 
             "name": "Robert Lewandowski", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Slawomir Peszko": {
             "age": "31", 
@@ -2442,7 +2876,8 @@
             "link": "http://www.thefinalball.com/player.php?id=72793&edicao_id=66233", 
             "name": "Slawomir Peszko", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Thiago Cionek": {
             "age": "30", 
@@ -2450,7 +2885,8 @@
             "link": "http://www.thefinalball.com/player.php?id=80385&edicao_id=66233", 
             "name": "Thiago Cionek", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Tomasz Jodlowiec": {
             "age": "31", 
@@ -2458,7 +2894,8 @@
             "link": "http://www.thefinalball.com/player.php?id=75461&edicao_id=66233", 
             "name": "Tomasz Jodlowiec", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Wojciech Szcz\u0119s\u0144y": {
             "age": "26", 
@@ -2466,7 +2903,8 @@
             "link": "http://www.thefinalball.com/player.php?id=38011&edicao_id=66233", 
             "name": "Wojciech Szcz\u0119s\u0144y", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "\u0141ukasz Fabia\u0144ski": {
             "age": "31", 
@@ -2474,7 +2912,8 @@
             "link": "http://www.thefinalball.com/player.php?id=27735&edicao_id=66233", 
             "name": "\u0141ukasz Fabia\u0144ski", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "\u0141ukasz Piszczek": {
             "age": "31", 
@@ -2482,7 +2921,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43045&edicao_id=66233", 
             "name": "\u0141ukasz Piszczek", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }
     }, 
     "Portugal": {
@@ -2492,7 +2932,8 @@
             "link": "http://www.thefinalball.com/player.php?id=32302&edicao_id=66233", 
             "name": "Adrien Silva", 
             "num": "23", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Andr\u00e9 Gomes": {
             "age": "22", 
@@ -2500,7 +2941,8 @@
             "link": "http://www.thefinalball.com/player.php?id=204312&edicao_id=66233", 
             "name": "Andr\u00e9 Gomes", 
             "num": "15", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Anthony Lopes": {
             "age": "25", 
@@ -2508,7 +2950,8 @@
             "link": "http://www.thefinalball.com/player.php?id=74587&edicao_id=66233", 
             "name": "Anthony Lopes", 
             "num": "12", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Bruno Alves": {
             "age": "34", 
@@ -2516,7 +2959,8 @@
             "link": "http://www.thefinalball.com/player.php?id=511&edicao_id=66233", 
             "name": "Bruno Alves", 
             "num": "2", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Cristiano Ronaldo": {
             "age": "31", 
@@ -2524,7 +2968,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1579&edicao_id=66233", 
             "name": "Cristiano Ronaldo", 
             "num": "7", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "C\u00e9dric Soares": {
             "age": "24", 
@@ -2532,7 +2977,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43621&edicao_id=66233", 
             "name": "C\u00e9dric Soares", 
             "num": "21", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Danilo Pereira": {
             "age": "24", 
@@ -2540,7 +2986,8 @@
             "link": "http://www.thefinalball.com/player.php?id=74722&edicao_id=66233", 
             "name": "Danilo Pereira", 
             "num": "13", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Eduardo": {
             "age": "33", 
@@ -2548,7 +2995,8 @@
             "link": "http://www.thefinalball.com/player.php?id=12512&edicao_id=66233", 
             "name": "Eduardo", 
             "num": "22", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Eliseu": {
             "age": "32", 
@@ -2556,7 +3004,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43&edicao_id=66233", 
             "name": "Eliseu", 
             "num": "19", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Jos\u00e9 Fonte": {
             "age": "32", 
@@ -2564,7 +3013,8 @@
             "link": "http://www.thefinalball.com/player.php?id=15537&edicao_id=66233", 
             "name": "Jos\u00e9 Fonte", 
             "num": "4", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Jo\u00e3o Moutinho": {
             "age": "29", 
@@ -2572,7 +3022,8 @@
             "link": "http://www.thefinalball.com/player.php?id=7608&edicao_id=66233", 
             "name": "Jo\u00e3o Moutinho", 
             "num": "8", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Jo\u00e3o M\u00e1rio": {
             "age": "23", 
@@ -2580,7 +3031,8 @@
             "link": "http://www.thefinalball.com/player.php?id=56560&edicao_id=66233", 
             "name": "Jo\u00e3o M\u00e1rio", 
             "num": "10", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Nani": {
             "age": "29", 
@@ -2588,7 +3040,8 @@
             "link": "http://www.thefinalball.com/player.php?id=16812&edicao_id=66233", 
             "name": "Nani", 
             "num": "17", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Pepe": {
             "age": "33", 
@@ -2596,7 +3049,8 @@
             "link": "http://www.thefinalball.com/player.php?id=130&edicao_id=66233", 
             "name": "Pepe", 
             "num": "3", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Rafa Silva": {
             "age": "23", 
@@ -2604,7 +3058,8 @@
             "link": "http://www.thefinalball.com/player.php?id=261061&edicao_id=66233", 
             "name": "Rafa Silva", 
             "num": "18", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Rapha\u00ebl Guerreiro": {
             "age": "22", 
@@ -2612,7 +3067,8 @@
             "link": "http://www.thefinalball.com/player.php?id=184207&edicao_id=66233", 
             "name": "Rapha\u00ebl Guerreiro", 
             "num": "5", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Renato Sanches": {
             "age": "18", 
@@ -2620,7 +3076,8 @@
             "link": "http://www.thefinalball.com/player.php?id=155284&edicao_id=66233", 
             "name": "Renato Sanches", 
             "num": "16", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ricardo Carvalho": {
             "age": "38", 
@@ -2628,7 +3085,8 @@
             "link": "http://www.thefinalball.com/player.php?id=413&edicao_id=66233", 
             "name": "Ricardo Carvalho", 
             "num": "6", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Ricardo Quaresma": {
             "age": "32", 
@@ -2636,7 +3094,8 @@
             "link": "http://www.thefinalball.com/player.php?id=771&edicao_id=66233", 
             "name": "Ricardo Quaresma", 
             "num": "20", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Rui Patr\u00edcio": {
             "age": "28", 
@@ -2644,7 +3103,8 @@
             "link": "http://www.thefinalball.com/player.php?id=28531&edicao_id=66233", 
             "name": "Rui Patr\u00edcio", 
             "num": "1", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Vieirinha": {
             "age": "30", 
@@ -2652,7 +3112,8 @@
             "link": "http://www.thefinalball.com/player.php?id=16507&edicao_id=66233", 
             "name": "Vieirinha", 
             "num": "11", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "William Carvalho": {
             "age": "24", 
@@ -2660,7 +3121,8 @@
             "link": "http://www.thefinalball.com/player.php?id=43626&edicao_id=66233", 
             "name": "William Carvalho", 
             "num": "14", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "\u00c9der": {
             "age": "28", 
@@ -2668,7 +3130,8 @@
             "link": "http://www.thefinalball.com/player.php?id=56073&edicao_id=66233", 
             "name": "\u00c9der", 
             "num": "9", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }
     }, 
     "Romania": {
@@ -2886,7 +3349,7 @@
             "club": "Zenit", 
             "link": "http://www.thefinalball.com/player.php?id=75022&edicao_id=66233", 
             "name": "Aleksander Kokorin", 
-            "num": "0", 
+            "num": "9", 
             "pos": "FRW", 
             "term": "png"
         }, 
@@ -2895,7 +3358,7 @@
             "club": "CSKA Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=364521&edicao_id=66233", 
             "name": "Aleksandr Golovin", 
-            "num": "0", 
+            "num": "13", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -2904,7 +3367,7 @@
             "club": "Lokomotiv", 
             "link": "http://www.thefinalball.com/player.php?id=60516&edicao_id=66233", 
             "name": "Aleksandr Samedov", 
-            "num": "0", 
+            "num": "19", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -2913,8 +3376,17 @@
             "club": "CSKA Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=9628&edicao_id=66233", 
             "name": "Aleksey Berezutskiy", 
-            "num": "0", 
+            "num": "6", 
             "pos": "DEF", 
+            "term": "jpg"
+        }, 
+        "Artur Yusupov": {
+            "age": "26", 
+            "club": "Zenit", 
+            "link": "http://www.thefinalball.com/player.php?id=90286&edicao_id=66233", 
+            "name": "Artur Yusupov", 
+            "num": "7", 
+            "pos": "MID", 
             "term": "jpg"
         }, 
         "Artyom Dzyuba": {
@@ -2922,7 +3394,7 @@
             "club": "Zenit", 
             "link": "http://www.thefinalball.com/player.php?id=30242&edicao_id=66233", 
             "name": "Artyom Dzyuba", 
-            "num": "0", 
+            "num": "22", 
             "pos": "FRW", 
             "term": "png"
         }, 
@@ -2931,7 +3403,7 @@
             "club": "Spartak Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=60517&edicao_id=66233", 
             "name": "Denis Glushakov", 
-            "num": "0", 
+            "num": "8", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -2940,7 +3412,7 @@
             "club": "FK Krasnodar", 
             "link": "http://www.thefinalball.com/player.php?id=29582&edicao_id=66233", 
             "name": "Dmitri Torbinskiy", 
-            "num": "0", 
+            "num": "20", 
             "pos": "MID", 
             "term": "png"
         }, 
@@ -2949,7 +3421,7 @@
             "club": "Spartak Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=60670&edicao_id=66233", 
             "name": "Dmitry Kombarov", 
-            "num": "0", 
+            "num": "23", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -2958,7 +3430,7 @@
             "club": "FK Krasnodar", 
             "link": "http://www.thefinalball.com/player.php?id=60678&edicao_id=66233", 
             "name": "Fyodor Smolov", 
-            "num": "0", 
+            "num": "10", 
             "pos": "FRW", 
             "term": "png"
         }, 
@@ -2967,7 +3439,7 @@
             "club": "CSKA Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=60992&edicao_id=66233", 
             "name": "Georgi Schennikov", 
-            "num": "0", 
+            "num": "21", 
             "pos": "DEF", 
             "term": "jpg"
         }, 
@@ -2976,7 +3448,7 @@
             "club": "Lokomotiv", 
             "link": "http://www.thefinalball.com/player.php?id=32312&edicao_id=66233", 
             "name": "Guilherme Marinato", 
-            "num": "0", 
+            "num": "16", 
             "pos": "GK", 
             "term": "jpg"
         }, 
@@ -2985,24 +3457,16 @@
             "club": "CSKA Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=6174&edicao_id=66233", 
             "name": "Igor Akinfeev", 
-            "num": "0", 
+            "num": "1", 
             "pos": "GK", 
             "term": "jpg"
-        }, 
-        "Igor Denisov": {
-            "age": "32", 
-            "club": "Dynamo Moskva", 
-            "link": "http://www.thefinalball.com/player.php?id=19765&edicao_id=66233", 
-            "name": "Igor Denisov", 
-            "num": "0", 
-            "pos": "MID"
         }, 
         "Igor Smolnikov": {
             "age": "27", 
             "club": "Zenit", 
             "link": "http://www.thefinalball.com/player.php?id=60513&edicao_id=66233", 
             "name": "Igor Smolnikov", 
-            "num": "0", 
+            "num": "3", 
             "pos": "DEF", 
             "term": "jpg"
         }, 
@@ -3011,7 +3475,7 @@
             "club": "Terek Grozny", 
             "link": "http://www.thefinalball.com/player.php?id=60430&edicao_id=66233", 
             "name": "Oleg Ivanov", 
-            "num": "0", 
+            "num": "18", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -3020,7 +3484,7 @@
             "club": "Zenit", 
             "link": "http://www.thefinalball.com/player.php?id=63362&edicao_id=66233", 
             "name": "Oleg Shatov", 
-            "num": "0", 
+            "num": "17", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -3029,7 +3493,7 @@
             "club": "FK Krasnodar", 
             "link": "http://www.thefinalball.com/player.php?id=46144&edicao_id=66233", 
             "name": "Pavel Mamayev", 
-            "num": "0", 
+            "num": "11", 
             "pos": "MID", 
             "term": "png"
         }, 
@@ -3038,7 +3502,7 @@
             "club": "Schalke 04", 
             "link": "http://www.thefinalball.com/player.php?id=52873&edicao_id=66233", 
             "name": "Roman Neust\u00e4dter", 
-            "num": "0", 
+            "num": "5", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -3047,7 +3511,7 @@
             "club": "CSKA Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=56677&edicao_id=66233", 
             "name": "Roman Shirokov", 
-            "num": "0", 
+            "num": "15", 
             "pos": "MID", 
             "term": "jpg"
         }, 
@@ -3056,7 +3520,7 @@
             "club": "Lokomotiv", 
             "link": "http://www.thefinalball.com/player.php?id=29576&edicao_id=66233", 
             "name": "Roman Shishkin", 
-            "num": "0", 
+            "num": "2", 
             "pos": "DEF", 
             "term": "jpg"
         }, 
@@ -3065,7 +3529,7 @@
             "club": "CSKA Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=2652&edicao_id=66233", 
             "name": "Sergey Ignashevich", 
-            "num": "0", 
+            "num": "4", 
             "pos": "DEF", 
             "term": "jpg"
         }, 
@@ -3074,7 +3538,7 @@
             "club": "CSKA Moskva", 
             "link": "http://www.thefinalball.com/player.php?id=9630&edicao_id=66233", 
             "name": "Vasily Berezutskiy", 
-            "num": "0", 
+            "num": "14", 
             "pos": "DEF", 
             "term": "jpg"
         }, 
@@ -3083,7 +3547,7 @@
             "club": "Zenit", 
             "link": "http://www.thefinalball.com/player.php?id=258866&edicao_id=66233", 
             "name": "Yuri Lodygin", 
-            "num": "0", 
+            "num": "12", 
             "pos": "GK", 
             "term": "jpg"
         }
@@ -3095,7 +3559,8 @@
             "link": "http://www.thefinalball.com/player.php?id=59600&edicao_id=66233", 
             "name": "Adam Nemec", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Du\u0161an \u0160vento": {
             "age": "30", 
@@ -3103,7 +3568,8 @@
             "link": "http://www.thefinalball.com/player.php?id=40928&edicao_id=66233", 
             "name": "Du\u0161an \u0160vento", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Juraj Kucka": {
             "age": "29", 
@@ -3111,7 +3577,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104860&edicao_id=66233", 
             "name": "Juraj Kucka", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "J\u00e1n Gregu\u0161": {
             "age": "25", 
@@ -3119,7 +3586,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104873&edicao_id=66233", 
             "name": "J\u00e1n Gregu\u0161", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "J\u00e1n Mucha": {
             "age": "33", 
@@ -3127,7 +3595,8 @@
             "link": "http://www.thefinalball.com/player.php?id=71024&edicao_id=66233", 
             "name": "J\u00e1n Mucha", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "J\u00e1n Novota": {
             "age": "32", 
@@ -3135,7 +3604,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104359&edicao_id=66233", 
             "name": "J\u00e1n Novota", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "J\u00e1n \u010eurica": {
             "age": "34", 
@@ -3143,7 +3613,8 @@
             "link": "http://www.thefinalball.com/player.php?id=4916&edicao_id=66233", 
             "name": "J\u00e1n \u010eurica", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Korn\u00e9l Sal\u00e1ta": {
             "age": "31", 
@@ -3151,7 +3622,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68642&edicao_id=66233", 
             "name": "Korn\u00e9l Sal\u00e1ta", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Marek Ham\u0161\u00edk": {
             "age": "28", 
@@ -3159,7 +3631,8 @@
             "link": "http://www.thefinalball.com/player.php?id=13765&edicao_id=66233", 
             "name": "Marek Ham\u0161\u00edk", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Martin \u0160krtel": {
             "age": "31", 
@@ -3167,7 +3640,8 @@
             "link": "http://www.thefinalball.com/player.php?id=19763&edicao_id=66233", 
             "name": "Martin \u0160krtel", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Mat\u00fa\u0161 Koz\u00e1\u010dik": {
             "age": "32", 
@@ -3175,7 +3649,8 @@
             "link": "http://www.thefinalball.com/player.php?id=40908&edicao_id=66233", 
             "name": "Mat\u00fa\u0161 Koz\u00e1\u010dik", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Michal \u010euri\u0161": {
             "age": "28", 
@@ -3183,7 +3658,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104230&edicao_id=66233", 
             "name": "Michal \u010euri\u0161", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Milan Skriniar": {
             "age": "21", 
@@ -3191,7 +3667,8 @@
             "link": "http://www.thefinalball.com/player.php?id=254443&edicao_id=66233", 
             "name": "Milan Skriniar", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Miroslav \u0160toch": {
             "age": "26", 
@@ -3199,7 +3676,8 @@
             "link": "http://www.thefinalball.com/player.php?id=56075&edicao_id=66233", 
             "name": "Miroslav \u0160toch", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Norbert Gy\u00f6mb\u00e9r": {
             "age": "23", 
@@ -3207,7 +3685,8 @@
             "link": "http://www.thefinalball.com/player.php?id=221441&edicao_id=66233", 
             "name": "Norbert Gy\u00f6mb\u00e9r", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Ondrej Duda": {
             "age": "21", 
@@ -3215,7 +3694,8 @@
             "link": "http://www.thefinalball.com/player.php?id=276473&edicao_id=66233", 
             "name": "Ondrej Duda", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Patrik Hro\u0161ovsk\u00fd": {
             "age": "24", 
@@ -3223,7 +3703,8 @@
             "link": "http://www.thefinalball.com/player.php?id=316202&edicao_id=66233", 
             "name": "Patrik Hro\u0161ovsk\u00fd", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Peter Pekar\u00edk": {
             "age": "29", 
@@ -3231,7 +3712,8 @@
             "link": "http://www.thefinalball.com/player.php?id=71025&edicao_id=66233", 
             "name": "Peter Pekar\u00edk", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "R\u00f3bert Mak": {
             "age": "25", 
@@ -3239,7 +3721,8 @@
             "link": "http://www.thefinalball.com/player.php?id=135122&edicao_id=66233", 
             "name": "R\u00f3bert Mak", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Stanislav \u0160est\u00e1k": {
             "age": "33", 
@@ -3247,7 +3730,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35342&edicao_id=66233", 
             "name": "Stanislav \u0160est\u00e1k", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Tom\u00e1\u0161 Hubo\u010dan": {
             "age": "30", 
@@ -3255,7 +3739,8 @@
             "link": "http://www.thefinalball.com/player.php?id=55243&edicao_id=66233", 
             "name": "Tom\u00e1\u0161 Hubo\u010dan", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Viktor Pe\u010dovsk\u00fd": {
             "age": "33", 
@@ -3263,7 +3748,8 @@
             "link": "http://www.thefinalball.com/player.php?id=8690&edicao_id=66233", 
             "name": "Viktor Pe\u010dovsk\u00fd", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Vladim\u00edr Weiss": {
             "age": "26", 
@@ -3271,7 +3757,8 @@
             "link": "http://www.thefinalball.com/player.php?id=83507&edicao_id=66233", 
             "name": "Vladim\u00edr Weiss", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }
     }, 
     "Spain": {
@@ -3281,7 +3768,8 @@
             "link": "http://www.thefinalball.com/player.php?id=762&edicao_id=66233", 
             "name": "Andr\u00e9s Iniesta", 
             "num": "6", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Aritz Aduriz": {
             "age": "35", 
@@ -3289,7 +3777,8 @@
             "link": "http://www.thefinalball.com/player.php?id=23885&edicao_id=66233", 
             "name": "Aritz Aduriz", 
             "num": "20", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Bruno Soriano": {
             "age": "31", 
@@ -3297,7 +3786,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29779&edicao_id=66233", 
             "name": "Bruno Soriano", 
             "num": "19", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Cesc F\u00e0bregas": {
             "age": "29", 
@@ -3305,7 +3795,8 @@
             "link": "http://www.thefinalball.com/player.php?id=3356&edicao_id=66233", 
             "name": "Cesc F\u00e0bregas", 
             "num": "10", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "C\u00e9sar Azpilicueta": {
             "age": "26", 
@@ -3313,7 +3804,8 @@
             "link": "http://www.thefinalball.com/player.php?id=32687&edicao_id=66233", 
             "name": "C\u00e9sar Azpilicueta", 
             "num": "2", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "David Silva": {
             "age": "30", 
@@ -3321,7 +3813,8 @@
             "link": "http://www.thefinalball.com/player.php?id=17543&edicao_id=66233", 
             "name": "David Silva", 
             "num": "21", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "David de Gea": {
             "age": "25", 
@@ -3329,7 +3822,8 @@
             "link": "http://www.thefinalball.com/player.php?id=111925&edicao_id=66233", 
             "name": "David de Gea", 
             "num": "13", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Gerard Piqu\u00e9": {
             "age": "29", 
@@ -3337,7 +3831,8 @@
             "link": "http://www.thefinalball.com/player.php?id=6958&edicao_id=66233", 
             "name": "Gerard Piqu\u00e9", 
             "num": "3", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "H\u00e9ctor Beller\u00edn": {
             "age": "21", 
@@ -3345,7 +3840,8 @@
             "link": "http://www.thefinalball.com/player.php?id=288219&edicao_id=66233", 
             "name": "H\u00e9ctor Beller\u00edn", 
             "num": "12", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Iker Casillas": {
             "age": "35", 
@@ -3353,7 +3849,8 @@
             "link": "http://www.thefinalball.com/player.php?id=1003&edicao_id=66233", 
             "name": "Iker Casillas", 
             "num": "1", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Jordi Alba": {
             "age": "27", 
@@ -3361,7 +3858,8 @@
             "link": "http://www.thefinalball.com/player.php?id=85728&edicao_id=66233", 
             "name": "Jordi Alba", 
             "num": "18", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Juanfran": {
             "age": "31", 
@@ -3369,7 +3867,8 @@
             "link": "http://www.thefinalball.com/player.php?id=4366&edicao_id=66233", 
             "name": "Juanfran", 
             "num": "16", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Koke ": {
             "age": "24", 
@@ -3377,7 +3876,8 @@
             "link": "http://www.thefinalball.com/player.php?id=113787&edicao_id=66233", 
             "name": "Koke ", 
             "num": "8", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Lucas V\u00e1zquez": {
             "age": "24", 
@@ -3385,7 +3885,8 @@
             "link": "http://www.thefinalball.com/player.php?id=219770&edicao_id=66233", 
             "name": "Lucas V\u00e1zquez", 
             "num": "9", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Marc Bartra": {
             "age": "25", 
@@ -3393,7 +3894,8 @@
             "link": "http://www.thefinalball.com/player.php?id=130056&edicao_id=66233", 
             "name": "Marc Bartra", 
             "num": "4", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Mikel San Jos\u00e9": {
             "age": "27", 
@@ -3401,7 +3903,8 @@
             "link": "http://www.thefinalball.com/player.php?id=54903&edicao_id=66233", 
             "name": "Mikel San Jos\u00e9", 
             "num": "17", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Nolito": {
             "age": "29", 
@@ -3409,7 +3912,8 @@
             "link": "http://www.thefinalball.com/player.php?id=135957&edicao_id=66233", 
             "name": "Nolito", 
             "num": "22", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Pedro Rodr\u00edguez": {
             "age": "28", 
@@ -3417,7 +3921,8 @@
             "link": "http://www.thefinalball.com/player.php?id=53270&edicao_id=66233", 
             "name": "Pedro Rodr\u00edguez", 
             "num": "11", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Sergio Busquets": {
             "age": "27", 
@@ -3425,7 +3930,8 @@
             "link": "http://www.thefinalball.com/player.php?id=72432&edicao_id=66233", 
             "name": "Sergio Busquets", 
             "num": "5", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Sergio Ramos": {
             "age": "30", 
@@ -3433,7 +3939,8 @@
             "link": "http://www.thefinalball.com/player.php?id=9894&edicao_id=66233", 
             "name": "Sergio Ramos", 
             "num": "15", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Sergio Rico": {
             "age": "22", 
@@ -3441,7 +3948,8 @@
             "link": "http://www.thefinalball.com/player.php?id=220243&edicao_id=66233", 
             "name": "Sergio Rico", 
             "num": "23", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Thiago Alc\u00e2ntara": {
             "age": "25", 
@@ -3449,7 +3957,8 @@
             "link": "http://www.thefinalball.com/player.php?id=75175&edicao_id=66233", 
             "name": "Thiago Alc\u00e2ntara", 
             "num": "14", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "\u00c1lvaro Morata": {
             "age": "23", 
@@ -3457,7 +3966,8 @@
             "link": "http://www.thefinalball.com/player.php?id=119676&edicao_id=66233", 
             "name": "\u00c1lvaro Morata", 
             "num": "7", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }
     }, 
     "Sweden": {
@@ -3467,7 +3977,8 @@
             "link": "http://www.thefinalball.com/player.php?id=61235&edicao_id=66233", 
             "name": "Albin Ekdal", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Andreas Granqvist": {
             "age": "31", 
@@ -3475,7 +3986,8 @@
             "link": "http://www.thefinalball.com/player.php?id=30337&edicao_id=66233", 
             "name": "Andreas Granqvist", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Andreas Isaksson": {
             "age": "34", 
@@ -3483,7 +3995,8 @@
             "link": "http://www.thefinalball.com/player.php?id=5781&edicao_id=66233", 
             "name": "Andreas Isaksson", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Emil Forsberg": {
             "age": "24", 
@@ -3491,7 +4004,8 @@
             "link": "http://www.thefinalball.com/player.php?id=98376&edicao_id=66233", 
             "name": "Emil Forsberg", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Emir Kujovi\u0107": {
             "age": "27", 
@@ -3499,7 +4013,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68252&edicao_id=66233", 
             "name": "Emir Kujovi\u0107", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Erik Johansson": {
             "age": "27", 
@@ -3507,7 +4022,8 @@
             "link": "http://www.thefinalball.com/player.php?id=146974&edicao_id=66233", 
             "name": "Erik Johansson", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Erkan Zengin": {
             "age": "30", 
@@ -3515,7 +4031,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68433&edicao_id=66233", 
             "name": "Erkan Zengin", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Jimmy Durmaz": {
             "age": "27", 
@@ -3523,7 +4040,8 @@
             "link": "http://www.thefinalball.com/player.php?id=95254&edicao_id=66233", 
             "name": "Jimmy Durmaz", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "John Guidetti": {
             "age": "24", 
@@ -3531,7 +4049,8 @@
             "link": "http://www.thefinalball.com/player.php?id=135128&edicao_id=66233", 
             "name": "John Guidetti", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Kim K\u00e4llstr\u00f6m": {
             "age": "33", 
@@ -3539,7 +4058,8 @@
             "link": "http://www.thefinalball.com/player.php?id=3763&edicao_id=66233", 
             "name": "Kim K\u00e4llstr\u00f6m", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ludwig Augustinsson": {
             "age": "22", 
@@ -3547,7 +4067,8 @@
             "link": "http://www.thefinalball.com/player.php?id=211805&edicao_id=66233", 
             "name": "Ludwig Augustinsson", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Marcus Berg": {
             "age": "29", 
@@ -3555,7 +4076,8 @@
             "link": "http://www.thefinalball.com/player.php?id=45327&edicao_id=66233", 
             "name": "Marcus Berg", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Martin Olsson": {
             "age": "28", 
@@ -3563,7 +4085,8 @@
             "link": "http://www.thefinalball.com/player.php?id=42806&edicao_id=66233", 
             "name": "Martin Olsson", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Mikael Lustig": {
             "age": "29", 
@@ -3571,7 +4094,8 @@
             "link": "http://www.thefinalball.com/player.php?id=68297&edicao_id=66233", 
             "name": "Mikael Lustig", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Oscar Hiljemark ": {
             "age": "23", 
@@ -3579,7 +4103,8 @@
             "link": "http://www.thefinalball.com/player.php?id=153005&edicao_id=66233", 
             "name": "Oscar Hiljemark ", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Oscar Lewicki": {
             "age": "23", 
@@ -3587,7 +4112,8 @@
             "link": "http://www.thefinalball.com/player.php?id=150036&edicao_id=66233", 
             "name": "Oscar Lewicki", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Patrik Carlgren": {
             "age": "24", 
@@ -3595,7 +4121,8 @@
             "link": "http://www.thefinalball.com/player.php?id=203120&edicao_id=66233", 
             "name": "Patrik Carlgren", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Pontus Jansson": {
             "age": "25", 
@@ -3603,7 +4130,8 @@
             "link": "http://www.thefinalball.com/player.php?id=98953&edicao_id=66233", 
             "name": "Pontus Jansson", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Pontus Wernbloom": {
             "age": "29", 
@@ -3611,7 +4139,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50237&edicao_id=66233", 
             "name": "Pontus Wernbloom", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Robin Olsen": {
             "age": "26", 
@@ -3619,7 +4148,8 @@
             "link": "http://www.thefinalball.com/player.php?id=254266&edicao_id=66233", 
             "name": "Robin Olsen", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Sebastian Larsson": {
             "age": "31", 
@@ -3627,7 +4157,8 @@
             "link": "http://www.thefinalball.com/player.php?id=10737&edicao_id=66233", 
             "name": "Sebastian Larsson", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Victor Lindel\u00f6f": {
             "age": "21", 
@@ -3635,7 +4166,8 @@
             "link": "http://www.thefinalball.com/player.php?id=184866&edicao_id=66233", 
             "name": "Victor Lindel\u00f6f", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Zlatan Ibrahimovi\u0107": {
             "age": "34", 
@@ -3643,7 +4175,8 @@
             "link": "http://www.thefinalball.com/player.php?id=3049&edicao_id=66233", 
             "name": "Zlatan Ibrahimovi\u0107", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }
     }, 
     "Switzerland": {
@@ -3862,7 +4395,8 @@
             "link": "http://www.thefinalball.com/player.php?id=315615&edicao_id=66233", 
             "name": "Ahmet \u00c7alik ", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Arda Turan": {
             "age": "29", 
@@ -3870,7 +4404,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29532&edicao_id=66233", 
             "name": "Arda Turan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Burak Y\u0131lmaz": {
             "age": "30", 
@@ -3878,7 +4413,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35149&edicao_id=66233", 
             "name": "Burak Y\u0131lmaz", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "Caner Erkin": {
             "age": "27", 
@@ -3886,7 +4422,8 @@
             "link": "http://www.thefinalball.com/player.php?id=46145&edicao_id=66233", 
             "name": "Caner Erkin", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Cenk Tosun": {
             "age": "25", 
@@ -3894,7 +4431,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104514&edicao_id=66233", 
             "name": "Cenk Tosun", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Emre Mor": {
             "age": "18", 
@@ -3902,7 +4440,8 @@
             "link": "http://www.thefinalball.com/player.php?id=489001&edicao_id=66233", 
             "name": "Emre Mor", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "G\u00f6khan G\u00f6n\u00fcl": {
             "age": "31", 
@@ -3910,7 +4449,8 @@
             "link": "http://www.thefinalball.com/player.php?id=46142&edicao_id=66233", 
             "name": "G\u00f6khan G\u00f6n\u00fcl", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Hakan Balta": {
             "age": "33", 
@@ -3918,7 +4458,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35731&edicao_id=66233", 
             "name": "Hakan Balta", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Hakan \u00c7alhano\u011flu": {
             "age": "22", 
@@ -3926,7 +4467,8 @@
             "link": "http://www.thefinalball.com/player.php?id=166278&edicao_id=66233", 
             "name": "Hakan \u00c7alhano\u011flu", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Harun Tekin": {
             "age": "26", 
@@ -3934,7 +4476,8 @@
             "link": "http://www.thefinalball.com/player.php?id=152617&edicao_id=66233", 
             "name": "Harun Tekin", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Mehmet Topal": {
             "age": "30", 
@@ -3942,7 +4485,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29524&edicao_id=66233", 
             "name": "Mehmet Topal", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Nuri \u015eahin": {
             "age": "27", 
@@ -3950,7 +4494,8 @@
             "link": "http://www.thefinalball.com/player.php?id=18378&edicao_id=66233", 
             "name": "Nuri \u015eahin", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Olcay \u015eahan": {
             "age": "29", 
@@ -3958,7 +4503,8 @@
             "link": "http://www.thefinalball.com/player.php?id=65860&edicao_id=66233", 
             "name": "Olcay \u015eahan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Onur K\u0131vrak": {
             "age": "28", 
@@ -3966,7 +4512,8 @@
             "link": "http://www.thefinalball.com/player.php?id=69629&edicao_id=66233", 
             "name": "Onur K\u0131vrak", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Ozan Tufan": {
             "age": "21", 
@@ -3974,7 +4521,8 @@
             "link": "http://www.thefinalball.com/player.php?id=284290&edicao_id=66233", 
             "name": "Ozan Tufan", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "O\u011fuzhan \u00d6zyakup": {
             "age": "23", 
@@ -3982,7 +4530,8 @@
             "link": "http://www.thefinalball.com/player.php?id=100274&edicao_id=66233", 
             "name": "O\u011fuzhan \u00d6zyakup", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Sel\u00e7uk \u00cdnan": {
             "age": "31", 
@@ -3990,7 +4539,8 @@
             "link": "http://www.thefinalball.com/player.php?id=35735&edicao_id=66233", 
             "name": "Sel\u00e7uk \u00cdnan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Semih Kaya": {
             "age": "25", 
@@ -3998,7 +4548,8 @@
             "link": "http://www.thefinalball.com/player.php?id=88554&edicao_id=66233", 
             "name": "Semih Kaya", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Volkan Babacan": {
             "age": "27", 
@@ -4006,7 +4557,8 @@
             "link": "http://www.thefinalball.com/player.php?id=46153&edicao_id=66233", 
             "name": "Volkan Babacan", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Volkan \u015een": {
             "age": "28", 
@@ -4014,7 +4566,8 @@
             "link": "http://www.thefinalball.com/player.php?id=47514&edicao_id=66233", 
             "name": "Volkan \u015een", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Yunus Mall\u0131": {
             "age": "24", 
@@ -4022,7 +4575,8 @@
             "link": "http://www.thefinalball.com/player.php?id=174181&edicao_id=66233", 
             "name": "Yunus Mall\u0131", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "\u0130smail K\u00f6yba\u015f\u0131": {
             "age": "26", 
@@ -4030,7 +4584,8 @@
             "link": "http://www.thefinalball.com/player.php?id=112352&edicao_id=66233", 
             "name": "\u0130smail K\u00f6yba\u015f\u0131", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "\u015eener \u00d6zbayrakl\u0131": {
             "age": "26", 
@@ -4038,7 +4593,8 @@
             "link": "http://www.thefinalball.com/player.php?id=313197&edicao_id=66233", 
             "name": "\u015eener \u00d6zbayrakl\u0131", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }
     }, 
     "Ukraine": {
@@ -4048,7 +4604,8 @@
             "link": "http://www.thefinalball.com/player.php?id=9700&edicao_id=66233", 
             "name": "Anatoliy Tymoshchuk", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "png"
         }, 
         "Andriy Pyatov": {
             "age": "31", 
@@ -4056,7 +4613,8 @@
             "link": "http://www.thefinalball.com/player.php?id=27859&edicao_id=66233", 
             "name": "Andriy Pyatov", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Andriy Yarmolenko": {
             "age": "26", 
@@ -4064,7 +4622,8 @@
             "link": "http://www.thefinalball.com/player.php?id=62955&edicao_id=66233", 
             "name": "Andriy Yarmolenko", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Artem Fedetskiy": {
             "age": "31", 
@@ -4072,7 +4631,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66531&edicao_id=66233", 
             "name": "Artem Fedetskiy", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Bogdan Butko": {
             "age": "25", 
@@ -4080,7 +4640,8 @@
             "link": "http://www.thefinalball.com/player.php?id=149546&edicao_id=66233", 
             "name": "Bogdan Butko", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Denys Boyko": {
             "age": "28", 
@@ -4088,7 +4649,8 @@
             "link": "http://www.thefinalball.com/player.php?id=104644&edicao_id=66233", 
             "name": "Denys Boyko", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "png"
         }, 
         "Denys Garmash": {
             "age": "26", 
@@ -4096,7 +4658,8 @@
             "link": "http://www.thefinalball.com/player.php?id=109298&edicao_id=66233", 
             "name": "Denys Garmash", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Evgen Khacheridi": {
             "age": "28", 
@@ -4104,7 +4667,8 @@
             "link": "http://www.thefinalball.com/player.php?id=103784&edicao_id=66233", 
             "name": "Evgen Khacheridi", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Mykyta Shevchenko": {
             "age": "23", 
@@ -4112,7 +4676,8 @@
             "link": "http://www.thefinalball.com/player.php?id=217248&edicao_id=66233", 
             "name": "Mykyta Shevchenko", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Oleksandr Karavaev": {
             "age": "24", 
@@ -4120,7 +4685,8 @@
             "link": "http://www.thefinalball.com/player.php?id=235578&edicao_id=66233", 
             "name": "Oleksandr Karavaev", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Oleksandr Kucher": {
             "age": "33", 
@@ -4128,7 +4694,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29510&edicao_id=66233", 
             "name": "Oleksandr Kucher", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Oleksandr Zinchenko": {
             "age": "19", 
@@ -4136,7 +4703,8 @@
             "link": "http://www.thefinalball.com/player.php?id=364550&edicao_id=66233", 
             "name": "Oleksandr Zinchenko", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Pylyp Budkivskiy": {
             "age": "24", 
@@ -4144,7 +4712,8 @@
             "link": "http://www.thefinalball.com/player.php?id=184968&edicao_id=66233", 
             "name": "Pylyp Budkivskiy", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Roman Zozulya": {
             "age": "26", 
@@ -4152,7 +4721,8 @@
             "link": "http://www.thefinalball.com/player.php?id=62956&edicao_id=66233", 
             "name": "Roman Zozulya", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Ruslan Rotan": {
             "age": "34", 
@@ -4160,7 +4730,8 @@
             "link": "http://www.thefinalball.com/player.php?id=27895&edicao_id=66233", 
             "name": "Ruslan Rotan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Sergiy Rybalka": {
             "age": "26", 
@@ -4168,7 +4739,8 @@
             "link": "http://www.thefinalball.com/player.php?id=187555&edicao_id=66233", 
             "name": "Sergiy Rybalka", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Serhiy Sydorchuk": {
             "age": "25", 
@@ -4176,7 +4748,8 @@
             "link": "http://www.thefinalball.com/player.php?id=103958&edicao_id=66233", 
             "name": "Serhiy Sydorchuk", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Taras Stepanenko": {
             "age": "26", 
@@ -4184,7 +4757,8 @@
             "link": "http://www.thefinalball.com/player.php?id=65711&edicao_id=66233", 
             "name": "Taras Stepanenko", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Viktor Kovalenko": {
             "age": "20", 
@@ -4192,7 +4766,8 @@
             "link": "http://www.thefinalball.com/player.php?id=370985&edicao_id=66233", 
             "name": "Viktor Kovalenko", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Vyacheslav Shevchuk": {
             "age": "37", 
@@ -4200,7 +4775,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29513&edicao_id=66233", 
             "name": "Vyacheslav Shevchuk", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Yaroslav Rakitskiy": {
             "age": "26", 
@@ -4208,7 +4784,8 @@
             "link": "http://www.thefinalball.com/player.php?id=106429&edicao_id=66233", 
             "name": "Yaroslav Rakitskiy", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Yevhen Konoplyanka": {
             "age": "26", 
@@ -4216,7 +4793,8 @@
             "link": "http://www.thefinalball.com/player.php?id=64281&edicao_id=66233", 
             "name": "Yevhen Konoplyanka", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Yevhen Seleznyov": {
             "age": "30", 
@@ -4224,7 +4802,8 @@
             "link": "http://www.thefinalball.com/player.php?id=62696&edicao_id=66233", 
             "name": "Yevhen Seleznyov", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }
     }, 
     "Wales": {
@@ -4234,7 +4813,8 @@
             "link": "http://www.thefinalball.com/player.php?id=49236&edicao_id=66233", 
             "name": "Aaron Ramsey", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Andy King": {
             "age": "27", 
@@ -4242,7 +4822,8 @@
             "link": "http://www.thefinalball.com/player.php?id=48812&edicao_id=66233", 
             "name": "Andy King", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Ashley Williams": {
             "age": "31", 
@@ -4250,7 +4831,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66739&edicao_id=66233", 
             "name": "Ashley Williams", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Ben Davies": {
             "age": "23", 
@@ -4258,7 +4840,8 @@
             "link": "http://www.thefinalball.com/player.php?id=211353&edicao_id=66233", 
             "name": "Ben Davies", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Chris Gunter": {
             "age": "26", 
@@ -4266,7 +4849,8 @@
             "link": "http://www.thefinalball.com/player.php?id=49237&edicao_id=66233", 
             "name": "Chris Gunter", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Danny Ward": {
             "age": "22", 
@@ -4274,7 +4858,8 @@
             "link": "http://www.thefinalball.com/player.php?id=225947&edicao_id=66233", 
             "name": "Danny Ward", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "David Cotterill": {
             "age": "28", 
@@ -4282,7 +4867,8 @@
             "link": "http://www.thefinalball.com/player.php?id=29486&edicao_id=66233", 
             "name": "David Cotterill", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "David Edwards": {
             "age": "30", 
@@ -4290,7 +4876,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50261&edicao_id=66233", 
             "name": "David Edwards", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "David Vaughan": {
             "age": "33", 
@@ -4298,7 +4885,8 @@
             "link": "http://www.thefinalball.com/player.php?id=57016&edicao_id=66233", 
             "name": "David Vaughan", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Gareth Bale": {
             "age": "26", 
@@ -4306,7 +4894,8 @@
             "link": "http://www.thefinalball.com/player.php?id=34961&edicao_id=66233", 
             "name": "Gareth Bale", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "png"
         }, 
         "George Williams": {
             "age": "20", 
@@ -4314,7 +4903,8 @@
             "link": "http://www.thefinalball.com/player.php?id=236969&edicao_id=66233", 
             "name": "George Williams", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Hal Robson-Kanu": {
             "age": "27", 
@@ -4322,7 +4912,8 @@
             "link": "http://www.thefinalball.com/player.php?id=66296&edicao_id=66233", 
             "name": "Hal Robson-Kanu", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "James Chester": {
             "age": "27", 
@@ -4330,7 +4921,8 @@
             "link": "http://www.thefinalball.com/player.php?id=69273&edicao_id=66233", 
             "name": "James Chester", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "James Collins": {
             "age": "32", 
@@ -4338,7 +4930,8 @@
             "link": "http://www.thefinalball.com/player.php?id=17729&edicao_id=66233", 
             "name": "James Collins", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "png"
         }, 
         "Jazz Richards": {
             "age": "25", 
@@ -4346,7 +4939,8 @@
             "link": "http://www.thefinalball.com/player.php?id=108888&edicao_id=66233", 
             "name": "Jazz Richards", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Joe Allen": {
             "age": "26", 
@@ -4354,7 +4948,8 @@
             "link": "http://www.thefinalball.com/player.php?id=49883&edicao_id=66233", 
             "name": "Joe Allen", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Joe Ledley": {
             "age": "29", 
@@ -4362,7 +4957,8 @@
             "link": "http://www.thefinalball.com/player.php?id=49234&edicao_id=66233", 
             "name": "Joe Ledley", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Jonathan Williams": {
             "age": "22", 
@@ -4370,7 +4966,8 @@
             "link": "http://www.thefinalball.com/player.php?id=209419&edicao_id=66233", 
             "name": "Jonathan Williams", 
             "num": "0", 
-            "pos": "MID"
+            "pos": "MID", 
+            "term": "jpg"
         }, 
         "Neil Taylor": {
             "age": "27", 
@@ -4378,7 +4975,8 @@
             "link": "http://www.thefinalball.com/player.php?id=147078&edicao_id=66233", 
             "name": "Neil Taylor", 
             "num": "0", 
-            "pos": "DEF"
+            "pos": "DEF", 
+            "term": "jpg"
         }, 
         "Owain Fon Williams": {
             "age": "29", 
@@ -4386,7 +4984,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50053&edicao_id=66233", 
             "name": "Owain Fon Williams", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }, 
         "Sam Vokes": {
             "age": "26", 
@@ -4394,7 +4993,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50722&edicao_id=66233", 
             "name": "Sam Vokes", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Simon Church": {
             "age": "27", 
@@ -4402,7 +5002,8 @@
             "link": "http://www.thefinalball.com/player.php?id=50061&edicao_id=66233", 
             "name": "Simon Church", 
             "num": "0", 
-            "pos": "FRW"
+            "pos": "FRW", 
+            "term": "jpg"
         }, 
         "Wayne Hennessey": {
             "age": "29", 
@@ -4410,7 +5011,8 @@
             "link": "http://www.thefinalball.com/player.php?id=48669&edicao_id=66233", 
             "name": "Wayne Hennessey", 
             "num": "0", 
-            "pos": "GK"
+            "pos": "GK", 
+            "term": "jpg"
         }
     }
 }

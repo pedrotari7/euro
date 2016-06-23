@@ -3,7 +3,7 @@
 import cgi ,cgitb, os
 from socket import *
 
-buffersize = 125000
+buffersize = 400000
 
 cgitb.enable()
 form = cgi.FieldStorage()

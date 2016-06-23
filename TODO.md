@@ -4,18 +4,13 @@
 
 Today:
 
+- Webpage to edit the final scores
 
 Future:
 
 - Load prediction in the last prediction
 
 - Fix pontuation in case of panalties
-
-- Get images and players from zero_zero
-
-- Players positions and links to zerozero
-
-- Prediciton for individual awards
 
 - Sort scoreboard with tie-brake rules
 
@@ -84,3 +79,16 @@ Future:
 
 - Avoid user predictions after the game if over.
 
+- Get images and players from zero_zero
+
+- Prediciton for individual awards
+
+- Players positions and links to zerozero
+
+- Change 'pick your favourite country' in the mvp page
+
+- Question mark to when the mvp is not chosen
+
+- Fix austria team
+
+- status of predictions

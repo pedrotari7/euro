@@ -1481,9 +1481,8 @@ select {
   height: 3.5em; }
 
 textarea, .input_game {
-  padding: 0.75em 1em; }
+  padding: 0.1em 0.1em; }
 
-input[type="checkbox"],
 input[type="radio"] {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1495,7 +1494,6 @@ input[type="radio"] {
   opacity: 0;
   width: 1em;
   z-index: -1; }
-  input[type="checkbox"] + label,
   input[type="radio"] + label {
     text-decoration: none;
     cursor: pointer;
@@ -1505,7 +1503,6 @@ input[type="radio"] {
     padding-left: 2.85em;
     padding-right: 0.75em;
     position: relative; }
-    input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
@@ -1513,7 +1510,6 @@ input[type="radio"] {
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
-    input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       border-radius: 4px;
       border-style: solid;
@@ -1527,12 +1523,8 @@ input[type="radio"] {
       text-align: center;
       top: 0;
       width: 2.1em; }
-  input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
     content: '\f00c'; }
-
-input[type="checkbox"] + label:before {
-  border-radius: 4px; }
 
 input[type="radio"] + label:before {
   border-radius: 100%; }
@@ -1576,19 +1568,16 @@ textarea,
 .select-wrapper:before {
   color: rgba(144, 144, 144, 0.25); }
 
-input[type="checkbox"] + label,
+
 input[type="radio"] + label {
   color: #777; }
-  input[type="checkbox"] + label:before,
   input[type="radio"] + label:before {
     background-color: rgba(144, 144, 144, 0.075);
     border-color: rgba(144, 144, 144, 0.25); }
-input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background-color: rgba(144, 144, 144, 0.075);
   border-color: #51BAA4;
   color: #25383B; }
-input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
   border-color: #51BAA4;
   box-shadow: 0 0 0 1px #51BAA4; }
@@ -2138,19 +2127,16 @@ button,
         box-shadow: 0 0 0 1px #51BAA4; }
     .wrapper.style1 .select-wrapper:before {
       color: rgba(144, 144, 144, 0.25); }
-    .wrapper.style1 input[type="checkbox"] + label,
     .wrapper.style1 input[type="radio"] + label {
       color: #777; }
-      .wrapper.style1 input[type="checkbox"] + label:before,
+
       .wrapper.style1 input[type="radio"] + label:before {
         background-color: #fff;
         border-color: rgba(144, 144, 144, 0.25); }
-    .wrapper.style1 input[type="checkbox"]:checked + label:before,
     .wrapper.style1 input[type="radio"]:checked + label:before {
       background-color: #fff;
       border-color: #51BAA4;
       color: #555; }
-    .wrapper.style1 input[type="checkbox"]:focus + label:before,
     .wrapper.style1 input[type="radio"]:focus + label:before {
       border-color: #51BAA4;
       box-shadow: 0 0 0 1px #51BAA4; }
@@ -2291,22 +2277,15 @@ button,
         box-shadow: 0 0 0 1px #51BAA4; }
     .wrapper.style2 .select-wrapper:before {
       color: transparent; }
-    .wrapper.style2 input[type="checkbox"] + label,
     .wrapper.style2 input[type="radio"] + label {
       color: rgba(255, 255, 255, 0.75); }
-      .wrapper.style2 input[type="checkbox"] + label:before,
       .wrapper.style2 input[type="radio"] + label:before {
         background-color: rgba(255, 255, 255, 0.05);
         border-color: transparent; }
-    .wrapper.style2 input[type="checkbox"]:checked + label:before,
     .wrapper.style2 input[type="radio"]:checked + label:before {
       background-color: rgba(255, 255, 255, 0.05);
       border-color: #51BAA4;
       color: #fff; }
-    .wrapper.style2 input[type="checkbox"]:focus + label:before,
-    .wrapper.style2 input[type="radio"]:focus + label:before {
-      border-color: #51BAA4;
-      box-shadow: 0 0 0 1px #51BAA4; }
     .wrapper.style2 ::-webkit-input-placeholder {
       color: #a5a9ad !important; }
     .wrapper.style2 :-moz-placeholder {
@@ -2447,19 +2426,15 @@ button,
         box-shadow: 0 0 0 1px #51BAA4; }
     .wrapper.style3 .select-wrapper:before {
       color: transparent; }
-    .wrapper.style3 input[type="checkbox"] + label,
     .wrapper.style3 input[type="radio"] + label {
       color: rgba(255, 255, 255, 0.75); }
-      .wrapper.style3 input[type="checkbox"] + label:before,
       .wrapper.style3 input[type="radio"] + label:before {
         background-color: rgba(255, 255, 255, 0.05);
         border-color: transparent; }
-    .wrapper.style3 input[type="checkbox"]:checked + label:before,
     .wrapper.style3 input[type="radio"]:checked + label:before {
       background-color: rgba(255, 255, 255, 0.05);
       border-color: #51BAA4;
       color: #fff; }
-    .wrapper.style3 input[type="checkbox"]:focus + label:before,
     .wrapper.style3 input[type="radio"]:focus + label:before {
       border-color: #51BAA4;
       box-shadow: 0 0 0 1px #51BAA4; }
@@ -3147,7 +3122,7 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: center
 }
 
-.settings_flag_link,.player_link{
+.settings_flag_link{
   position: relative;
   display: inline-block;
   padding: 0em;
@@ -3155,6 +3130,28 @@ input[type=number]::-webkit-outer-spin-button {
   vertical-align: middle;
   width: 120px;
   height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-border-radius: 20px;
+  border-radius: 30px;
+  color: rgba(0,0,0,1);
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25 s ease-in-out;
+
+}
+
+.player_link{
+  position: relative;
+  display: inline-block;
+  padding: 0em;
+  margin: 3%;
+  vertical-align: middle;
+  width: 110px;
+  height: 150px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3201,17 +3198,39 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .mvp_img{
-  width: 50px;
-  height: 70px;
+  /*width: 50%;*/
+  height: 100%;
   -moz-border-radius: 20px;
   border-radius: 30px;
 }
 
-
+.game_number{
+  border-color: black;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 20px;
+}
 
 .game_number:hover{
   border-color: black;
   background: #e1e1e1;
   border: 3px solid black;
   border-radius: 5px;
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  table {
+    margin: 0em 0em 0em 0em;
+    width: 100%; 
+  }
+  .team{
+    width: 10%;
+    font-size: 60%;
+  }
+
+  #remain{
+    font-size: 20%;
+  }
 }

@@ -1,0 +1,42 @@
+#!/usr/bin/python
+
+import cgi ,cgitb, os
+from socket import *
+
+buffersize = 400000
+
+cgitb.enable()
+form = cgi.FieldStorage()
+
+id = str(form.getvalue('id'))
+
+print "Content-type: text/html\n\n"
+
+
+try:
+	HOST = 'localhost'
+	PORT = 50000
+
+	ADDR = (HOST,PORT)
+
+	cli = socket( AF_INET,SOCK_STREAM)
+
+	cli.connect((ADDR))
+
+	data = cli.recv(buffersize)
+
+	if data.lower().strip('\n').strip('\r') == 'ok':
+		cli.send('admin')
+		data = cli.recv(buffersize)
+		if data.lower().strip('\n').strip('\r') == 'ok':
+			cli.send(id + '\n')
+			data = '1'
+			while data:
+				data = cli.recv(buffersize)
+				print data
+				if '</html>' in data:
+					break
+
+except:
+	print "Location:../html/down.html\n\n"
+

@@ -243,3 +243,17 @@ ul {
   @media screen and (max-width: 480px) {
     #footer .inner {
       padding: 2em 0 0.1em 0; } }
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+  .team{
+    width: 10%;
+    font-size: 60%;
+  }
+
+  #remain{
+    font-size: 20%;
+  }
+}

@@ -1,0 +1,45 @@
+#!/usr/bin/python
+
+import cgi ,cgitb, os, math
+from socket import *
+
+
+cgitb.enable()
+form = cgi.FieldStorage()
+
+values = []
+
+id = str(form.getvalue('id'))
+
+for i in xrange(1,52):
+	finished = str(form.getvalue(str(i)+'finished')) 
+	t1 = str(form.getvalue(str(i)+'t1'))
+	t2 = str(form.getvalue(str(i)+'t2'))
+	values.append((str(i),t1+'-'+t2,finished))
+
+# print "Content-type: text/html\n\n"
+
+try:
+	HOST = 'localhost'
+	PORT = 50000
+
+	ADDR = (HOST,PORT)
+
+	cli = socket( AF_INET,SOCK_STREAM)
+	cli.connect((ADDR))
+
+	data = cli.recv(1024)
+
+	if data.lower().strip('\n').strip('\r') == 'ok':
+		cli.send('updatescore')
+		data = cli.recv(1024)
+
+		if data.lower().strip('\n').strip('\r') == 'ok':
+			cli.send(id+ '\n' + str(values))
+			data = cli.recv(1024)
+	
+	print "Location:"+ data +"\n\n";
+
+except:
+	print "Location:../html/down.html\n\n"
+

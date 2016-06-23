@@ -11,6 +11,7 @@ def dump_json(data, filename):
 main = 'http://www.thefinalball.com/'
 
 alias = {
+	"Austria": "Austria",
 	"Switzerland": "Switzerland",
 	"Albania": "Albania",
 	"France": "France",
@@ -32,7 +33,6 @@ alias = {
 	"Belgium": "Belgium",
 	"Sweden": "Sweden",
 	"Hungary": "Hungary",
-	# "Austria": "Austria",
 	"Iceland": "Iceland",
 	"Portugal": "Portugal",
 }
@@ -56,8 +56,11 @@ for team in teams:
 
 		s = BS(f.read(), 'lxml')
 
-		print len(s.findAll(attrs={"class": "zztable"}))
-		table = s.findAll(attrs={"class": "zztable"})[1]
+		if team != 'Austria':
+			table = s.findAll(attrs={"class": "zztable"})[1]
+		else:
+			table = s.findAll(attrs={"class": "zztable"})[0]
+
 
 		players = table.findAll('tr')[1:]
 
@@ -76,12 +79,11 @@ for team in teams:
 			file = 'zerozero/' + team + '/' + data[1].text + '.html'
 
 			if os.path.exists(file):
-				print data[1].text
 
 				with open(file, 'r') as f:
 					s = BS(f.read(), 'lxml')
 
-					img_link = main + s.findAll('div',attrs={"class": "logo"})[0].a.img['src']
+					img_link = 'http://www.zerozero.pt' + s.findAll('div',attrs={"class": "logo"})[0].a.img['src']
 					term = img_link.split('.')[-1]
 					teams_info[team][data[1].text]['term'] = term
 					if not os.path.exists(os.path.join('images','teams',team,data[1].text+'.'+term)):
@@ -90,7 +92,7 @@ for team in teams:
 
 
 			else:
-				print 'NOT OK'
+				print data[1].text, 'NOT OK'
 				pass
 
 

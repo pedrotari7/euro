@@ -1,5 +1,6 @@
 {
     "1": {
+        "finished": false,
         "date": "10 June 2016 21:00", 
         "group": "A", 
         "location": "Saint-Denis", 
@@ -17,6 +18,7 @@
         "winner": ""
     }, 
     "2": {
+        "finished": false,
         "date": "11 June 2016 15:00", 
         "group": "A", 
         "location": "Lens", 
@@ -34,6 +36,7 @@
         "winner": ""
     }, 
     "3": {
+        "finished": false,
         "date": "11 June 2016 18:00", 
         "group": "B", 
         "location": "Bordeaux", 
@@ -51,6 +54,7 @@
         "winner": ""
     }, 
     "4": {
+        "finished": false,
         "date": "11 June 2016 21:00", 
         "group": "B", 
         "location": "Marseille", 
@@ -68,6 +72,7 @@
         "winner": ""
     }, 
     "5": {
+        "finished": false,
         "date": "12 June 2016 15:00", 
         "group": "D", 
         "location": "Paris", 
@@ -85,6 +90,7 @@
         "winner": ""
     }, 
     "6": {
+        "finished": false,
         "date": "12 June 2016 18:00", 
         "group": "C", 
         "location": "Nice ", 
@@ -102,6 +108,7 @@
         "winner": ""
     }, 
     "7": {
+        "finished": false,
         "date": "12 June 2016 21:00", 
         "group": "C", 
         "location": "Lille", 
@@ -119,6 +126,7 @@
         "winner": ""
     }, 
     "8": {
+        "finished": false,
         "date": "13 June 2016 15:00", 
         "group": "D", 
         "location": "Toulouse", 
@@ -136,6 +144,7 @@
         "winner": ""
     }, 
     "9": {
+        "finished": false,
         "date": "13 June 2016 18:00", 
         "group": "E", 
         "location": "Saint-Denis", 
@@ -153,6 +162,7 @@
         "winner": ""
     }, 
     "10": {
+        "finished": false,
         "date": "13 June 2016 21:00", 
         "group": "E", 
         "location": "Lyon", 
@@ -170,6 +180,7 @@
         "winner": ""
     }, 
     "11": {
+        "finished": false,
         "date": "14 June 2016 18:00", 
         "group": "F", 
         "location": "Bordeaux", 
@@ -187,6 +198,7 @@
         "winner": ""
     }, 
     "12": {
+        "finished": false,
         "date": "14 June 2016 21:00", 
         "group": "F", 
         "location": "Saint-\u00c9tienne", 
@@ -204,6 +216,7 @@
         "winner": ""
     }, 
     "13": {
+        "finished": false,
         "date": "15 June 2016 15:00", 
         "group": "B", 
         "location": "Lille", 
@@ -221,6 +234,7 @@
         "winner": ""
     }, 
     "14": {
+        "finished": false,
         "date": "15 June 2016 18:00", 
         "group": "A", 
         "location": "Paris", 
@@ -238,6 +252,7 @@
         "winner": ""
     }, 
     "15": {
+        "finished": false,
         "date": "15 June 2016 21:00", 
         "group": "A", 
         "location": "Marseille", 
@@ -255,6 +270,7 @@
         "winner": ""
     }, 
     "16": {
+        "finished": false,
         "date": "16 June 2016 15:00", 
         "group": "B", 
         "location": "Lens", 
@@ -272,6 +288,7 @@
         "winner": ""
     }, 
     "17": {
+        "finished": false,
         "date": "16 June 2016 18:00", 
         "group": "C", 
         "location": "Lyon", 
@@ -289,6 +306,7 @@
         "winner": ""
     }, 
     "18": {
+        "finished": false,
         "date": "16 June 2016 21:00", 
         "group": "C", 
         "location": "Saint-Denis", 
@@ -306,6 +324,7 @@
         "winner": ""
     }, 
     "19": {
+        "finished": false,
         "date": "17 June 2016 15:00", 
         "group": "E", 
         "location": "Toulouse", 
@@ -323,6 +342,7 @@
         "winner": ""
     }, 
     "20": {
+        "finished": false,
         "date": "17 June 2016 18:00", 
         "group": "D", 
         "location": "Saint-\u00c9tienne", 
@@ -340,6 +360,7 @@
         "winner": ""
     }, 
     "21": {
+        "finished": false,
         "date": "17 June 2016 21:00", 
         "group": "D", 
         "location": "Nice", 
@@ -357,6 +378,7 @@
         "winner": ""
     }, 
     "22": {
+        "finished": false,
         "date": "18 June 2016 15:00", 
         "group": "E", 
         "location": "Bordeaux", 
@@ -374,6 +396,7 @@
         "winner": ""
     }, 
     "23": {
+        "finished": false,
         "date": "18 June 2016 18:00", 
         "group": "F", 
         "location": "Marseille", 
@@ -391,6 +414,7 @@
         "winner": ""
     }, 
     "24": {
+        "finished": false,
         "date": "18 June 2016 21:00", 
         "group": "F", 
         "location": "Paris", 
@@ -408,6 +432,7 @@
         "winner": ""
     }, 
     "25": {
+        "finished": false,
         "date": "19 June 2016 21:00", 
         "group": "A", 
         "location": "Lyon", 
@@ -425,6 +450,7 @@
         "winner": ""
     }, 
     "26": {
+        "finished": false,
         "date": "19 June 2016 21:00", 
         "group": "A", 
         "location": "Lille", 
@@ -442,6 +468,7 @@
         "winner": ""
     }, 
     "27": {
+        "finished": false,
         "date": "20 June 2016 21:00", 
         "group": "B", 
         "location": "Toulouse", 
@@ -459,6 +486,7 @@
         "winner": ""
     }, 
     "28": {
+        "finished": false,
         "date": "20 June 2016 21:00", 
         "group": "B", 
         "location": "Saint-\u00c9tienne", 
@@ -476,6 +504,7 @@
         "winner": ""
     }, 
     "29": {
+        "finished": false,
         "date": "21 June 2016 18:00", 
         "group": "C", 
         "location": "Marseille", 
@@ -493,6 +522,7 @@
         "winner": ""
     }, 
     "30": {
+        "finished": false,
         "date": "21 June 2016 18:00", 
         "group": "C", 
         "location": "Paris", 
@@ -510,6 +540,7 @@
         "winner": ""
     }, 
     "31": {
+        "finished": false,
         "date": "21 June 2016 21:00", 
         "group": "D", 
         "location": "Lens", 
@@ -527,6 +558,7 @@
         "winner": ""
     }, 
     "32": {
+        "finished": false,
         "date": "21 June 2016 21:00", 
         "group": "D", 
         "location": "Bordeaux", 
@@ -544,6 +576,7 @@
         "winner": ""
     }, 
     "33": {
+        "finished": false,
         "date": "22 June 2016 18:00", 
         "group": "F", 
         "location": "Saint-Denis", 
@@ -561,6 +594,7 @@
         "winner": ""
     }, 
     "34": {
+        "finished": false,
         "date": "22 June 2016 18:00", 
         "group": "F", 
         "location": "Lyon", 
@@ -578,6 +612,7 @@
         "winner": ""
     }, 
     "35": {
+        "finished": false,
         "date": "22 June 2016 21:00", 
         "group": "E", 
         "location": "Lille", 
@@ -595,6 +630,7 @@
         "winner": ""
     }, 
     "36": {
+        "finished": false,
         "date": "22 June 2016 21:00", 
         "group": "E", 
         "location": "Nice", 
@@ -612,6 +648,7 @@
         "winner": ""
     }, 
     "37": {
+        "finished": false,
         "date": "25 June 2016 15:00", 
         "location": "Saint-\u00c9tienne", 
         "number": 37, 
@@ -626,6 +663,7 @@
         "winner": ""
     }, 
     "38": {
+        "finished": false,
         "date": "25 June 2016 18:00", 
         "location": "Paris", 
         "number": 38, 
@@ -640,6 +678,7 @@
         "winner": ""
     }, 
     "39": {
+        "finished": false,
         "date": "25 June 2016 21:00", 
         "location": "Lens", 
         "number": 39, 
@@ -654,6 +693,7 @@
         "winner": ""
     }, 
     "40": {
+        "finished": false,
         "date": "26 June 2016 15:00", 
         "location": "Lyon", 
         "number": 40, 
@@ -668,6 +708,7 @@
         "winner": ""
     }, 
     "41": {
+        "finished": false,
         "date": "26 June 2016 18:00", 
         "location": "Lille", 
         "number": 41, 
@@ -682,6 +723,7 @@
         "winner": ""
     }, 
     "42": {
+        "finished": false,
         "date": "26 June 2016 21:00", 
         "location": "Toulouse", 
         "number": 42, 
@@ -696,6 +738,7 @@
         "winner": ""
     }, 
     "43": {
+        "finished": false,
         "date": "27 June 2016 18:00", 
         "location": "Saint-Denis", 
         "number": 43, 
@@ -710,6 +753,7 @@
         "winner": ""
     }, 
     "44": {
+        "finished": false,
         "date": "27 June 2016 21:00", 
         "location": "Nice", 
         "number": 44, 
@@ -724,6 +768,7 @@
         "winner": ""
     }, 
     "45": {
+        "finished": false,
         "date": "30 June 2016 21:00", 
         "location": "Marseille", 
         "number": 45, 
@@ -738,6 +783,7 @@
         "winner": ""
     }, 
     "46": {
+        "finished": false,
         "date": "1 July 2016 21:00", 
         "location": "Lille", 
         "number": 46, 
@@ -752,6 +798,7 @@
         "winner": ""
     }, 
     "47": {
+        "finished": false,
         "date": "2 July 2016 21:00", 
         "location": "Bordeaux", 
         "number": 47, 
@@ -766,6 +813,7 @@
         "winner": ""
     }, 
     "48": {
+        "finished": false,
         "date": "3 July 2016 21:00", 
         "location": "Saint-Denis", 
         "number": 48, 
@@ -780,6 +828,7 @@
         "winner": ""
     }, 
     "49": {
+        "finished": false,
         "date": "6 July 2016 21:00", 
         "location": "Lyon", 
         "number": 49, 
@@ -794,6 +843,7 @@
         "winner": ""
     }, 
     "50": {
+        "finished": false,
         "date": "7 July 2016 21:00", 
         "location": "  Marseille", 
         "number": 50, 
@@ -808,6 +858,7 @@
         "winner": ""
     }, 
     "51": {
+        "finished": false,
         "date": "10 July 2016 21:00", 
         "location": "Saint-Denis", 
         "number": 51, 
