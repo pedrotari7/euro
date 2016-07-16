@@ -78,7 +78,7 @@ class euro(object):
 
 		return colors
 
-	def timed_print(self, message, color=None, parent=None):
+	def timed_print(self, message, user,color=None, parent=None):
 
 		try:
 			color = self.colors[color]
@@ -89,8 +89,11 @@ class euro(object):
 		except:
 			parent = ''
 
-		out = parent + self.get_current_time() + \
-			self.colors['ENDC'] + ' ' + color + message + self.colors['ENDC']
+		temp = ' ' + self.colors['OKGREEN'] + ' [' + user + '] ' + self.colors['ENDC']
+
+		user = temp if user else ' '
+
+		out = parent + self.get_current_time() + self.colors['ENDC'] + user + color + message + self.colors['ENDC']
 
 		print out
 
@@ -280,6 +283,7 @@ class euro(object):
 		self.users[user]['points']['groups'] = 0
 		self.users[user]['points']['awards'] = 0
 		self.users[user]['points']['PTS'] = 0
+		self.users[user]['points']['penalties'] = 0
 
 	def find_user_by_id(self, user_id):
 
@@ -481,11 +485,12 @@ class euro(object):
 		t1_score = self.users[desired_user]['games'][str(g['number'])]['t1_score']
 		t2_score = self.users[desired_user]['games'][str(g['number'])]['t2_score']
 
-		if t1_score!='':
+		if t1_score!='' or diff.days < 0:
 			if diff.days >= 0 and desired_user!=user:
 				t1_score = 'X'
 				t2_score = 'X'
-
+			elif diff.days < 0:
+				readonly = 'readonly'
 
 		result = self.prediction_result(desired_user, self.games[str(
 			g['number'])], self.users[desired_user]['games'][str(g['number'])])
@@ -665,7 +670,7 @@ class euro(object):
 
 		for pred in ast.literal_eval(data):
 
-			if 'None' not in pred[1]:
+			if 'None' not in pred[1] and ' ' not in self.games[pred[0]]['score']:
 				self.games[pred[0]]['score'] = pred[1]
 				self.games[pred[0]]['finished'] = pred[2] == 'on'
 
@@ -713,7 +718,7 @@ class euro(object):
 			else:
 				flag = ''
 
-			positions += position_html.format(pos=i + 1, color=color, id=self.users[user]['id'], flag=flag, name=U['username'], exact=S['exact'], right=S['right'], one=S['one'], none=S['none'], points=S['PTS'], groups=S['groups'], awards=S['awards'])
+			positions += position_html.format(pos=i + 1, color=color, id=self.users[user]['id'], flag=flag, name=U['username'], exact=S['exact'], right=S['right'], one=S['one'], none=S['none'], points=S['PTS'], groups=S['groups'], penalties=S['penalties'], awards=S['awards'])
 
 		return positions,[u['username'] for u in users]
 
@@ -1024,6 +1029,7 @@ class euro(object):
 	def parse_score(self, game, teams, scoring=True):
 
 		if game['score'] and ' ' not in game['score']:
+			game['penalties'] = False
 			game['t1_score'], game['t2_score'] = [int(a) for a in game['score'].split('-')]
 			if scoring:
 				teams[game['t1']]['G'] += 1
@@ -1058,17 +1064,27 @@ class euro(object):
 					teams[game['t2']]['W'] += 1
 
 		elif ' ' in game['score']:
-			temp_score = game['score'].replace('(', '').replace(')', '').split(' ')[1]
+			scores = game['score'].replace('(', '').replace(')', '').split(' ')
+		
+			temp_score = scores[0]
+
 			game['t1_score'], game['t2_score'] = [int(a) for a in temp_score.split('-')]
 
 			if game['t1_score'] == game['t2_score']:
-				game['winner'] = 'tie'
+				t1, t2 = [int(a) for a in scores[1].split('-')]
+				if t1 > t2:
+					game['winner'] = game['t1']
+				elif t1 < t2:
+					game['winner'] = game['t2']
+
 
 			elif game['t1_score'] > game['t2_score']:
 				game['winner'] = game['t1']
 
 			elif game['t1_score'] < game['t2_score']:
 				game['winner'] = game['t2']
+
+			game['penalties'] = True
 
 			temp_score = game['score'].replace('(', '').replace(')', '').split(' ')[0]
 			game['t1_score'], game['t2_score'] = [int(a) for a in temp_score.split('-')]
@@ -1192,14 +1208,20 @@ class euro(object):
 
 	def prediction_result(self, user, real, predicted, points=True):
 
+		if 'penalties' in real and real['penalties']:
+			if points and real['winner'] == predicted['winner']:
+				self.users[user]['points']['penalties'] += 1
+				self.users[user]['points']['PTS'] += 1		
+
+
 		if not predicted['score'] or '-' not in real['score']:
 			return 0
-		elif real['score'] == predicted['score']:
+		elif real['score'].split(' ')[0] == predicted['score'].split(' ')[0]:
 			if points:
 				self.users[user]['points']['exact'] += 1
 				self.users[user]['points']['PTS'] += 5
 			return 4
-		elif real['winner'] == predicted['winner']:
+		elif real['winner'] == predicted['winner'] and not real['penalties']:
 			if points:
 				self.users[user]['points']['right'] += 1
 				self.users[user]['points']['PTS'] += 3
@@ -1214,7 +1236,6 @@ class euro(object):
 				self.users[user]['points']['one'] += 1
 				self.users[user]['points']['PTS'] += 1
 			return 2
-
 		else:
 			if points:
 				self.users[user]['points']['none'] += 1
@@ -1315,11 +1336,11 @@ class euro(object):
 				self.users[user]['email'] = data['email']
 
 				if not is_new_user:
-					self.timed_print('New user: ' + user, color=self.colors['OKBLUE'])
+					self.timed_print('New user: ' + user, user, color=self.colors['OKBLUE'])
 					new_link = 'settings?&id=' + \
 						self.users[user]['id'] + '&new=Y'
 				else:
-					self.timed_print('User logged in: ' + user, color=self.colors['OKBLUE'])
+					self.timed_print('User logged in: ' + user, user, color=self.colors['OKBLUE'])
 					new_link = 'home?&id=' + self.users[user]['id']
 
 			conn.send(new_link.encode('utf-8'))
@@ -1333,11 +1354,11 @@ class euro(object):
 			new = data[1] == 'Y'
 
 			if user:
-				self.timed_print('[' + user + '] Settings')
+				self.timed_print('Settings', user)
 				new_page = self.create_settings(user, new)
 
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1349,10 +1370,10 @@ class euro(object):
 			data = conn.recv(self.buffersize).split('\n')
 			user = self.find_user_by_id(data[0])
 			if user in self.users:
-				self.timed_print('[' + user + '] Admin')
+				self.timed_print('Admin', user)
 				new_page = self.create_admin(user)
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1366,11 +1387,11 @@ class euro(object):
 			desired_user = unicode(data[1], encoding='utf-8')
 			stage = data[2]
 			if user and (desired_user in self.users):
-				self.timed_print('[' + user + '] Requested ' + desired_user + ' predictions')
+				self.timed_print('Requested ' + desired_user + ' predictions', user)
 				new_page = self.create_scheduele_with_groups(
 					user, desired_user, stage)
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1383,10 +1404,10 @@ class euro(object):
 			user = self.find_user_by_id(data[0])
 
 			if user:
-				self.timed_print('[' + user + '] Rules')
+				self.timed_print('Rules', user)
 				new_page = self.create_rules(user)
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1400,12 +1421,12 @@ class euro(object):
 			user = self.find_user_by_id(data[0])
 
 			if user:
-				self.timed_print('[' + user + '] New predictions')
+				self.timed_print('New predictions', user)
 				stage = self.update_predictions(user, data[1])
 				new_page = 'agenda?&id=' + \
 					data[0] + '&user=' + user + '&stage=' + stage
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '',self.colors['FAIL'])
 				new_page = '../index.html'
 
 			conn.send(new_page.encode('utf-8'))
@@ -1419,11 +1440,11 @@ class euro(object):
 			user = self.find_user_by_id(data[0])
 
 			if user:
-				self.timed_print('[' + user + '] Update real score')
+				self.timed_print('Update real score', user)
 				self.update_real_scores(data[1])
 				new_page = 'admin?&id=' + data[0]  
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = '../index.html'
 
 			conn.send(new_page.encode('utf-8'))
@@ -1436,10 +1457,10 @@ class euro(object):
 			user = self.find_user_by_id(data[0])
 
 			if user:
-				self.timed_print('[' + user + '] Scoreboard')
+				self.timed_print('Scoreboard', user)
 				new_page = self.create_scoreboard(user)
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1454,10 +1475,10 @@ class euro(object):
 			team = data[1]
 
 			if user:
-				self.timed_print('[' + user + '] Team: ' + team)
+				self.timed_print('Team: ' + team, user)
 				new_page = self.create_team(user,team)
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1480,11 +1501,11 @@ class euro(object):
 					new_page = self.create_scheduele_with_groups(
 					user, user, 'None')
 				else:
-					self.timed_print('[' + user + '] Mvp('+mvp+')')
+					self.timed_print('Mvp('+mvp+')', user)
 					new_page = self.create_mvp(user,mvp,country,player)
 					
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1498,10 +1519,10 @@ class euro(object):
 			game = data[1]
 
 			if user:
-				self.timed_print('[' + user + '] Game ' + game)
+				self.timed_print('Game ' + game, user)
 				new_page = self.create_game_page(user, game)
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1514,14 +1535,14 @@ class euro(object):
 			user = self.find_user_by_id(data[0])
 
 			if user:
-				self.timed_print('[' + user + '] Home')
+				self.timed_print('Home', user)
 				country = data[1]
 				if country != 'None':
 					self.users[user]['country'] = country
 				new_page = self.create_home_page(user)
 
 			else:
-				self.timed_print('Error in getting user', self.colors['FAIL'])
+				self.timed_print('Error in getting user', '', self.colors['FAIL'])
 				new_page = self.read_template('templates/start_template.html')
 
 			conn.send(new_page)
@@ -1540,10 +1561,10 @@ class euro(object):
 			self.serv.listen(5)
 			self.serv.settimeout(0.2)
 		except:
-			self.timed_print('euro server is already ON ', 'FAIL')
+			self.timed_print('euro server is already ON ', '', 'FAIL')
 			return
 
-		self.timed_print('euro server is now started', 'OKGREEN')
+		self.timed_print('euro server is now started', '', 'OKGREEN')
 
 		while 1:
 			try:
@@ -1570,7 +1591,7 @@ class euro(object):
 		self.save_games()
 
 		self.serv.close()
-		self.timed_print('euro server stopped', 'WARNING')
+		self.timed_print('euro server stopped', '','WARNING')
 
 
 if __name__ == '__main__':
